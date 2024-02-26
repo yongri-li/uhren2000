@@ -7,6 +7,63 @@
         "height_mobile": -10
       }
     },
+    "bab7c0b3-407d-4ba6-885e-097aa67a5d53": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--19512397103416__bab7c0b3-407d-4ba6-885e-097aa67a5d53-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rolex_GMT_Master_II_116710_BLNR_1600x1600_e4340f25-c750-462e-a6fc-0c60e9df907c.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 50,
+            "color_palette": "dark_gradient",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "\/",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "\/",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19512397103416__bab7c0b3-407d-4ba6-885e-097aa67a5d53-slide-1"
+      ],
+      "settings": {
+        "width": "wide",
+        "height": "m",
+        "enable_custom_height": true,
+        "custom_height": 1000,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "c4a12502-c8bd-4bc2-84b3-0ef24119548b": {
       "type": "section-rich-text",
       "blocks": {
@@ -69,62 +126,6 @@
         "height_mobile": "m",
         "spacing_desktop": -30,
         "spacing_mobile": -10,
-        "fix_zindex": 0
-      }
-    },
-    "bab7c0b3-407d-4ba6-885e-097aa67a5d53": {
-      "type": "section-slideshow",
-      "blocks": {
-        "template--19512397103416__bab7c0b3-407d-4ba6-885e-097aa67a5d53-slide-1": {
-          "type": "slide",
-          "settings": {
-            "layout": "background",
-            "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
-            "text_position": "text-center",
-            "title": "",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "first_link_text": "",
-            "first_link_url": "\/",
-            "first_button_color_palette": "accent",
-            "first_button_styling": "fill",
-            "first_show_link": false,
-            "second_link_text": "",
-            "second_link_url": "\/",
-            "second_button_color_palette": "accent",
-            "second_button_styling": "fill",
-            "second_show_link": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19512397103416__bab7c0b3-407d-4ba6-885e-097aa67a5d53-slide-1"
-      ],
-      "settings": {
-        "width": "wide",
-        "height": "m",
-        "enable_custom_height": true,
-        "custom_height": 1000,
-        "autoplay": false,
-        "autoplay_seconds": 3,
-        "enable_controls": false,
-        "height_mobile": "m",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
         "fix_zindex": 0
       }
     },
@@ -1183,8 +1184,8 @@
   },
   "order": [
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
-    "c4a12502-c8bd-4bc2-84b3-0ef24119548b",
     "bab7c0b3-407d-4ba6-885e-097aa67a5d53",
+    "c4a12502-c8bd-4bc2-84b3-0ef24119548b",
     "2e0fe7a4-7414-4133-a580-09494c441b97",
     "31c22d2e-0688-4408-9b67-0113da271a8f",
     "a15be9bf-f7a0-42b0-821b-ea897949fe0e",
