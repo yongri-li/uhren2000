@@ -13,7 +13,7 @@
     "palette_dark_gradient": "radial-gradient(rgba(0, 0, 0, 0.63) 4%, rgba(0, 0, 0, 1) 100%)",
     "title_color": "black",
     "text_color": "black",
-    "body_background_color": "#f9f9f9",
+    "body_background_color": "#FFFFFF",
     "positive_vibes": "#64cd82",
     "negative_vibes": "#e93d3d",
     "regular_button_color": "#c6ae8e",

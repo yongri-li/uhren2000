@@ -743,13 +743,14 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image_height": 55,
+            "image": "shopify:\/\/shop_images\/M126301-0002.jpg",
+            "image_height": 180,
             "title": "Column",
             "subtitle": "",
             "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
             "link_text": "Button",
             "link_url": "",
-            "button_color_palette": "accent",
+            "button_color_palette": "white",
             "show_link": false
           }
         },
@@ -787,6 +788,9 @@
         "template--19404071076152__8aa82a92-14fb-4215-b838-4b67849e491e-168595075871f7f112-1",
         "template--19404071076152__8aa82a92-14fb-4215-b838-4b67849e491e-168595075871f7f112-2"
       ],
+      "custom_css": [
+        "{background-color: #fff;}"
+      ],
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
@@ -794,7 +798,7 @@
         "title_font": "primary",
         "title_size": "h2",
         "enable_custom_text_styling": true,
-        "title_color_palette": "black",
+        "title_color_palette": "white",
         "title_weight": "700",
         "subtitle": "",
         "subtitle_font": "secondary",
@@ -813,9 +817,9 @@
         "blocks_title_size": "h4",
         "blocks_subtitle_font": "secondary",
         "blocks_subtitle_size": "h2",
-        "blocks_title_color_palette": "black",
+        "blocks_title_color_palette": "white",
         "blocks_title_weight": "700",
-        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_color_palette": "white",
         "blocks_subtitle_weight": "400",
         "blocks_font_size": "16px",
         "spacing_desktop": 70,
