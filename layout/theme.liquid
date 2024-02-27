@@ -16,6 +16,7 @@
 		<link rel="preload" as="style" href="{{ 'screen.css' | asset_url }}">
 		<link rel="preload" as="style" href="{{ 'theme-xclusive.css' | asset_url }}">
 		<link rel="preload" as="style" href="{{ 'screen-settings.css' | asset_url }}">
+        <link media="screen" rel="stylesheet" href="{{ 'custom-style.css' | asset_url }}">
 		{% if rtl_languages contains localization.language.iso_code %}<link rel="preload" as="style" href="{{ 'rtl.css' | asset_url }}">{% endif %}
 		{% unless settings.primary_font.system? %}<link rel="preload" as="font" href="{{ settings.primary_font | font_url }}" type="font/woff2" crossorigin>{% endunless %}
     {% unless settings.secondary_font.system? %}<link rel="preload" as="font" href="{{ settings.secondary_font | font_url }}" type="font/woff2" crossorigin>{% endunless %}
@@ -96,6 +97,7 @@
 		{% render 'color-swatches' %}
 		<script defer src="{{ 'scripts.js' | asset_url }}"></script>
 		<script defer src="{{ 'custom.js' | asset_url }}"></script>
+        <script defer src="{{ 'custom-script.js' | asset_url }}"></script>
 		{%- if request.design_mode -%}<script defer src="{{ 'backend-listeners.js' | asset_url }}"></script>{%- endif -%}
 		{{ settings.custom_script_for_body }}
 	</body>
