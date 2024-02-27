@@ -252,6 +252,24 @@
             "required": true
           }
         },
+        "select_KHexQY": {
+          "type": "select",
+          "settings": {
+            "title": "Hersteller",
+            "option_1": "Bulgari",
+            "option_2": "Chopard",
+            "option_3": "Do Do",
+            "option_4": "Fope",
+            "option_5": "Piaget",
+            "option_6": "Pomellato",
+            "option_7": "Tamara Coomolli",
+            "option_8": "Uhren2000",
+            "option_9": "Wellendorf",
+            "option_10": "",
+            "option_11": "",
+            "required": true
+          }
+        },
         "text_YiXUNh": {
           "type": "text",
           "settings": {
@@ -316,6 +334,7 @@
       "block_order": [
         "select_7mVTmQ",
         "select_Vtxegf",
+        "select_KHexQY",
         "text_YiXUNh",
         "text_Yh3Arq",
         "email_AffcqL",
