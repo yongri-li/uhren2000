@@ -191,11 +191,21 @@
       <ul class="l4us mobile-text-center{% if usp_blocks.size > 1 %}{% if section.settings.enable_usp_slider %} slider slider-single{% endif %}{% unless section.settings.enable_usp_slider_arrows %} no-arrows{% endunless %}{% endif %}" {% if section.settings.enable_usp_slider_autoplay %}data-autoplay={{ section.settings.usp_slider_autoplay_seconds | times: 1000 }}{% endif %}>
         {%- for block in usp_blocks limit: 3 -%}
           {%- if block.settings.usp != empty -%}
-            <li{% unless block.settings.show_check %} class="no-checks"{% endunless %} {{ block.shopify_attributes }}>
+            <li {% if block.settings.show_check %}class="before-image" {% endif %} {{ block.shopify_attributes }}>
               {{ block.settings.usp | replace: '</p><p>', ' ' | remove: '<p>' | remove: '</p>' }}
             </li>
           {%- endif -%}
         {%- endfor -%}
+        <li class='top-header_small-image-group'>
+          <a href="{{ section.settings.trusted-shop-link }}" class="custom-trusted-shop-link">
+            <img src={{ section.settings.trusted-shop-icon|img_url:"24x" }} />
+            <img src={{ section.settings.trusted-shop-icon_star|img_url:"18x" }} />
+            <img src={{ section.settings.trusted-shop-icon_star|img_url:"18x" }} />
+            <img src={{ section.settings.trusted-shop-icon_star|img_url:"18x" }} />
+            <img src={{ section.settings.trusted-shop-icon_star|img_url:"18x" }} />
+            <img src={{ section.settings.trusted-shop-icon_star|img_url:"18x" }} />
+          </a>
+        </li>
       </ul>
     {%- endif -%}
     <ul data-type="top-nav">
@@ -347,6 +357,45 @@
         {%- endif -%}
         {%- render 'header-menu', menu: nav_menu, show_dropdown_images: section.settings.show_dropdown_images, show_dropdown_images_autofill: section.settings.show_dropdown_images_autofill, has_images: has_images, layout: menu_layout, main_menu_items_clickable: section.settings.main_menu_items_clickable, menubar_caps: section.settings.menubar_caps, sale_highlight: section.settings.sale_highlight, sale_highlight_item: section.settings.sale_highlight_item, manual_collapse: false, menu_items_limit: section.settings.menu_items_limit, blocks: section.blocks, header_width: section.settings.width, main_menu_show_lines: section.settings.main_menu_show_lines, menu_subs_font: section.settings.menu_subs_font -%}
       </ul>
+      <ul class="horizontal-nav">
+          {% for block in section.blocks %}
+            {% if block.type=="menu" %}
+              {% for menu-item in block.settings.menu-block.links %}
+                {% if forloop.index==1 %}
+                  <li class="sub">
+                    <a href="{{ menu-item.url }}">{{ menu-item.title }}</a>
+                    <em>(1)</em>
+                    <a class="toggle">Alle Sammlungen</a>
+                    <ul>
+                      {% assign iterator=1 %}
+                      {% for sub-menu-item in menu-item.links %}
+                        {% if iterator==1 %}
+                          <li class="ff-secondary">
+                            <ul>
+                        {% endif %}
+                            <li><a href="{{ sub-menu-item.url }}">{{ sub-menu-item.title }}</a></li>
+                            {% assign iterator=iterator|plus:1 %}
+                            {% if iterator==7 %}
+                              </ul>
+                              </li>
+                              {% assign iterator=1 %}
+                            {% endif %}
+                      {% endfor %}
+                      {% if iterator>1 %}
+                          </ul>
+                        </li>
+                      {% endif %}
+                    </ul>
+                  </li>
+                {% else %}
+                  <li>
+                    <a href="{{ menu-item.url }}">{{ menu-item.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </ul>
       {% unless section.settings.show_top_bar %}
         <ul data-type="top-nav" class="nav-top">
           {% if section.settings.navbar_menu_item_link != empty %}<li><a href="{{ section.settings.navbar_menu_item_link }}">{{ section.settings.navbar_menu_item_text }}</a></li>{% endif %}
@@ -363,7 +412,6 @@
     </nav>
   {%- endif -%}
 </div>
-
 {%- style -%}
   :root {
     {% comment %} header width {% endcomment %}
@@ -1256,6 +1304,21 @@
       "max": 20,
       "step": 1,
       "default": 16
+    },
+    {
+      "type":"image_picker",
+      "id":"trusted-shop-icon",
+      "label":"Trusted Shop Icon"
+    },
+    {
+      "type":"image_picker",
+      "id":"trusted-shop-icon_star",
+      "label":"Trusted Shop Star Icon"
+    },
+    {
+      "type":"url",
+      "id":"trusted-shop-link",
+      "label":"Trusted Shop Link"
     }
   ],
   "blocks": [
@@ -1279,6 +1342,11 @@
           "type": "checkbox",
           "label": "t:static_sections.header.blocks.usp.settings.show_check.label",
           "default": true
+        },
+        {
+          "id":"check_image",
+          "type":"image_picker",
+          "label":"Check Image"
         }
       ]
     },
@@ -2724,6 +2792,17 @@
             }
           ],
           "default": "slider"
+        }
+      ]
+    },
+    {
+      "type":"menu",
+      "name":"Menu Block",
+      "settings":[
+        {
+          "type":"link_list",
+          "id":"menu-block",
+          "label":"Menu"
         }
       ]
     }
