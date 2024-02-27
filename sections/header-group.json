@@ -171,6 +171,8 @@
         "logo_width_mobile": 270,
         "search_compact_mobile": false,
         "menu_font_size_mobile": 15,
+        "trusted-shop-icon": "shopify:\/\/shop_images\/trusted-shops-header.jpg",
+        "trusted-shop-icon_star": "shopify:\/\/shop_images\/star.svg",
         "trusted-shop-link": ""
       }
     }
