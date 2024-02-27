@@ -226,6 +226,29 @@
             "option_4": "Ohrringe",
             "option_5": "Armband",
             "option_6": "",
+            "option_7": "",
+            "option_8": "",
+            "option_9": "",
+            "option_10": "",
+            "option_11": "",
+            "required": true
+          }
+        },
+        "select_Vtxegf": {
+          "type": "select",
+          "settings": {
+            "title": "Material",
+            "option_1": "Gelbgold",
+            "option_2": "Platin",
+            "option_3": "Rosegold",
+            "option_4": "Rotgold",
+            "option_5": "Silber",
+            "option_6": "Stahl",
+            "option_7": "Weißgold",
+            "option_8": "",
+            "option_9": "",
+            "option_10": "",
+            "option_11": "",
             "required": true
           }
         },
@@ -292,6 +315,7 @@
       },
       "block_order": [
         "select_7mVTmQ",
+        "select_Vtxegf",
         "text_YiXUNh",
         "text_Yh3Arq",
         "email_AffcqL",
