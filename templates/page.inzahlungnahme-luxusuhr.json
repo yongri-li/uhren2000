@@ -182,13 +182,16 @@
     },
     "section_recently_viewed_products_LHGaAV": {
       "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400;}"
+      ],
       "settings": {
         "number_of_items": 6,
         "image_ratio": 100,
         "show_in_circle": false,
         "fill_images": false,
         "text_alignment": "center",
-        "title": "Recently viewed products",
+        "title": "Zuletzt angesehen",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
