@@ -79,6 +79,7 @@
       "block_order": [
         "image_Pi8HrF"
       ],
+      "disabled": true,
       "settings": {
         "mirrored": false,
         "width": "boxed",
@@ -105,8 +106,8 @@
             "image_height": 55,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Mit einer Dresswatch unterstreicht der Träger Stil und Klasse<\/h6><p>Eine Dresswatch ist eine Uhr, die den Betrachter durch höchste Eleganz beeindruckt. Ihrem Träger bescheinigt eine solche Uhr Stil und Klasse. Getragen werden diese Uhren, die auch Anzuguhren genannte werden, zu besonderen Anlässen. Liebhaber luxuriöser Uhren kaufen eine Dresswatch, um damit bei Geschäftsessen, aber auch bei Abendterminen, wie Konzerte oder bei einem Galadinner sowie anderen Anlässen ein deutliches Statement zu setzen. Hochwertige Materialien für die Gehäuse, wie Gold oder Platin, sowie exklusives Design unterstreichen die Besonderheit dieser hochwertigen Uhren. Die bemerkenswerten Modelle gibt es für Herren und Damen. Die weltweit bekannten und für ihren Luxus berühmten Traditionsmarken bieten gerade in diesem Bereich schöne und wertvolle Modelle in höchster Qualität an.<\/p><h6>Geprägt von besonderen Eigenschaften<\/h6><p>Viele Uhren werden heute ganz selbstverständlich zu allen Anlässen getragen. Trotzdem legen viele Liebhaber luxuriöser Uhren großen Wert darauf, eine Dresswatch zu kaufen. Eine solche Uhr besticht durch außergewöhnliche Eigenschaften. Die Gehäuse dieser Uhren sind in der Regel besonders flach. Damit können die Anzugsuhren perfekt unter dem Hemd getragen werden. Zwar werden die eleganten Zeitmesser aus hochwertigem Material gefertigt. Zu den exquisiten Gehäusen aus Edelstahl, Gold oder Platin passen Armbänder aus Krokoleder besonders gut. Dennoch fällt eine perfekte Anzuguhr nicht durch übermäßige Extras auf. Zurückhaltendes Design ist ein hervorragendes Merkmal dieser Zeitmesser der Extraklasse.<\/p>",
-            "link_text": "Dress Watches für Sie & Ihn",
+            "text": "<p>Wir begeben uns gerne für Sie auf die Suche. Unser Anspruch ist es, egal welche Luxus Uhr, unabhängig von Marke und Modell, schnellst möglich und günstig zu besorgen. Auch vergriffene oder limitierte Uhren sind bei uns ohne lange Wartezeit zu haben.<br\/>Unser Motto: Geht nicht – Gibt´s nicht. Machen Sie unsere jahrelange Kontakte in die Uhrenwelt zu Ihrem persönlichen Vorteil. Ihr Wunsch ist unsere Aufgabe.<\/p>",
+            "link_text": "",
             "link_url": "shopify:\/\/collections\/alle-produkte",
             "button_color_palette": "accent",
             "show_link": false
@@ -119,7 +120,7 @@
             "image_height": 55,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Klassische und elegante Schönheiten<\/h6><p>Die Omega De Ville zum Beispiel ist eine klassisch schöne Dreizeiger-Uhr. Mit ihrem Gehäuse aus Gold und dem guillochiertem Zifferblatt ergänzt die exquisite Uhr jeden besonderen Anlass. Auch die IWC Portofino ist wie gemacht für gehobene Anlässe. Elegant und gut ablesbar passt sie mit ihrem besonders flachen Gehäuse optimal unter den Anzug. Uhrenmodelle von Lange und Söhne sind der Inbegriff außergewöhnlich luxuriöser Anzuguhren. Mit einem silbernen Zifferblatt mit goldenen Indexen besticht die A. Lange und Söhne Saxonia Thin. Ihr Gehäuse ist nur 5,9 Millimeter hoch. Als Dresswatch mit höchstem Anspruch lässt sich die A. Lange & Söhne Lange 1 bezeichnen. Sie gilt als das Flaggschiff der Traditionsmanufaktur aus Glashütte.<br\/><br\/>Eine der berühmtesten Uhren weltweit ist die Jaeger-LeCoultre Reverso. Diesen Titel trägt die elegante Uhr mit dem besonderen Gehäuse im Art-Déco-Design schon seit dem Jahr 1937. Eine besonders schöne Uhr für Anzug oder Kleid ist die Jaeger-LeCoultre Master. Auch sie verkörpert höchste Qualität und Uhrmacherkunst und sieht zu festlichen Anlässen besonders gut aus. Elegante Schönheiten sind die Modelle aus dem Hause Patek Philippe. Uhren der Schweizer Marke verkörpern Perfektionismus in der höchsten Form. Kunden, die eine Dresswatch kaufen wollen, die über die Jahre noch an Wert gewinnt, liegen mit der Patek Philippe Calatrava richtig. Klassische Schönheit strahlt die Patek Philippe Weltzeituhr aus. Mit kühler Klarheit überrascht die Patek Phillippe Ellipse d'Or.<\/p><p>Nicht zuletzt stehen die bemerkenswerten Modelle aus dem Traditionsunternehmen Rolex für die schlichte Eleganz und die überzeugende Funktionalität einer Dresswatch. Benannt nach dem berühmten italienischen Bildhauer Benvenuto Cellini besticht die Rolex Cellini durch klassische Formen und traditionelles Design. Als typisches Modell im Vintage-Stil erinnert diese Anzuguhr an die Schönheit vergangener Epochen. Ganz im heute steht die Rolex Day Date. Diese Uhr für den besonderen Anlass gibt es nur in 18 Karat Gold oder Platin.<\/p>",
+            "text": "<p>Falls wir trotz unserem steht’s wachsenden Sortiment die von Ihnen gewünschte Uhr nicht gelistet haben sollten, begeben wir uns gerne für Sie auf die Suche.<\/p><p>Wir erstellen Ihnen gerne ein unverbindliches Angebot.<\/p><p>Senden Sie uns einfach unkompliziert einen Link und fügen ihn im Textfeld ein. So wissen wir noch schneller, um welche Uhr es sich handelt.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -138,7 +139,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Dress Watches sind Perfekt zum jedem Anlass und nicht nur schön anzusehen",
+        "title": "Sie suchen eine bestimmte Uhr? - Testen Sie unseren Watchfinder!",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -182,6 +183,7 @@
     },
     "section_recently_viewed_products_LHGaAV": {
       "type": "section-recently-viewed-products",
+      "disabled": true,
       "custom_css": [
         "a {text-transform: none; font-weight: 400;}"
       ],
@@ -210,6 +212,104 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_contact_form_4NxppH": {
+      "type": "section-contact-form",
+      "blocks": {
+        "text_YiXUNh": {
+          "type": "text",
+          "settings": {
+            "title": "Vorname",
+            "placeholder": "Vorname",
+            "required": true
+          }
+        },
+        "text_Yh3Arq": {
+          "type": "text",
+          "settings": {
+            "title": "Nachname",
+            "placeholder": "Nachname",
+            "required": true
+          }
+        },
+        "email_AffcqL": {
+          "type": "email",
+          "settings": {
+            "title": "E-Mail",
+            "placeholder": "E-Mail"
+          }
+        },
+        "tel_caJfQX": {
+          "type": "tel",
+          "settings": {
+            "title": "Telefon",
+            "placeholder": "Telefon",
+            "required": true
+          }
+        },
+        "text_LWLfNM": {
+          "type": "text",
+          "settings": {
+            "title": "Link",
+            "placeholder": "Link",
+            "required": true
+          }
+        },
+        "textarea_bGz3RP": {
+          "type": "textarea",
+          "settings": {
+            "title": "Ihre Nachricht an uns",
+            "placeholder": "Nachricht",
+            "required": true
+          }
+        },
+        "checkbox_GrPtkq": {
+          "type": "checkbox",
+          "settings": {
+            "title": "",
+            "option_1": "Ich habe die Datenschutzbestimmungen zur Kenntnis genommen.",
+            "option_2": "",
+            "option_3": "",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "text_YiXUNh",
+        "text_Yh3Arq",
+        "email_AffcqL",
+        "tel_caJfQX",
+        "text_LWLfNM",
+        "textarea_bGz3RP",
+        "checkbox_GrPtkq"
+      ],
+      "custom_css": [
+        "{background-color: #f7f7f7; padding: 20px; border-radius: 36px;}"
+      ],
+      "settings": {
+        "alignment": "center",
+        "title": "Ihre Kontaktinformationen",
+        "title_font": "secondary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "200",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "button_color_palette": "accent",
+        "show_placeholder": true,
+        "compact": true,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -218,6 +318,7 @@
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
-    "section_recently_viewed_products_LHGaAV"
+    "section_recently_viewed_products_LHGaAV",
+    "section_contact_form_4NxppH"
   ]
 }
