@@ -66,16 +66,6 @@
             "sizechart_html": ""
           }
         },
-        "pickup": {
-          "type": "pickup",
-          "settings": {
-          }
-        },
-        "inventory": {
-          "type": "inventory",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -94,6 +84,17 @@
             "preorder_label_color_palette": "black",
             "preorder_show_dynamic_buybutton": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
           }
         },
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
@@ -131,10 +132,10 @@
         "c7259cb9-7235-4028-b6df-3a68077fed80",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "variant_selection",
-        "pickup",
-        "inventory",
         "price",
         "buy_button",
+        "inventory",
+        "pickup",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "80e67d89-9369-4ddb-8111-2aa1c36fb500",
