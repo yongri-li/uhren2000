@@ -2845,7 +2845,7 @@ html:not(.mobile) .l4ft.hover-out > li:not(.inline) figure ~ div { opacity: 0; }
 .l4us { list-style: none; padding: 0; }
 .l4us li, .l4us .li { position: relative; max-width: 100%; padding-left: calc(var(--main_fz) * 1.1428571429); }
 #nav-top .l4us li:not(.rendered), #nav-top .l4us .li:not(.rendered) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.l4us li:before/*, .l4us .li:before*/ { content: "\e901"; right: auto; top: 0; margin: 0; color: var(--lime); font-size: 0.5714285714em; line-height: calc(var(--main_lh) * var(--main_fz)); }
+.l4us li:before/*, .l4us .li:before*/ { content: ""; right: auto; top: 0; margin: 0; color: var(--lime); font-size: 0.5714285714em; line-height: calc(var(--main_lh) * var(--main_fz)); }
 .shopify-section > .l4us:last-child { margin-bottom: 50px; }
 #root .l4us a.next-item { display: none; }
 .l4us .next-item:before { content: "\e906"; }
