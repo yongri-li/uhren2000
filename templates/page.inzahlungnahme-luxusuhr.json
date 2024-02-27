@@ -133,7 +133,7 @@
       ],
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none;}",
-        "h2 {text-align: center; margin-bottom: 30px;}"
+        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px;}"
       ],
       "settings": {
         "items_width": 4,
