@@ -161,7 +161,8 @@
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}",
         ".f8pr-codes {text-align: center; color: #8f8f8f;}",
         ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; text-align: center;}",
-        ".f8pr-stock.m0 {text-align: center; color: #59a72a !important;}"
+        ".f8pr-stock.m0 {text-align: center;}",
+        ".overlay-valid {color: #59a72a !important;}"
       ],
       "settings": {
         "media_layout": "slider",
