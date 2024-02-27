@@ -270,6 +270,31 @@
             "required": true
           }
         },
+        "text_MiKhxQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Modell",
+            "placeholder": "Modell",
+            "required": false
+          }
+        },
+        "text_3PVwPB": {
+          "type": "text",
+          "settings": {
+            "title": "Referenznummer\/Modell",
+            "placeholder": "Referenznummer\/Modell",
+            "required": false
+          }
+        },
+        "text_rADRgp": {
+          "type": "text",
+          "settings": {
+            "title": "Link 1",
+            "placeholder": "Link 1",
+            "required": false
+          }
+        },
         "text_YiXUNh": {
           "type": "text",
           "settings": {
@@ -286,13 +311,6 @@
             "required": true
           }
         },
-        "email_AffcqL": {
-          "type": "email",
-          "settings": {
-            "title": "E-Mail",
-            "placeholder": "E-Mail"
-          }
-        },
         "tel_caJfQX": {
           "type": "tel",
           "settings": {
@@ -301,12 +319,11 @@
             "required": true
           }
         },
-        "text_LWLfNM": {
-          "type": "text",
+        "email_AffcqL": {
+          "type": "email",
           "settings": {
-            "title": "Link",
-            "placeholder": "Link",
-            "required": true
+            "title": "E-Mail",
+            "placeholder": "E-Mail"
           }
         },
         "textarea_bGz3RP": {
@@ -335,11 +352,13 @@
         "select_7mVTmQ",
         "select_Vtxegf",
         "select_KHexQY",
+        "text_MiKhxQ",
+        "text_3PVwPB",
+        "text_rADRgp",
         "text_YiXUNh",
         "text_Yh3Arq",
-        "email_AffcqL",
         "tel_caJfQX",
-        "text_LWLfNM",
+        "email_AffcqL",
         "textarea_bGz3RP",
         "checkbox_GrPtkq"
       ],
