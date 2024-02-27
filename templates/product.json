@@ -43,13 +43,6 @@
             "height_mobile": 20
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_tax": true,
-            "font_size": 16
-          }
-        },
         "variant_selection": {
           "type": "variant_selection",
           "settings": {
@@ -81,6 +74,13 @@
         "inventory": {
           "type": "inventory",
           "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax": true,
+            "font_size": 16
           }
         },
         "buy_button": {
@@ -130,10 +130,10 @@
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "c7259cb9-7235-4028-b6df-3a68077fed80",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
-        "price",
         "variant_selection",
         "pickup",
         "inventory",
+        "price",
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
@@ -143,7 +143,8 @@
       ],
       "custom_css": [
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}",
-        ".f8pr-codes {text-align: center;}"
+        ".f8pr-codes {text-align: center;}",
+        ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; text-align: center;}"
       ],
       "settings": {
         "media_layout": "slider",
