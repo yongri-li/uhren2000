@@ -1,0 +1,363 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_collage_6mxfcU": {
+      "type": "section-collage",
+      "blocks": {
+        "image_Pi8HrF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Motorsportuhren-3.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_Pi8HrF"
+      ],
+      "settings": {
+        "mirrored": false,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_MtXjGD": {
+      "type": "section-icon-text-blocks",
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Sportuhren sind Uhren die für alles zu haben sind",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 120,
+        "spacing_mobile": 130,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_columns_text_a7zEB6": {
+      "type": "section-image-columns-text",
+      "blocks": {
+        "image_bQGyzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TAG_Heuer_Carrera_gebraucht_1600x1600_301cc9ea-b886-4582-ae94-eefb85fa2587.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_3bzyzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Motorsport-1_1600x1600_52e94479-783a-43d4-962c-b5662f695e83.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_bQGyzE",
+        "image_3bzyzE"
+      ],
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": true,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_TcGGtL": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_pVPWtN": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<h6>Sportuhren begeistern durch Zuverlässigkeit und höchste Präzision<\/h6><p>Sportuhren sind viel mehr als nur luxuriöse Zeitmesser. Sie sind zuverlässige Begleiter bei vielen Trendsportarten, wie Golf, Segeln, Motorsport oder Fußball. Jeder international renommierte Uhrenhersteller hat mehrere hochwertige, präzise und höchst zuverlässige Kollektionen und Modelle dieser Kategorie in seinem Programm. Kunden kaufen Sportuhren nicht nur für die Freizeit. Auch im Büro oder auf Reisen bewähren sich die funktionalen Modelle auf das Beste. Nicht nur für Männer ist eine Sportuhr der Luxusklasse ein Muss. Auch viele moderne Frauen begeistern sich für diese beständigen und hochwertigen Zeitmesser.<\/p><h6>Hochklassige Begleiter für jede Herausforderung<\/h6><p>Kunden, die Sportuhren kaufen, erwarten von den Modellen absolute Spitzenleistungen. Eine Sportuhr muss auch in extremen Situationen bestehen. Viele Sportarten haben mit Wasser zu tun. Damit die Uhren auch mit diesem Element in Berührung kommen können, ohne Schaden zu nehmen, sollten sie bis zu 10 bar wasserdicht sein. Mehr als ein wichtiges Detail für sportliche Uhren sind hochmoderne und widerstandsfähige Materialien für die Gehäuse, wie Titan oder Carbon. Die Breitling Avenger Hurricane unter anderem überzeugt mit einem vollkommen neuen Material. Der Verbundwerkstoff Breitlight wiegt lediglich ein Drittel im Vergleich zu Titan. Die Omega Seamaster Planet Ocean Master Chronometer dagegen erscheint in einer Version aus Titan, mit Armbändern aus Kautschuk oder Textil. In dieser Ausstattung widersteht sie selbst beim Einsatz in Salzwasser. Die Audemars Piguet Royal Oak Offshore setzt auf Materialien aus dem Motorsport, wie Keramik, Carbon und Titan. Besonders geforderte Bestandteile, wie Drücker, Lünette und Krone, besitzen einen Überzug aus Kautschuk.<\/p>",
+            "link_text": "Übersicht von Sportuhren",
+            "link_url": "shopify:\/\/collections\/alle-produkte",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_RK8Brd": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<h6>Die Sportuhr schlechthin ist die Rolex Cosmograph Daytona<\/h6><p>Ihrem Namen verdankt diese Legende unter den Sportuhren dem Daytona Autorennen. Höchste Funktionalität präsentiert die Lünette mit der Tachymeterskala. Damit lassen sich hervorragend Geschwindigkeiten messen. Dem weltweit berühmtesten Rennen für Oldtimer ist die Chopard Mille Miglia gewidmet. Chopard präsentiert dabei zwei Linien. Mille Miglia Classic ist von älteren Fahrzeugmodellen inspiriert. Mille Miglia Gran Tourismo XL orientiert sich an neuen Fahrzeugen und zeigt modernere Design-Elemente.<\/p><h6>Enge Verbindungen zur Welt des Motorsports<\/h6><p>Eine feste Größe im Bereich sportlicher Aktivitäten ist auch der Uhrenhersteller Tag Heuer. Sein Modell Tag Heuer Carrera gehört zu den Klassikern unter den Trendsportuhren. Die außergewöhnliche Uhr wurde bereits im Jahr 1963 lanciert. Sie besticht mit einem großen Zifferblatt und einem stoßfesten und wasserdichten Gehäuse. Das garantiert eine gute Ablesbarkeit der Zeit unter allen Bedingungen. Hohe Funktionalität und einzigartige Optik vereint die Breitling for Bentley. Die Luxusuhr ist das Ergebnis einer engen Kooperation zwischen der Schweizer Uhrenmanufaktur und dem britischen Automobilhersteller. Ihr Design und ihr Stil sind unverwechselbar. Eine Kooperation zwischen dem Uhrenhersteller Hublot und dem italienischen Autogiganten Ferrari entstammt die Hublot Big Bang Ferrari Carbon.<\/p><p>Liebhaber technischer Sportuhren kaufen mit der IWC Ingenieur einen Zeitmesser, der mit einem Schutz vor starken Magnetfeldern ausgestattet ist. Diese einzigartige Sportuhr meistert damit auch die Ansprüche von Extremsportarten, wie Klettern, Segeln auf hoher See oder Wassersport. Verschiedene Modelle dieser sehr anspruchsvollen Reihe gibt es außerdem nur in einer limitierten Stückzahl. Das ist das Merkmal vieler Modellreihen von Sportuhren großer Hersteller. Sie werden in begrenzter Auflage gefertigt. Das macht die Luxusmodelle noch wertvoller.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pVPWtN",
+        "text_RK8Brd"
+      ],
+      "custom_css": [
+        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
+        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_bhQtQ6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_LHGaAV": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-page",
+    "section_collage_6mxfcU",
+    "section_icon_text_blocks_MtXjGD",
+    "section_image_columns_text_a7zEB6",
+    "section_icon_text_blocks_TcGGtL",
+    "section_custom_liquid_bhQtQ6",
+    "section_recently_viewed_products_LHGaAV"
+  ]
+}
