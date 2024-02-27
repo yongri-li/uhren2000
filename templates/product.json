@@ -138,6 +138,12 @@
             "height": 20,
             "height_mobile": 20
           }
+        },
+        "short_description_xrFw7w": {
+          "type": "short_description",
+          "settings": {
+            "show_read_more": true
+          }
         }
       },
       "block_order": [
@@ -155,7 +161,8 @@
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "80e67d89-9369-4ddb-8111-2aa1c36fb500",
         "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924",
-        "c300d32f-398c-41a9-b22b-d5c9f40ed345"
+        "c300d32f-398c-41a9-b22b-d5c9f40ed345",
+        "short_description_xrFw7w"
       ],
       "custom_css": [
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}",
