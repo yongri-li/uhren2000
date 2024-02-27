@@ -3,7 +3,7 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "custom_css": [
-        "{background-color: #F7F7F7;}"
+        ".n6br {background-color: #f7f7f7;}"
       ],
       "settings": {
         "hide_desktop": false,
