@@ -159,7 +159,7 @@
       ],
       "custom_css": [
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}",
-        ".f8pr-codes {text-align: center;}",
+        ".f8pr-codes {text-align: center; color: #8F8F8F;}",
         ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; text-align: center;}"
       ],
       "settings": {
