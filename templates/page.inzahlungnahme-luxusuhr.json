@@ -179,6 +179,34 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_recently_viewed_products_LHGaAV": {
+      "type": "section-recently-viewed-products",
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "start",
+        "title": "Recently viewed products",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": true,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -186,6 +214,7 @@
     "main-page",
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
-    "section_custom_liquid_bhQtQ6"
+    "section_custom_liquid_bhQtQ6",
+    "section_recently_viewed_products_LHGaAV"
   ]
 }
