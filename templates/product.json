@@ -11,6 +11,13 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
+        "spacer_tBNWW8": {
+          "type": "spacer",
+          "settings": {
+            "height": 40,
+            "height_mobile": 0
+          }
+        },
         "90724a70-740a-4cc9-984c-764e1d76a5bd": {
           "type": "codes",
           "settings": {
@@ -36,10 +43,16 @@
             "mobile_title_size": "h3"
           }
         },
+        "usp_NiDWQn": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/p>"
+          }
+        },
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
           "type": "spacer",
           "settings": {
-            "height": 20,
+            "height": 110,
             "height_mobile": 20
           }
         },
@@ -128,8 +141,10 @@
         }
       },
       "block_order": [
+        "spacer_tBNWW8",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "usp_NiDWQn",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "variant_selection",
         "price",
