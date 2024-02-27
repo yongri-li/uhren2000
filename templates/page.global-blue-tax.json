@@ -42,7 +42,7 @@
         "image_Pi8HrF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fliegeruhren-2.jpg",
+            "image": "shopify:\/\/shop_images\/export-shop.webp",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -103,7 +103,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
+        "title": "Mit Global Blue Tax Free Shopping Geld sparen",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -142,7 +142,7 @@
         "image_bQGyzE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gebrauchte_Breitling-1_1600x1600_cda049af-504d-456f-aa59-8dab510b948c.jpg",
+            "image": "shopify:\/\/shop_images\/Dresswatch-2_1600x1600_ac6ece24-fa75-460a-8a05-d48fd0814711.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -178,7 +178,7 @@
         "image_3bzyzE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fliegeruhr_Pliot_1600x1600_15c3931e-8343-4ff9-8d67-580b764fbf4c.jpg",
+            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -240,12 +240,13 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image_height": 180,
+            "image": "shopify:\/\/shop_images\/Tax_Free_Logo_1600x1600_7950844d-9844-4a02-942c-c23dd4549f06.jpg",
+            "image_height": 60,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Fliegeruhren sind funktional und können viel mehr als Modeuhren<\/h6><p>Fliegeruhren der Luxusklasse begeistern Liebhaber von hochwertigen Zeitmessern schon seit Jahrzehnten. Bis heute bestechen die besten Modelle aus den international renommierten Uhrenmanufakturen nicht nur Berufspiloten. Auch Hobbyflieger und sportliche Herren und Damen kaufen diese Uhren mit Vorliebe. Denn sie haben die besten Eigenschaften. Sie sind präzise und funktional. Unter allen Umständen überzeugen sie durch ihre Zuverlässigkeit und Beständigkeit.<\/p><h6>Die besten Eigenschaften wertvoller Uhren<\/h6><p>Vorbild vieler Pilotenuhren von heute sind die Militäruhren der Vierzigerjahre. Eine gute Ablesbarkeit der Zeit unter allen Umständen haben bereits diese Uhrenmodelle gewährleistet. Wichtiges Detail dafür ist unter anderem ein Zifferblatt in mattem Schwarz. Traditionell verfügt die Rolex GMT-Master, eine Fliegeruhr der Extra-Klasse, noch heute über ein solches Zifferblatt. Auch der sogenannte Nullindex in Form eines Dreiecks findet sich bei diesem Modell auf der Position zwölf Uhr.<\/p><p>Leuchtmasse auf den Zeigern und den Indexen sorgt dafür, dass der Pilot die Uhrzeit und andere wichtige Angaben auf einen Blick erkennen kann. Als ein hervorragendes Beispiel dafür, dass diese Merkmale bis heute gelten, steht die Fliegeruhr von Bell und Ross. Das französische Unternehmen versteht sich als Hersteller von Instrumentenuhren. Bei seinen Modellen für Piloten setzt es auf alle Eigenschaften, die hochwertige Fliegeruhren haben müssen.<\/p>",
-            "link_text": "Alle Fliegeruhren entdecken",
-            "link_url": "shopify:\/\/collections\/alle-produkte",
+            "text": "<p>Haben Sie einen Wohnsitz außerhalb der EU-Grenzen, können Sie in unserem Geschäft bei Ihrem Einkauf kräftig sparen. Wir sind Partner bei Global Blue Tax Free. Deshalb bekommen Sie einen Teil der von Ihnen gezahlten Mehrwertsteuer auf Ihren Einkauf zurück, wenn Sie die EU wieder verlassen. Diese Ersparnis macht das Einkaufen bei uns für Sie besonders attraktiv. Außerdem ist der Vorgang einfach. <\/p><p>Steuerfrei mit Global Blue<\/p><p>Kaufen Sie in unserem Geschäft in Deutschland Waren im Wert von mindestens 25 EUR pro Geschäft ein, können Sie bereits das Tax Free Shopping nutzen. Dafür lassen Sie sich am besten von einem unserer Mitarbeiter bereits vor dem Einkaufen das dafür notwendige Tax-Free-Formular geben und füllen es nach dem Kauf aus. <\/p><p><\/p><p><\/p>",
+            "link_text": "Download: Global Tax Free Shopping Flyer",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0634\/8780\/3545\/files\/global_tax_free_shopping_flyer.pdf?v=1709044750",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -253,11 +254,11 @@
         "text_RK8Brd": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "image_height": 55,
+            "icon": "coupon",
+            "image_height": 145,
             "title": "",
             "subtitle": "",
-            "text": "<p>In der Reihe der bekanntesten Fliegeruhren darf Breitling Navitimer nicht fehlen. Mit ihren Modellen beeindruckte die Uhr Generationen von Piloten. Der Rechenschieber der Navitimer hat Kultstatus erreicht. Bis heute prägt er das Gesicht der unverwechselbaren Uhren. Klassiker aus dem Hause Breitling sind die Navitimer Airborne oder die Navitimer 92. Solide Technik und klassische Formensprache präsentiert die Navitimer 01.<\/p><h6>Pioniere der Lüfte<\/h6><p>Zu den bekanntesten und beliebtesten Modellen für die Pioniere der Luftfahrt zählen auch die edlen Fliegeruhren von IWC. Die Schweizer Manufaktur überzeugt seit Jahrzehnten mit Uhren, die durch ihre hohe Funktionalität und Präzision bestechen. Die erste große Fliegeruhr, IWC Big Pilot, präsentierte das Unternehmen bereits im Jahr 1940. Seitdem lanciert die Traditionsfirma hochwertige Modelle, die exakt auf die Bedürfnisse von Piloten abgestimmt sind. Legendär etwa ist die IWC Mark 11 aus dem Jahr 1948. Bis heute überzeugen die mechanischen Meisterwerke aus Schaffhausen Flieger aus der ganzen Welt. Die Serie IWC Top Gun beeindruckt mit einem beeindruckenden Design, dass sich an den amerikanischen Kultfilm mit Tom Cruise orientiert. Mit den Ausgaben Antoine de Saint Exupéry und Le Petit Prince erinnert IWC an den berühmten französischen Schriftsteller, der auch Pilot war.<\/p><h6>Hervorragende Merkmale<\/h6><p>Die meisten Uhren für Flieger zeichnen sich durch etwas größere Gehäuse aus. Trotz dieser maskulinen Eigenschaften, zu denen geriffelte große Kronen gehören, sind die Modelle auch bei sportlichen Damen beliebt. Sie kaufen die Fliegeruhren, weil sie Sportlichkeit und Abenteuerlust mit Stil und Eleganz vereinen. Auch in Zukunft werden diese sportlichen und funktionalen Modelle ihren Platz im Bereich der Luxusuhren behaupten können.<\/p><h6>Tradition und Moderne<\/h6><p>Zu den Klassikern unter den Fliegeruhren zählt die Omega Speedmaster Professional Moonwatch. Als Begleiter von allen sechs Mondmissionen vereint sie symbolträchtig Tradition und Moderne. Einzigartig ist auch die Omega Speedmaster Dark Side of the Moon. Gefertigt wird sie aus einem einzelnen schwarzen Zirkoniumdioxid-Keramikblock. Damit interpretiert das Schweizer Unternehmen die legendäre Moonwatch vollkommen neu.<\/p><p><\/p>",
+            "text": "<p>Treffen Sie Ihre Entscheidung für das steuerfreie Einkaufen noch bei uns vor Ort. Ein Formular für Global Blue Tax Free Shopping können Sie später nicht rückwirkend ausfüllen. Unsere Mitarbeiter helfen Ihnen gern bei allen Formalitäten. Sie achten auch darauf, dass das Datum auf dem Formular und auf dem originalen Kaufbeleg übereinstimmen.<br\/><br\/>Die Ware müssen Sie binnen drei Monaten aus der EU ausführen. Der Kaufmonat zählt dabei nicht mit. <br\/><br\/>Schnelle Abwicklung<br\/><br\/>Die Rückerstattung beim Tax Free Shopping erhalten Sie weltweit in über 250 Rückerstattungsstellen. Dabei können Sie den für Sie am besten geeigneten Weg wählen. Bargeld wird bei der Abreise direkt am Flughafen, aber auch an den Grenzübergangsstellen sowie in Ihrem Heimatland ausgezahlt. Eine Rückerstattung über die Kreditkarten dagegen dauert zwischen drei und fünf Werktagen und über die Post nimmt es insgesamt drei Wochen in Anspruch.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
