@@ -95,10 +95,10 @@
             "title": "",
             "icon": "none",
             "header_image_width": 25,
-            "text": "<p>Preise inkl. MwSt. zzgl. Versandkosten<\/p>",
+            "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "",
+            "liquid": "<center style=\"margin-top: -25px; margin-bottom: 10px;\">Preise inkl. MwSt. zzgl. Versandkosten<\/center>",
             "html": "",
             "show_contact_form": false
           }
