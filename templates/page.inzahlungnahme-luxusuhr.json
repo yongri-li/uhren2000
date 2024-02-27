@@ -170,12 +170,22 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_liquid_bhQtQ6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-page",
     "section_collage_6mxfcU",
-    "section_icon_text_blocks_TcGGtL"
+    "section_icon_text_blocks_TcGGtL",
+    "section_custom_liquid_bhQtQ6"
   ]
 }
