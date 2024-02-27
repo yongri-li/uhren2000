@@ -102,12 +102,19 @@
             "layout_mobile": "rows",
             "mobile_height": "size-xs"
           }
+        },
+        "menu_4j4Vd9": {
+          "type": "menu",
+          "settings": {
+            "menu-block": "info-menu"
+          }
         }
       },
       "block_order": [
         "header-block-usp-1",
         "header-block-usp-2",
-        "389714c7-7aae-4332-b8fe-9bf28b57ab30"
+        "389714c7-7aae-4332-b8fe-9bf28b57ab30",
+        "menu_4j4Vd9"
       ],
       "settings": {
         "layout": "layout_1",
@@ -163,7 +170,8 @@
         "mobile_logo": "shopify:\/\/shop_images\/Logo.png",
         "logo_width_mobile": 270,
         "search_compact_mobile": false,
-        "menu_font_size_mobile": 15
+        "menu_font_size_mobile": 15,
+        "trusted-shop-link": ""
       }
     }
   },
