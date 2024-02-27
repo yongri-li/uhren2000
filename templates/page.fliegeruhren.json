@@ -79,6 +79,7 @@
       "block_order": [
         "image_Pi8HrF"
       ],
+      "disabled": true,
       "settings": {
         "mirrored": false,
         "width": "boxed",
@@ -192,6 +193,47 @@
         "fix_zindex": 0
       }
     },
+    "section_icon_text_blocks_MtXjGD": {
+      "type": "section-icon-text-blocks",
+      "custom_css": [
+        "{margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 120,
+        "spacing_mobile": 130,
+        "fix_zindex": 0
+      }
+    },
     "section_icon_text_blocks_TcGGtL": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -199,11 +241,10 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/gebrauchte_Breitling-1_1600x1600_cda049af-504d-456f-aa59-8dab510b948c.jpg",
             "image_height": 180,
             "title": "",
             "subtitle": "",
-            "text": "<h2>Fliegeruhren sind funktional und können viel mehr als Modeuhren<\/h2><p><br\/>Fliegeruhren der Luxusklasse begeistern Liebhaber von hochwertigen Zeitmessern schon seit Jahrzehnten. Bis heute bestechen die besten Modelle aus den international renommierten Uhrenmanufakturen nicht nur Berufspiloten. Auch Hobbyflieger und sportliche Herren und Damen kaufen diese Uhren mit Vorliebe. Denn sie haben die besten Eigenschaften. Sie sind präzise und funktional. Unter allen Umständen überzeugen sie durch ihre Zuverlässigkeit und Beständigkeit.<\/p>",
+            "text": "<h6>Fliegeruhren sind funktional und können viel mehr als Modeuhren<\/h6><p>Fliegeruhren der Luxusklasse begeistern Liebhaber von hochwertigen Zeitmessern schon seit Jahrzehnten. Bis heute bestechen die besten Modelle aus den international renommierten Uhrenmanufakturen nicht nur Berufspiloten. Auch Hobbyflieger und sportliche Herren und Damen kaufen diese Uhren mit Vorliebe. Denn sie haben die besten Eigenschaften. Sie sind präzise und funktional. Unter allen Umständen überzeugen sie durch ihre Zuverlässigkeit und Beständigkeit.<\/p><h6>Die besten Eigenschaften wertvoller Uhren<\/h6><p>Vorbild vieler Pilotenuhren von heute sind die Militäruhren der Vierzigerjahre. Eine gute Ablesbarkeit der Zeit unter allen Umständen haben bereits diese Uhrenmodelle gewährleistet. Wichtiges Detail dafür ist unter anderem ein Zifferblatt in mattem Schwarz. Traditionell verfügt die Rolex GMT-Master, eine Fliegeruhr der Extra-Klasse, noch heute über ein solches Zifferblatt. Auch der sogenannte Nullindex in Form eines Dreiecks findet sich bei diesem Modell auf der Position zwölf Uhr.<\/p><p>Leuchtmasse auf den Zeigern und den Indexen sorgt dafür, dass der Pilot die Uhrzeit und andere wichtige Angaben auf einen Blick erkennen kann. Als ein hervorragendes Beispiel dafür, dass diese Merkmale bis heute gelten, steht die Fliegeruhr von Bell und Ross. Das französische Unternehmen versteht sich als Hersteller von Instrumentenuhren. Bei seinen Modellen für Piloten setzt es auf alle Eigenschaften, die hochwertige Fliegeruhren haben müssen.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -217,7 +258,7 @@
             "image_height": 55,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Beste Bedingungen für Verkauf und Inzahlungnahme<\/h6><p>Gebrauchte Uhren kaufen wir bei Uhren2000 schon seit Jahren sicher an. Deshalb ist auch der Ankauf Ihrer Armbanduhr bei unseren Experten in den besten Händen. Für alle wichtigen Fragen rund um den An- und Verkauf luxuriöser Zeitmesser steht Ihnen unser Team per E-Mail oder telefonisch gern zur Verfügung. Denn auch die Inzahlungnahme und der Ankauf wertvoller Luxusuhren sind Vertrauenssache. Deshalb garantieren wir Ihnen, dass der Vorgang für Sie vollkommen risikolos abläuft.<\/p><h6>Transport von Markenuhren sicher mit Wertkurier<\/h6><p>Ihre getragene Luxusuhr können Sie direkt in unserer Filiale vor Ort in Zahlung geben oder verkaufen. Das ist möglich, wenn Sie in örtlicher Nähe wohnen. Wenden Sie sich an die Experten in unserem Geschäft. Wir wickeln die Inzahlungnahme oder den Ankauf diskret ab.<br\/>Gebrauchte Uhren nehmen wir auch online in Zahlung. Gern holen wir Ihre Armbanduhr per versicherten Wertkurier bei Ihnen zu Hause ab. Dafür können Sie noch heute einen passenden Termin vereinbaren. Den Wertkurier organisieren wir dann kurzfristig. Der Transport ist voll versichert. So gelangen gebrauchte Uhren unbeschadet zu uns.<\/p><h6>Faire Bewertung für gebrauchte Uhren<\/h6><p>Unsere Experten im <a href=\"https:\/\/www.uhren2000.de\/uhren-ankauf\" target=\"_self\" title=\"Uhren Ankauf\">Uhren-Ankauf<\/a> verfügen über eine hohe Kompetenz bei der Bewertung von getragenen Uhren. Sie schätzen den Wert und den Preis für gebrauchte Uhren seriös ein. Eine unverbindliche Einschätzung geben Ihnen die Experten von Uhren2000 gern auch zuvor ab. Dafür benötigen sie von Ihnen wichtige Angaben zum Zustand Ihrer Luxusuhr. Eine exakte Einschätzung zum Wert Ihrer Uhr können wir Ihnen aber erst liefern, wenn wir diese intensiv, optisch und technisch geprüft haben.<\/p>",
+            "text": "<p>In der Reihe der bekanntesten Fliegeruhren darf Breitling Navitimer nicht fehlen. Mit ihren Modellen beeindruckte die Uhr Generationen von Piloten. Der Rechenschieber der Navitimer hat Kultstatus erreicht. Bis heute prägt er das Gesicht der unverwechselbaren Uhren. Klassiker aus dem Hause Breitling sind die Navitimer Airborne oder die Navitimer 92. Solide Technik und klassische Formensprache präsentiert die Navitimer 01.<\/p><h6>Pioniere der Lüfte<\/h6><p>Zu den bekanntesten und beliebtesten Modellen für die Pioniere der Luftfahrt zählen auch die edlen Fliegeruhren von IWC. Die Schweizer Manufaktur überzeugt seit Jahrzehnten mit Uhren, die durch ihre hohe Funktionalität und Präzision bestechen. Die erste große Fliegeruhr, IWC Big Pilot, präsentierte das Unternehmen bereits im Jahr 1940. Seitdem lanciert die Traditionsfirma hochwertige Modelle, die exakt auf die Bedürfnisse von Piloten abgestimmt sind. Legendär etwa ist die IWC Mark 11 aus dem Jahr 1948. Bis heute überzeugen die mechanischen Meisterwerke aus Schaffhausen Flieger aus der ganzen Welt. Die Serie IWC Top Gun beeindruckt mit einem beeindruckenden Design, dass sich an den amerikanischen Kultfilm mit Tom Cruise orientiert. Mit den Ausgaben Antoine de Saint Exupéry und Le Petit Prince erinnert IWC an den berühmten französischen Schriftsteller, der auch Pilot war.<\/p><h6>Hervorragende Merkmale<\/h6><p>Die meisten Uhren für Flieger zeichnen sich durch etwas größere Gehäuse aus. Trotz dieser maskulinen Eigenschaften, zu denen geriffelte große Kronen gehören, sind die Modelle auch bei sportlichen Damen beliebt. Sie kaufen die Fliegeruhren, weil sie Sportlichkeit und Abenteuerlust mit Stil und Eleganz vereinen. Auch in Zukunft werden diese sportlichen und funktionalen Modelle ihren Platz im Bereich der Luxusuhren behaupten können.<\/p><h6>Tradition und Moderne<\/h6><p>Zu den Klassikern unter den Fliegeruhren zählt die Omega Speedmaster Professional Moonwatch. Als Begleiter von allen sechs Mondmissionen vereint sie symbolträchtig Tradition und Moderne. Einzigartig ist auch die Omega Speedmaster Dark Side of the Moon. Gefertigt wird sie aus einem einzelnen schwarzen Zirkoniumdioxid-Keramikblock. Damit interpretiert das Schweizer Unternehmen die legendäre Moonwatch vollkommen neu.<\/p><p><\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -229,7 +270,6 @@
         "text_pVPWtN",
         "text_RK8Brd"
       ],
-      "disabled": true,
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
         "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
@@ -237,7 +277,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
+        "title": "",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -316,6 +356,7 @@
     "main-page",
     "section_collage_6mxfcU",
     "section_image_columns_text_a7zEB6",
+    "section_icon_text_blocks_MtXjGD",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
