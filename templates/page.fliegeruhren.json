@@ -95,6 +95,103 @@
         "fix_zindex": 0
       }
     },
+    "section_image_columns_text_a7zEB6": {
+      "type": "section-image-columns-text",
+      "blocks": {
+        "image_bQGyzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gebrauchte_Breitling-1_1600x1600_cda049af-504d-456f-aa59-8dab510b948c.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_3bzyzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fliegeruhr_Pliot_1600x1600_15c3931e-8343-4ff9-8d67-580b764fbf4c.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_bQGyzE",
+        "image_3bzyzE"
+      ],
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": true,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_icon_text_blocks_TcGGtL": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -102,10 +199,11 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image_height": 55,
+            "image": "shopify:\/\/shop_images\/gebrauchte_Breitling-1_1600x1600_cda049af-504d-456f-aa59-8dab510b948c.jpg",
+            "image_height": 180,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Inzahlungnahme getragener Luxusuhren<\/h6><p>Die Inzahlungnahme einer wertvollen Uhr ist bei uns zu jeder Zeit und ohne Probleme für Sie möglich. Wollen Sie Ihre getragene Uhr, unter anderem der Marke Panerai, Omega oder Patek Philippe, bei uns in Zahlung geben, bieten wir Ihnen dafür die besten Konditionen. Auch wenn Sie eine wertvolle Armbanduhr verkaufen wollen, stehen wir Ihnen mit unserer Unterstützung zur Seite. Für gebrauchte Uhren bieten wir immer den marktgerechten Preis.<\/p><p>Die Modelle vieler bekannter Markenhersteller können Sie bei uns unkompliziert in Zahlung geben. Besitzen Sie zum Beispiel gebrauchte Uhren der Marken Rolex, TAG Heuer, Breitling oder IWC, können Sie sich zu jeder Zeit vertrauensvoll an uns wenden. Wir kaufen diese getragenen luxuriösen Uhren gern von Ihnen an oder nehmen Sie zu den besten Konditionen in Zahlung.<\/p><p>Wir von Uhren2000 nehmen Luxusuhren in Zahlung, wenn Sie als unser Kunde eine andere Uhr kaufen wollen. Wünschen Sie sich insbesondere eine wertvolle Uhr der Marke Audemars Piguet oder A. Lange & Söhne und besitzen Sie eine getragene Uhr einer anderen hochwertigen Marke, dann können Sie uns diese Uhr vertrauensvoll überlassen. Bei der Inzahlungnahme Ihrer getragenen Uhr sparen Sie geschickt viel Geld. Sie geben uns Ihre gebrauchte Uhr zum Ankauf oder zur Inzahlungnahme und kaufen dafür eine andere wertvolle Armbanduhr einer Luxusmarke von uns. Uhren2000 bietet Ihnen jederzeit Top-Konditionen, auch beim Verkauf von gebrauchten Uhren aus zweiter Hand. Unsere Erfahrungen im An- und Verkauf von Secondhand-Luxusuhren haben sich unsere Experten über lange Jahre erarbeitet.<\/p><p>Eine Inzahlungnahme von gebrauchten Uhren bieten wir Ihnen unabhängig davon, ob Sie bei uns eine ungetragene Armbanduhr der Luxusklasse, eine wertvolle gebrauchte Uhr oder eine Okkasion kaufen. Wir nehmen Ihre Luxusuhr auch in Zahlung, wenn Sie keine neue Uhr wünschen. Schnell und diskret erhalten Sie bei uns Bargeld gegen Uhr, wenn Sie uns ein wertvolles Stück verkaufen oder es bei uns in Zahlung geben.<\/p>",
+            "text": "<h2>Fliegeruhren sind funktional und können viel mehr als Modeuhren<\/h2><p><br\/>Fliegeruhren der Luxusklasse begeistern Liebhaber von hochwertigen Zeitmessern schon seit Jahrzehnten. Bis heute bestechen die besten Modelle aus den international renommierten Uhrenmanufakturen nicht nur Berufspiloten. Auch Hobbyflieger und sportliche Herren und Damen kaufen diese Uhren mit Vorliebe. Denn sie haben die besten Eigenschaften. Sie sind präzise und funktional. Unter allen Umständen überzeugen sie durch ihre Zuverlässigkeit und Beständigkeit.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -131,6 +229,7 @@
         "text_pVPWtN",
         "text_RK8Brd"
       ],
+      "disabled": true,
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
         "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
@@ -138,7 +237,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Inzahlungnahme Ihrer wertvollen Luxusuhr zu besten Konditionen",
+        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -216,6 +315,7 @@
     "breadcrumbs",
     "main-page",
     "section_collage_6mxfcU",
+    "section_image_columns_text_a7zEB6",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
