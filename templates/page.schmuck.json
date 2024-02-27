@@ -216,6 +216,19 @@
     "section_contact_form_4NxppH": {
       "type": "section-contact-form",
       "blocks": {
+        "select_7mVTmQ": {
+          "type": "select",
+          "settings": {
+            "title": "Schmuckstück",
+            "option_1": "Ring",
+            "option_2": "Kette",
+            "option_3": "Anhänger",
+            "option_4": "Ohrringe",
+            "option_5": "Armband",
+            "option_6": "",
+            "required": true
+          }
+        },
         "text_YiXUNh": {
           "type": "text",
           "settings": {
@@ -278,6 +291,7 @@
         }
       },
       "block_order": [
+        "select_7mVTmQ",
         "text_YiXUNh",
         "text_Yh3Arq",
         "email_AffcqL",
@@ -292,7 +306,7 @@
       ],
       "settings": {
         "alignment": "center",
-        "title": "Ihre Kontaktinformationen",
+        "title": "Fragen Sie Ihr Wunschschmuckstück an!",
         "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
@@ -300,8 +314,8 @@
         "title_weight": "200",
         "subtitle": "",
         "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": true,
         "subtitle_color_palette": "black",
         "subtitle_weight": "400",
         "button_color_palette": "light_2",
