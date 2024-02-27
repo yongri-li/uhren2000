@@ -79,7 +79,6 @@
       "block_order": [
         "image_Pi8HrF"
       ],
-      "disabled": true,
       "settings": {
         "mirrored": false,
         "width": "boxed",
@@ -93,6 +92,47 @@
         "mobile_height": "size-s",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_MtXjGD": {
+      "type": "section-icon-text-blocks",
+      "custom_css": [
+        "{margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 120,
+        "spacing_mobile": 130,
         "fix_zindex": 0
       }
     },
@@ -190,47 +230,6 @@
         "mobile_height": "size-s",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_icon_text_blocks_MtXjGD": {
-      "type": "section-icon-text-blocks",
-      "custom_css": [
-        "{margin-bottom: 20px;}"
-      ],
-      "settings": {
-        "items_width": 4,
-        "text_alignment": "center",
-        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
-        "title_font": "secondary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "font_size": "16px",
-        "link_text": "Button",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "blocks_text_alignment": "start",
-        "blocks_title_font": "primary",
-        "blocks_title_size": "h2",
-        "blocks_subtitle_font": "secondary",
-        "blocks_subtitle_size": "h2",
-        "blocks_title_color_palette": "black",
-        "blocks_title_weight": "700",
-        "blocks_subtitle_color_palette": "black",
-        "blocks_subtitle_weight": "400",
-        "blocks_font_size": "16px",
-        "spacing_desktop": 120,
-        "spacing_mobile": 130,
         "fix_zindex": 0
       }
     },
@@ -355,8 +354,8 @@
     "breadcrumbs",
     "main-page",
     "section_collage_6mxfcU",
-    "section_image_columns_text_a7zEB6",
     "section_icon_text_blocks_MtXjGD",
+    "section_image_columns_text_a7zEB6",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
