@@ -178,7 +178,7 @@
           "settings": {
             "title_size": "h5",
             "title_weight": "700",
-            "menu": "footer-1",
+            "menu": "info-menu",
             "split_menu": false
           }
         }
