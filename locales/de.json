@@ -391,7 +391,7 @@
       }
     },
     "pickup_availability": {
-      "pick_up_available": "Auf Lager",
+      "pick_up_available": "Sofort versandfertig, Lieferzeit 3 - 5 Tage",
       "pick_up_unavailable": "Nicht vorrätig",
       "free_pickup": "Kostenlose Abholung in",
       "our_stores": "Unser(e) Geschäft(e)",
@@ -410,7 +410,7 @@
       "one_time_purchase": "Einmaliger kauf",
       "title": "Produkt Form",
       "view_options": "Optionen anzeigen",
-      "in_stock": "{{ amount }} auf Lager",
+      "in_stock": "Sofort versandfertig, Lieferzeit 3 - 5 Tage",
       "choose": "Bitte auswählen...",
       "pre_order": "Pre-order",
       "pre_order_info": "Pre-order Info"
