@@ -401,7 +401,7 @@
     "form": {
       "view": "Optionen",
       "quantity": "Anzahl",
-      "add_to_cart": "Zum Warenkorb hinzufügen",
+      "add_to_cart": "In den Warenkorb",
       "unavailable": "Nicht verfügbar",
       "not_in_stock": "Nicht vorrätig",
       "choose_option": "Treffen Sie eine Entscheidung",
@@ -538,5 +538,12 @@
     "snapchat": "Snapchat",
     "whatsapp": "WhatsApp",
     "followers": "Anhänger"
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "back_to_cart": "In den Warenkorb"
+      }
+    }
   }
 }
