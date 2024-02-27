@@ -91,7 +91,7 @@
           "settings": {
             "button_style": "plain",
             "show_amount_selection": false,
-            "show_dynamic_buybutton": true,
+            "show_dynamic_buybutton": false,
             "button_style_dynamic_buybutton": "inv",
             "preorder_label": "",
             "preorder_label_color_palette": "black",
@@ -159,7 +159,7 @@
       ],
       "custom_css": [
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}",
-        ".f8pr-codes {text-align: center; color: #8F8F8F;}",
+        ".f8pr-codes {text-align: center; color: #8f8f8f;}",
         ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; text-align: center;}"
       ],
       "settings": {
