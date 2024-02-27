@@ -106,7 +106,7 @@
                   {% if block.settings.required %}required{% endif %}
                 >
                   <option value="" selected disabled>{{ 'general.choose_option' | t }}</option>
-                  {%- for i in (1..6) -%}
+                  {%- for i in (1..11) -%}
                     {%- assign handle = 'option_x' | replace: 'x', forloop.index -%}
                     {%- if block.settings[handle] != empty -%}
                       <option value="{{ block.settings[handle] | strip_html | escape }}">{{ block.settings[handle] }}</option>
