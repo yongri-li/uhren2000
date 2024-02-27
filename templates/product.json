@@ -134,17 +134,20 @@
         },
         "ee5e9f1c-a80a-4244-950f-03806a509775": {
           "type": "shipping_timer",
+          "disabled": true,
           "settings": {
           }
         },
         "80e67d89-9369-4ddb-8111-2aa1c36fb500": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p>Tell a unique detail about this product<\/p>"
           }
         },
         "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p>Tell a unique detail about this product<\/p>"
           }
