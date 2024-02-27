@@ -332,10 +332,10 @@
             "collection": "",
             "products_limit": 5,
             "number_of_items": 4,
-            "text": "<p>Content of first tab<\/p>",
+            "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "",
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  <tr>\n    <td>Zustand<\/td>\n    <td>0 (ungetragen)<\/td>\n  <\/tr>\n  <tr>\n    <td>Jahr<\/td>\n    <td>2023<\/td>\n  <\/tr>\n  <tr>\n    <td>Aufzug<\/td>\n    <td>Automatik<\/td>\n  <\/tr>\n  <tr>\n    <td>Kaliber\/Werk<\/td>\n    <td>TAG Heuer Calibre Heuer 02<\/td>\n  <\/tr>\n  <tr>\n    <td>Gangreserve<\/td>\n    <td>80 (h)<\/td>\n  <\/tr>\n  <tr>\n    <td>Schließe<\/td>\n    <td>Faltschließe<\/td>\n  <\/tr>\n  <tr>\n    <td>Geschlecht<\/td>\n    <td>Herrenuhr\/Unisex<\/td>\n  <\/tr>\n  <tr>\n    <td>Wasserdicht<\/td>\n    <td>bis 10 bar<\/td>\n  <\/tr>\n<\/table>",
             "html": "",
             "show_contact_form": false
           }
@@ -349,10 +349,10 @@
             "collection": "",
             "products_limit": 5,
             "number_of_items": 4,
-            "text": "<p>Content of second tab<\/p>",
+            "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "",
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  <tr>\n    <td>Material Gehäuse<\/td>\n    <td>Stahl<\/td>\n  <\/tr>\n  <tr>\n    <td>Material Armband<\/td>\n    <td>Leder<\/td>\n  <\/tr>\n  <tr>\n    <td>Farbe Armband<\/td>\n    <td>Schwarz<\/td>\n  <\/tr>\n  <tr>\n    <td>Material Schließe<\/td>\n    <td>Stahl<\/td>\n  <\/tr>\n  <tr>\n    <td>Material Lünette<\/td>\n    <td>Keramik<\/td>\n  <\/tr>\n  <tr>\n    <td>Farbe Zifferblatt<\/td>\n    <td>Schwarz<\/td>\n  <\/tr>\n<\/table>",
             "html": "",
             "show_contact_form": false
           }
@@ -360,16 +360,33 @@
         "tab_yGfjGY": {
           "type": "tab",
           "settings": {
-            "title": "Third tab",
+            "title": "Gehäuse & Zifferblatt",
             "icon": "none",
             "header_image_width": 25,
             "collection": "",
             "products_limit": 5,
             "number_of_items": 4,
-            "text": "<p>Content of third tab<\/p>",
+            "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "",
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  <tr>\n    <td>Durchmesser Gehäuse<\/td>\n    <td>44 mm<\/td>\n  <\/tr>\n  <tr>\n    <td>Glas<\/td>\n    <td>Saphirglas<\/td>\n  <\/tr>\n  <tr>\n    <td>Zahlen Zifferblatt<\/td>\n    <td>Keine Ziffern<\/td>\n  <\/tr>\n<\/table>",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "tab_TkVeLT": {
+          "type": "tab",
+          "settings": {
+            "title": "Funktionen & Eigenschaften",
+            "icon": "none",
+            "header_image_width": 25,
+            "collection": "",
+            "products_limit": 5,
+            "number_of_items": 4,
+            "text": "",
+            "page": "",
+            "image_width": 460,
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  <tr>\n    <td>Funktionen<\/td>\n    <td>Chronograph, Datum<\/td>\n  <\/tr>\n  <tr>\n    <td>Sonstiges<\/td>\n    <td>Kleine Sekunde, Leuchtindizes, Leuchtzeiger, PVD\/DLC Beschichtung, Sichtboden, Verschraubte Krone<\/td>\n  <\/tr>\n<\/table>",
             "html": "",
             "show_contact_form": false
           }
@@ -378,12 +395,13 @@
       "block_order": [
         "tab_3MMYbE",
         "tab_FQJpNa",
-        "tab_yGfjGY"
+        "tab_yGfjGY",
+        "tab_TkVeLT"
       ],
       "settings": {
         "alignment": "left",
         "compact": false,
-        "title": "Content tabs",
+        "title": "",
         "title_font": "primary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
