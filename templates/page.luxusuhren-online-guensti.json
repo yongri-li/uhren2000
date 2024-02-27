@@ -171,6 +171,97 @@
         "fix_zindex": 0
       }
     },
+    "section_icon_text_blocks_PYPE7J": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_aJqTLJ": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><a href=\"https:\/\/www.uhren2000.de\/rolex-online-guenstig-kaufen\" target=\"_self\" title=\"Rolex online günstig kaufen\">Rolex online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/officine-panerai-online-guenstig-kaufen\" target=\"_self\" title=\"Officine Panerai online günstig kaufen\">Officine Panerai online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/guenstig-tag-heuer-uhren-kaufen\" target=\"_self\" title=\"günstig TAG Heuer Uhren kaufen\">günstig TAG Heuer Uhren kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/audemars-piguet-uhren-online-kaufen\" target=\"_self\" title=\"Audemars Piguet Uhren online kaufen\">Audemars Piguet Uhren online kaufen<\/a><\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_xXBawj": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><a href=\"https:\/\/www.uhren2000.de\/vacheron-constantin-online-guenstig-kaufen\" target=\"_self\" title=\"Vacheron Constantin online günstig kaufen\">Vacheron Constantin online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/a.-lange-soehne-uhren-online-guenstig-kaufen\" target=\"_self\" title=\"A. Lange & Söhne Uhren online günstig kaufen\">A. Lange & Söhne Uhren online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/breitling-online-guenstig-kaufen\" target=\"_self\" title=\"Breitling online günstig kaufen\">Breitling online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/jaeger-lecoultre-online-kaufen\" target=\"_self\" title=\"Jaeger-LeCoultre online kaufen\">Jaeger-LeCoultre online kaufen<\/a><\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_PWNxLP": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><a href=\"https:\/\/www.uhren2000.de\/iwc-online-guenstig-kaufen\" target=\"_self\" title=\"IWC online günstig kaufen\">IWC online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/hublot-online-guenstig-kaufen\" target=\"_self\" title=\"Hublot online günstig kaufen\">Hublot online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/omega-uhren-online-guenstig-kaufen\" target=\"_self\" title=\"OMEGA Uhren online günstig kaufen\">OMEGA Uhren online günstig kaufen<\/a><br\/><a href=\"https:\/\/www.uhren2000.de\/blancpain-online-guenstig-kaufen\" target=\"_self\" title=\"Blancpain online günstig kaufen\">Blancpain online günstig kaufen<\/a><\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_aJqTLJ",
+        "text_xXBawj",
+        "text_PWNxLP"
+      ],
+      "custom_css": [
+        "{margin-top: 50px;}",
+        "p {text-align: center; font-weight: 600;}"
+      ],
+      "settings": {
+        "items_width": 3,
+        "text_alignment": "center",
+        "title": "Luxusuhren bei uns immer zu Top-Preisen kaufen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 160,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
       "settings": {
@@ -217,6 +308,7 @@
     "main-page",
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
+    "section_icon_text_blocks_PYPE7J",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
   ]
