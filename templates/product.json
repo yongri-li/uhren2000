@@ -236,6 +236,7 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "recommended_products_qty": 6,
         "number_of_items": 4,
@@ -259,6 +260,7 @@
     },
     "reviews": {
       "type": "product-reviews",
+      "disabled": true,
       "settings": {
         "text_alignment": "start",
         "title": "Reviews",
@@ -286,7 +288,7 @@
         "show_in_circle": false,
         "fill_images": false,
         "text_alignment": "left",
-        "title": "Recently viewed products",
+        "title": "Zuletzt angesehen",
         "title_font": "primary",
         "title_size": "h3",
         "enable_custom_text_styling": false,
