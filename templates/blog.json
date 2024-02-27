@@ -15,12 +15,12 @@
         "title_size": "h3",
         "title": "News von Uhren2000 zu Luxusuhren und Marken",
         "pagination_qty": 12,
-        "show_image": true,
+        "show_image": false,
         "show_date": false,
         "show_author": false,
         "show_excerpt": true,
         "button_color_palette_post": "accent",
-        "show_link_post": true
+        "show_link_post": false
       }
     }
   },

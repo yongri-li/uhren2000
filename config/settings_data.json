@@ -59,7 +59,7 @@
     "images_border_radius": 5,
     "banners_clickable": true,
     "images_border_radius_mobile": 0,
-    "button_style": "plain",
+    "button_style": "inv",
     "buy_button_style": "plain",
     "button_border": 1,
     "button_radius": 32,
