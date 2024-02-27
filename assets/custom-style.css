@@ -1,0 +1,62 @@
+.before-image
+{
+  padding-left:34px !important;
+}
+.l4us:first-child
+{
+  width:100%;
+  display:flex !important;
+  justify-content:space-between !important;
+}
+.l4us li
+{
+  height:30px !important;
+}
+.l4us > li:last-child
+{
+  margin:0px;
+}
+.before-image:before
+{
+  background-image: url(//uhren2000.myshopify.com/cdn/shop/files/phone_small.svg?v=1708971837) !important;
+  width: 24px;
+  height: 30px;
+  left: 0 !important;
+  top: -3px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.top-header_small-image-group
+{
+  display:flex;
+  gap:10px;
+}
+.custom-trusted-shop-link
+{
+  display:flex;
+  gap:5px;
+}
+.custom-trusted-shop-link > img:first-child
+{
+  margin-right:5px;
+}
+
+.custom-seperate
+{
+  width:100%;
+  height:3px;
+  background-color:black;
+  margin:10px 0px !important;
+}
+
+.nav-bar-element:nth-child(10)
+{
+  border-top:1px solid gray;
+}
+
+
+#root .shopify-section-header #nav
+{
+  height:100%;
+}
