@@ -312,9 +312,12 @@
         "tab_yGfjGY",
         "tab_TkVeLT"
       ],
+      "custom_css": [
+        "a {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}"
+      ],
       "settings": {
         "alignment": "left",
-        "compact": true,
+        "compact": false,
         "title": "",
         "title_font": "primary",
         "title_size": "h2",
