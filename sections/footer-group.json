@@ -1,1 +1,213 @@
-{"type":"footer","name":"t:static_sections.footer.name","sections":{"c7b2fa9c-da19-428b-aec3-a9c706756f5a":{"type":"section-icon-text-blocks","blocks":{"sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>Vollversicherte Sendungen \/ Abholungen in DE kostenlos<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_FGqfLe":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>individuelle Bandanpassung<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_JgWVqL":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>zertifizierter Shop<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_EKRqAC":{"type":"text","disabled":true,"settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>Sicher dank SSL Verschlüsselung<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_L9zeFB":{"type":"text","disabled":true,"settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>vor Ort Abholung Ihrer Uhr möglich<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_TiJPhi":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>365 Tage im Jahr Service<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}}},"block_order":["sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0","text_FGqfLe","text_JgWVqL","text_EKRqAC","text_L9zeFB","text_TiJPhi"],"settings":{"items_width":4,"text_alignment":"center","title":"","title_font":"primary","title_size":"h2","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"700","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"blocks_text_alignment":"center","blocks_title_font":"primary","blocks_title_size":"h4","blocks_subtitle_font":"secondary","blocks_subtitle_size":"h2","blocks_title_color_palette":"black","blocks_title_weight":"700","blocks_subtitle_color_palette":"black","blocks_subtitle_weight":"400","blocks_font_size":"16px","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"1023a433-3232-4476-b264-6cc700708879":{"type":"section-social-bar","custom_css":[],"settings":{"color_palette":"black","color_palette_active":"accent","icon_width":"m","show_in_circle":true,"text_alignment":"center","title":"FOLGEN SIE UNS AUF SOCIAL-MEDIA","title_font":"primary","title_size":"h4","enable_custom_text_styling":false,"title_color_palette":"dark","title_weight":"400","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","spacing_desktop":-50,"spacing_mobile":40,"fix_zindex":0}},"footer":{"type":"footer","blocks":{"footer-block-menu-1":{"type":"menu","settings":{"title_size":"h5","title_weight":"700","menu":"footer-1","split_menu":false}}},"block_order":["footer-block-menu-1"],"settings":{"footer_color":"black","column_text_alignment":"left","content_position":"center","title_font":"primary","font_size":"13px","bottom_color":"dark","bottom_img":"shopify:\/\/shop_images\/Logo.png","bottom_img_width":110,"bottom_img_link":"","enable_country_selector":true,"enable_language_selector":true,"enable_follow_on_shop":false,"show_payment_methods":true,"spacing_desktop":0,"spacing_mobile":0}}},"order":["c7b2fa9c-da19-428b-aec3-a9c706756f5a","1023a433-3232-4476-b264-6cc700708879","footer"]}
+{
+  "type": "footer",
+  "name": "t:static_sections.footer.name",
+  "sections": {
+    "c7b2fa9c-da19-428b-aec3-a9c706756f5a": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Vollversicherte Sendungen \/ Abholungen in DE kostenlos<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_FGqfLe": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>individuelle Bandanpassung<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_JgWVqL": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>zertifizierter Shop<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_EKRqAC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Sicher dank SSL Verschlüsselung<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_L9zeFB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>vor Ort Abholung Ihrer Uhr möglich<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_TiJPhi": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>365 Tage im Jahr Service<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0",
+        "text_FGqfLe",
+        "text_JgWVqL",
+        "text_EKRqAC",
+        "text_L9zeFB",
+        "text_TiJPhi"
+      ],
+      "custom_css": [
+        "{margin-top: 60px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h4",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1023a433-3232-4476-b264-6cc700708879": {
+      "type": "section-social-bar",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_palette": "black",
+        "color_palette_active": "accent",
+        "icon_width": "m",
+        "show_in_circle": true,
+        "text_alignment": "center",
+        "title": "FOLGEN SIE UNS AUF SOCIAL-MEDIA",
+        "title_font": "primary",
+        "title_size": "h4",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "dark",
+        "title_weight": "400",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "spacing_desktop": -50,
+        "spacing_mobile": 40,
+        "fix_zindex": 0
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-block-menu-1": {
+          "type": "menu",
+          "settings": {
+            "title_size": "h5",
+            "title_weight": "700",
+            "menu": "footer-1",
+            "split_menu": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-block-menu-1"
+      ],
+      "settings": {
+        "footer_color": "black",
+        "column_text_alignment": "left",
+        "content_position": "center",
+        "title_font": "primary",
+        "font_size": "13px",
+        "bottom_color": "dark",
+        "bottom_img": "shopify:\/\/shop_images\/Logo.png",
+        "bottom_img_width": 110,
+        "bottom_img_link": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_follow_on_shop": false,
+        "show_payment_methods": true,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "c7b2fa9c-da19-428b-aec3-a9c706756f5a",
+    "1023a433-3232-4476-b264-6cc700708879",
+    "footer"
+  ]
+}
