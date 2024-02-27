@@ -32,7 +32,7 @@
           "type": "title",
           "settings": {
             "layout": "title-top",
-            "title_size": "h5",
+            "title_size": "h2",
             "show_product_rating": true,
             "show_vendor_brand": false,
             "show_vendor_name": false,
