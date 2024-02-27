@@ -98,7 +98,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "<center style=\"margin-top: -25px; margin-bottom: 10px;\">Preise inkl. MwSt. zzgl. Versandkosten<\/center>",
+            "liquid": "<center style=\"margin-top: -25px; margin-bottom: 10px;\">\n  <span style=\"color: #8f8f8f;\">Preise inkl. MwSt.<\/span> \n  <span style=\"color: #c6ae8e;\">zzgl. Versandkosten<\/span>\n<\/center>",
             "html": "",
             "show_contact_form": false
           }
