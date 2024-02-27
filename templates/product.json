@@ -280,6 +280,15 @@
         "mobile_collapse": false
       }
     },
+    "section_custom_liquid_kReYBz": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "recently-viewed": {
       "type": "section-recently-viewed-products",
       "custom_css": [
@@ -318,6 +327,7 @@
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
     "recommendations",
     "reviews",
+    "section_custom_liquid_kReYBz",
     "recently-viewed"
   ]
 }
