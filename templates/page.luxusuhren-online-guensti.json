@@ -224,7 +224,8 @@
       ],
       "custom_css": [
         "{margin-top: 50px;}",
-        "p {text-align: center; font-weight: 600;}"
+        "p {text-align: center; font-weight: 600;}",
+        "a {text-decoration: none;}"
       ],
       "settings": {
         "items_width": 3,
