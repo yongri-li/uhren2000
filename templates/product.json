@@ -31,7 +31,7 @@
         "c7259cb9-7235-4028-b6df-3a68077fed80": {
           "type": "title",
           "settings": {
-            "layout": "title-top",
+            "layout": "title-right",
             "title_size": "h2",
             "show_product_rating": true,
             "show_vendor_brand": false,
