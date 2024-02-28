@@ -1,4 +1,3 @@
-{% unless template.name == 'index' %}
 <nav class="n6br{% if settings.breadcrumbs_font == 'primary' %} title-font{% endif %}" role="navigation" aria-label="breadcrumbs">
   <ol class="{% if hide_desktop %}desktop-hide{% endif %}{% if hide_mobile or template.name == 'product' %} mobile-hide{% endif %}">
 
@@ -91,4 +90,3 @@
       </p>
   {%- endif -%}
 </nav>
-{% endunless %}
