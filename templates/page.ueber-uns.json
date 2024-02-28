@@ -210,6 +210,65 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_banner_columns_T86TTA": {
+      "type": "section-banner-columns",
+      "blocks": {
+        "image_nAUBXh": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_nAUBXh"
+      ],
+      "settings": {
+        "items_width": 4,
+        "width": "boxed",
+        "height": "size-l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": false,
+        "image_move": false,
+        "show_content_below": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -218,6 +277,7 @@
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
-    "section_recently_viewed_products_LHGaAV"
+    "section_recently_viewed_products_LHGaAV",
+    "section_banner_columns_T86TTA"
   ]
 }
