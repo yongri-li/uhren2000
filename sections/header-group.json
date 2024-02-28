@@ -49,7 +49,7 @@
             "menu_item": "Luxusuhren",
             "height": "size-s",
             "enable_custom_height": true,
-            "custom_height": 300,
+            "custom_height": 250,
             "image_zoom": false,
             "show_content_below": false,
             "layout": "rows",
