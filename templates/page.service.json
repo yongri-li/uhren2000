@@ -42,7 +42,7 @@
         "image_Pi8HrF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fliegeruhren-2.jpg",
+            "image": "shopify:\/\/shop_images\/werk.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -103,7 +103,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Fliegeruhren sind mehr wie nur Uhren für die Lüfte",
+        "title": "Ihre Uhr verdient den besten Service!",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -142,7 +142,7 @@
         "image_bQGyzE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gebrauchte_Breitling-1_1600x1600_cda049af-504d-456f-aa59-8dab510b948c.jpg",
+            "image": "shopify:\/\/shop_images\/csm_Revision_des_Uhrwerks_6957dd2f98_480x480_8a698019-0862-43a7-bbd5-54ce3d7998d0.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -178,7 +178,43 @@
         "image_3bzyzE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fliegeruhr_Pliot_1600x1600_15c3931e-8343-4ff9-8d67-580b764fbf4c.jpg",
+            "image": "shopify:\/\/shop_images\/csm_Reparatur_von_Uhren_bb3d4db5a6_480x480_00d71df5-ff4c-4480-ae1e-0971f5f156b2.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_qANPtk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/csm_Politur_und_Aufarbeitung_von_Uhren_und_Schmuck_f8f6e5fda1_480x480_ca7f8c87-1f6d-4da1-ae46-636092411051.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -214,10 +250,11 @@
       },
       "block_order": [
         "image_bQGyzE",
-        "image_3bzyzE"
+        "image_3bzyzE",
+        "image_qANPtk"
       ],
       "settings": {
-        "items_width": 2,
+        "items_width": 3,
         "width": "boxed",
         "height": "size-s",
         "enable_custom_height": false,
