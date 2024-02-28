@@ -15,7 +15,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "",
+            "text": "{{ collection.metafields.custom.seo_kollektion_heading | metafield_tag }}",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
