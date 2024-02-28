@@ -48,6 +48,11 @@
     "main-collection": {
       "type": "main-collection",
       "blocks": {
+        "sorting_hLcAiL": {
+          "type": "sorting",
+          "settings": {
+          }
+        },
         "product_grid": {
           "type": "product_grid",
           "settings": {
@@ -55,6 +60,7 @@
         }
       },
       "block_order": [
+        "sorting_hLcAiL",
         "product_grid"
       ],
       "settings": {
