@@ -8,40 +8,54 @@
         "enable_share_button": false
       }
     },
-    "main-collection": {
-      "type": "main-collection",
+    "section_rich_text_gH9TQD": {
+      "type": "section-rich-text",
       "blocks": {
-        "title": {
-          "type": "title",
+        "content_hN9TQE": {
+          "type": "content",
           "settings": {
-            "title_size": "h3",
-            "text_alignment": "left"
-          }
-        },
-        "sorting": {
-          "type": "sorting",
-          "settings": {
-          }
-        },
-        "product_grid": {
-          "type": "product_grid",
-          "settings": {
-          }
-        },
-        "423fb7f6-2c97-4420-8211-d45378349d2a": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "text_alignment": "left",
-            "enable_read_more": false
+            "page": "",
+            "text": "",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
           }
         }
       },
       "block_order": [
-        "title",
-        "sorting",
-        "product_grid",
-        "423fb7f6-2c97-4420-8211-d45378349d2a"
+        "content_hN9TQE"
+      ],
+      "custom_css": [
+        "h2,h3,h4,h5,h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020; max-width: 700px;}",
+        "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none;}",
+        "p {max-width: 800px;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-center",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
       ],
       "disabled": true,
       "settings": {
@@ -206,6 +220,7 @@
   },
   "order": [
     "breadcrumbs",
+    "section_rich_text_gH9TQD",
     "main-collection",
     "section_custom_liquid_NnBJ8E",
     "section_icon_text_blocks_gAUgfN",
