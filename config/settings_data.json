@@ -4,7 +4,7 @@
     "width": 1600,
     "everything_rounded": true,
     "input_border_radius": 32,
-    "palette_black": "#202020",
+    "palette_black": "#000000",
     "palette_light": "#efefef",
     "palette_dark": "#383838",
     "palette_accent": "#c6ae8e",
