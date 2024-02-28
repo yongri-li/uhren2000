@@ -112,9 +112,10 @@ header.cols > h2
 }
 .button-palette-accent
 {
-  padding: 0.125rem 0.625rem;
+  padding: 0.125rem 1.625rem !important;
   min-height: 52px;
   height: 52px;
+  max-height: 52px;
   box-sizing: border-box;
   display: flex !important;
   justify-content: center !important;
@@ -130,9 +131,11 @@ header.cols > h2
   font-size: 1.25rem !important;
   margin-top: auto !important;
   padding: 24px;
-  box-shadow: 0 0 50px #0000001a !important;
+  box-shadow: 0 0 50px #0000001a!important;
   border: 1px solid #c1a57e;
   color: #c1a57e !important;
+  /* box-sizing: border-box; */
+  box-sizing: content-box;
 }
 .l4ne>li:hover .button-palette-accent
 {
@@ -141,6 +144,10 @@ header.cols > h2
 .button-palette-accent:hover
 {
   border-color:black;
+}
+.button-palette-accent > .no-before
+{
+  margin:0px;
 }
 .button-palette-accent:hover .no-before
 {
