@@ -148,6 +148,7 @@ header.cols > h2
   color:#c1a57e !important;
   font-family: Playfair Display, serif;
   font-size: 1.25rem;
+  letter-spacing:0px;
 }
 .button-palette-accent:hover .no-before
 {
