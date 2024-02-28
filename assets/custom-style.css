@@ -139,7 +139,7 @@ header.cols > h2
 }
 .l4ne>li:hover .button-palette-accent
 {
-  box-shadow:none;
+  box-shadow:none !important;
 }
 .button-palette-accent:hover
 {
