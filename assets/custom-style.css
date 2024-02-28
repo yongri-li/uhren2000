@@ -128,7 +128,7 @@ header.cols > h2
   font-weight: 400;
   font-size: 1.25rem !important;
   margin-top: auto !important;
-  padding: 0.125rem 24px !important;
+  /* padding: 0.125rem 24px !important; */
   box-shadow: 0 0 50px #0000001a!important;
   border: 1px solid #c1a57e;
   color: #c1a57e !important;
