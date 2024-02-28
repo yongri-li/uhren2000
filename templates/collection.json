@@ -57,7 +57,6 @@
       "block_order": [
         "product_grid"
       ],
-      "disabled": true,
       "settings": {
         "pagination_qty": 48,
         "pagination_type": "button",
