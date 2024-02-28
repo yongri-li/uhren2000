@@ -132,6 +132,8 @@ header.cols > h2
   border: 1px solid #c1a57e;
   color: #c1a57e !important;
   box-sizing: content-box;
+  width:calc(33% - 20px);
+  margin:0px;
 }
 .l4ne>li:hover .button-palette-accent
 {
