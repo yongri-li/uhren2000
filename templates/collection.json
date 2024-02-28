@@ -79,6 +79,15 @@
         "fix_zindex": 1
       }
     },
+    "section_custom_liquid_NnBJ8E": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_icon_text_blocks_gAUgfN": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -116,7 +125,7 @@
         "text_KFqNh7"
       ],
       "custom_css": [
-        "h1, h2, h3, h4,h5,h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}"
+        "h1,h2,h3,h4,h5,h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}"
       ],
       "settings": {
         "items_width": 2,
@@ -153,11 +162,54 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_liquid_UAegCH": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_UjcyQc": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": true,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-collection",
-    "section_icon_text_blocks_gAUgfN"
+    "section_custom_liquid_NnBJ8E",
+    "section_icon_text_blocks_gAUgfN",
+    "section_custom_liquid_UAegCH",
+    "section_recently_viewed_products_UjcyQc"
   ]
 }
