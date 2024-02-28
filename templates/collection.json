@@ -50,6 +50,7 @@
       "blocks": {
         "sorting_hLcAiL": {
           "type": "sorting",
+          "disabled": true,
           "settings": {
           }
         },
