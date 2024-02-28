@@ -152,7 +152,7 @@ header.cols > h2
 }
 .button-palette-accent:hover .no-before
 {
-  color: black;
+  color: black !important;
 }
 .button-palette-accent > .no-before:before
 {
