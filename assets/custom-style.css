@@ -78,15 +78,14 @@ header.cols > h2
 }
 .l4ne > li
 {
-  text-align:center;
+  text-align: center;
   flex-direction: column;
   padding: 0;
   display: flex;
-  padding: 1.875rem 1.875rem 1.875rem 1.875rem;
-  top:0px !important;
-  width:calc(33% - 20px);
-  background: #f7f7f7;
-  border-radius: 23px;
+  padding: 1.875rem !important;
+  top: 0 !important;
+  background: #f7f7f7 !important;
+  border-radius: 23px !important;
   transition: all .25s ease-in-out;
 }
 .l4ne>li:hover
