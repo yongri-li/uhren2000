@@ -115,6 +115,9 @@
         "text_xFib4K",
         "text_KFqNh7"
       ],
+      "custom_css": [
+        "h5, h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}"
+      ],
       "settings": {
         "items_width": 2,
         "text_alignment": "start",
