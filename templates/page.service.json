@@ -361,6 +361,83 @@
         "fix_zindex": 0
       }
     },
+    "section_icon_text_blocks_7DEBR3": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_tJdT4z": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Unser professionelles Team von Uhrenexperten nimmt sich mit Hingabe der Reparatur und Revision Ihrer Luxusuhr an. Dank unserer langjährigen Erfahrung mit Markenuhren können wir einen erstklassigen Reparatur- und Revisionsservice anbieten. Unsere Werkstätten wurden erst kürzlich umgebaut und vergrößert, um die regelmäßige Wartung und Aufarbeitung von vielen verschiedenen Modellen aus unterschiedlichen Manufakturen effizient und schnell durchführen zu können.<\/p><h6>Professioneller Versand Ihrer Rolex<\/h6><p><br\/>Ähnlich wie beim Ankauf von Luxusuhren verlassen wir uns auch beim Versand von Armbanduhren für die Reparatur und Revision rundum auf den Service von zuverlässigen Kurieren. Diese holen Ihre Rolex bei Ihnen zu Hause ab und bringen diese nach erfolgreich abgeschlossener Reparatur oder Aufarbeitung auch wieder bei Ihnen ab. Schließlich soll das wertvolle Exemplar nicht beschädigt werden oder verloren gehen. Selbstverständlich können Sie die Uhr auch persönlich bei uns abgeben und wieder abholen, wenn Sie in der Nähe von Stuttgart, Ludwigsburg oder Heilbronn leben.<\/p><h6>Umfassender Service für alle Luxusuhren<\/h6><p><br\/>Wir bieten einen umfassenden Service für alle Luxusuhren, nicht nur von Rolex, sondern auch von zahlreichen anderen Qualitätsmarken wie Panerai, Omega, Hublot und Breitling.<\/p><p>Wenn Sie den Wert Ihrer Uhr ermitteln lassen und diese zum Ankauf anbieten wollen, sind wir Ihr Ansprechpartner. Benötigt Ihre Lieblingsuhr eine Revision oder Aufarbeitung, dann sind wir Ihre Experten, die Ihre Markenuhr wieder perfekt in Schuss bringen.<\/p><p>Unsere erfahrenen und kompetenten Uhrmacher verfügen über das Know-how, um die Luxusuhren der besten Schweizer und deutschen Manufakturen auseinanderzubauen und wieder zusammenzusetzen, sowie sie fachkundig zu reinigen, um ihre Funktionsweise zu verbessern. Auch die Revision und Wartung sowie die Einstellung und Justierung der Uhren gehören zu unserem vielseitigen Serviceangebot. Nach unserem Rundumservice schlägt Ihre Uhr wieder, als sei sie brandneu.<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/alle-produkte",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_qHnb3b": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<h6>Von der Reinigung bis zur Reparatur<\/h6><p><br\/>Wenn Sie an Ihrer Luxusuhr von Rolex oder einer anderen hochwertigen Marke eine Fehlfunktion feststellen, dann benötigt der Zeitmesser möglicherweise eine professionelle Reinigung oder auch eine Wartung oder Aufarbeitung.<\/p><p>Wie jede andere komplexe technische Apparatur benötigt auch ein filigranes Uhrwerk von Zeit zu Zeit eine Generalüberholung, um ordnungsgemäß und weiterhin präzise funktionieren zu können.<\/p><p>Die professionelle Wartung und Aufarbeitung von Rolex und anderem Präzisionsuhrwerken ist nun in unseren neuen und vergrößerten Werkstätten noch besser und schneller möglich.<\/p><p>Bei einer Revision wird Ihre Rolex zum Beispiel von unserem Fachpersonal vollständig auseinander gebaut und sorgfältig gesäubert sowie an den entsprechenden Stellen eingeölt. Anschließend erfolgt eine fachkundige Wiedermontage und Einstellung. Metallgehäuse können gesäubert und poliert werden, während Armbänder aus den verschiedenen Materialien komplett aufgearbeitet sowie auf Wunsch natürlich auch ersetzt werden können.<\/p><h6>Individueller Service bei Uhren2000<\/h6><p><br\/>Vertrauen Sie unseren Fachleuten, wenn Sie uns mit der Aufarbeitung oder Revision Ihrer Rolex beauftragen. Ihre Uhr ist bei uns in den besten Händen, egal ob Sie sie in Zahlung geben wollen, oder die repariert oder gewartet werden muss. Kontaktieren Sie uns noch heute und schildern Sie uns Ihr persönliches Anliegen, um das sich unsere Fachleute mit Hingabe kümmern werden. Wir organisieren das Abholen und Versenden Ihres edlen Exemplars und führen alle Ihre Aufträge zur Reparatur, gründlichen Reinigung und professionellen Wartung fachkundig und sorgfältig durch.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_tJdT4z",
+        "text_qHnb3b"
+      ],
+      "custom_css": [
+        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
+        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}",
+        "{margin-top: 20px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Service, Revision und Reparatur für Luxusuhren",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
       "settings": {
@@ -409,6 +486,7 @@
     "section_icon_text_blocks_MtXjGD",
     "section_image_columns_text_a7zEB6",
     "section_icon_text_blocks_TcGGtL",
+    "section_icon_text_blocks_7DEBR3",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
   ]
