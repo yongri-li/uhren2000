@@ -103,7 +103,7 @@
         "image_block_Dbb9bk": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Panerai.jpg",
+            "image": "shopify:\/\/shop_images\/Panerai.webp",
             "heading": "Panerai",
             "link": "shopify:\/\/collections\/panerai"
           }
