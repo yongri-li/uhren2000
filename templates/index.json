@@ -143,7 +143,7 @@
         "image_block_QTLqQQ": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Patek.jpg",
+            "image": "shopify:\/\/shop_images\/Patek.webp",
             "heading": "Patek Philippe",
             "link": "shopify:\/\/collections\/patek-philippe"
           }
