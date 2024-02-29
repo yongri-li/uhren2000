@@ -89,7 +89,8 @@ header.cols > h2
   transition: all .25s ease-in-out;
   width:calc(33% - 20px);
   margin:0px !important;
-  margin-bottom:30px !important;
+  margin-bottom:20px !important;
+  margin-top:20px;
 }
 .l4ne>li:hover
 {
