@@ -117,16 +117,22 @@ endcapture
               
 {% if slider %}
 <script>
-  jQuery(document).ready(function($){
+  document.addEventListener('DOMContentLoaded', function() {
     function rotateItems() {
-      const $slider = $('.js-slider');
-      if ($slider.length > 0) {
+      const slider = document.querySelector('.js-slider');
+      if (slider) {
+        const imgWidth = {{ img_width }};
         setInterval(function(){
-          const $firstItem = $slider.find('li:first');
-          $slider.animate({marginLeft: -{{ img_width }} + '%'}, 500, function() {
-            $slider.append($firstItem.css('margin-left', '0px'));
-          });
-        }, 3000); // Rotiert alle 3 Sekunden
+          const firstItem = slider.querySelector('li:first-child');
+          const currentMarginLeft = parseInt(window.getComputedStyle(slider).marginLeft, 10) || 0;
+          slider.style.marginLeft = (currentMarginLeft - imgWidth) + '%';
+          slider.appendChild(firstItem.cloneNode(true));
+          slider.removeChild(firstItem);
+          slider.style.transition = 'margin-left 0.5s ease';
+          setTimeout(function() {
+            slider.style.transition = 'none';
+          }, 500); // Reset transition after animation completes
+        }, 3000); // Rotates every 3 seconds
       }
     }
 
