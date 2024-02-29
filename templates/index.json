@@ -162,7 +162,7 @@
         "image_block_QTLqQQ"
       ],
       "custom_css": [
-        "{background-color: #fff; margin-top: 80px;}",
+        "{background-color: #fff; margin-top: 80px; margin-bottom: 80px;}",
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif !important; font-weight: 100; font-size: 25px; text-transform: none; color: #202020;}"
       ],
       "settings": {
@@ -179,7 +179,7 @@
       "type": "section-custom-liquid",
       "settings": {
         "custom_liquid": "<style>\n.features-container {\n  display: flex;\n  flex-wrap: wrap;\n  background-color: #f7f7f7;\n  border-radius: 20px;\n  padding: 20px;\n  gap: 10px; \/* Abstand zwischen den Elementen *\/\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  gap: 10px; \/* Abstand zwischen Icon und Text *\/\n  flex: 0 1 auto; \/* Changed to allow for text wrapping *\/\n  padding: 20px;\n}\n\n.feature-icon {\n  width: 24px;\n  height: 24px;\n  fill: currentColor; \/* Farbe des Icons *\/\n}\n\n\/* Media Queries für Responsivität *\/\n@media (max-width: 768px) {\n  .feature-item {\n    flex-basis: calc(50% - 20px); \/* Change to allow two items per row with wrapping text *\/\n  }\n}\n\n@media (max-width: 480px) {\n  .feature-item {\n    flex-basis: 100%; \/* Ein Element pro Zeile *\/\n  }\n}\n<\/style>\n\n<div class=\"features-container\">\n  {% for i in (1..6) %}\n    <div class=\"feature-item\">\n      <svg xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n    <path d=\"M7.87012 15L13.8701 22L30.8701 1\" stroke=\"#C1A57E\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n    <path d=\"M26.7216 16C27.1305 18.6253 26.7253 21.3129 25.5605 23.7009C24.3956 26.0888 22.5271 28.0626 20.2064 29.3564C17.8858 30.6502 15.2244 31.202 12.5807 30.9374C9.93696 30.6728 7.43776 29.6045 5.41958 27.8764C3.4014 26.1483 1.96113 23.8433 1.29268 21.2719C0.624239 18.7004 0.759709 15.9858 1.68086 13.4936C2.602 11.0015 4.2646 8.85138 6.44481 7.3328C8.62502 5.81423 11.2182 5.0001 13.8751 5.00001C15.5913 4.99776 17.2909 5.33649 18.8751 5.99651\" stroke=\"#202020\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n<\/svg>\n      <span>\n        {% if i == 1 %}\n          Vollversicherte Sendungen <br>\/ Abholungen in DE kostenlos\n        {% elsif i == 2 %}\n          Individuelle Bandanpassung\n        {% elsif i == 3 %}\n          Zertifizierter Shop\n        {% elsif i == 4 %}\n          Sicher dank SSL<br> Verschlüsselung\n        {% elsif i == 5 %}\n          Vor Ort<br> Abholung Ihrer Uhr möglich\n        {% elsif i == 6 %}\n          365 Tage im Jahr Service\n        {% endif %}\n      <\/span>\n    <\/div>\n  {% endfor %}\n<\/div>",
-        "spacing_desktop": 50,
+        "spacing_desktop": 100,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -369,7 +369,7 @@
         "button_color_palette": "accent",
         "show_link": false,
         "mobile_layout": "slider",
-        "spacing_desktop": 70,
+        "spacing_desktop": 100,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -516,6 +516,42 @@
         "mobile_layout": "slider",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_AGD9pk": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_J7bQE7": {
+          "type": "title",
+          "settings": {
+            "title": "Luxusuhren Ankauf und Inzahlungnahme",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        }
+      },
+      "block_order": [
+        "title_J7bQE7"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin-top: 20px; margin-bottom: 30px; font-weight: 100; font-family: \"Georgia Pro Light\", Georgia, serif; max-width: 1200; font-size: 35px; color: #202020; text-transform: none;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": -90,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
@@ -755,6 +791,7 @@
     "dca4067f-cc37-4e13-b5fa-6bcec984f3c2",
     "b0948af1-0fb9-4b44-9183-42c54e10a3ae",
     "section_collection_list_aJpN3j",
+    "section_rich_text_AGD9pk",
     "section_promo_gallery_4tm6Rm",
     "section_icon_text_blocks_C83yUN"
   ]
