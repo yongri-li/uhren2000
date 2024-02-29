@@ -1,6 +1,229 @@
+{%- liquid
+    assign limit = section.blocks.size | at_most: section.settings.number_of_items
+    if section.blocks.size > 0
+        assign number_of_items = section.blocks.size
+    else
+        assign number_of_items = section.settings.number_of_items
+    endif
+    if limit == 0
+        assign limit = number_of_items
+    endif
+
+    case limit
+        when 0
+            assign width_class = 'w33'
+        when 1
+            if section.settings.text_alignment == 'aside'
+                assign width_class = 'w50'
+            else
+                assign width_class = 'w33'
+            endif
+        when 2
+            assign width_class = 'w50'
+        when 3
+            assign width_class = 'w33'
+        when 4
+            assign width_class = 'w25'
+    endcase
+
+    assign img_width_limit = limit
+    assign img_width = 100 | divided_by: img_width_limit
+
+    if section.settings.title != empty or section.settings.subtitle != empty or section.settings.text != empty
+        assign show_header = true
+    else
+        assign show_header = false
+    endif
+
+    if section.settings.text_alignment == 'aside'
+        assign aside = true
+    else
+        assign aside = false
+    endif
+
+    unless aside
+        if section.settings.title != empty and section.settings.subtitle != empty
+            assign container_div = true
+        elsif section.settings.title != empty and section.settings.text != empty
+            assign container_div = true
+        elsif section.settings.subtitle != empty and section.settings.text != empty
+            assign container_div = true
+        else
+            assign container_div = false
+        endif
+    endunless
+
+capture title_classes
+    if section.settings.text_alignment == 'center'
+        echo 'text-center align-center'
+    elsif section.settings.text_alignment == 'left'
+        echo 'text-left align-left'
+    elsif section.settings.text_alignment == 'right'
+        echo 'text-right align-right'
+    endif
+endcapture
+
+    assign slider = false
+    if section.settings.layout == 'slider'
+        assign slider = true
+    endif
+-%}
+
+{%- if show_header -%}
+<header class="{% unless aside %}cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}{% endunless %}" {% if section.settings.enable_custom_font_styling %}style="font-size:{{ section.settings.font_size }};"{% endif %}>
+    {%- if container_div -%}<div class="{{ title_classes }}">{%- endif -%}
+        {%- if section.settings.title != blank -%}
+            <{{ section.settings.title_size }} class="{{ title_classes }} ff-{{ section.settings.title_font }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+            <{{ section.settings.subtitle_size }} class="{{ title_classes }} ff-{{ section.settings.subtitle_font }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
+        {%- endif -%}
+        {%- if section.settings.text != empty -%}
+            <p class="{{ title_classes }}">{{ section.settings.text }}</p>
+        {%- endif -%}
+    {%- if container_div -%}</div>{%- endif -%}
+</header>
+{%- endif -%}
+
+<ul class="l4cl {{ width_class }} {% if slider %}slider{% else %}mobile-compact{% endif %}{% if section.settings.mobile_layout == 'grid' %} mobile-scroll w50-mobile{% endif %}">
+{%- for block in section.blocks -%}
+<li class="image-item">
+    <a href="{{ block.settings.link }}" class="image-link">
+        <img src="{{ block.settings.image | img_url: '800x' }}" 
+             srcset="{{ block.settings.image | img_url: '300x' }} 300w,
+                     {{ block.settings.image | img_url: '600x' }} 600w,
+                     {{ block.settings.image | img_url: '800x' }} 800w,
+                     {{ block.settings.image | img_url: '1200x' }} 1200w"
+             sizes="(max-width: 599px) 300px,
+                    (max-width: 899px) 600px,
+                    (max-width: 1199px) 800px,
+                    1200px"
+             alt="{{ block.settings.heading | escape }}" 
+             style="max-width: 100%; height: auto; display: block; margin: 0 auto;" 
+             width="{{ section.settings.image_size }}"
+             height="auto">
+        <h3 style="text-align: center;">{{ block.settings.heading }}</h3>
+    </a>
+</li>
+{%- endfor -%}
+</ul>
+
+<style>
+    #shopify-section-{{ section.id }} .image-item { width: {{ img_width }}%; }
+    #shopify-section-{{ section.id }} .image-link { display: block; text-align: center; }
+    #shopify-section-{{ section.id }} .image-link img { max-width: 100%; height: auto; }
+    #shopify-section-{{ section.id }} .image-link h3 { margin-top: 15px; }
+</style>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Codext Watch Presenter",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "slider",
+          "label": "Slider"
+        },
+        {
+          "value": "grid",
+          "label": "Grid"
+        }
+      ],
+      "default": "grid"
+    },
+    {
+      "type": "range",
+      "id": "number_of_items",
+      "label": "Anzahl der Elemente",
+      "min": 1,
+      "max": 10,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Textausrichtung",
+      "options": [
+        {
+          "value": "left",
+          "label": "Links"
+        },
+        {
+          "value": "center",
+          "label": "Zentriert"
+        },
+        {
+          "value": "right",
+          "label": "Rechts"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titel",
+      "default": "Codext Watch Presenter"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Untertitel"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "range",
+      "id": "image_size",
+      "label": "Bildgröße",
+      "min": 100,
+      "max": 1000,
+      "default": 800,
+      "step": 100,
+      "unit": "px",
+      "info": "Passen Sie die Größe der Bilder an. Wert in Pixel."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_block",
+      "name": "Bildblock",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Bild",
+          "info": "Wählen Sie ein Bild für diesen Block."
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Überschrift",
+          "default": "Bildüberschrift"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link URL",
+          "info": "Geben Sie die URL ein, zu der der Benutzer nach dem Klicken auf das Bild weitergeleitet wird."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Codext Watch Presenter",
+      "category": "Bildpräsentation"
+    }
+  ]
+}
 {% endschema %}
