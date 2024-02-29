@@ -519,6 +519,155 @@
         "fix_zindex": 0
       }
     },
+    "section_promo_gallery_4tm6Rm": {
+      "type": "section-promo-gallery",
+      "blocks": {
+        "image_43Kxfn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-clock.webp",
+            "overlay_opacity_img": 0,
+            "color_palette": "white",
+            "overlay_opacity": 100,
+            "show_sale_label": false,
+            "sale_label_palette": "dark",
+            "sale_label_shape": "rounded",
+            "sale_label_position": "align-top\/align-start",
+            "sale_label_subheading": "Only today",
+            "sale_label_heading": "-50%",
+            "sale_label_information": "",
+            "text_position": "text-center",
+            "title": "Luxusuhren Ankauf",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Sie wollen Ihre gebrauchte Luxusuhr schnell, unkompliziert und zu einem guten Preis verkaufen? Kontaktieren Sie uns.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Ihre Uhr anbieten",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end"
+          }
+        },
+        "image_LXKP34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-buy.webp",
+            "overlay_opacity_img": 0,
+            "color_palette": "white",
+            "overlay_opacity": 100,
+            "show_sale_label": false,
+            "sale_label_palette": "dark",
+            "sale_label_shape": "rounded",
+            "sale_label_position": "align-top\/align-start",
+            "sale_label_subheading": "Only today",
+            "sale_label_heading": "-50%",
+            "sale_label_information": "Tell a detail about this promotion",
+            "text_position": "text-center",
+            "title": "Unsere Markenuhren Auswahl",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Luxusuhren kaufen leicht gemacht. In unserem Onlineshop können Sie Ihre Markenuhr günstig und bequem online bestellen.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Zum Shop",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end"
+          }
+        },
+        "image_k9fgiJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-search.webp",
+            "overlay_opacity_img": 0,
+            "color_palette": "white",
+            "overlay_opacity": 100,
+            "show_sale_label": false,
+            "sale_label_palette": "dark",
+            "sale_label_shape": "rounded",
+            "sale_label_position": "align-top\/align-start",
+            "sale_label_subheading": "Only today",
+            "sale_label_heading": "-50%",
+            "sale_label_information": "Tell a detail about this promotion",
+            "text_position": "text-center",
+            "title": "Watchfinder – Ihr Auftrag",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Sie suchen eine ganz bestimmte Uhr, etwas Besonderes, Exklusives? Wir machen uns auf die Suche für Sie um Ihre Traumuhr zu finden!<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Wir suchen für Sie",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end"
+          }
+        }
+      },
+      "block_order": [
+        "image_43Kxfn",
+        "image_LXKP34",
+        "image_k9fgiJ"
+      ],
+      "custom_css": [
+        "h2 {text-align: center; margin-bottom: 30px; font-weight: 100; font-family: \"Georgia Pro Light\", Georgia, serif; max-width: 1200; font-size: 25px; color: #202020; text-transform: none;}"
+      ],
+      "settings": {
+        "items_width": 3,
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "layout_mobile": "rows",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_icon_text_blocks_C83yUN": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -593,152 +742,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_promo_gallery_4tm6Rm": {
-      "type": "section-promo-gallery",
-      "blocks": {
-        "image_43Kxfn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-clock.webp",
-            "overlay_opacity_img": 0,
-            "color_palette": "white",
-            "overlay_opacity": 100,
-            "show_sale_label": false,
-            "sale_label_palette": "dark",
-            "sale_label_shape": "rounded",
-            "sale_label_position": "align-top\/align-start",
-            "sale_label_subheading": "Only today",
-            "sale_label_heading": "-50%",
-            "sale_label_information": "",
-            "text_position": "text-center",
-            "title": "Luxusuhren Ankauf",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "<p>Sie wollen Ihre gebrauchte Luxusuhr schnell, unkompliziert und zu einem guten Preis verkaufen? Kontaktieren Sie uns.<\/p>",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Ihre Uhr anbieten",
-            "link_url": "\/",
-            "button_color_palette": "black",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end"
-          }
-        },
-        "image_LXKP34": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-buy.webp",
-            "overlay_opacity_img": 0,
-            "color_palette": "white",
-            "overlay_opacity": 100,
-            "show_sale_label": false,
-            "sale_label_palette": "dark",
-            "sale_label_shape": "rounded",
-            "sale_label_position": "align-top\/align-start",
-            "sale_label_subheading": "Only today",
-            "sale_label_heading": "-50%",
-            "sale_label_information": "Tell a detail about this promotion",
-            "text_position": "text-center",
-            "title": "Unsere Markenuhren Auswahl",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "<p>Luxusuhren kaufen leicht gemacht. In unserem Onlineshop können Sie Ihre Markenuhr günstig und bequem online bestellen.<\/p>",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Zum Shop",
-            "link_url": "\/",
-            "button_color_palette": "black",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end"
-          }
-        },
-        "image_k9fgiJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-search.webp",
-            "overlay_opacity_img": 0,
-            "color_palette": "white",
-            "overlay_opacity": 100,
-            "show_sale_label": false,
-            "sale_label_palette": "dark",
-            "sale_label_shape": "rounded",
-            "sale_label_position": "align-top\/align-start",
-            "sale_label_subheading": "Only today",
-            "sale_label_heading": "-50%",
-            "sale_label_information": "Tell a detail about this promotion",
-            "text_position": "text-center",
-            "title": "Watchfinder – Ihr Auftrag",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "<p>Sie suchen eine ganz bestimmte Uhr, etwas Besonderes, Exklusives? Wir machen uns auf die Suche für Sie um Ihre Traumuhr zu finden!<\/p>",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Wir suchen für Sie",
-            "link_url": "\/",
-            "button_color_palette": "black",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end"
-          }
-        }
-      },
-      "block_order": [
-        "image_43Kxfn",
-        "image_LXKP34",
-        "image_k9fgiJ"
-      ],
-      "settings": {
-        "items_width": 3,
-        "width": "boxed",
-        "space_between": 16,
-        "image_zoom": true,
-        "layout_mobile": "rows",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
@@ -752,7 +755,7 @@
     "dca4067f-cc37-4e13-b5fa-6bcec984f3c2",
     "b0948af1-0fb9-4b44-9183-42c54e10a3ae",
     "section_collection_list_aJpN3j",
-    "section_icon_text_blocks_C83yUN",
-    "section_promo_gallery_4tm6Rm"
+    "section_promo_gallery_4tm6Rm",
+    "section_icon_text_blocks_C83yUN"
   ]
 }
