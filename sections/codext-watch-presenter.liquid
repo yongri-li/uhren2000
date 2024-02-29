@@ -115,7 +115,31 @@ endcapture
     #shopify-section-{{ section.id }} .image-link h3 { margin-top: 15px; }
 </style>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.querySelector('.slider');
+    if (!slider) return;
 
+    let currentIndex = 0;
+    const slides = slider.querySelectorAll('li.image-item');
+    const totalSlides = slides.length;
+
+    if (totalSlides <= 1) return;
+
+    function moveToNextSlide() {
+      slides[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % totalSlides;
+      slides[currentIndex].classList.add('active');
+    }
+
+    // Initialize first slide as active
+    slides[currentIndex].classList.add('active');
+
+    // Setting interval to move to the next slide every 3 seconds
+    setInterval(moveToNextSlide, 3000);
+  });
+</script>
+              
 {% schema %}
 {
   "name": "Codext Watch Presenter",
