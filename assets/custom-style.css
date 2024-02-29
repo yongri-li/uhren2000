@@ -184,6 +184,11 @@
   }
 }
 @media screen and (max-width: 760px) {
+  .main-blog-list
+  {
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
   .main-blog-list > li
   {
     width:calc(50% - 20px) !important;
@@ -212,11 +217,6 @@
 }
 @media screen and (max-width : 500px)
 {
-  .main-blog-list
-  {
-    padding-left:20px;
-    padding-right:20px;
-  }
   .main-blog-list > li
   {
     width:100% !important;
