@@ -72,7 +72,7 @@ header.cols > h2
 }
 .l4ne
 {
-  align-items:stretch;
+  align-items:stretch !important;
   justify-content:space-between !important;
   --dist:0px !important;
 }
