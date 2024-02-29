@@ -66,17 +66,17 @@
 
 /* Blog */
 
-header.cols > h2
+article header.cols > h2
 {
   text-align:center;
 }
-.l4ne
+article .l4ne
 {
   align-items:stretch !important;
   justify-content:space-between !important;
   --dist:0px !important;
 }
-.l4ne > li
+article .l4ne > li
 {
   text-align: center;
   flex-direction: column;
@@ -92,29 +92,29 @@ header.cols > h2
   margin-bottom:20px !important;
   margin-top:20px !important;
 }
-.l4ne>li:hover
+article  .l4ne>li:hover
 {
   box-shadow: 0 0 50px rgba(0,0,0,0.1) !important;
 }
-.l4ne > li > figure
+article .l4ne > li > figure
 {
   margin-bottom:1.875rem;
 }
-.l4ne > li > h3
+article .l4ne > li > h3
 {
   margin-bottom:1.625rem;
   padding-bottom:1.625rem;
   border-bottom:1px solid #c1a57e;
 }
-.l4ne > li > h3 > .small
+article  .l4ne > li > h3 > .small
 {
   margin-bottom:1rem;
 }
-.mobile-hide
+article .mobile-hide
 {
   margin-bottom:1.25rem !important;
 }
-.button-palette-accent
+article .button-palette-accent
 {
   min-height: 52px;
   height: 52px;
@@ -137,15 +137,15 @@ header.cols > h2
   color: #c1a57e !important;
   box-sizing: content-box;
 }
-.l4ne>li:hover .button-palette-accent
+article  .l4ne>li:hover .button-palette-accent
 {
   box-shadow:none !important;
 }
-.button-palette-accent:hover
+article .button-palette-accent:hover
 {
   border-color:black;
 }
-.button-palette-accent > .no-before
+article .button-palette-accent > .no-before
 {
   margin:0px;
   color:#c1a57e !important;
@@ -153,17 +153,17 @@ header.cols > h2
   font-size: 1.25rem;
   letter-spacing:0px;
 }
-.button-palette-accent:hover .no-before
+article .button-palette-accent:hover .no-before
 {
   color: black !important;
 }
-.button-palette-accent > .no-before:before
+article .button-palette-accent > .no-before:before
 {
   content:none;
 }
 
 @media screen and (max-width: 768px) {
-  .button-palette-accent
+  article .button-palette-accent
   {
     max-width: 100%;
     box-sizing: border-box;
@@ -172,7 +172,7 @@ header.cols > h2
     margin-top:auto;
     width: 100%;
   }
-  .button-palette-accent > .no-before
+  article .button-palette-accent > .no-before
   {
     padding: 0px;
     display: flex;
@@ -180,7 +180,7 @@ header.cols > h2
   }
 }
 @media screen and (max-width: 760px) {
-  .button-palette-accent
+  article .button-palette-accent
   {
     max-width: 100%;
     box-sizing: border-box;
@@ -190,7 +190,7 @@ header.cols > h2
     padding-left:20px;
     padding-right:20px;
   }
-  .button-palette-accent > .no-before
+  article .button-palette-accent > .no-before
   {
     padding: 0px;
     display: flex;
