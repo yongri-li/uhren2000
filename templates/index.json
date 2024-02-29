@@ -281,7 +281,7 @@
         "{background-color: #f5f5f5; padding: 30px; border-radius: 20px;}"
       ],
       "settings": {
-        "items_width": 4,
+        "items_width": 6,
         "text_alignment": "start",
         "title": "",
         "title_font": "primary",
