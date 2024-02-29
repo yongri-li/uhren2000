@@ -7,6 +7,64 @@
         "height_mobile": -10
       }
     },
+    "top_banner_jQRJiV": {
+      "type": "top-banner",
+      "blocks": {
+        "list_item_FnLDD9": {
+          "type": "list_item",
+          "settings": {
+            "text": "Vollversicherter Wertversand mit persönlicher Übergabe"
+          }
+        },
+        "list_item_PG9kKB": {
+          "type": "list_item",
+          "settings": {
+            "text": "bsicherung durch Trusted Shops bis 20TEUR möglich!"
+          }
+        },
+        "list_item_DMbzwD": {
+          "type": "list_item",
+          "settings": {
+            "text": "Trusted Checkout Service: Zahlen über Treuhandkonto"
+          }
+        },
+        "list_item_pnFxFz": {
+          "type": "list_item",
+          "settings": {
+            "text": "Zahlreiche sehr gute Bewertungen"
+          }
+        },
+        "list_item_ATmJiM": {
+          "type": "list_item",
+          "settings": {
+            "text": "Wir sind als Trusted Seller von Chrono24 ausgezeichnet"
+          }
+        },
+        "list_item_Dgig9k": {
+          "type": "list_item",
+          "settings": {
+            "text": "Deutscher Händlerbund zertifizierter Online-Shop"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_FnLDD9",
+        "list_item_PG9kKB",
+        "list_item_DMbzwD",
+        "list_item_pnFxFz",
+        "list_item_ATmJiM",
+        "list_item_Dgig9k"
+      ],
+      "settings": {
+        "pretitle": "Uhren2000.de - Ihr Onlineshop für Luxusuhren",
+        "title": "Ihre Sicherheit liegt uns am Herzen",
+        "subtitle": "Seit über 20 Jahren sind wir Ihr Ansprechpartner im Bereich Luxusuhren. Bei uns im Shop finden Sie eine Auswahl verschiedener Modelle.",
+        "btn_text1": "Angebote ansehen",
+        "btn_url1": "",
+        "btn_text2": "Ihre Uhr verkaufen",
+        "btn_url2": ""
+      }
+    },
     "bab7c0b3-407d-4ba6-885e-097aa67a5d53": {
       "type": "section-slideshow",
       "blocks": {
@@ -1329,6 +1387,7 @@
   },
   "order": [
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
+    "top_banner_jQRJiV",
     "bab7c0b3-407d-4ba6-885e-097aa67a5d53",
     "c4a12502-c8bd-4bc2-84b3-0ef24119548b",
     "2e0fe7a4-7414-4133-a580-09494c441b97",

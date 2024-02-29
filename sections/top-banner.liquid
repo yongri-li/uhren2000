@@ -1,0 +1,105 @@
+<div class="relative -mt-5 -mx-4 md:mt-0 md:mx-0 md:p-5 lg:p-10 lg:px-20">
+  <div class="absolute inset-0 bg-cover blur-xl" style="background-image: url('https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg');"></div>
+  <div class="relative grid overflow-hidden md:rounded-xl bg-[#2c2d36] text-white lg:grid-cols-2">
+    <div>
+      <img src="https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg" class="h-full w-full object-cover" />
+    </div>
+    <div class="px-5 py-10 text-center lg:px-10">
+      <div class="lg:text-md mb-5 font-serif text-sm">{{ section.settings.pretitle }}</div>
+      <div class="mb-5 font-serif text-3xl leading-tight lg:text-5xl">{{ section.settings.title }}</div>
+      <p class="mb-10 text-sm font-normal">{{ section.settings.subtitle }}</p>
+      <div class="flex flex-col items-center justify-center gap-5 lg:flex-row">
+        <a href="{{ section.settings.btn_url1 }}">
+          <button class="whitespace-nowrap rounded-full bg-[#c1a57e] px-4 py-2">{{ section.settings.btn_text1 }}</button>
+        </a>
+        <a href="{{ section.settings.btn_url2 }}">
+          <button class="whitespace-nowrap rounded-full border border-[#c1a57e] px-4 py-2">{{ section.settings.btn_text2 }}</button>
+        </a>
+      </div>
+
+      <div class="space-between mt-10 grid items-start gap-5 text-left text-sm sm:grid-cols-2">
+        {% for block in section.blocks %}
+          <div class="flex items-center gap-2">
+            <span
+              ><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.87012 15L13.8701 22L30.8701 1" stroke="#C1A57E" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M26.7216 16C27.1305 18.6253 26.7253 21.3129 25.5605 23.7009C24.3956 26.0888 22.5271 28.0626 20.2064 29.3564C17.8858 30.6502 15.2244 31.202 12.5807 30.9374C9.93696 30.6728 7.43776 29.6045 5.41958 27.8764C3.4014 26.1483 1.96113 23.8433 1.29268 21.2719C0.624239 18.7004 0.759709 15.9858 1.68086 13.4936C2.602 11.0015 4.2646 8.85138 6.44481 7.3328C8.62502 5.81423 11.2182 5.0001 13.8751 5.00001C15.5913 4.99776 17.2909 5.33649 18.8751 5.99651" stroke="#ffffff" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+            <div>{{ block.settings.text }}</div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Top Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "pretitle",
+      "label": "Pretitle",
+      "default": "Uhren2000.de - Ihr Onlineshop für Luxusuhren"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Ihre Sicherheit liegt uns am Herzen"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Seit über 20 Jahren sind wir Ihr Ansprechpartner im Bereich Luxusuhren. Bei uns im Shop finden Sie eine Auswahl verschiedener Modelle."
+    },
+    {
+      "type": "text",
+      "id": "btn_text1",
+      "label": "Button Text 1",
+      "default": "Angebote ansehen"
+    },
+    {
+      "type": "url",
+      "id": "btn_url1",
+      "label": "Button Url 1"
+    },
+    {
+      "type": "text",
+      "id": "btn_text2",
+      "label": "Button Text 2",
+      "default": "Ihre Uhr verkaufen"
+    },
+    {
+      "type": "url",
+      "id": "btn_url2",
+      "label": "Button Url 2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "list_item",
+      "name": "List Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Top Banner"
+    }
+  ]
+}
+{% endschema %}
