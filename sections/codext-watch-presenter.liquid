@@ -123,8 +123,9 @@ endcapture
       if ($slider.length > 0) {
         setInterval(function(){
           const $firstItem = $slider.find('li:first');
-          $slider.append($firstItem.clone());
-          $firstItem.remove();
+          $slider.animate({marginLeft: -{{ img_width }} + '%'}, 500, function() {
+            $slider.append($firstItem.css('margin-left', '0px'));
+          });
         }, 3000); // Rotiert alle 3 Sekunden
       }
     }
