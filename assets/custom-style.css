@@ -171,10 +171,10 @@
   {
     max-width: 100%;
     box-sizing: border-box;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
     margin-top:auto;
-    /* width: 100%; */
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .main-blog-list .button-palette-accent > .no-before
   {
