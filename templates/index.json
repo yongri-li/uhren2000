@@ -71,6 +71,7 @@
         "image_block_8cmRMB": {
           "type": "image_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/rolex.jpg",
             "heading": "Bildüberschrift",
             "link": ""
           }
@@ -78,6 +79,7 @@
         "image_block_rwaNFH": {
           "type": "image_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Breitling.jpg",
             "heading": "Bildüberschrift",
             "link": ""
           }
@@ -85,6 +87,7 @@
         "image_block_ib6GXM": {
           "type": "image_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Omega.jpg",
             "heading": "Bildüberschrift",
             "link": ""
           }
@@ -92,6 +95,7 @@
         "image_block_4hjY9Y": {
           "type": "image_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IWC.jpg",
             "heading": "Bildüberschrift",
             "link": ""
           }
@@ -99,6 +103,7 @@
         "image_block_Dbb9bk": {
           "type": "image_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Panerai.jpg",
             "heading": "Bildüberschrift",
             "link": ""
           }
@@ -106,6 +111,39 @@
         "image_block_KzRJMN": {
           "type": "image_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Hublot.jpg",
+            "heading": "Bildüberschrift",
+            "link": ""
+          }
+        },
+        "image_block_JGbUQW": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tudor.jpg",
+            "heading": "Bildüberschrift",
+            "link": ""
+          }
+        },
+        "image_block_86jGBC": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tag_Heuer.jpg",
+            "heading": "Bildüberschrift",
+            "link": ""
+          }
+        },
+        "image_block_RrtBqN": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Audemars_Piguet.jpg",
+            "heading": "Bildüberschrift",
+            "link": ""
+          }
+        },
+        "image_block_QTLqQQ": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Patek.jpg",
             "heading": "Bildüberschrift",
             "link": ""
           }
@@ -117,7 +155,11 @@
         "image_block_ib6GXM",
         "image_block_4hjY9Y",
         "image_block_Dbb9bk",
-        "image_block_KzRJMN"
+        "image_block_KzRJMN",
+        "image_block_JGbUQW",
+        "image_block_86jGBC",
+        "image_block_RrtBqN",
+        "image_block_QTLqQQ"
       ],
       "custom_css": [
         "{background-color: #fff; margin-top: 80px;}",
