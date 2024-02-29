@@ -161,7 +161,7 @@ header.cols > h2
   content:none;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .button-palette-accent
   {
     max-width: 100%;
@@ -192,4 +192,4 @@ header.cols > h2
     display: flex;
     align-items: center;
   }
-} */
+}
