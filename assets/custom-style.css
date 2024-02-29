@@ -186,6 +186,8 @@ header.cols > h2
     margin-left: auto !important;
     margin-right: auto !important;
     width: max-content;
+    padding-left:20px;
+    padding-right:20px;
   }
   .button-palette-accent > .no-before
   {
