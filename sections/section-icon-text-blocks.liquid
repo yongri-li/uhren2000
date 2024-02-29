@@ -10,6 +10,10 @@
       assign width_class = 'w33'
     when 4
       assign width_class = 'w25'
+    when 5
+      assign width_class = 'w20'
+    when 6
+      assign width_class = 'w16'
   endcase
 
   if section.settings.link_text != empty and section.settings.link_url != blank
@@ -156,7 +160,7 @@
       "id": "items_width",
       "label": "t:sections.icon_text_blocks.settings.items_width.label",
       "min": 1,
-      "max": 4,
+      "max": 6,
       "step": 1,
       "default": 4
     },
