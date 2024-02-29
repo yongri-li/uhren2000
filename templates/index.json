@@ -119,7 +119,7 @@
         "image_block_JGbUQW": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tudor.jpg",
+            "image": "shopify:\/\/shop_images\/Tudor.webp",
             "heading": "Tudor",
             "link": "shopify:\/\/collections\/tudor"
           }
