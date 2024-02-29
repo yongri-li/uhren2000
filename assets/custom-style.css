@@ -167,6 +167,7 @@ header.cols > h2
     box-sizing: border-box;
     margin-left: 0px !important;
     margin-right: 0px !important;
+    margin-top:auto;
     width: 100%;
   }
   .button-palette-accent > .no-before
