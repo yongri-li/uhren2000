@@ -175,6 +175,54 @@
         "image_size": 200
       }
     },
+    "a15be9bf-f7a0-42b0-821b-ea897949fe0e": {
+      "type": "section-featured-products",
+      "settings": {
+        "products": [
+          "a-lange-sohne-lange-1-101-039",
+          "audemars-piguet-ap-royal-oak-15400or-oo-1220or-02-rosegold",
+          "audemars-piguet-ap-royal-oak-15400or-oo-d002cr-01-rosegold",
+          "audemars-piguet-ap-royal-oak-15400st-oo-1220st-01",
+          "audemars-piguet-ap-royal-oak-15400st-oo-1220st-02",
+          "audemars-piguet-royal-oak-26320st-oo-1220st-01-chronograph-41"
+        ],
+        "layout": "slider",
+        "number_of_items": 4,
+        "text_alignment": "center",
+        "title": "Aktuelle Uhren Angebote",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "",
+        "link_url": "\/",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "mobile_layout": "slider",
+        "spacing_desktop": 70,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_WjPNQJ": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "c4a12502-c8bd-4bc2-84b3-0ef24119548b": {
       "type": "section-rich-text",
       "blocks": {
@@ -237,294 +285,6 @@
         "height_mobile": "m",
         "spacing_desktop": -30,
         "spacing_mobile": -10,
-        "fix_zindex": 0
-      }
-    },
-    "2e0fe7a4-7414-4133-a580-09494c441b97": {
-      "type": "section-social-stories",
-      "blocks": {
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-0": {
-          "type": "image",
-          "settings": {
-            "text": "Share details about this image or video",
-            "link_url": "",
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "accent",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
-          }
-        },
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-1": {
-          "type": "image",
-          "settings": {
-            "text": "Share details about this image or video",
-            "link_url": "",
-            "show_look": true,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "dark",
-            "look_position": "end",
-            "show_look_label": true,
-            "look_label_text": "Shop the look"
-          }
-        },
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-2": {
-          "type": "image",
-          "settings": {
-            "text": "Share details about this image or video",
-            "link_url": "",
-            "show_look": true,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "dark",
-            "look_position": "end",
-            "show_look_label": true,
-            "look_label_text": "Shop the look"
-          }
-        },
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-3": {
-          "type": "image",
-          "settings": {
-            "text": "Share details about this image or video",
-            "link_url": "",
-            "show_look": true,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "accent",
-            "look_position": "end",
-            "show_look_label": true,
-            "look_label_text": "Shop the look"
-          }
-        },
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-4": {
-          "type": "image",
-          "settings": {
-            "text": "Share details about this image or video",
-            "link_url": "",
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "accent",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
-          }
-        }
-      },
-      "block_order": [
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-0",
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-1",
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-2",
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-3",
-        "template--19270238208312__2e0fe7a4-7414-4133-a580-09494c441b97-168544449245b64d88-4"
-      ],
-      "settings": {
-        "custom_image_ratio": 100,
-        "show_in_circle": false,
-        "number_of_items": 5,
-        "space_between": 16,
-        "text_alignment": "start",
-        "title": "",
-        "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "enable_custom_font_styling": false,
-        "font_size": "16px",
-        "link_text": "",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "title_position": "start",
-        "social_title_size": "13px",
-        "spacing_desktop": 70,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "31c22d2e-0688-4408-9b67-0113da271a8f": {
-      "type": "section-banner-columns",
-      "blocks": {
-        "9b432ecd-a8c7-4fa6-8610-7e0393230b4a": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "text_position": "text-center",
-            "title": "Image banner",
-            "title_font": "primary",
-            "title_size": "h1",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "white",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": true,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "dark",
-            "look_position": "end",
-            "show_look_label": true,
-            "look_label_text": "Shop the look"
-          }
-        },
-        "630a4ba9-b9a5-4027-a8d1-d26d04ae4bfb": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "text_position": "text-center",
-            "title": "Image banner",
-            "title_font": "primary",
-            "title_size": "h1",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "white",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": true,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "dark",
-            "look_position": "end",
-            "show_look_label": true,
-            "look_label_text": "Shop the look"
-          }
-        },
-        "e7a02553-e21b-458b-aac1-d8a698d733f8": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "color_palette": "black",
-            "text_position": "text-center",
-            "title": "Image banner",
-            "title_font": "primary",
-            "title_size": "h1",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "light",
-            "title_weight": "800",
-            "subtitle": "",
-            "subtitle_font": "primary",
-            "subtitle_size": "h1",
-            "enable_custom_subtext_styling": true,
-            "subtitle_color_palette": "dark_gradient",
-            "subtitle_weight": "600",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "accent",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
-          }
-        }
-      },
-      "block_order": [
-        "9b432ecd-a8c7-4fa6-8610-7e0393230b4a",
-        "630a4ba9-b9a5-4027-a8d1-d26d04ae4bfb",
-        "e7a02553-e21b-458b-aac1-d8a698d733f8"
-      ],
-      "settings": {
-        "items_width": 3,
-        "width": "boxed",
-        "height": "size-l",
-        "enable_custom_height": true,
-        "custom_height": 620,
-        "space_between": 0,
-        "image_zoom": false,
-        "image_move": false,
-        "show_content_below": false,
-        "layout_mobile": "compact",
-        "mobile_height": "size-m",
-        "spacing_desktop": 50,
-        "spacing_mobile": 20,
-        "fix_zindex": 0
-      }
-    },
-    "a15be9bf-f7a0-42b0-821b-ea897949fe0e": {
-      "type": "section-featured-products",
-      "settings": {
-        "products": [
-          "a-lange-sohne-lange-1-101-039",
-          "audemars-piguet-ap-royal-oak-15400or-oo-1220or-02-rosegold",
-          "audemars-piguet-ap-royal-oak-15400or-oo-d002cr-01-rosegold",
-          "audemars-piguet-ap-royal-oak-15400st-oo-1220st-01",
-          "audemars-piguet-ap-royal-oak-15400st-oo-1220st-02",
-          "audemars-piguet-royal-oak-26320st-oo-1220st-01-chronograph-41"
-        ],
-        "layout": "slider",
-        "number_of_items": 4,
-        "text_alignment": "center",
-        "title": "Featured products",
-        "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "enable_custom_font_styling": false,
-        "font_size": "16px",
-        "link_text": "",
-        "link_url": "\/",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "mobile_layout": "slider",
-        "spacing_desktop": 70,
-        "spacing_mobile": 30,
         "fix_zindex": 0
       }
     },
@@ -1442,10 +1202,9 @@
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
     "top_banner_jQRJiV",
     "codext_watch_presenter_7jLHCC",
-    "c4a12502-c8bd-4bc2-84b3-0ef24119548b",
-    "2e0fe7a4-7414-4133-a580-09494c441b97",
-    "31c22d2e-0688-4408-9b67-0113da271a8f",
     "a15be9bf-f7a0-42b0-821b-ea897949fe0e",
+    "section_custom_liquid_WjPNQJ",
+    "c4a12502-c8bd-4bc2-84b3-0ef24119548b",
     "376f598a-afc1-4c5b-91ea-a2b038935074",
     "8d51c58b-f2e0-48bd-b8e9-2ce44b8e8e4e",
     "33e9cfe5-156b-49e0-9271-726044ca5889",
