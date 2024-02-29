@@ -72,8 +72,8 @@
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/rolex.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Rolex",
+            "link": "shopify:\/\/collections\/rolex"
           }
         },
         "image_block_rwaNFH": {
