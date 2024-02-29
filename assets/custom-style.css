@@ -163,6 +163,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main-blog-list > li
+  {
+    width:calc(50% - 20px) !important;
+  }
   .main-blog-list .button-palette-accent
   {
     max-width: 100%;
