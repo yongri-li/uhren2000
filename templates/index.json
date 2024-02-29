@@ -79,7 +79,7 @@
         "image_block_rwaNFH": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Breitling.jpg",
+            "image": "shopify:\/\/shop_images\/breitling.webp",
             "heading": "Breitling",
             "link": "shopify:\/\/collections\/breitling"
           }
