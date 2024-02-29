@@ -88,7 +88,7 @@ header.cols > h2
   border-radius: 23px !important;
   transition: all .25s ease-in-out;
   width:calc(33% - 20px);
-  margin:0px;
+  margin:0px !important;
 }
 .l4ne>li:hover
 {
