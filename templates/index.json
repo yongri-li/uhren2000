@@ -278,7 +278,7 @@
         "text_canPc6"
       ],
       "custom_css": [
-        "{background-color: #f5f5f5; padding: 30px; border-radius: 20px;}"
+
       ],
       "settings": {
         "items_width": 6,
@@ -1205,6 +1205,15 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_liquid_6E7kid": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"features-container\">\n  {% for i in (1..6) %}\n    <div class=\"feature-item\">\n      <svg class=\"feature-icon\" viewBox=\"0 0 24 24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n        <!-- Beispiel SVG; Ersetzen Sie dies durch Ihr spezifisches SVG -->\n        <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z\"\/>\n      <\/svg>\n      <span>Stichpunkt {{ i }}: Beispieltext<\/span>\n    <\/div>\n  {% endfor %}\n<\/div>\n\n.features-container {\n  display: flex;\n  flex-wrap: wrap;\n  background-color: #f7f7f7;\n  border-radius: 36px;\n  padding: 20px;\n  gap: 10px; \/* Abstand zwischen den Elementen *\/\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  gap: 10px; \/* Abstand zwischen Icon und Text *\/\n}\n\n.feature-icon {\n  width: 24px;\n  height: 24px;\n  fill: currentColor; \/* Farbe des Icons *\/\n}\n\n\/* Media Queries für Responsivität *\/\n\/* Bildschirme kleiner als 768px (Tablets) *\/\n@media (max-width: 768px) {\n  .features-container {\n    flex-direction: row;\n    flex-wrap: wrap;\n  }\n  .feature-item {\n    flex-basis: calc(33.333% - 20px); \/* Drei Elemente pro Zeile, 20px für Padding *\/\n  }\n}\n\n\/* Bildschirme kleiner als 480px (Mobilgeräte) *\/\n@media (max-width: 480px) {\n  .features-container {\n    flex-direction: column;\n  }\n  .feature-item {\n    flex-basis: 100%; \/* Ein Element pro Zeile *\/\n  }\n}",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -1223,6 +1232,7 @@
     "494041aa-66c0-450a-acb0-f3bc90d6b837",
     "dca4067f-cc37-4e13-b5fa-6bcec984f3c2",
     "b0948af1-0fb9-4b44-9183-42c54e10a3ae",
-    "section_collection_list_aJpN3j"
+    "section_collection_list_aJpN3j",
+    "section_custom_liquid_6E7kid"
   ]
 }
