@@ -95,6 +95,7 @@
 .main-blog-list>li:hover
 {
   box-shadow: 0 0 50px rgba(0,0,0,0.1) !important;
+  background-color:white !important;
 }
 .main-blog-list > li > figure
 {
