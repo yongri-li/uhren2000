@@ -120,32 +120,32 @@
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Tudor.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Tudor",
+            "link": "shopify:\/\/collections\/tudor"
           }
         },
         "image_block_86jGBC": {
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Tag_Heuer.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "TAG Heuer",
+            "link": "shopify:\/\/collections\/tag-heuer"
           }
         },
         "image_block_RrtBqN": {
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Audemars_Piguet.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Audemars Piguet",
+            "link": "shopify:\/\/collections\/audemars-piguet"
           }
         },
         "image_block_QTLqQQ": {
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Patek.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Patek Philippe",
+            "link": "shopify:\/\/collections\/patek-philippe"
           }
         }
       },
