@@ -119,6 +119,9 @@
         "image_block_Dbb9bk",
         "image_block_KzRJMN"
       ],
+      "custom_css": [
+        "{background-color: #fff; margin-top: 80px;}"
+      ],
       "settings": {
         "layout": "slider",
         "number_of_items": 5,
