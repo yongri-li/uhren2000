@@ -159,36 +159,3 @@ header.cols > h2
 {
   content:none;
 }
-
-/* @media screen and (max-width: 768px) {
-  .button-palette-accent
-  {
-    max-width: 100%;
-    box-sizing: border-box;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    margin-top:auto;
-    width: 100%;
-  }
-  .button-palette-accent > .no-before
-  {
-    padding: 0px;
-    display: flex;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 760px) {
-  .button-palette-accent
-  {
-    max-width: 100%;
-    box-sizing: border-box;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  .button-palette-accent > .no-before
-  {
-    padding: 0px;
-    display: flex;
-    align-items: center;
-  }
-} */
