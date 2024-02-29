@@ -135,7 +135,7 @@
         "image_block_RrtBqN": {
           "type": "image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Audemars_Piguet.jpg",
+            "image": "shopify:\/\/shop_images\/Audemars.webp",
             "heading": "Audemars Piguet",
             "link": "shopify:\/\/collections\/audemars-piguet"
           }
