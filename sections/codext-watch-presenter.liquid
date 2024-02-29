@@ -117,15 +117,14 @@ endcapture
               
 {% if slider %}
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
+  jQuery(document).ready(function($){
     function rotateItems() {
-      const slider = document.querySelector('.js-slider');
-      if (slider) {
+      const $slider = $('.js-slider');
+      if ($slider.length > 0) {
         setInterval(function(){
-          const firstItem = slider.querySelector('li:first-child');
-          const clone = firstItem.cloneNode(true);
-          slider.appendChild(clone);
-          firstItem.parentNode.removeChild(firstItem);
+          const $firstItem = $slider.find('li:first');
+          $slider.append($firstItem.clone());
+          $firstItem.remove();
         }, 3000); // Rotiert alle 3 Sekunden
       }
     }
