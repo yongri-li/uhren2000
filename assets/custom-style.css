@@ -159,3 +159,14 @@ header.cols > h2
 {
   content:none;
 }
+
+@media screen and (max-width: 768px) {
+  .button-palette-accent
+  {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100%;
+  }
+}
