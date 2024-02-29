@@ -122,15 +122,26 @@ endcapture
       const slider = document.querySelector('.js-slider');
       if (slider) {
         const imgWidth = {{ img_width }};
+        const numItems = slider.children.length;
+        let currentIndex = 0;
         setInterval(function(){
-          const firstItem = slider.querySelector('li:first-child');
-          const currentMarginLeft = parseInt(window.getComputedStyle(slider).marginLeft, 10) || 0;
-          slider.style.marginLeft = (currentMarginLeft - imgWidth) + '%';
-          slider.appendChild(firstItem.cloneNode(true));
-          slider.removeChild(firstItem);
+          currentIndex = (currentIndex + 1) % numItems;
+          const currentMarginLeft = -currentIndex * imgWidth;
           slider.style.transition = 'margin-left 0.5s ease';
+          slider.style.marginLeft = currentMarginLeft + '%';
           setTimeout(function() {
             slider.style.transition = 'none';
+            if (currentIndex === numItems - 1) {
+              // Hide blocks when sliding beyond the last visible block
+              for (let i = 0; i < numItems - 1; i++) {
+                slider.children[i].style.opacity = '0';
+              }
+            } else {
+              // Show all blocks when not sliding beyond the last visible block
+              for (let i = 0; i < numItems; i++) {
+                slider.children[i].style.opacity = '1';
+              }
+            }
           }, 500); // Reset transition after animation completes
         }, 3000); // Rotates every 3 seconds
       }
