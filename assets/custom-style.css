@@ -87,6 +87,8 @@ header.cols > h2
   background: #f7f7f7 !important;
   border-radius: 23px !important;
   transition: all .25s ease-in-out;
+  width:calc(33% - 20px);
+  margin:0px;
 }
 .l4ne>li:hover
 {
@@ -132,8 +134,6 @@ header.cols > h2
   border: 1px solid #c1a57e;
   color: #c1a57e !important;
   box-sizing: content-box;
-  width:calc(33% - 20px);
-  margin:0px;
 }
 .l4ne>li:hover .button-palette-accent
 {
