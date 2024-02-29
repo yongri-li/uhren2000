@@ -80,24 +80,24 @@
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Breitling.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Breitling",
+            "link": "shopify:\/\/collections\/breitling"
           }
         },
         "image_block_ib6GXM": {
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Omega.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Omega",
+            "link": "shopify:\/\/collections\/omega"
           }
         },
         "image_block_4hjY9Y": {
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/IWC.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "IWC",
+            "link": "shopify:\/\/collections\/iwc"
           }
         },
         "image_block_Dbb9bk": {
