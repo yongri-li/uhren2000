@@ -169,4 +169,10 @@ header.cols > h2
     margin-right: 0px !important;
     width: 100%;
   }
+  .button-palette-accent > .no-before
+  {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
 }
