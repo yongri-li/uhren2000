@@ -1,5 +1,5 @@
 /* Header */
-/* .before-image
+.before-image
 {
   padding-left:34px !important;
 }
@@ -62,7 +62,7 @@
   height:100%;
 }
 
- */
+
 
 /* Blog */
 
@@ -70,7 +70,7 @@
 {
   text-align:center;
 } */
-/* .main-blog-list
+.main-blog-list
 {
   align-items:stretch !important;
   justify-content:space-between !important;
@@ -222,4 +222,4 @@
   {
     width:100% !important;
   }
-} */
+}
