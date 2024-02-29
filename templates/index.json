@@ -104,16 +104,16 @@
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Panerai.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Panerai",
+            "link": "shopify:\/\/collections\/panerai"
           }
         },
         "image_block_KzRJMN": {
           "type": "image_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Hublot.jpg",
-            "heading": "Bildüberschrift",
-            "link": ""
+            "heading": "Hublot",
+            "link": "shopify:\/\/collections\/hublot"
           }
         },
         "image_block_JGbUQW": {
