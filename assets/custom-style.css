@@ -223,3 +223,32 @@
     width:100% !important;
   }
 }
+
+.feature-item
+{
+  width:15.96%;
+}
+@media screen and (max-width: 1259px) {
+  .feature-item
+  {
+    width:32%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .feature-item
+  {
+    width:48%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .feature-item
+  {
+    flex-basis:unset !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  .feature-item
+  {
+    width:100%;
+  }
+}
