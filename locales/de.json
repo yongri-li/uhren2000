@@ -346,7 +346,7 @@
     "subtitle_html": "Abonnieren Sie unsere E-Mails",
     "form": {
       "email_placeholder": "E-Mail",
-      "submit_button": "Abonnieren Sie",
+      "submit_button": "Jetzt anmelden",
       "success": "Sie sind jetzt angemeldet, danke!"
     }
   },
@@ -355,7 +355,7 @@
     "text": "Erhalten Sie die neuesten Rabatte in Ihrem Posteingang",
     "form": {
       "email_placeholder": "E-Mail",
-      "submit_button": "Abonnieren Sie",
+      "submit_button": "Jetzt anmelden",
       "success": "Sie sind jetzt angemeldet, danke!"
     }
   },
@@ -366,7 +366,7 @@
     "newsletter_form": {
       "title": "Melden Sie sich an und seien Sie der Erste, der Informationen über diesen Webshop erhält!",
       "email": "E-Mail",
-      "button_text": "Abonnieren Sie",
+      "button_text": "Jetzt anmelden",
       "success_message": "Vielen Dank für Ihre Anmeldung!"
     },
     "password_form": {
