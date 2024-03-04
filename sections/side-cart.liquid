@@ -198,7 +198,6 @@
     </p>
   </form>
   {%- if settings.show_trustbadge -%}
-    {%- render 'trustbadge' -%}
     <div class="flex items-center justify-center w-full">
     <div class="footer__payment-icons h-stack wrap gap-2 justify-around">
         {% assign enabled_payment_types = 'visa,master,paypal,klarna,sofort' | remove: ' ' | split: ',' %}
@@ -207,6 +206,7 @@
         {% endfor %}
     </div>
 </div>
+        {%- render 'trustbadge' -%}
   {%- endif -%}
   <ul class="l4pm text-center">
     {%- for payment_method in shop.enabled_payment_types -%}
