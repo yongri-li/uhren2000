@@ -536,7 +536,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".submit.m10 {display: block; margin: 0 auto; width: fit-content;}"
+      ".submit.m10 {display: block; margin: 0 auto; width: fit-content;}",
+      ".overlay-valid {color: #59a72a !important;}"
     ]
   }
 }
