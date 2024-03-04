@@ -53,7 +53,7 @@
             {{ line_item.final_line_price | money }}
           </p>
         </div>
-        <p>SKU: {{ line_item.variant.sku }}</p>
+        <p>REF. NR.: {{ line_item.variant.sku }}</p>
         {%- if line_item.unit_price_measurement or line_item.options_with_values or line_item.selling_plan_allocation or line_item.properties -%}
           <ul>
             {% if line_item.unit_price_measurement %}
