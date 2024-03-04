@@ -206,7 +206,7 @@
         ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 35px; text-transform: none; text-align: center;}",
         ".f8pr-stock.m0 {text-align: center; margin-top: -10px;}",
         ".overlay-valid {color: #59a72a !important;}",
-        ".mobile-hide {display: none;}"
+        ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}"
       ],
       "settings": {
         "media_layout": "slider",
@@ -223,14 +223,14 @@
         "enable_custom_font_size": true,
         "font_size": "14px",
         "show_product_description": true,
-        "description_title_size": "h5",
+        "description_title_size": "h3",
         "product_description_enable_read_more": true,
         "pros_cons_title_size": "h3",
         "pros": "",
         "cons": "",
         "specs_title_size": "h3",
         "specifications": "",
-        "product_description_mobile_collapse": true,
+        "product_description_mobile_collapse": false,
         "mobile_tabs_title_size": "h5",
         "multiply_bg_mobile": true
       }
