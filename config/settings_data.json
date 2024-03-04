@@ -15,7 +15,7 @@
     "text_color": "dark",
     "body_background_color": "#FFFFFF",
     "positive_vibes": "#64cd82",
-    "negative_vibes": "#e93d3d",
+    "negative_vibes": "#000000",
     "regular_button_color": "#c6ae8e",
     "regular_button_text_color": "#ffffff",
     "buy_button_color": "#59a72a",
