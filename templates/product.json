@@ -223,7 +223,7 @@
         "enable_custom_font_size": true,
         "font_size": "14px",
         "show_product_description": true,
-        "description_title_size": "h3",
+        "description_title_size": "h5",
         "product_description_enable_read_more": true,
         "pros_cons_title_size": "h3",
         "pros": "",
