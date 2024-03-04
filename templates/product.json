@@ -421,6 +421,15 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_liquid_zTTbR6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -431,6 +440,7 @@
     "recommendations",
     "reviews",
     "section_custom_liquid_kReYBz",
-    "recently-viewed"
+    "recently-viewed",
+    "section_custom_liquid_zTTbR6"
   ]
 }
