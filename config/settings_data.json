@@ -542,7 +542,7 @@
       ".submit.m10 {display: block; margin: 0 auto; width: fit-content;}",
       ".overlay-valid {color: #59a72a !important;}",
       ".tabs-header.toggle {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 18px !important;}",
-      ".tabs-header {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 18px !important;}",
+      ".tabs-header:not(.toggle){text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 18px !important;}",
       ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 35px; text-transform: none; text-align: center;}"
     ]
   }
