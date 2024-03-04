@@ -535,7 +535,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".submit.m10 {display: block; margin: 0 auto; \/* Zentrieren des Buttons horizontal *\/ width: fit-content; \/* Den Button so breit wie den Inhalt machen *\/}"
+      ".submit.m10 {display: block; margin: 0 auto; width: fit-content;}"
     ]
   }
 }
