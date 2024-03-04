@@ -301,7 +301,7 @@
             "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  <tr>\n    <td>Durchmesser Gehäuse<\/td>\n    <td>44 mm<\/td>\n  <\/tr>\n  <tr>\n    <td>Glas<\/td>\n    <td>Saphirglas<\/td>\n  <\/tr>\n  <tr>\n    <td>Zahlen Zifferblatt<\/td>\n    <td>Keine Ziffern<\/td>\n  <\/tr>\n<\/table>",
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  {% if product.metafields.custom.durchmesser != blank %}\n  <tr>\n    <td>Durchmesser Gehäuse<\/td>\n    <td>{{ product.metafields.custom.durchmesser }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.glas != blank %}\n  <tr>\n    <td>Glas<\/td>\n    <td>{{ product.metafields.custom.glas }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.zahlen-zifferblatt != blank %}\n  <tr>\n    <td>Zahlen Zifferblatt<\/td>\n    <td>{{ product.metafields.custom.zahlen-zifferblatt }}<\/td>\n  <\/tr>\n  {% endif %}\n<\/table>",
             "html": "",
             "show_contact_form": false
           }
@@ -318,7 +318,7 @@
             "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  <tr>\n    <td>Funktionen<\/td>\n    <td>Chronograph, Datum<\/td>\n  <\/tr>\n  <tr>\n    <td>Sonstiges<\/td>\n    <td>Kleine Sekunde, Leuchtindizes, Leuchtzeiger, PVD\/DLC Beschichtung, Sichtboden, Verschraubte Krone<\/td>\n  <\/tr>\n<\/table>",
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  {% for i in (1..8) %}\n    {% assign funktionen_metafield = 'funktionen_' | append: i | append: 'nd' %}\n    {% if product.metafields.custom[funktionen_metafield] != blank %}\n      <tr>\n        <td>Funktionen<\/td>\n        <td>{{ product.metafields.custom[funktionen_metafield] }}<\/td>\n      <\/tr>\n    {% endif %}\n  {% endfor %}\n  {% for i in (1..9) %}\n    {% assign sonstiges_metafield = 'sonstiges_' | append: i | append: 'nd' %}\n    {% if product.metafields.custom[sonstiges_metafield] != blank %}\n      <tr>\n        <td>Sonstiges<\/td>\n        <td>{{ product.metafields.custom[sonstiges_metafield] }}<\/td>\n      <\/tr>\n    {% endif %}\n  {% endfor %}\n<\/table>",
             "html": "",
             "show_contact_form": false
           }
