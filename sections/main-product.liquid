@@ -969,12 +969,17 @@
                       </span>
                             {%- endif -%}
 {%- if preorder -%}
-    <button type="submit" class="preorder-button{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ settings.preorder_button_text }}</button>
+    <button type="submit" class="preorder-button{% if block.settings.button_style == 'inv' %} inv{% endif %}">
+        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle;"> {{ settings.preorder_button_text }}
+    </button>
 {%- elsif current_variant.available -%}
-    <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon">
-    <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ 'product.form.add_to_cart' | t }}</button>
+    <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
+        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle;"> {{ 'product.form.add_to_cart' | t }}
+    </button>
 {%- else -%}
-    <button type="submit" class="disabled overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ 'product.form.not_in_stock' | t }}</button>
+    <button type="submit" class="disabled overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
+        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle;"> {{ 'product.form.not_in_stock' | t }}
+    </button>
 {%- endif -%}
                         </p>
                         {%- if show_dynamic_buybutton -%}
