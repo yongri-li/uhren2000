@@ -541,7 +541,7 @@
     "custom_css": [
       ".submit.m10 {display: block; margin: 0 auto; width: fit-content;}",
       ".overlay-valid {color: #59a72a !important;}",
-      "a.tabs-header {text-transform: none;}"
+      ".tabs-header.toggle {text-transform: none;}"
     ]
   }
 }
