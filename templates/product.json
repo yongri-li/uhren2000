@@ -206,7 +206,8 @@
         ".f8pr-stock.m0 {text-align: center; margin-top: -10px;}",
         ".overlay-valid {color: #59a72a !important;}",
         ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}",
-        "h3 {font-weight: 100;}"
+        "h3 {font-weight: 100;}",
+        ".overlay-error {display: none;}"
       ],
       "settings": {
         "media_layout": "slider",
