@@ -949,54 +949,52 @@
                             endif
                         endif
                     -%}
-{%- form 'product', product, id: form_id, class: form_class, autocomplete: "off" -%}
-    {%- if gift_card_recipient_feature_active -%}
-        {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
-    {%- endif -%}
-    <p class="submit m10 {% unless current_variant.available %}unavailable{% endunless %}" {{ block.shopify_attributes }}>
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M24.6652 13.125H26.25C26.3744 13.125 26.4936 13.1744 26.5815 13.2623C26.6694 13.3502 26.7188 13.4694 26.7188 13.5938V16.4062C26.7188 16.5306 26.6694 16.6498 26.5815 16.7377C26.4936 16.8256 26.3744 16.875 26.25 16.875H24.6652M7.40723 8.73516L9.84379 0.9375H20.1563L22.5929 8.73469L7.40723 8.73516ZM7.41707 21.277L9.84379 29.0428H20.1563L22.583 21.277H7.41707Z" stroke="#FFFFFF" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
-            <path d="M15 24.8438C20.4366 24.8438 24.8438 20.4366 24.8438 15C24.8438 9.56345 20.4366 5.15625 15 5.15625C9.56345 5.15625 5.15625 9.56345 5.15625 15C5.15625 20.4366 9.56345 24.8438 15 24.8438Z" fill="#5FB02E" stroke="#FFFFFF" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M11.25 12.6562L15.0173 15.9717L20.1562 10.7812" stroke="#FFFFFF" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
-        </svg>
-        &nbsp;{% comment %} Leerzeichen für Abstand {% endcomment %}
-        {% if show_dynamic_buybutton %}{{ form | payment_button }}{% endif %}
-        {% if show_amount_selection %}
-            <span class="input-amount">
-                <label for="quantity" class="hidden">{{ 'product.form.quantity' | t }}</label>
-                <input type="number" id="quantity" name="quantity" data-link="#product_qty_sticky" value="{{ current_variant.quantity_rule.min }}"
-                       min="{{ current_variant.quantity_rule.min }}"
-                       {% if current_variant.inventory_management == 'shopify' and current_variant.inventory_policy == 'deny' -%}
-                           max="{{ current_variant.inventory_quantity }}"
-                       {% elsif current_variant.quantity_rule.max %}
-                           max="{{ current_variant.quantity_rule.max }}"
-                       {% endif %}
-                       {% if current_variant.quantity_rule.increment %}step="{{ current_variant.quantity_rule.increment }}"{% endif %}
-                       required>
-            </span>
-        {% endif %}
-        {% if preorder %}
-            <button type="submit" class="preorder-button{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ settings.preorder_button_text }}</button>
-        {% elsif current_variant.available %}
-            <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ 'product.form.add_to_cart' | t }}</button>
-        {% else %}
-            <button type="submit" class="disabled overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ 'product.form.not_in_stock' | t }}</button>
-        {% endif %}
-    </p>
-    <ul class="f8pr-preorder l4al inline{% unless preorder and preorder_label %} m0{% endunless %}">
-        {% if preorder and preorder_label %}
-            <li class="{% if preorder_label_color_palette == 'regular_button' %}overlay-secondary
-                {% elsif preorder_label_color_palette == 'buy_button' %}overlay-tertiary
-                {% elsif preorder_label_color_palette == 'dynamic_buy_button' %}overlay-quaternary
-                {% else %}palette-{{ preorder_label_color_palette }}{% endif %}
-                text-center
-            ">
-                <i aria-hidden="true" class="icon-check"></i>&nbsp;{{ preorder_label }}</span>
-            </li>
-            <input class="hidden" id="{{ input_label | handleize }}" type="text" name="properties[{{ input_label }}]" value="{{ preorder_label | strip_html }}">
-        {% endif %}
-    </ul>
-{%- endform -%}
+                    {%- form 'product', product, id: form_id, class: form_class, autocomplete: "off" -%}
+                        {%- if gift_card_recipient_feature_active -%}
+                            {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
+                        {%- endif -%}
+                        <p class="submit m10 {% unless current_variant.available %}unavailable{% endunless %}" {{ block.shopify_attributes }}>
+                            {%- if block.settings.show_amount_selection -%}
+                                <span class="input-amount">
+                        <label for="quantity" class="hidden">{{ 'product.form.quantity' | t }}</label>
+                        <input type="number" id="quantity" name="quantity" data-link="#product_qty_sticky" value="{{ current_variant.quantity_rule.min }}"
+                               min="{{ current_variant.quantity_rule.min }}"
+                               {% if current_variant.inventory_management == 'shopify' and current_variant.inventory_policy == 'deny' -%}
+                                   max="{{ current_variant.inventory_quantity }}"
+                               {% elsif current_variant.quantity_rule.max %}
+                                   max="{{ current_variant.quantity_rule.max }}"
+                               {% endif %}
+                               {% if current_variant.quantity_rule.increment %}step="{{ current_variant.quantity_rule.increment }}"{% endif %}
+                               required>
+                      </span>
+                            {%- endif -%}
+                            {%- if preorder -%}
+                                <button type="submit" class="preorder-button{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ settings.preorder_button_text }}</button>
+                            {%- elsif current_variant.available -%}
+                                <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ 'product.form.add_to_cart' | t }}</button>
+                            {%- else -%}
+                                <button type="submit" class="disabled overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">{{ 'product.form.not_in_stock' | t }}</button>
+                            {%- endif -%}
+                        </p>
+                        {%- if show_dynamic_buybutton -%}
+                            <div class="overlay-quaternary {{ block.settings.button_style_dynamic_buybutton }}-btn">
+                                {{ form | payment_button }}
+                            </div>
+                        {%- endif -%}
+                        <ul class="f8pr-preorder l4al inline{% unless preorder and preorder_label %} m0{% endunless %}">
+                            {%- if preorder and preorder_label -%}
+                                <li class="{% if preorder_label_color_palette == 'regular_button' %}overlay-secondary
+                                    {% elsif preorder_label_color_palette == 'buy_button' %}overlay-tertiary
+                                    {% elsif preorder_label_color_palette == 'dynamic_buy_button' %}overlay-quaternary
+                                    {% else %}palette-{{ preorder_label_color_palette }}{% endif %}
+                                    text-center
+                                ">
+                                    <i aria-hidden="true" class="icon-check"></i>&nbsp;{{ preorder_label }}</span>
+                                </li>
+                                <input class="hidden" id="{{ input_label | handleize }}" type="text" name="properties[{{ input_label }}]" value="{{ preorder_label | strip_html }}">
+                            {%- endif -%}
+                        </ul>
+                {%- endform -%}
                 {%- when 'usp' -%}
                     <ul class="l4ch" {{ block.shopify_attributes }}>
                         {%- if block.settings.usp != empty -%}<li>{{ block.settings.usp | remove: '<p>' | remove: '</p>' }}</li>{%- endif -%}
