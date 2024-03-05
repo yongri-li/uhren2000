@@ -1,0 +1,33 @@
+<div class='footer-product-brand-container'>
+  <div class='footer-brand-image'>
+    <img src={{section.settings.first_brand|img_url:"467x" }} />
+  </div>
+  <div class='footer-brand-image'>
+    <img src={{ section.settings.second_brand|img_url:"400x" }} />
+  </div>
+  <div class='footer-brand-image'>
+    <img src={{ section.settings.third_brand|img_url:"418x" }} />
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Footer Product Brand",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"first_brand",
+        "label":"First Brand Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"second_brand",
+        "label":"Second Brand Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"third_brand",
+        "label":"Third Brand Image"
+      }
+    ]
+  }
+{% endschema %}
