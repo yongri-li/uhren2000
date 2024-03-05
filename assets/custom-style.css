@@ -327,6 +327,6 @@
   }
 }
 
-.shopify-section-group-footer-group {
+#content .shopify-section-group-footer-group {
   z-index: 1 !important;
 }
