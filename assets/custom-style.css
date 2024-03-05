@@ -326,3 +326,7 @@
     padding:0px 5px;
   }
 }
+
+.shopify-section-group-footer-group {
+  z-index: 1;
+}
