@@ -2,6 +2,14 @@
   "type": "footer",
   "name": "t:static_sections.footer.name",
   "sections": {
+    "footer-brand-container": {
+      "type": "footer-product-brand",
+      "settings": {
+        "first_brand": "shopify:\/\/shop_images\/memberships.webp",
+        "second_brand": "shopify:\/\/shop_images\/chrono.svg",
+        "third_brand": "shopify:\/\/shop_images\/certificates_28d05969-db85-48c1-bcbb-a6aaa71d4800.png"
+      }
+    },
     "c7b2fa9c-da19-428b-aec3-a9c706756f5a": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -252,6 +260,7 @@
     }
   },
   "order": [
+    "footer-brand-container",
     "c7b2fa9c-da19-428b-aec3-a9c706756f5a",
     "1023a433-3232-4476-b264-6cc700708879",
     "footer"
