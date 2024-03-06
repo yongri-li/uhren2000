@@ -178,6 +178,7 @@
     },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
         "spacing_desktop": 50,
