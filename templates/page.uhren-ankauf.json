@@ -36,60 +36,107 @@
         "spacing_mobile": 30
       }
     },
-    "section_collage_6mxfcU": {
-      "type": "section-collage",
+    "section_icon_text_blocks_6DghLE": {
+      "type": "section-icon-text-blocks",
       "blocks": {
-        "image_Pi8HrF": {
-          "type": "image",
+        "text_zGhzXj": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "text_position": "text-center",
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/ankauf-steps_01.webp",
+            "image_height": 125,
             "title": "",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
             "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
+            "text": "<p><strong>Ankaufsformular ausfüllen<\/strong><\/p><p>Für eine schnelle und seriöse Bewertung senden Sie uns bitte die Daten Ihrer Armbanduhr.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
+            "show_link": false
+          }
+        },
+        "text_fTNwAx": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/ankauf-steps_02.webp",
+            "image_height": 120,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><strong>Preisermittlung<\/strong><\/p><p>Unkompliziert und fair ermitteln wir sofort den Marktwert Ihres Zeitmessers.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_idKNzt": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/ankauf-steps_03.webp",
+            "image_height": 120,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><strong>Sicherheitstransport zu uns<\/strong><\/p><p>Ihre Markenuhr wird für Sie kostenlos und sicher bei Ihnen Abgeholt.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_M8VXxG": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/ankauf-steps_04.webp",
+            "image_height": 120,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><strong>Geld erhalten<\/strong><\/p><p>Sofort nach Prüfung Ihrer Uhr, wird der Geldbetrag innerhalb 24h bei Ihnen gutgeschrieben.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
           }
         }
       },
       "block_order": [
-        "image_Pi8HrF"
+        "text_zGhzXj",
+        "text_fTNwAx",
+        "text_idKNzt",
+        "text_M8VXxG"
       ],
       "settings": {
-        "mirrored": false,
-        "width": "boxed",
-        "height": "size-s",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Multicolumn",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -215,7 +262,7 @@
   "order": [
     "breadcrumbs",
     "main-page",
-    "section_collage_6mxfcU",
+    "section_icon_text_blocks_6DghLE",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
