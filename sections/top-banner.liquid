@@ -1,8 +1,8 @@
 <div class="relative -mt-5 -mx-4 md:mt-0 md:mx-0 md:p-5 lg:p-10 lg:px-20">
-  <div class="absolute inset-0 bg-cover blur-xl" style="background-image: url('https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg');"></div>
+  <div class="absolute inset-0 bg-cover blur-xl" style="background-image: url('{{ section.settings.background_image | default: "https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg" }}');"></div>
   <div class="relative grid overflow-hidden md:rounded-xl bg-[#2c2d36] text-white lg:grid-cols-2">
     <div>
-      <img src="https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg" class="h-full w-full object-cover" />
+      <img src="{{ section.settings.image | default: "https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg" }}" class="h-full w-full object-cover" />
     </div>
     <div class="px-5 py-10 text-center lg:px-10">
       <div class="lg:text-md mb-5 font-serif text-sm">{{ section.settings.pretitle }}</div>
@@ -40,24 +40,29 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "Image"
+      "label": "Bild"
+    },
+    {
+      "type": "text",
+      "id": "background_image",
+      "label": "Hintergrundbild URL"
     },
     {
       "type": "text",
       "id": "pretitle",
-      "label": "Pretitle",
+      "label": "Vortitel",
       "default": "Uhren2000.de - Ihr Onlineshop für Luxusuhren"
     },
     {
       "type": "text",
       "id": "title",
-      "label": "Title",
+      "label": "Titel",
       "default": "Ihre Sicherheit liegt uns am Herzen"
     },
     {
       "type": "text",
       "id": "subtitle",
-      "label": "Subtitle",
+      "label": "Untertitel",
       "default": "Seit über 20 Jahren sind wir Ihr Ansprechpartner im Bereich Luxusuhren. Bei uns im Shop finden Sie eine Auswahl verschiedener Modelle."
     },
     {
@@ -69,7 +74,7 @@
     {
       "type": "url",
       "id": "btn_url1",
-      "label": "Button Url 1"
+      "label": "Button URL 1"
     },
     {
       "type": "text",
@@ -80,13 +85,13 @@
     {
       "type": "url",
       "id": "btn_url2",
-      "label": "Button Url 2"
+      "label": "Button URL 2"
     }
   ],
   "blocks": [
     {
       "type": "list_item",
-      "name": "List Item",
+      "name": "Listenpunkt",
       "settings": [
         {
           "type": "text",
