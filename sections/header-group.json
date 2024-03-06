@@ -147,7 +147,7 @@
         "menubar_menu": "main-menu",
         "menubar_height": "45px",
         "menu_layout": "dropdown",
-        "show_dropdown_images": false,
+        "show_dropdown_images": true,
         "show_dropdown_images_autofill": true,
         "menubar_alignment": "left",
         "menubar_border": false,
