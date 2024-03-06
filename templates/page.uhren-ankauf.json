@@ -239,6 +239,9 @@
       "block_order": [
         "formful_app_block_form_dqFLae"
       ],
+      "custom_css": [
+        "p {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020; text-align: center; margin-top: 50px;}"
+      ],
       "settings": {
       }
     },
