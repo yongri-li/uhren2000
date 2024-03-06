@@ -114,6 +114,16 @@
   }
 </style>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var contentBlock = document.querySelector('.content');
+    if (contentBlock.innerHTML.trim() === '') {
+      var richtextSection = document.querySelector('.m6fr');
+      richtextSection.style.display = 'none';
+    }
+  });
+</script>
+                
 {% schema %}
 {
   "name": "t:sections.rich_text.name",
