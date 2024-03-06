@@ -305,9 +305,9 @@
               {%- endcase -%}
             {%- endfor -%}
             <p class="link-btn submit desktop-hide"><a href="./" aria-controls="filter"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'collection.filters.show_products' | t: count: amount_of_products }} <span>({{ amount_of_products }})</span></a></p>
-          {%- endif -%}
-      </fieldset>
-    </form>
+        </fieldset>
+    {% endif %}
+</form>
   {%- endif %}
 
 {%- elsif display == 'sorting' -%}
