@@ -1,1 +1,30 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"hide_mobile":false}},"main-list-collection":{"type":"main-list-collection","settings":{"fill_images":true,"pagination_qty":12,"number_of_items":4}}},"order":["breadcrumbs","main-list-collection"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": true,
+        "enable_share_button": false
+      }
+    },
+    "main-list-collection": {
+      "type": "main-list-collection",
+      "settings": {
+        "title_size": "h2",
+        "custom_image_ratio": 100,
+        "fill_images": true,
+        "pagination_qty": 12,
+        "number_of_items": 4
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-list-collection"
+  ]
+}
