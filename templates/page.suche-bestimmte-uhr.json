@@ -178,6 +178,7 @@
     },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
         "spacing_desktop": 50,
@@ -291,7 +292,7 @@
         "checkbox_GrPtkq"
       ],
       "custom_css": [
-        "{background-color: #fff; padding: 20px; border-radius: 36px;}",
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; padding-top: 50px; margin-bottom: 20px; padding-bottom: 20px;}",
         "button {color: #fff; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 200;}"
       ],
       "settings": {
