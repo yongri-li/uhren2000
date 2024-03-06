@@ -4,6 +4,9 @@
   "sections": {
     "footer-brand-container": {
       "type": "footer-product-brand",
+      "custom_css": [
+        "@media only screen and (max-width: 768px) {.footer-product-brand-container {padding-bottom: 25px; }}"
+      ],
       "settings": {
         "first_brand": "shopify:\/\/shop_images\/memberships.webp",
         "second_brand": "shopify:\/\/shop_images\/chrono.svg",
