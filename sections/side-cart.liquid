@@ -152,7 +152,7 @@
       {%- endif -%}
     </ul>
   {%- endif -%}
-  <form class="sticky-in-panel f8vl" action="{{ routes.cart_url }}" method="post" data-hold="0">
+<form class="sticky-in-panel f8vl" action="{{ routes.cart_url }}" method="post" data-hold="0">
     <ul class="l4tt m15">
       {%- if cart.cart_level_discount_applications.size > 0 -%}
         {%- for discount in cart.cart_level_discount_applications -%}
@@ -161,6 +161,10 @@
       {%- endif -%}
       <li class="strong"><span>{% if cart.taxes_included %}{{ 'cart.total_including_tax' | t }}{% else %}{{ 'cart.total_excluding_tax' | t }}{% endif %}</span>{{ cart.total_price | money }}</li>
     </ul>
+    <center style="margin-top: -25px; margin-bottom: 20px; font-size: 12px;">
+      <span style="color: #8f8f8f;">Preise inkl. MwSt.</span> 
+      <span style="color: #c6ae8e; text-decoration: underline;"><a href="https://www.google.de/" style="color: #c6ae8e;">zzgl. Versandkosten</a></span>
+    </center>
      <p class="link-btn wide m10">
       {%- if settings.cart_drawer_checkout_button -%}
         <input type="hidden" name="checkout" value="Checkout">
