@@ -87,7 +87,7 @@
           <p class="overlay-gray"><i aria-hidden="true" class="icon-label"></i> <span class="text-uppercase">{{ discount_allocation.discount_application.title }}&nbsp;(-{{ discount_allocation.amount | money }})</p>
         {%- endfor -%}
         <footer>
-          <p><a class="remove remove-from-cart-link" href="{{ line_item.url_to_remove }}" data-line="{{ forloop.index }}"><i aria-hidden="true" class="icon-trash"></i> <span class="mobile-hide">{{ 'cart.product.remove' | t }}</span></a></p>
+          <p><a class="remove remove-from-cart-link" href="{{ line_item.url_to_remove }}" data-line="{{ forloop.index }}"><i aria-hidden="true" class="cart-remove-icon"></i> <span class="mobile-hide">{{ 'cart.product.remove' | t }}</span></a></p>
         </footer>
       </section>
       {%- if settings.enable_cart_drawer_undo_remove -%}
