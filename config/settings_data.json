@@ -550,7 +550,7 @@
       ".m6pn.toggle section h2 {text-transform: none;}",
       ".m6pn header h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 25px !important;}",
       ".m6pn section h2 {text-transform: none;}",
-      ".remove.remove-from-cart-link {color: #f5f5f5;}"
+      ".remove.remove-from-cart-link {color: #f5f5f5 !important;}"
     ]
   }
 }
