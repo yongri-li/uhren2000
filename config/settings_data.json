@@ -83,7 +83,7 @@
     "enable_cart_drawer_upsell_complementary": false,
     "enable_cart_drawer_upsell_related": false,
     "enable_cart_drawer_upsell_variants": false,
-    "show_trustbadge": true,
+    "show_trustbadge": false,
     "trustbadge_image": "klarna",
     "trustbadge_custom_image": "shopify:\/\/shop_images\/chrono24.png",
     "trustbadge_custom_image_width": 65,
