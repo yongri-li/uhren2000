@@ -12,8 +12,10 @@
 -%}
 
 <header data-totalqty={{ cart.item_count }} data-totalprice={{ cart.total_price }}>
-  <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.svg?v=1709552925" alt="Uhr-Icon">
-  <h2>{{ 'cart.title' | t }}</h2>
+  <div class="cart-header">
+    <img class="cart-icon" src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.svg?v=1709552925" alt="Uhr-Icon">
+    <h2 class="cart-title">{{ 'cart.title' | t }}</h2>
+  </div>
 </header>
 {%- if cart.item_count == 0 -%}
   <p><span class="empty">{{ settings.empty_cart_text | remove: '</p>' | remove: '<p>' }}</span></p>
