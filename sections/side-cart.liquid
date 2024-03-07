@@ -86,9 +86,9 @@
         {%- for discount_allocation in line_item.line_level_discount_allocations -%}
           <p class="overlay-gray"><i aria-hidden="true" class="icon-label"></i> <span class="text-uppercase">{{ discount_allocation.discount_application.title }}&nbsp;(-{{ discount_allocation.amount | money }})</p>
         {%- endfor -%}
-<footer>
-    <p><a class="remove remove-from-cart-link" href="{{ line_item.url_to_remove }}" data-line="{{ forloop.index }}"><i aria-hidden="true" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PTAgMCAxMDI0IDEwMjQgIHZlY3Rvcj0iMCAwIDAgMTAyNCAxMDI0IiBmaWxsPSIjMDAwMDAwIi8+PGcgaWQ9IlNWR1JlcG9fYmNnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+PGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+PC9zdmc+IA==')"></i> <span class="mobile-hide">{{ 'cart.product.remove' | t }}</span></a></p>
-</footer>
+        <footer>
+          <p><a class="remove remove-from-cart-link" href="{{ line_item.url_to_remove }}" data-line="{{ forloop.index }}"><i aria-hidden="true" class="icon-trash"></i> <span class="mobile-hide">{{ 'cart.product.remove' | t }}</span></a></p>
+        </footer>
       </section>
       {%- if settings.enable_cart_drawer_undo_remove -%}
         <p class="removed">{{ 'cart.product.product_removed' | t: product_title: line_item.product.title }}&nbsp;
