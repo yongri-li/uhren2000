@@ -16,6 +16,19 @@
     assign sale_highlight_item = sale_highlight_item | strip | downcase
 -%}
 
+<ul>
+{%- for link in linklists[menu].links -%}
+    <li>
+        <a href="{{ link.url }}" accesskey="{{ forloop.index }}">
+            {%- if forloop.index == 4 -%}
+                {{ svg_icon | safe }}
+            {%- endif -%}
+            {{ link.title }}
+        </a>
+    </li>
+{%- endfor -%}
+</ul>
+
 {%- for link in linklists[menu].links -%}
     {%- liquid
         assign link_title_downcase = link.title | downcase
