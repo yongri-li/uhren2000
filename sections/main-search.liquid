@@ -166,46 +166,103 @@
             image_choice_2: section.settings.image_choice_2,
             layout: section.settings.filters_layout
           -%}
-       {%- when 'results' -%}
- {% paginate search.results by section.settings.pagination_qty %}
-  {%- liquid
-    assign products = search.results | where: 'object_type', 'product'
-    assign articles = search.results | where: 'object_type', 'article'
-    assign pages = search.results | where: 'object_type', 'page'
-    # Filtern der Produkte, um jene mit dem Tag 'Uhren-Archiv' auszuschließen
-    assign filtered_products = products | where_exp: "product", "product.tags contains 'Uhren-Archiv' == false"
-  -%}
-  {%- if section.settings.pagination_type == 'button' and paginate.previous %}
-    {% render 'pagination',
-            paginate: paginate,
-            pagination_type: section.settings.pagination_type,
-            prev_button: true
-    %}
-  {%- endif -%}
-  <div class="results">
-    {%- if filtered_products.size > 0 -%}
-      <ul id="collection" class="l4cl {{ width_class }}{% unless show_filters_and_menu %} mobile-wide{% endunless %} mobile-scroll" {{ block.shopify_attributes }}>
-        {%- for product in filtered_products -%}
-          {%- render 'product-item',
-            product: product,
-            sizes: image_sizes,
-            enable_image_choice: section.settings.enable_image_choice,
-            collection_img_view: collection_img_view,
-            img_view: section.settings.product_image,
-            no_lazyload: no_lazyload,
-            origin: 'search'
-          -%}
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
-    {# Die restlichen Teile des Codes für Artikel und Seiten bleiben unverändert #}
-  </div>
-  {% render 'pagination',
-    paginate: paginate,
-    pagination_type: section.settings.pagination_type,
-    show_amount: section.settings.show_amount_of_search_results
-  %}
-{% endpaginate %}
+        {%- when 'results' -%}
+            {% paginate search.results by section.settings.pagination_qty %}
+              {%- liquid
+                assign products = search.results | where: 'object_type', 'product'
+                assign articles = search.results | where: 'object_type', 'article'
+                assign pages = search.results | where: 'object_type', 'page'
+              -%}
+              {%- if section.settings.pagination_type == 'button' and paginate.previous %}
+                {% render 'pagination',
+                        paginate: paginate,
+                        pagination_type: section.settings.pagination_type,
+                        prev_button: true
+                %}
+              {%- endif -%}
+              <div class="results">
+                {%- if products.size > 0 -%}
+                  <ul id="collection" class="l4cl {{ width_class }}{% unless show_filters_and_menu %} mobile-wide{% endunless %} mobile-scroll" {{ block.shopify_attributes }}>
+                    {%- liquid
+                      if section.settings.fill_product_images
+                        assign largest_product_img = collection.products.first
+                      else
+                        if show_sidebar_menu and products_in_view > 3 and section.settings.custom_product_image_ratio < 100
+                          assign products_in_view = products_in_view | times: 2
+                        endif
+                        for product in collection.products limit: products_in_view
+                          if product.selected_or_first_available_variant.featured_image
+                            assign product_image = product.selected_or_first_available_variant.featured_image
+                          else
+                            assign product_image = product.featured_image
+                          endif
+                          if largest_img_width == nil or product_image.width > largest_img_width
+                            assign largest_img_width = product_image.width
+                            assign largest_product_img = product
+                          endif
+                        endfor
+                      endif
+                    -%}
+                    {%- for product in products -%}
+  {%- unless product.tags contains 'Uhren-Archiv' -%}
+    {%- liquid
+      capture placeholder_int
+        cycle 1, 2, 3, 4, 5, 6
+      endcapture
+      if forloop.first or largest_product_img == product
+        assign no_lazyload = true
+      elsif width_class contains 'w50-mobile' and forloop.index == 2
+        assign no_lazyload = true
+      else
+        assign no_lazyload = true
+      endif
+    -%}
+    {%- render 'product-item',
+      product: product,
+      placeholder_int: placeholder_int,
+      sizes: image_sizes,
+      enable_image_choice: section.settings.enable_image_choice,
+      collection_img_view: collection_img_view,
+      img_view: section.settings.product_image,
+      no_lazyload: no_lazyload,
+      origin: 'search'
+    -%}
+  {%- endunless -%}
+{%- endfor -%}
+                  </ul>
+                {%- endif -%}
+                {%- if pages.size > 0 -%}
+                  <hr>
+                  {%- for page in pages -%}
+                    <div>
+                      <header>
+                        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                      </header>
+                      {{ page.content | strip_html | truncatewords: 50 }}
+                      </br><a href="{{ page.url }}" class="strong">{{ 'general.read_more.read_more' | t }} <i aria-hidden="true" class="icon-chevron-right"></i></a>
+                    </div>
+                    {% unless forloop.last and articles.size == 0 %}
+                      <hr>
+                    {% endunless %}
+                  {%- endfor -%}
+                {%- endif -%}
+                {%- if articles.size > 0 -%}
+                  {%- if pages.size == 0 -%}<hr>{%- endif -%}
+                  <ul class="l4ne">
+                    {%- for article in articles -%}
+                      {%- render 'article-item',
+                        article: article, show_excerpt: section.settings.show_excerpt, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_link: section.settings.show_link_post, button_color_palette: section.settings.button_color_palette_post
+                      -%}
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              </div>
+              {% render 'pagination',
+                paginate: paginate,
+                pagination_type: section.settings.pagination_type,
+                show_amount: section.settings.show_amount_of_search_results
+              %}
+          {% endpaginate %}
       {%- endcase -%}
     {%- endfor -%}
   {%- if show_filters_and_menu -%}</div>{%- endif -%}
