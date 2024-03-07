@@ -16,19 +16,6 @@
     assign sale_highlight_item = sale_highlight_item | strip | downcase
 -%}
 
-<ul>
-{%- for link in linklists[menu].links -%}
-    <li>
-        <a href="{{ link.url }}" accesskey="{{ forloop.index }}">
-            {%- if forloop.index == 4 -%}
-                {{ svg_icon | safe }}
-            {%- endif -%}
-            {{ link.title }}
-        </a>
-    </li>
-{%- endfor -%}
-</ul>
-
 {%- for link in linklists[menu].links -%}
     {%- liquid
         assign link_title_downcase = link.title | downcase
@@ -47,6 +34,20 @@
             endif
         endfor
     -%}
+      {%- assign show_svg = false -%}
+    {%- if link.accesskey == '4' -%}
+        {%- assign show_svg = true -%}
+    {%- endif -%}
+
+    <li>
+        <a href="{{ link.url }}" accesskey="{{ link.accesskey }}">
+            {%- if show_svg -%}
+                {{ svg_icon | safe }}
+            {%- endif -%}
+            {{ link.title }}
+        </a>
+    </li>
+  
     {%- if layout == 'dropdown' and promo_collection == false and promo_banner == false -%}
         {%- assign link_title_downcase = link.title | downcase -%}
         <li class="{% if link.links != blank %}sub-static{% endif %}{% if link.active %} active{% endif %}{% if menubar_caps %} text-uppercase{% endif %} {% if main_menu_items_clickable == false and link.links != blank %} inactive{% endif %}{% if link.url == '#' and link.links != blank %} inactive{% endif %}" {% if link.active %}aria-current="page"{% endif %}>
