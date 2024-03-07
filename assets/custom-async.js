@@ -4215,7 +4215,7 @@ var getSearchResults = function (searchTerm) {
 // Ajax cart
 var ajaxCart = (function(module) {
 	var init, formOverride, addCartItem, handleCartPanel, updateCartPanel, updateCartPage, showCartPanel, updateItemQty, handleCartUpdates, removeItem, updateCartCount, handleErrorMessage; // Define the functions
-	var productFormContainer, sideCartContainer, cartPageTemplate, sticky, countElement, formData, formObject, line, quantity, count, config; // Define the data and elements
+	var productFormContainer, sideCartContainer, cartPageTemplate, sticky, countElement, priceElement, formData, formObject, line, quantity, count, config; // Define the data and elements
 
 	init = function () {
 		productFormContainer = document.querySelectorAll('form.f8pr:not(.cart-initialized), form.form-card:not(.initialized)');
@@ -4223,6 +4223,7 @@ var ajaxCart = (function(module) {
 		sticky = document.getElementById('sticky-add-to-cart');
 		sideCartContainer = document.getElementById('cart');
 		countElement = document.getElementById('cart-count');
+		priceElement = document.getElementById('cart-total-price');
 
 		if (productFormContainer.length) { formOverride();	} // when there is an product form, initialize the ajax cart for the entire form
 		if (cartPageContainer != null) { // when there is an cart form, initialize the ajax cart for the inputs in the form
@@ -4264,6 +4265,10 @@ var ajaxCart = (function(module) {
 		fetch(routes.cart_add_url, config)
 			.then((response) => response.json())
 			.then((response) => {
+
+                console.log(response);
+                console.log(response.line_price);
+                
 				form.classList.remove('processing');
 				if (sticky) { sticky.classList.remove('processing'); }
 				document.querySelectorAll('[data-error-key]').forEach(function (el) { el.classList.remove('is-invalid'); });
@@ -4304,7 +4309,8 @@ var ajaxCart = (function(module) {
 					}
 				} else {
 					var count = new DOMParser().parseFromString(response.sections["side-cart"], 'text/html').querySelector('#shopify-section-side-cart').querySelector('[data-totalqty]').dataset.totalqty;
-					updateCartCount(count);
+					var total_price = new DOMParser().parseFromString(response.sections["side-cart"], 'text/html').querySelector('#shopify-section-side-cart').querySelector('[data-totalprice]').dataset.totalprice;
+                    updateCartCount(count, total_price);
 					window.location.href = routes.cart_url;
 				}
 			})
@@ -4500,7 +4506,7 @@ var ajaxCart = (function(module) {
 		fetch(routes.cart_change_url, config)
 			.then((response) => response.json())
 			.then((response) => {
-				if (response.status) {
+              if (response.status) {
 					handleErrorMessage(response.description);
 					return;
 				}
@@ -4544,11 +4550,22 @@ var ajaxCart = (function(module) {
 			});
 	};
 
-	updateCartCount = function(count) {
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    }
+
+	updateCartCount = function(count, total_price) {
 		if (!count){
 			count = document.querySelector('[data-totalqty]').dataset.totalqty;
+            total_price = document.querySelector('[data-totalprice]').dataset.totalprice;
 		}
 		countElement.innerHTML = count;
+        
+
+       
+        
+
+		priceElement.innerHTML = `${ numberWithCommas(total_price / 100) },00 € *`;
 	}
 
 	module = {
