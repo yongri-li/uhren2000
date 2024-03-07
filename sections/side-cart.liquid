@@ -154,7 +154,6 @@
   {%- endif -%}
   <form class="sticky-in-panel f8vl" action="{{ routes.cart_url }}" method="post" data-hold="0">
     <ul class="l4tt m15">
-      <li><span>{{ 'cart.total_products' | t }} ({{ cart.item_count }})</span> {{ cart.items_subtotal_price | money }}</li>
       {%- if cart.cart_level_discount_applications.size > 0 -%}
         {%- for discount in cart.cart_level_discount_applications -%}
           <li class="overlay-gray"><span class="text-uppercase"><i aria-hidden="true" class="icon-label"></i> {{ discount.title }}</span> (-{{ discount.total_allocated_amount | money }})</li>
