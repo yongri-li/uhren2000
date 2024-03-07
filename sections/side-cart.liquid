@@ -11,7 +11,7 @@
   endif
 -%}
 
-<header data-totalqty={{ cart.item_count }}>
+<header data-totalqty={{ cart.item_count }} data-totalprice={{ cart.total_price }}>
   <h2>{{ 'cart.title' | t }}</h2>
 </header>
 {%- if cart.item_count == 0 -%}
