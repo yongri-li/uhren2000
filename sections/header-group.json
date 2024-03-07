@@ -118,6 +118,9 @@
         "389714c7-7aae-4332-b8fe-9bf28b57ab30",
         "menu_4j4Vd9"
       ],
+      "custom_css": [
+        ".category-img li:nth-child(4) {background-color: #f7f7f7; padding-left: 15px; padding-right: 15px;}"
+      ],
       "settings": {
         "layout": "layout_1",
         "width": 1500,
