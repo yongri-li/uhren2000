@@ -73,6 +73,7 @@
         },
         "variant_selection": {
           "type": "variant_selection",
+          "disabled": true,
           "settings": {
             "selection_type": "buttons",
             "options": true,
@@ -96,6 +97,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_tax": false,
             "font_size": 16
@@ -103,6 +105,7 @@
         },
         "content_meryVV": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "layout": "none",
             "collapse": false,
