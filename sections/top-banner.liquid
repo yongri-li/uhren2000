@@ -2,7 +2,7 @@
   <div class="absolute inset-0 bg-cover blur-xl" style="background-image: url('{{ section.settings.background_image | default: section.settings.image | default: "https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg" }}');"></div>
   <div class="relative grid overflow-hidden md:rounded-xl bg-[#2c2d36] text-white lg:grid-cols-2">
     <div>
-      <img src="{{ section.settings.image | img_url: 'master' }}" class="h-full w-full object-cover" alt="Banner Bild" />
+      <img src="{{ section.settings.image | default: "https://www.uhren2000.de/media/image/uhren2000-startseite-v1.jpg" }}" class="h-full w-full object-cover" alt="Banner Bild" />
     </div>
     <div class="px-5 py-10 text-center lg:px-10">
       <div class="lg:text-md mb-5 font-serif text-sm">{{ section.settings.pretitle }}</div>
