@@ -1,0 +1,467 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "spacer_tBNWW8": {
+          "type": "spacer",
+          "settings": {
+            "height": 40,
+            "height_mobile": 0
+          }
+        },
+        "90724a70-740a-4cc9-984c-764e1d76a5bd": {
+          "type": "codes",
+          "settings": {
+            "show_sku": true,
+            "show_barcode": false
+          }
+        },
+        "c7259cb9-7235-4028-b6df-3a68077fed80": {
+          "type": "title",
+          "settings": {
+            "layout": "title-right",
+            "title_size": "h2",
+            "show_product_rating": true,
+            "show_vendor_brand": false,
+            "show_vendor_name": false,
+            "share_whatsapp": false,
+            "share_facebook": false,
+            "share_twitter": false,
+            "share_pinterest": false,
+            "share_messenger": false,
+            "share_email": false,
+            "layout_mobile": "title-bottom",
+            "mobile_title_size": "h2"
+          }
+        },
+        "content_7LFryc": {
+          "type": "content",
+          "settings": {
+            "layout": "none",
+            "collapse": false,
+            "title_size": "h5",
+            "title": "",
+            "icon": "none",
+            "header_image_width": 25,
+            "text": "",
+            "page": "",
+            "image_width": 465,
+            "liquid": "<center style=\"margin-top: -10px; margin-bottom: 10px;\">\n  <span style=\"color: #000000; font-size: 12px;\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n<\/center>",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
+          "type": "spacer",
+          "settings": {
+            "height": 65,
+            "height_mobile": 20
+          }
+        },
+        "variant_selection": {
+          "type": "variant_selection",
+          "settings": {
+            "selection_type": "buttons",
+            "options": true,
+            "button_options": "Color",
+            "dropdown_options": "",
+            "show_variant_images": true,
+            "show_selected_variant_images": false,
+            "show_unavailable_variants": true,
+            "show_single_options": true,
+            "enable_selling_plans": true,
+            "size_name": "Size",
+            "sizechart_alignment": "left",
+            "sizechart_title_size": "h3",
+            "sizechart_title": "Size chart",
+            "sizechart_text": "",
+            "sizechart_page": "",
+            "sizechart_image_width": 460,
+            "sizechart_liquid": "",
+            "sizechart_html": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax": false,
+            "font_size": 16
+          }
+        },
+        "content_meryVV": {
+          "type": "content",
+          "settings": {
+            "layout": "none",
+            "collapse": false,
+            "title_size": "h5",
+            "title": "",
+            "icon": "none",
+            "header_image_width": 25,
+            "text": "",
+            "page": "",
+            "image_width": 465,
+            "liquid": "<center style=\"margin-top: -25px; margin-bottom: 20px; font-size: 12px;\">\n  <span style=\"color: #8f8f8f;\">Preise inkl. MwSt.<\/span> \n  <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.de\/\" style=\"color: #c6ae8e;\">zzgl. Versandkosten<\/a><\/span>\n<\/center>",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "buy_button": {
+          "type": "buy_button",
+          "settings": {
+            "button_style": "plain",
+            "show_amount_selection": false,
+            "show_dynamic_buybutton": false,
+            "button_style_dynamic_buybutton": "inv",
+            "preorder_label": "",
+            "preorder_label_color_palette": "black",
+            "preorder_show_dynamic_buybutton": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
+          "type": "trustbadge",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "ee5e9f1c-a80a-4244-950f-03806a509775": {
+          "type": "shipping_timer",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "80e67d89-9369-4ddb-8111-2aa1c36fb500": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p>Tell a unique detail about this product<\/p>"
+          }
+        },
+        "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p>Tell a unique detail about this product<\/p>"
+          }
+        },
+        "c300d32f-398c-41a9-b22b-d5c9f40ed345": {
+          "type": "spacer",
+          "settings": {
+            "height": 20,
+            "height_mobile": 20
+          }
+        },
+        "custom_liquid_jhBc39": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<head>\n  <style>\n    .a {\n      text-decoration: none;\n      font-size: 18px;\n    }\n\n.text-xl {\n  font-size: 18px; \n}\n    .p-3.md\\:p-10 {\n        background-color: #f5f5f5; padding: 10px; border-radius: 36px; padding-bottom: 30px; padding-top: 30px; margin-bottom: 50px;\n    }\n  <\/style>\n<\/head>\n\n<body>\n  <div class=\"p-3 md:p-10\">\n    <div class=\"flex flex-col justify-between gap-2 rounded-xl bg-[#f5f5f5] px-4 py-6 shadow-sm lg:flex-row lg:items-center\">\n      <div class=\"grid w-full items-center justify-between gap-5 px-5 text-center font-serif md:flex\">\n        <span class=\"text-center text-xl\">Sie haben Fragen zu dieser Uhr?<\/span>\n        <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit a\" href=\"#\" rel=\"nofollow noopener\">\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <path d=\"M11.3578 0.760879C9.49698 0.852619 7.68869 1.40864 6.09778 2.37825C4.50686 3.34786 3.18392 4.70023 2.24954 6.31209C1.31517 7.92396 0.799067 9.74404 0.748288 11.6065C0.69751 13.4689 1.11367 15.3144 1.95883 16.9748L0.774202 22.725C0.759461 22.7965 0.762966 22.8705 0.784395 22.9402C0.805823 23.01 0.844483 23.0732 0.896805 23.1241C0.949126 23.175 1.01342 23.2118 1.08375 23.2313C1.15408 23.2507 1.22818 23.2521 1.2992 23.2354L6.9347 21.9C8.46189 22.6595 10.1428 23.0588 11.8484 23.0674C13.5541 23.0759 15.2389 22.6933 16.7736 21.9491C18.3083 21.2049 19.652 20.1188 20.7015 18.7743C21.7509 17.4298 22.4783 15.8626 22.8276 14.1931C23.1769 12.5236 23.1389 10.7963 22.7165 9.14382C22.2942 7.49132 21.4986 5.95763 20.391 4.66055C19.2835 3.36347 17.8933 2.33751 16.3274 1.66149C14.7615 0.985476 13.0614 0.677382 11.3578 0.760879V0.760879Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n            <path d=\"M17.3191 14.3269L15.1572 13.7063C15.0177 13.6663 14.8699 13.6647 14.7296 13.7018C14.5893 13.7388 14.4616 13.813 14.3599 13.9166L13.8312 14.4551C13.7223 14.5666 13.5829 14.6432 13.4305 14.6754C13.2781 14.7075 13.1196 14.6938 12.9751 14.6359C11.9524 14.2234 9.80143 12.3109 9.25243 11.3531C9.17529 11.2178 9.14003 11.0626 9.15111 10.9072C9.16219 10.7518 9.21912 10.6032 9.31468 10.4801L9.77593 9.88314C9.86472 9.7683 9.92083 9.63161 9.93832 9.48751C9.95581 9.34341 9.93404 9.19726 9.87531 9.06452L8.96631 7.00764C8.9156 6.89301 8.83885 6.79178 8.74216 6.71201C8.64546 6.63224 8.53149 6.57613 8.40931 6.54813C8.28713 6.52013 8.1601 6.52102 8.03832 6.55073C7.91654 6.58044 7.80337 6.63815 7.70781 6.71927C7.10443 7.22964 6.38893 8.00477 6.30193 8.86389C6.14856 10.3785 6.79806 12.2876 9.25393 14.5796C12.0912 17.2283 14.3637 17.5796 15.8431 17.2196C16.6823 17.0164 17.3528 16.2019 17.7758 15.5348C17.8432 15.429 17.8849 15.3091 17.8978 15.1844C17.9107 15.0597 17.8943 14.9337 17.8499 14.8164C17.8056 14.6992 17.7345 14.5939 17.6424 14.5089C17.5502 14.4239 17.4395 14.3616 17.3191 14.3269V14.3269Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <\/svg>\n          <font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> Whatsapp <\/font><\/font><\/a>\n        <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit a\" href=\"tel:+4971423440158\">\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <path d=\"M5.25 3.75V18.75M5.25 22.125C5.25 22.4234 5.36853 22.7095 5.5795 22.9205C5.79048 23.1315 6.07663 23.25 6.375 23.25H17.625C17.9234 23.25 18.2095 23.1315 18.4205 22.9205C18.6315 22.7095 18.75 22.4234 18.75 22.125V18.75H5.25V22.125ZM18.75 1.875C18.75 1.57663 18.6315 1.29048 18.4205 1.0795C18.2095 0.868526 17.9234 0.75 17.625 0.75H6.375C6.07663 0.75 5.79048 0.868526 5.5795 1.0795C5.36853 1.29048 5.25 1.57663 5.25 1.875V3.75H18.75V1.875ZM18.75 18.75V3.75V18.75Z\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n            <path d=\"M12 21.75C12.4142 21.75 12.75 21.4142 12.75 21C12.75 20.5858 12.4142 20.25 12 20.25C11.5858 20.25 11.25 20.5858 11.25 21C11.25 21.4142 11.5858 21.75 12 21.75Z\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <\/svg>\n          <font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> +49 71 42 - 344 01 58 <\/font><\/font><\/a>\n        <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit a\" href=\"#\">\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <path d=\"M19.7322 10.5H21C21.0995 10.5 21.1949 10.5395 21.2652 10.6098C21.3355 10.6802 21.375 10.7755 21.375 10.875V13.125C21.375 13.2245 21.3355 13.3198 21.2652 13.3902C21.1949 13.4605 21.0995 13.5 21 13.5H19.7322M5.92578 6.98812L7.87503 0.75H16.125L18.0743 6.98775L5.92578 6.98812ZM5.93366 17.0216L7.87503 23.2342H16.125L18.0664 17.0216H5.93366Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n            <path d=\"M12 19.875C16.3492 19.875 19.875 16.3492 19.875 12C19.875 7.65076 16.3492 4.125 12 4.125C7.65076 4.125 4.125 7.65076 4.125 12C4.125 16.3492 7.65076 19.875 12 19.875Z\" fill=\"#C1A57E\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n            <path d=\"M9 10.125L12.0139 12.7774L16.125 8.625\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <\/svg>\n          <font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> Inzahlungnahme <\/font><\/font><\/a>\n        <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit a\" href=\"#\">\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n            <path d=\"M0.75 19.5L8.25 11.85M0.75 4.5L12 15.375L23.25 4.5H0.75ZM15.75 11.85L23.25 19.5L15.75 11.85Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n            <path d=\"M0.75 4.5H23.25V19.5H0.75V4.5Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <\/svg>\n          <font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> Nachricht schreiben<\/font><\/font><\/a>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/body>"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_tBNWW8",
+        "90724a70-740a-4cc9-984c-764e1d76a5bd",
+        "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "content_7LFryc",
+        "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
+        "variant_selection",
+        "price",
+        "content_meryVV",
+        "buy_button",
+        "inventory",
+        "pickup",
+        "112cdbcf-cdc4-4168-b87c-2f15adce530b",
+        "ee5e9f1c-a80a-4244-950f-03806a509775",
+        "80e67d89-9369-4ddb-8111-2aa1c36fb500",
+        "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924",
+        "c300d32f-398c-41a9-b22b-d5c9f40ed345",
+        "custom_liquid_jhBc39"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
+        ".f8pr-codes {text-align: center; font-size: 12px; color: #8f8f8f; margin-bottom: -20px;}",
+        ".f8pr-stock.m0 {text-align: center; margin-top: -10px;}",
+        ".overlay-valid {color: #59a72a !important;}",
+        ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}",
+        "h3 {font-weight: 100;}",
+        ".overlay-error {display: none;}"
+      ],
+      "settings": {
+        "media_layout": "slider",
+        "images_grid_spacing": 20,
+        "custom_product_image_ratio": 100,
+        "fill_images": false,
+        "images_padding": 20,
+        "images_vertical_position": 0,
+        "show_thumbs_desktop": true,
+        "show_thumbs_mobile": true,
+        "thumbs_layout": "aside",
+        "img_info": "",
+        "img_info_color_palette": "black",
+        "enable_custom_font_size": true,
+        "font_size": "14px",
+        "show_product_description": true,
+        "description_title_size": "h3",
+        "product_description_enable_read_more": true,
+        "pros_cons_title_size": "h3",
+        "pros": "",
+        "cons": "",
+        "specs_title_size": "h3",
+        "specifications": "",
+        "product_description_mobile_collapse": false,
+        "mobile_tabs_title_size": "h5",
+        "multiply_bg_mobile": true
+      }
+    },
+    "section_custom_liquid_zTTbR6": {
+      "type": "section-custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"p-3 md:p-10\">\n  <div class=\"flex flex-col justify-between gap-2 rounded-xl bg-[#f7f7f7] px-4 py-6 shadow-sm lg:flex-row lg:items-center\">\n    <div class=\"grid w-full items-center justify-between gap-5 px-5 text-center font-serif md:flex\">\n      <span class=\"text-center text-xl\">Do you have any questions about this watch?<\/span>\n      <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit\" href=\"#\" rel=\"nofollow noopener\">\n        <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n          <path d=\"M11.3578 0.760879C9.49698 0.852619 7.68869 1.40864 6.09778 2.37825C4.50686 3.34786 3.18392 4.70023 2.24954 6.31209C1.31517 7.92396 0.799067 9.74404 0.748288 11.6065C0.69751 13.4689 1.11367 15.3144 1.95883 16.9748L0.774202 22.725C0.759461 22.7965 0.762966 22.8705 0.784395 22.9402C0.805823 23.01 0.844483 23.0732 0.896805 23.1241C0.949126 23.175 1.01342 23.2118 1.08375 23.2313C1.15408 23.2507 1.22818 23.2521 1.2992 23.2354L6.9347 21.9C8.46189 22.6595 10.1428 23.0588 11.8484 23.0674C13.5541 23.0759 15.2389 22.6933 16.7736 21.9491C18.3083 21.2049 19.652 20.1188 20.7015 18.7743C21.7509 17.4298 22.4783 15.8626 22.8276 14.1931C23.1769 12.5236 23.1389 10.7963 22.7165 9.14382C22.2942 7.49132 21.4986 5.95763 20.391 4.66055C19.2835 3.36347 17.8933 2.33751 16.3274 1.66149C14.7615 0.985476 13.0614 0.677382 11.3578 0.760879V0.760879Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <path d=\"M17.3191 14.3269L15.1572 13.7063C15.0177 13.6663 14.8699 13.6647 14.7296 13.7018C14.5893 13.7388 14.4616 13.813 14.3599 13.9166L13.8312 14.4551C13.7223 14.5666 13.5829 14.6432 13.4305 14.6754C13.2781 14.7075 13.1196 14.6938 12.9751 14.6359C11.9524 14.2234 9.80143 12.3109 9.25243 11.3531C9.17529 11.2178 9.14003 11.0626 9.15111 10.9072C9.16219 10.7518 9.21912 10.6032 9.31468 10.4801L9.77593 9.88314C9.86472 9.7683 9.92083 9.63161 9.93832 9.48751C9.95581 9.34341 9.93404 9.19726 9.87531 9.06452L8.96631 7.00764C8.9156 6.89301 8.83885 6.79178 8.74216 6.71201C8.64546 6.63224 8.53149 6.57613 8.40931 6.54813C8.28713 6.52013 8.1601 6.52102 8.03832 6.55073C7.91654 6.58044 7.80337 6.63815 7.70781 6.71927C7.10443 7.22964 6.38893 8.00477 6.30193 8.86389C6.14856 10.3785 6.79806 12.2876 9.25393 14.5796C12.0912 17.2283 14.3637 17.5796 15.8431 17.2196C16.6823 17.0164 17.3528 16.2019 17.7758 15.5348C17.8432 15.429 17.8849 15.3091 17.8978 15.1844C17.9107 15.0597 17.8943 14.9337 17.8499 14.8164C17.8056 14.6992 17.7345 14.5939 17.6424 14.5089C17.5502 14.4239 17.4395 14.3616 17.3191 14.3269V14.3269Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg\n        ><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> Whatsapp <\/font><\/font><\/a\n      >\n      <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit\" href=\"tel:+4971423440158\">\n        <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n          <path d=\"M5.25 3.75V18.75M5.25 22.125C5.25 22.4234 5.36853 22.7095 5.5795 22.9205C5.79048 23.1315 6.07663 23.25 6.375 23.25H17.625C17.9234 23.25 18.2095 23.1315 18.4205 22.9205C18.6315 22.7095 18.75 22.4234 18.75 22.125V18.75H5.25V22.125ZM18.75 1.875C18.75 1.57663 18.6315 1.29048 18.4205 1.0795C18.2095 0.868526 17.9234 0.75 17.625 0.75H6.375C6.07663 0.75 5.79048 0.868526 5.5795 1.0795C5.36853 1.29048 5.25 1.57663 5.25 1.875V3.75H18.75V1.875ZM18.75 18.75V3.75V18.75Z\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <path d=\"M12 21.75C12.4142 21.75 12.75 21.4142 12.75 21C12.75 20.5858 12.4142 20.25 12 20.25C11.5858 20.25 11.25 20.5858 11.25 21C11.25 21.4142 11.5858 21.75 12 21.75Z\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg\n        ><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> +49 71 42 - 344 01 58 <\/font><\/font><\/a\n      >\n      <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit\" href=\"#\">\n        <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n          <path d=\"M19.7322 10.5H21C21.0995 10.5 21.1949 10.5395 21.2652 10.6098C21.3355 10.6802 21.375 10.7755 21.375 10.875V13.125C21.375 13.2245 21.3355 13.3198 21.2652 13.3902C21.1949 13.4605 21.0995 13.5 21 13.5H19.7322M5.92578 6.98812L7.87503 0.75H16.125L18.0743 6.98775L5.92578 6.98812ZM5.93366 17.0216L7.87503 23.2342H16.125L18.0664 17.0216H5.93366Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <path d=\"M12 19.875C16.3492 19.875 19.875 16.3492 19.875 12C19.875 7.65076 16.3492 4.125 12 4.125C7.65076 4.125 4.125 7.65076 4.125 12C4.125 16.3492 7.65076 19.875 12 19.875Z\" fill=\"#C1A57E\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <path d=\"M9 10.125L12.0139 12.7774L16.125 8.625\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg\n        ><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> Trade-in <\/font><\/font><\/a\n      >\n      <a class=\"flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit\" href=\"#\">\n        <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n          <path d=\"M0.75 19.5L8.25 11.85M0.75 4.5L12 15.375L23.25 4.5H0.75ZM15.75 11.85L23.25 19.5L15.75 11.85Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n          <path d=\"M0.75 4.5H23.25V19.5H0.75V4.5Z\" stroke=\"white\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path><\/svg\n        ><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\"> Write a message <\/font><\/font><\/a\n      >\n    <\/div>\n  <\/div>\n<\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "fba97795-cd0a-43bb-b23d-6d65a7ee795f": {
+      "type": "section-spacer",
+      "settings": {
+        "height": 30,
+        "height_mobile": 20
+      }
+    },
+    "section_content_tabs_qznkbn": {
+      "type": "section-content-tabs",
+      "blocks": {
+        "tab_3MMYbE": {
+          "type": "tab",
+          "settings": {
+            "title": "Basisdaten",
+            "icon": "none",
+            "header_image_width": 25,
+            "collection": "",
+            "products_limit": 5,
+            "number_of_items": 4,
+            "text": "",
+            "page": "",
+            "image_width": 460,
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n  \n  \/* Breite der ersten Spalte anpassen *\/\n  .no-border-table td:first-child, .no-border-table th:first-child {\n    width: 20%; \/* Ändere die Breite nach Bedarf *\/\n  }\n  \n  \/* Graue Linie zwischen den Spalten *\/\n  .no-border-table td:not(:last-child), .no-border-table th:not(:last-child) {\n    border-right: 1px solid #ccc;\n  }\n  \n  \/* Breite der zweiten Spalte anpassen *\/\n  .no-border-table td:nth-child(2), .no-border-table th:nth-child(2) {\n    white-space: nowrap;\n  }\n<\/style>\n\n<table class=\"no-border-table\">\n  {% if product.metafields.custom.zustand != blank %}\n  <tr>\n    <td>Zustand<\/td>\n    <td>{{ product.metafields.custom.zustand }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.jahr != blank %}\n  <tr>\n    <td>Jahr<\/td>\n    <td>{{ product.metafields.custom.jahr }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.aufzug != blank %}\n  <tr>\n    <td>Aufzug<\/td>\n    <td>{{ product.metafields.custom.aufzug }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.kaliber-werk != blank %}\n  <tr>\n    <td>Kaliber\/Werk<\/td>\n    <td>{{ product.metafields.custom.kaliber-werk }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.gangreserve != blank %}\n  <tr>\n    <td>Gangreserve<\/td>\n    <td>{{ product.metafields.custom.gangreserve }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.schliesse != blank %}\n  <tr>\n    <td>Schließe<\/td>\n    <td>{{ product.metafields.custom.schliesse }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.geschlecht != blank %}\n  <tr>\n    <td>Geschlecht<\/td>\n    <td>{{ product.metafields.custom.geschlecht }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.wasserdicht != blank %}\n  <tr>\n    <td>Wasserdicht<\/td>\n    <td>{{ product.metafields.custom.wasserdicht }}<\/td>\n  <\/tr>\n  {% endif %}\n<\/table>",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "tab_FQJpNa": {
+          "type": "tab",
+          "settings": {
+            "title": "Materialien & Farben",
+            "icon": "none",
+            "header_image_width": 25,
+            "collection": "",
+            "products_limit": 5,
+            "number_of_items": 4,
+            "text": "",
+            "page": "",
+            "image_width": 460,
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  {% if product.metafields.custom.material-gehause != blank %}\n  <tr>\n    <td>Material Gehäuse<\/td>\n    <td>{{ product.metafields.custom.material-gehause }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.material-armband != blank %}\n  <tr>\n    <td>Material Armband<\/td>\n    <td>{{ product.metafields.custom.material-armband }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.farbe-armband != blank %}\n  <tr>\n    <td>Farbe Armband<\/td>\n    <td>{{ product.metafields.custom.farbe-armband }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.material-schliesse != blank %}\n  <tr>\n    <td>Material Schließe<\/td>\n    <td>{{ product.metafields.custom.material-schliesse }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.material-lunette != blank %}\n  <tr>\n    <td>Material Lünette<\/td>\n    <td>{{ product.metafields.custom.material-lunette }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.farbe-zifferblatt != blank %}\n  <tr>\n    <td>Farbe Zifferblatt<\/td>\n    <td>{{ product.metafields.custom.farbe-zifferblatt }}<\/td>\n  <\/tr>\n  {% endif %}\n<\/table>",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "tab_yGfjGY": {
+          "type": "tab",
+          "settings": {
+            "title": "Gehäuse & Zifferblatt",
+            "icon": "none",
+            "header_image_width": 25,
+            "collection": "",
+            "products_limit": 5,
+            "number_of_items": 4,
+            "text": "",
+            "page": "",
+            "image_width": 460,
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n  {% if product.metafields.custom.durchmesser != blank %}\n  <tr>\n    <td>Durchmesser Gehäuse<\/td>\n    <td>{{ product.metafields.custom.durchmesser }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.glas != blank %}\n  <tr>\n    <td>Glas<\/td>\n    <td>{{ product.metafields.custom.glas }}<\/td>\n  <\/tr>\n  {% endif %}\n  {% if product.metafields.custom.zahlen-zifferblatt != blank %}\n  <tr>\n    <td>Zahlen Zifferblatt<\/td>\n    <td>{{ product.metafields.custom.zahlen-zifferblatt }}<\/td>\n  <\/tr>\n  {% endif %}\n<\/table>",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "tab_TkVeLT": {
+          "type": "tab",
+          "settings": {
+            "title": "Funktionen & Eigenschaften",
+            "icon": "none",
+            "header_image_width": 25,
+            "collection": "",
+            "products_limit": 5,
+            "number_of_items": 4,
+            "text": "",
+            "page": "",
+            "image_width": 460,
+            "liquid": "<style>\n  .no-border-table {\n    border-collapse: collapse;\n    width: 100%;\n  }\n  .no-border-table td, .no-border-table th {\n    border: none;\n    padding: 8px;\n  }\n  .no-border-table tr:nth-child(even){background-color: #f2f2f2;}\n  .no-border-table tr:hover {background-color: #ddd;}\n<\/style>\n\n<table class=\"no-border-table\">\n\n  {% assign funktionen_values = \"\" %}\n  {% if product.metafields.custom.funktionen != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.funktionen | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_2nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_2nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_3nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_3nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_4nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_4nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_5nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_5nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_6nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_6nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_7nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_7nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Funktionen_8nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_8nd %} {% endif %}\n  {% if funktionen_values != blank %}\n  <tr>\n    <td>Funktionen<\/td>\n    <td>{{ funktionen_values | remove_last: \", \" }}<\/td>\n  <\/tr>\n  {% endif %}\n\n  {% assign sonstiges_values = \"\" %}\n  {% if product.metafields.custom.sonstiges != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.sonstiges | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_2nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_2nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_3nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_3nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_4nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_4nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_5nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_5nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_6nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_6nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_7nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_7nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_8nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_8nd | append: \", \" %} {% endif %}\n  {% if product.metafields.custom.Sonstiges_9nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_9nd %} {% endif %}\n  {% if sonstiges_values != blank %}\n  <tr>\n    <td>Sonstiges<\/td>\n    <td>{{ sonstiges_values | remove_last: \", \" }}<\/td>\n  <\/tr>\n  {% endif %}\n<\/table>",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_3MMYbE",
+        "tab_FQJpNa",
+        "tab_yGfjGY",
+        "tab_TkVeLT"
+      ],
+      "custom_css": [
+        "a {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}"
+      ],
+      "settings": {
+        "alignment": "left",
+        "compact": false,
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "recommended_products_qty": 6,
+        "number_of_items": 4,
+        "text_alignment": "start",
+        "title": "You may also like",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "start",
+        "title": "Reviews",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "mobile_collapse": false
+      }
+    },
+    "section_custom_liquid_jEHJdT": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.features-container {\n  display: flex;\n  flex-wrap: wrap;\n  background-color: #f7f7f7;\n  border-radius: 20px;\n  padding: 20px;\n  gap: 10px; \/* Abstand zwischen den Elementen *\/\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  gap: 10px; \/* Abstand zwischen Icon und Text *\/\n  flex: 0 1 auto; \/* Changed to allow for text wrapping *\/\n  padding: 20px;\n}\n\n.feature-icon {\n  width: 24px;\n  height: 24px;\n  fill: currentColor; \/* Farbe des Icons *\/\n}\n\n\/* Media Queries für Responsivität *\/\n@media (max-width: 768px) {\n  .feature-item {\n    flex-basis: calc(50% - 20px); \/* Change to allow two items per row with wrapping text *\/\n  }\n}\n\n@media (max-width: 480px) {\n  .feature-item {\n    flex-basis: 100%; \/* Ein Element pro Zeile *\/\n  }\n}\n<\/style>\n\n<div class=\"features-container\">\n  {% for i in (1..6) %}\n    <div class=\"feature-item\">\n      <svg xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n    <path d=\"M7.87012 15L13.8701 22L30.8701 1\" stroke=\"#C1A57E\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n    <path d=\"M26.7216 16C27.1305 18.6253 26.7253 21.3129 25.5605 23.7009C24.3956 26.0888 22.5271 28.0626 20.2064 29.3564C17.8858 30.6502 15.2244 31.202 12.5807 30.9374C9.93696 30.6728 7.43776 29.6045 5.41958 27.8764C3.4014 26.1483 1.96113 23.8433 1.29268 21.2719C0.624239 18.7004 0.759709 15.9858 1.68086 13.4936C2.602 11.0015 4.2646 8.85138 6.44481 7.3328C8.62502 5.81423 11.2182 5.0001 13.8751 5.00001C15.5913 4.99776 17.2909 5.33649 18.8751 5.99651\" stroke=\"#202020\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n<\/svg>\n      <span>\n        {% if i == 1 %}\n          Vollversicherte Sendungen <br>\/ Abholungen in DE kostenlos\n        {% elsif i == 2 %}\n          Individuelle Bandanpassung\n        {% elsif i == 3 %}\n          Zertifizierter Shop\n        {% elsif i == 4 %}\n          Sicher dank SSL<br> Verschlüsselung\n        {% elsif i == 5 %}\n          Vor Ort<br> Abholung Ihrer Uhr möglich\n        {% elsif i == 6 %}\n          365 Tage im Jahr Service\n        {% endif %}\n      <\/span>\n    <\/div>\n  {% endfor %}\n<\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_kReYBz": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "recently-viewed": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400; text-align: center;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "100",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "start",
+        "show_title": true,
+        "show_price": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "section_custom_liquid_zTTbR6",
+    "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
+    "section_content_tabs_qznkbn",
+    "recommendations",
+    "reviews",
+    "section_custom_liquid_jEHJdT",
+    "section_custom_liquid_kReYBz",
+    "recently-viewed"
+  ]
+}
