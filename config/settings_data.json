@@ -96,7 +96,7 @@
     "product_custom_label": "",
     "show_product_stock": true,
     "layout_productcard": "standard",
-    "quickshop_behavior": "on_hover",
+    "quickshop_behavior": "static",
     "cart_icon_no_text": false,
     "variant_color_palette": "dark",
     "background_opacity": 50,
