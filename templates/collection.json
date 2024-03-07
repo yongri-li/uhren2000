@@ -101,7 +101,7 @@
         "enable_collections": true,
         "filters_menu_alignment": "left",
         "filters_layout": "drawer",
-        "filter_menu": "main-menu",
+        "filter_menu": "",
         "collections_menu": [
 
         ],
