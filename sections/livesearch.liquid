@@ -52,8 +52,12 @@
               </h2>
               {%- if settings.search_drawer_show_price -%}
                 <p class="price">
-                  {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
-                  {{ product.price | money }}
+                  {%- if product.tags contains 'Uhren-Archiv' -%}
+                    <span>Auf Anfrage</span>
+                  {%- else -%}
+                    {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
+                    {{ product.price | money }}
+                  {%- endif -%}
                  </p>
               {%- endif -%}
             </div>
