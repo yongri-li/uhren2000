@@ -330,3 +330,20 @@
 #content div.shopify-section-group-footer-group {
   z-index: 1 !important;
 }
+
+.search-back {
+  display: none;
+}
+
+
+@media (max-width: 760px) {
+  .t1sh-mobile #root #header-inner>.link-btn .search-compact {
+    display: flex;
+  }
+  .template-product .search-back {
+    display: none;
+  }
+  /* .template-product .shopify-section-header #header-inner > #search {
+    top: 100%;
+  } */
+}
