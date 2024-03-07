@@ -181,8 +181,7 @@
       {%- endif -%}
       <li class="strong"><span>{% if cart.taxes_included %}{{ 'cart.total_including_tax' | t }}{% else %}{{ 'cart.total_excluding_tax' | t }}{% endif %}</span>{{ cart.total_price | money }}</li>
     </ul>
-    <p class="link-btn wide m10">
-      <a class="overlay-tertiary{% if settings.button_style == 'inv' %} inv{% endif %}" href="{{ routes.cart_url }}">{{ 'cart.to_cart' | t }}</a>
+     <p class="link-btn wide m10">
       {%- if settings.cart_drawer_checkout_button -%}
         <input type="hidden" name="checkout" value="Checkout">
         <button class="
