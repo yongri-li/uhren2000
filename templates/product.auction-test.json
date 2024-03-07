@@ -49,6 +49,7 @@
         },
         "content_7LFryc": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "layout": "none",
             "collapse": false,
