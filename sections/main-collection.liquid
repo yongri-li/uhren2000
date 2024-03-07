@@ -220,6 +220,7 @@
                   endif
                 -%}
                 {%- for product in collection.products -%}
+                    {%- unless product.tags contains 'Uhren-Archiv' -%}
                   {%- liquid
                     capture placeholder_int
                       cycle 1, 2, 3, 4, 5, 6
@@ -247,6 +248,7 @@
                     no_lazyload: no_lazyload,
                     origin: 'collection'
                   -%}
+                        {%- endunless -%}
                 {%- endfor -%}
               </ul>
               {% render 'pagination',
