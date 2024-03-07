@@ -215,7 +215,7 @@
         ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}",
         "h3 {font-weight: 100;}",
         ".overlay-error {display: none;}",
-        ".m5.mob-h2 {margin-bottom: -30px}"
+        "@media only screen and (max-width: 767px) {.m5.mob-h2 {margin-bottom: -30px; }}"
       ],
       "settings": {
         "media_layout": "slider",
