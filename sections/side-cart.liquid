@@ -11,7 +11,7 @@
   endif
 -%}
 
-<header data-totalqty={{ cart.item_count }} data-totalprice={{ cart.total_price }}>
+<header data-totalqty={{ cart.item_count }}>
   <h2>{{ 'cart.title' | t }}</h2>
 </header>
 {%- if cart.item_count == 0 -%}
@@ -201,7 +201,7 @@
   {%- if settings.show_trustbadge -%}
     <div class="flex items-center justify-center w-full" style="margin-bottom: 20px;">
     <div class="footer__payment-icons h-stack wrap gap-2 justify-around">
-        {% assign enabled_payment_types = 'visa,master,klarna,sofort' | remove: ' ' | split: ',' %}
+        {% assign enabled_payment_types = 'visa,master,paypal,klarna,sofort' | remove: ' ' | split: ',' %}
         {% for type in enabled_payment_types %}
             <img src="{{ type | payment_type_img_url }}" />
         {% endfor %}
