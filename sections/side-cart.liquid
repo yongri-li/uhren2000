@@ -87,25 +87,6 @@
           <p class="overlay-gray"><i aria-hidden="true" class="icon-label"></i> <span class="text-uppercase">{{ discount_allocation.discount_application.title }}&nbsp;(-{{ discount_allocation.amount | money }})</p>
         {%- endfor -%}
         <footer>
-          <p class="input-amount">
-            <label for="qty-{{ line_item.index | plus: 1 }}" class="hidden">{{ 'cart.product.qty' | t }}</label>
-            <input
-              type="number"
-              name="updates[]"
-              id="qty-{{ line_item.index | plus: 1 }}"
-              value="{{ line_item.quantity }}"
-              data-line="{{ forloop.index }}"
-              aria-label="quantity"
-              autocomplete="off"
-              min="{{ line_item.variant.quantity_rule.min }}"
-              {% if line_item.variant.inventory_management == 'shopify' and line_item.variant.inventory_policy == 'deny' -%}
-                max="{{ line_item.variant.inventory_quantity }}"
-              {% elsif line_item.variant.quantity_rule.max %}
-                max="{{ line_item.variant.quantity_rule.max }}"
-              {% endif %}
-              {% if line_item.variant.quantity_rule.increment %}step="{{ line_item.variant.quantity_rule.increment }}"{% endif %}
-            >
-          </p>
           <p><a class="remove remove-from-cart-link" href="{{ line_item.url_to_remove }}" data-line="{{ forloop.index }}"><i aria-hidden="true" class="icon-trash"></i> <span class="mobile-hide">{{ 'cart.product.remove' | t }}</span></a></p>
         </footer>
       </section>
