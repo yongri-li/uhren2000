@@ -547,7 +547,9 @@
       "@media screen and (max-width: 767px) {.m6tb.btn.tabs-initialized {margin-top: -30px; }}",
       ".sku {text-align: center; font-weight: 200; font-size: 12px !important;}",
       ".m6pn.toggle header h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 25px !important;}",
-      ".m6pn.toggle section h2 {text-transform: none}"
+      ".m6pn.toggle section h2 {text-transform: none;}",
+      ".m6pn header h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 25px !important;}",
+      ".m6pn section h2 {text-transform: none;}"
     ]
   }
 }
