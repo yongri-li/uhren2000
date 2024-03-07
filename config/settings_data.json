@@ -124,6 +124,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/Uhren2000_Logo.svg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
+    "checkout_body_background_color": "#FFFFFF",
+    "checkout_input_background_color_mode": "white",
     "checkout_accent_color": "#b99e7a",
     "checkout_button_color": "#64cd82",
     "checkout_error_color": "#e93d3d",
