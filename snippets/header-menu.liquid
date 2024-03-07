@@ -1,5 +1,18 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{% assign svg_icon = 'data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJfeDMyXyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczppeGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGZpbGw9IiMwMDAwMDAiPjxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIj48L2c+PGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L2c+PGcgaWQ9IlNWR1JlcG9faWNvbkNhcnJpZXIiPiA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPiAuc3Qwe2ZpbGw6IzAwMDAwMDt9IDwvc3R5bGU+IDxnPiA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjIyLjcxNiwzMTEuMzA3bC0xMDkuMy04NC4zMjVjLTguNjk4LTYuNzA5LTIxLjE5NS01LjA5LTI3Ljg5OCwzLjYwMiBjLTYuNzA4LDguNjkxLTUuMTAzLDIxLjE4OSwzLjYwMSwyNy44OThsMTA5LjI5Myw4NC4zMThjOC43MDUsNi43MDgsMjEuMTk2LDUuMTAzLDI3LjkwNS0zLjU5NSBDMjMzLjAyNiwzMzAuNTA2LDIzMS40MTQsMzE4LjAxNSwyMjIuNzE2LDMxMS4zMDd6Ij48L3BhdGg+IDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMzYuMzE4LDY3LjY2MmwxMDkuMzA3LDg0LjMxOGM4LjY5OCw2LjcxNiwyMS4xODksNS4xMDQsMjcuODk4LTMuNTk0YzYuNzA5LTguNjk4LDUuMDk3LTIxLjE4Mi0zLjYwMS0yNy44OTggbC0xMDkuMy04NC4zMjRjLTguNjk4LTYuNzA5LTIxLjE4OS01LjA5LTI3Ljg5OCwzLjYwMUMyMjYuMDE1LDQ4LjQ2MiwyMjcuNjI4LDYwLjk1NCwyMzYuMzE4LDY3LjY2MnoiPjwvcGF0aD4gPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyMjYuODI0LDc4LjA2OCAxMjIuNDkxLDIxMy4zMDQgMjMzLjY1LDI5OS4wNDggMzM3Ljk3NywxNjMuODEyICI+PC9wb2x5Z29uPiA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTAxLjUyOSwzNjMuMTQ0bC0xODUuNjI2LTE0My4ybC0zMi44NjQsNDIuNTk4bDE4NS42MzMsMTQzLjJjMTEuNzY0LDkuMDc1LDI4LjY1Miw2LjkwMSwzNy43Mi00Ljg2NCBDMTU1LjQ3NCwzODkuMTA3LDUxMy4yOTMsMzcyLjIxOSw1MDEuNTI5LDM2My4xNDR6Ij48L3BhdGg+IDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xODYuOTM2LDQwOS43NDhjMC0xNC4yNzQtMTEuNTY1LTI1Ljg0Ny0yNS44NC0yNS44NDdIMzkuNjg5Yy0xNC4yNzQsMC0yNS44NCwxMS41NzItMjUuODQsMjUuODQ3djE5LjE2NiBoMTczLjA4N1Y0MDkuNzQ4eiI+PC9wYXRoPiA8cmVjdCB4PSIwIiB5PSI0NDUuMTQzIiBjbGFzcz0ic3QwIiB3aWR0aD0iMjAwLjc4NiIgaGVpZ2h0PSIzNC44MzMiPjwvcmVjdD4gPC9nPjwvZz48L3N2Zz4=' %}
 
+<ul>
+{%- for link in linklists.[main-menu].links -%}
+    <li>
+        <a href="{{ link.url }}" accesskey="{{ forloop.index }}">
+            {%- if forloop.index == 4 -%}
+                <img src="{{ svg_icon }}" alt="SVG Icon">
+            {%- endif -%}
+            {{ link.title }}
+        </a>
+    </li>
+{%- endfor -%}
+</ul>
 {%- liquid
     if show_dropdown_images
         if show_dropdown_images_autofill
