@@ -364,7 +364,7 @@
 
 @media (max-width: 900px) {
   .l4cl.w25 li:hover {
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1) !important;
     border-radius: 36px !important;
     padding: 0px !important;
     margin-bottom: 30px;
