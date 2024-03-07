@@ -91,7 +91,7 @@
         "fill_images": false,
         "images_padding": 0,
         "images_vertical_position": 0,
-        "enable_image_choice": true,
+        "enable_image_choice": false,
         "image_choice_1": "Single",
         "image_choice_2": "Pair",
         "product_image": "second",
@@ -111,7 +111,7 @@
         "filters_font_size": "14px",
         "image_swatches_size": "m",
         "image_swatches_fill_images": true,
-        "image_swatches_show_in_circle": true,
+        "image_swatches_show_in_circle": false,
         "filter_mobile_sticky": true,
         "fix_zindex": 1
       }
