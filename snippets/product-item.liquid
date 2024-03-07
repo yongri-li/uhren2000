@@ -785,34 +785,38 @@
               origin: 'productitem'
       -%}
     {%- endif -%}
-{%- if show_price -%}
-  <p class="price">
-    {%- if product.price_varies and settings.show_price_varies and layout != 'list-compact' -%}
-      {%- liquid
-        assign price_min = product.price_min | money
-        assign price_max = product.price_max | money
-      -%}
-      {{ price_min }}<span class="price-varies">&nbsp;- {{ price_max }}</span>
-    {%- else -%}
-      {%- if current_variant.compare_at_price > current_variant.price -%}
-        <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
-      {%- endif -%}
-      {{ price }}
-    {%- endif -%}
-    {%- if current_variant.unit_price_measurement -%}
-      {%- capture unit_price_base_unit -%}
-        {%- if current_variant.available and current_variant.unit_price_measurement -%}
-          {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
-            {{- current_variant.unit_price_measurement.reference_value -}}
-          {%- endif -%}
-          {{ current_variant.unit_price_measurement.reference_unit }}
+{%- if product.tags contains 'Uhren-Archiv' -%}
+  <p class="archived-note">Archivartikel - verkauft</p>
+{%- else -%}
+  {%- if show_price -%}
+    <p class="price">
+      {%- if product.price_varies and settings.show_price_varies and layout != 'list-compact' -%}
+        {%- liquid
+          assign price_min = product.price_min | money
+          assign price_max = product.price_max | money
+        -%}
+        {{ price_min }}<span class="price-varies">&nbsp;- {{ price_max }}</span>
+      {%- else -%}
+        {%- if current_variant.compare_at_price > current_variant.price -%}
+          <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
         {%- endif -%}
-      {%- endcapture -%}
-      <span class="small">{{ 'product.unit_price_label' | t }}{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+        {{ price }}
+      {%- endif -%}
+      {%- if current_variant.unit_price_measurement -%}
+        {%- capture unit_price_base_unit -%}
+          {%- if current_variant.available and current_variant.unit_price_measurement -%}
+            {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+              {{- current_variant.unit_price_measurement.reference_value -}}
+            {%- endif -%}
+            {{ current_variant.unit_price_measurement.reference_unit }}
+          {%- endif -%}
+        {%- endcapture -%}
+        <span class="small">{{ 'product.unit_price_label' | t }}{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+      {%- endif -%}
+    </p>
+    {%- if current_variant.sku -%}
+      <p class="sku">Ref. Nr.: {{ current_variant.sku }}</p>
     {%- endif -%}
-  </p>
-  {%- if current_variant.sku -%}
-    <p class="sku">Ref. Nr.: {{ current_variant.sku }}</p>
   {%- endif -%}
 {%- endif -%}
     {%- if color_picker and static_color_picker -%}
