@@ -79,7 +79,7 @@
     "enable_cart_drawer_undo_remove_delay": true,
     "cart_drawer_undo_remove_delay": 4,
     "empty_cart_text": "<p>Ihr Warenkorb ist leer<\/p>",
-    "cart_drawer_checkout_button": false,
+    "cart_drawer_checkout_button": true,
     "enable_cart_drawer_upsell_complementary": false,
     "enable_cart_drawer_upsell_related": false,
     "enable_cart_drawer_upsell_variants": false,
