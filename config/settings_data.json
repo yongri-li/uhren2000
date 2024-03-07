@@ -542,7 +542,7 @@
       ".submit.m10 {display: block; margin: 0 auto; width: fit-content;}",
       ".overlay-valid {color: #59a72a !important; text-align: center;}",
       ".tabs-header.toggle {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 18px !important;}",
-      ".tabs-header:not(.toggle) {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 18px !important;}",
+      ".tabs-header:not(.toggle) {text-transform: none; margin-bottom: 20px; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 18px !important;}",
       ".f8pr-price.s1pr {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 35px; text-transform: none; text-align: center;}",
       "@media screen and (max-width: 767px) {.m6tb.btn.tabs-initialized {margin-top: -30px; }}",
       ".sku {text-align: center; font-weight: 200; font-size: 12px !important;}",
@@ -550,7 +550,8 @@
       ".m6pn.toggle section h2 {text-transform: none;}",
       ".m6pn header h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 25px !important;}",
       ".m6pn section h2 {text-transform: none;}",
-      ".remove.remove-from-cart-link {color: #8f8f8f !important; text-transform: none; font-weight: 400;}"
+      ".remove.remove-from-cart-link {color: #8f8f8f !important; text-transform: none; font-weight: 400;}",
+      ".m6pn .sticky-in-panel:before {background-color: #f5f5f5; padding-bottom: 50px !important; margin-bottom: 20px;}"
     ]
   }
 }
