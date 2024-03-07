@@ -167,44 +167,44 @@
             layout: section.settings.filters_layout
           -%}
        {%- when 'results' -%}
-  {% paginate search.results by section.settings.pagination_qty %}
-    {%- liquid
-      assign products = search.results | where: 'object_type', 'product'
-      assign articles = search.results | where: 'object_type', 'article'
-      assign pages = search.results | where: 'object_type', 'page'
-      # Filtern der Produkte, um jene mit dem Tag 'Uhren-Archiv' auszuschließen
-      assign filtered_products = products | where_exp: "product", "product.tags contains 'Uhren-Archiv' == false"
-    -%}
-    {%- if section.settings.pagination_type == 'button' and paginate.previous %}
-      {% render 'pagination',
-              paginate: paginate,
-              pagination_type: section.settings.pagination_type,
-              prev_button: true
-      %}
-    {%- endif -%}
-    <div class="results">
-      {%- if filtered_products.size > 0 -%}
-        <ul id="collection" class="l4cl {{ width_class }}{% unless show_filters_and_menu %} mobile-wide{% endunless %} mobile-scroll" {{ block.shopify_attributes }}>
-          {%- for product in filtered_products -%}
-            {%- render 'product-item',
-              product: product,
-              sizes: image_sizes,
-              enable_image_choice: section.settings.enable_image_choice,
-              collection_img_view: collection_img_view,
-              img_view: section.settings.product_image,
-              no_lazyload: no_lazyload,
-              origin: 'search'
-            -%}
-          {%- endfor -%}
-        </ul>
-      {%- endif -%}
-      {# Die restlichen Teile des Codes für Artikel und Seiten bleiben unverändert #}
-    </div>
+ {% paginate search.results by section.settings.pagination_qty %}
+  {%- liquid
+    assign products = search.results | where: 'object_type', 'product'
+    assign articles = search.results | where: 'object_type', 'article'
+    assign pages = search.results | where: 'object_type', 'page'
+    # Filtern der Produkte, um jene mit dem Tag 'Uhren-Archiv' auszuschließen
+    assign filtered_products = products | where_exp: "product", "product.tags contains 'Uhren-Archiv' == false"
+  -%}
+  {%- if section.settings.pagination_type == 'button' and paginate.previous %}
     {% render 'pagination',
-      paginate: paginate,
-      pagination_type: section.settings.pagination_type,
-      show_amount: section.settings.show_amount_of_search_results
+            paginate: paginate,
+            pagination_type: section.settings.pagination_type,
+            prev_button: true
     %}
+  {%- endif -%}
+  <div class="results">
+    {%- if filtered_products.size > 0 -%}
+      <ul id="collection" class="l4cl {{ width_class }}{% unless show_filters_and_menu %} mobile-wide{% endunless %} mobile-scroll" {{ block.shopify_attributes }}>
+        {%- for product in filtered_products -%}
+          {%- render 'product-item',
+            product: product,
+            sizes: image_sizes,
+            enable_image_choice: section.settings.enable_image_choice,
+            collection_img_view: collection_img_view,
+            img_view: section.settings.product_image,
+            no_lazyload: no_lazyload,
+            origin: 'search'
+          -%}
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    {# Die restlichen Teile des Codes für Artikel und Seiten bleiben unverändert #}
+  </div>
+  {% render 'pagination',
+    paginate: paginate,
+    pagination_type: section.settings.pagination_type,
+    show_amount: section.settings.show_amount_of_search_results
+  %}
 {% endpaginate %}
       {%- endcase -%}
     {%- endfor -%}
