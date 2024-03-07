@@ -144,6 +144,7 @@
         },
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
           "type": "trustbadge",
+          "disabled": true,
           "settings": {
           }
         },
