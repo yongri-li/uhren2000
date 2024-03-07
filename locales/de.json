@@ -443,7 +443,7 @@
       "other": "{{ amount }} Ergebnisse"
     },
     "search_form": {
-      "submit": "Zoeken",
+      "submit": "Suche",
       "search_again": "Erneut suchen",
       "placeholder": "Hersteller, Referenznummer, Modell"
     },
