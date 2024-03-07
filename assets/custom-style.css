@@ -365,11 +365,13 @@
   box-shadow: 0 0 50px rgba(0,0,0,0.1) !important;
   border-radius: 36px;
   padding: 10px;
-  margin-bottom: 30px;}
+  margin-bottom: 30px;
+  }
 }
 @media screen and (max-width:1200px){
   .l4cl.w25 li {
   border-radius: 36px;
   padding: 30px;
   margin-bottom: 30px;
+  }
 }
