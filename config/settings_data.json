@@ -550,8 +550,7 @@
       ".m6pn.toggle section h2 {text-transform: none;}",
       ".m6pn header h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 25px !important;}",
       ".m6pn section h2 {text-transform: none;}",
-      ".remove.remove-from-cart-link {color: #8f8f8f !important; text-transform: none; font-weight: 400;}",
-      ".m6pn .sticky-in-panel:before {background-color: #f5f5f5; padding-bottom: 50px !important; margin-top: 20px; padding-top: 30px;}"
+      ".remove.remove-from-cart-link {color: #8f8f8f !important; text-transform: none; font-weight: 400;}"
     ]
   }
 }
