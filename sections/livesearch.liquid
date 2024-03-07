@@ -29,6 +29,9 @@
   {%- if settings.search_drawer_enable_products and predictive_search.resources.products.size > 0 -%}
     <ul class="l4ca compact">
       {%- for product in predictive_search.resources.products -%}
+        {%- if product.tags contains 'Uhren-Archiv' -%}
+          {%- continue -%}
+        {%- endif -%}
         <li class="{% if product.featured_media == blank %} no-img{% endif %}{% if settings.fill_product_images %} cover{% endif %}{% if product.compare_at_price > product.price %} has-discount{% endif %}">
           {%- if product.featured_media != blank -%}
             <figure{% if settings.multiply_product_images == 'multiply' %} class="img-multiply"{% elsif settings.multiply_product_images == 'multiply-bg' %} class="img-multiply-bg"{% endif %}>
@@ -52,13 +55,9 @@
               </h2>
               {%- if settings.search_drawer_show_price -%}
                 <p class="price">
-                  {%- if product.tags contains 'Uhren-Archiv' -%}
-                    <span>Auf Anfrage</span>
-                  {%- else -%}
-                    {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
-                    {{ product.price | money }}
-                  {%- endif -%}
-                 </p>
+                  {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
+                  {{ product.price | money }}
+                </p>
               {%- endif -%}
             </div>
             {%- if product.metafields.reviews.rating and settings.show_product_rating -%}
