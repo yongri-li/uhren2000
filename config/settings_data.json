@@ -101,7 +101,7 @@
     "variant_color_palette": "dark",
     "background_opacity": 50,
     "image_behaviour": "slider",
-    "productcards_text_alignment": "left",
+    "productcards_text_alignment": "center",
     "product_text_size": "14px",
     "product_button_fontsize": "13px",
     "show_vendor": false,
