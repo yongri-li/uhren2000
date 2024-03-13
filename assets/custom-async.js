@@ -3329,10 +3329,17 @@ function insertAfter(referenceNode, newNode) {
 }
 
 
-var sticky_top = document.getElementsByClassName("mobile-sticky")[0].offsetTop;
+vvar sticky_top = 0;
 var last_top = 0;
+console.log(document.getElementsByClassName("mobile-sticky")[0]);
+if(document.getElementsByClassName("mobile-sticky")[0] != undefined) {
+  sticky_top = document.getElementsByClassName("mobile-sticky")[0].offsetTop;
+}
 
 window.onscroll = function() {
+  if(document.getElementsByClassName("mobile-sticky")[0] == undefined) {
+    return;
+  }
   if(window.innerWidth < 915) {
     return;
   }
