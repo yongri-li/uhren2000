@@ -1,6 +1,18 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 {%- liquid
 
+  assign display_section = false
+  # Prüfe, ob die Sammlungen Metafelder haben, die nicht leer sind
+  if section.settings.collections != blank
+    for collection in section.settings.collections
+      # Ersetze 'your_metafield_namespace.your_metafield_key' mit dem tatsächlichen Namespace und Schlüssel deines Metafelds
+      if collection.metafields.your_metafield_namespace.your_metafield_key != blank
+        assign display_section = true
+        break
+      endif
+    endfor
+  endif
+
   if section.settings.link_text != empty and section.settings.link_url != blank
     assign link = true
   endif
