@@ -1,18 +1,6 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 {%- liquid
 
-  assign display_section = false
-  # Prüfe, ob die Sammlungen Metafelder haben, die nicht leer sind
-  if section.settings.collections != blank
-    for collection in section.settings.collections
-      # Ersetze 'your_metafield_namespace.your_metafield_key' mit dem tatsächlichen Namespace und Schlüssel deines Metafelds
-      if collection.metafields.your_metafield_namespace.your_metafield_key != blank
-        assign display_section = true
-        break
-      endif
-    endfor
-  endif
-
   if section.settings.link_text != empty and section.settings.link_url != blank
     assign link = true
   endif
@@ -43,58 +31,55 @@
     assign slider = true
   endif
 -%}
+{%- if link %}
+  {%- capture link -%}
+    <p class="class-x{% unless section.settings.show_link %} link-btn{% endunless %} button-palette-{{ section.settings.button_color_palette }}"><a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ section.settings.link_text }}{% if section.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
+  {%- endcapture %}
+{%- endif -%}
 
-{%- if display_section -%}
-  {%- if link %}
-    {%- capture link -%}
-      <p class="class-x{% unless section.settings.show_link %} link-btn{% endunless %} button-palette-{{ section.settings.button_color_palette }}"><a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ section.settings.link_text }}{% if section.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
-    {%- endcapture %}
-  {%- endif -%}
-
-  {%- if show_header -%}
-    <header class="cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}" {% if section.settings.enable_custom_font_styling %} style="font-size:{{ section.settings.font_size }};{% endif %}">
-      {%- if container_div -%}<div class="{{ title_classes }}">{%- endif -%}
-        {%- if section.settings.title != blank -%}
-          <{{ section.settings.title_size }} class="{{ title_classes }} ff-{{ section.settings.title_font }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% elsif section.settings.text == empty%} m24{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
-        {%- endif -%}
-        {%- if section.settings.subtitle != blank -%}
-          <{{ section.settings.subtitle_size }} class="{{ title_classes }} ff-{{ section.settings.subtitle_font }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
-        {%- endif -%}
-        {%- if section.settings.text != empty -%}
-          {{ section.settings.text }}
-        {%- endif -%}
-      {%- if container_div -%}</div>{%- endif -%}
-      {%- if link and section.settings.text_alignment != 'center' -%}
-        {{ link | replace: 'class-x', 'mobile-hide' }}
+{%- if show_header -%}
+  <header class="cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}" {% if section.settings.enable_custom_font_styling %} style="font-size:{{ section.settings.font_size }};{% endif %}">
+    {%- if container_div -%}<div class="{{ title_classes }}">{%- endif -%}
+      {%- if section.settings.title != blank -%}
+        <{{ section.settings.title_size }} class="{{ title_classes }} ff-{{ section.settings.title_font }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% elsif section.settings.text == empty%} m24{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
       {%- endif -%}
-    </header>
-  {%- endif -%}
-  <p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}">
-    {%- if section.settings.collections == blank %}
-      {%- for i in (1..9) %}
-        {%- liquid
-          capture current
-            cycle 1, 2, 3, 4, 5
-          endcapture
-        -%}
-          <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="./">Collection title</a>
-      {%- endfor -%}
-    {%- else %}
-      {%- for collection in section.settings.collections -%}
-        {%- liquid
-          capture current
-            cycle 1, 2, 3, 4, 5, 6
-          endcapture
-        -%}
-        <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}">{{ collection.title }}</a>
-      {%- endfor -%}
-    {% endif -%}
-  </p>
-  {%- if link and section.settings.text_alignment == 'center' -%}
-    {{ link | replace: 'class-x', 'm0 text-center' }}
-  {%- elsif link and section.settings.text_alignment == 'start' -%}
-    {{ link | replace: 'class-x', 'm0 mobile-only' }}
-  {%- endif -%}
+      {%- if section.settings.subtitle != blank -%}
+        <{{ section.settings.subtitle_size }} class="{{ title_classes }} ff-{{ section.settings.subtitle_font }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
+      {%- endif -%}
+      {%- if section.settings.text != empty -%}
+        {{ section.settings.text }}
+      {%- endif -%}
+    {%- if container_div -%}</div>{%- endif -%}
+    {%- if link and section.settings.text_alignment != 'center' -%}
+      {{ link | replace: 'class-x', 'mobile-hide' }}
+    {%- endif -%}
+  </header>
+{%- endif -%}
+<p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}">
+  {%- if section.settings.collections == blank %}
+    {%- for i in (1..9) %}
+      {%- liquid
+        capture current
+          cycle 1, 2, 3, 4, 5
+        endcapture
+      -%}
+        <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="./">Collection title</a>
+    {%- endfor -%}
+  {%- else %}
+    {%- for collection in section.settings.collections -%}
+      {%- liquid
+        capture current
+          cycle 1, 2, 3, 4, 5, 6
+        endcapture
+      -%}
+      <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}">{{ collection.title }}</a>
+    {%- endfor -%}
+  {% endif -%}
+</p>
+{%- if link and section.settings.text_alignment == 'center' -%}
+  {{ link | replace: 'class-x', 'm0 text-center' }}
+{%- elsif link and section.settings.text_alignment == 'start' -%}
+  {{ link | replace: 'class-x', 'm0 mobile-only' }}
 {%- endif -%}
 
 <style>
