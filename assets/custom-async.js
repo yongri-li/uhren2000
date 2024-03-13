@@ -3333,7 +3333,6 @@ var sticky_top = document.getElementsByClassName("mobile-sticky")[0].offsetTop;
 var last_top = 0;
 
 window.onscroll = function() {
- console.log((document.documentElement.scrollTop));
   if(window.innerWidth < 915) {
     return;
   }
