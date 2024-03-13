@@ -134,7 +134,7 @@
         "enable_menu": true,
         "enable_collections": true,
         "filters_menu_alignment": "left",
-        "filters_layout": "drawer",
+        "filters_layout": "static",
         "filter_menu": "",
         "collections_menu": [
 
