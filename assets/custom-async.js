@@ -3328,6 +3328,43 @@ function insertAfter(referenceNode, newNode) {
 	referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
+
+var sticky_top = document.getElementsByClassName("mobile-sticky")[0].offsetTop;
+var last_top = 0;
+
+window.onscroll = function() {
+ console.log((document.documentElement.scrollTop));
+  if(window.innerWidth < 915) {
+    return;
+  }
+  if(document.documentElement.scrollTop - last_top < 0) {
+    if (document.documentElement.scrollTop <= sticky_top) {
+      $(".mobile-sticky").find(".has-select").css({"opacity" : "1"});
+      $(".mobile-sticky").find("ul").css({"opacity" : "1"});
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "relative";
+      document.getElementsByClassName("mobile-sticky")[0].style.top = "0";
+      document.getElementsByClassName("mobile-sticky")[0].style.border = "#efefef";
+    }
+  }else {
+    if (document.documentElement.scrollTop <= document.getElementsByClassName("mobile-sticky")[0].offsetTop) {
+      $(".mobile-sticky").find(".has-select").css({"opacity" : "1"});
+      $(".mobile-sticky").find("ul").css({"opacity" : "1"});
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "relative";
+      document.getElementsByClassName("mobile-sticky")[0].style.top = "0";
+      document.getElementsByClassName("mobile-sticky")[0].style.border = "#efefef";
+    } else {
+      $(".mobile-sticky").find(".has-select").css({"opacity" : "0"});
+      $(".mobile-sticky").find("ul").css({"opacity" : "0"});
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "fixed";
+      document.getElementsByClassName("mobile-sticky")[0].style.top = "160px";
+      document.getElementsByClassName("mobile-sticky")[0].style.border = "none";
+    }
+  }
+  last_top = document.documentElement.scrollTop;
+};
+
+
+
 window.addEventListener("mobileFilters", function(evt) {
 	// .f8sr (collection)
 	var form_sort = document.getElementsByClassName('f8sr');
@@ -3344,12 +3381,12 @@ window.addEventListener("mobileFilters", function(evt) {
 				el.prepend(trickDiv);
 				trickDist.style.height = el.clientHeight + 'px';
 				el.prepend(trickDist);
-				const observer = new IntersectionObserver(
-					([e]) => e.target.parentNode.classList.toggle('fixed', e.intersectionRatio < 1), {
-						threshold: [1, 0]
-					}
-				);
-				observer.observe(el.getElementsByClassName('offset-dist')[0]);
+				// const observer = new IntersectionObserver(
+				// 	([e]) => e.target.parentNode.classList.toggle('fixed', e.intersectionRatio < 1), {
+				// 		threshold: [1, 0]
+				// 	}
+				// );
+				// observer.observe(el.getElementsByClassName('offset-dist')[0]);
 				if (trg !== undefined) {
 					clone_me = trg.cloneNode(true);
 					clone_me.classList.add('clone');
