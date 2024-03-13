@@ -3329,7 +3329,7 @@ function insertAfter(referenceNode, newNode) {
 }
 
 
-vvar sticky_top = 0;
+var sticky_top = 0;
 var last_top = 0;
 console.log(document.getElementsByClassName("mobile-sticky")[0]);
 if(document.getElementsByClassName("mobile-sticky")[0] != undefined) {
