@@ -55,17 +55,8 @@
     {%- endif -%}
   </header>
 {%- endif -%}
-<p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}">
-  {%- if section.settings.collections == blank %}
-    {%- for i in (1..9) %}
-      {%- liquid
-        capture current
-          cycle 1, 2, 3, 4, 5
-        endcapture
-      -%}
-        <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="./">Collection title</a>
-    {%- endfor -%}
-  {%- else %}
+{% if section.settings.collections != blank %}
+  <p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}">
     {%- for collection in section.settings.collections -%}
       {%- liquid
         capture current
@@ -74,8 +65,8 @@
       -%}
       <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}">{{ collection.title }}</a>
     {%- endfor -%}
-  {% endif -%}
-</p>
+  </p>
+{% endif %}
 {%- if link and section.settings.text_alignment == 'center' -%}
   {{ link | replace: 'class-x', 'm0 text-center' }}
 {%- elsif link and section.settings.text_alignment == 'start' -%}
