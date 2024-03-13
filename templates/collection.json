@@ -60,6 +60,9 @@
     },
     "section_collection_button_list_e8hqp9": {
       "type": "section-collection-button-list",
+      "custom_css": [
+        "a {font-size: 12px; line-height: 24px;}"
+      ],
       "settings": {
         "collections": "{{ collection.metafields.custom.subcollections.value }}",
         "buttons_color_palette": "dark",
