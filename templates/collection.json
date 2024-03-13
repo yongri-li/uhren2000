@@ -137,9 +137,7 @@
         "filters_menu_alignment": "left",
         "filters_layout": "static",
         "filter_menu": "",
-        "collections_menu": [
-
-        ],
+        "collections_menu": "{{ collection.metafields.custom.subcollections.value }}",
         "filter_sticky": true,
         "filters_show_more_limit": 3,
         "enable_custom_filters_font_size": true,
