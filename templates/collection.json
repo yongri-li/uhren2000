@@ -140,7 +140,7 @@
 
         ],
         "filter_sticky": true,
-        "filters_show_more_limit": 7,
+        "filters_show_more_limit": 3,
         "enable_custom_filters_font_size": true,
         "filters_font_size": "14px",
         "image_swatches_size": "m",
