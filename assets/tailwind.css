@@ -429,6 +429,10 @@
     flex-direction: row
   }
 
+  .lg\:items-center {
+    align-items: center
+  }
+
   .lg\:p-10 {
     padding: 2.5rem
   }
