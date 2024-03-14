@@ -529,6 +529,43 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "contact_ways_xb3X4b": {
+      "type": "contact-ways",
+      "blocks": {
+        "item_Ped7QJ": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_CARQUg": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "item_bqfCyJ": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Ped7QJ",
+        "item_CARQUg",
+        "item_bqfCyJ"
+      ],
+      "settings": {
+        "title": "Do you have any questions about this watch?"
+      }
     }
   },
   "order": [
@@ -543,6 +580,7 @@
     "reviews",
     "section_custom_liquid_jEHJdT",
     "section_custom_liquid_kReYBz",
-    "recently-viewed"
+    "recently-viewed",
+    "contact_ways_xb3X4b"
   ]
 }
