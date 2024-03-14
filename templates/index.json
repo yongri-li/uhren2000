@@ -328,8 +328,8 @@
         "fix_zindex": 0
       }
     },
-    "a15be9bf-f7a0-42b0-821b-ea897949fe0e": {
-      "type": "section-featured-products",
+    "section_featured_collection_h7bn6M": {
+      "type": "section-featured-collection",
       "custom_css": [
         "a {text-transform: none; font-weight: 400; text-align: center;}",
         "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
@@ -337,19 +337,10 @@
         ".img-multiply {padding: 120px;}"
       ],
       "settings": {
-        "products": [
-          "a-lange-sohne-lange-1-101-039",
-          "audemars-piguet-ap-royal-oak-15400or-oo-1220or-02-rosegold",
-          "audemars-piguet-ap-royal-oak-15400or-oo-d002cr-01-rosegold",
-          "audemars-piguet-ap-royal-oak-15400st-oo-1220st-01",
-          "audemars-piguet-ap-royal-oak-15400st-oo-1220st-02",
-          "a-lange-sohne-1815-gelbgold-235-021",
-          "a-lange-sohne-1815-rotgold-235-032",
-          "a-lange-sohne-1815-rattrapante-perpetual-calendar-platin-421-025",
-          "a-lange-sohne-1815-platin-233-025"
-        ],
+        "collection": "sonderangebote",
         "layout": "slider",
-        "number_of_items": 5,
+        "limit": 5,
+        "number_of_items": 4,
         "text_alignment": "center",
         "title": "Aktuelle Uhren Angebote",
         "title_font": "secondary",
@@ -365,13 +356,12 @@
         "subtitle_weight": "400",
         "text": "",
         "enable_custom_font_styling": false,
-        "font_size": "16px",
-        "link_text": "",
-        "link_url": "\/",
+        "font_size": "14px",
+        "link_text": "View all",
         "button_color_palette": "accent",
         "show_link": false,
         "mobile_layout": "slider",
-        "spacing_desktop": 100,
+        "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -788,7 +778,7 @@
     "codext_watch_presenter_7jLHCC",
     "section_custom_liquid_6E7kid",
     "section_icon_text_blocks_JNGVqa",
-    "a15be9bf-f7a0-42b0-821b-ea897949fe0e",
+    "section_featured_collection_h7bn6M",
     "section_custom_liquid_WjPNQJ",
     "dca4067f-cc37-4e13-b5fa-6bcec984f3c2",
     "b0948af1-0fb9-4b44-9183-42c54e10a3ae",
