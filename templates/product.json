@@ -280,7 +280,7 @@
           "type": "item",
           "settings": {
             "icon_svg": "",
-            "text": "",
+            "text": "Test",
             "link": ""
           }
         },
@@ -315,6 +315,7 @@
         "item_ipdjQH",
         "item_zpg4mP"
       ],
+      "disabled": true,
       "settings": {
         "title": "Do you have any questions about this watch?"
       }
