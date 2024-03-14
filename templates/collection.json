@@ -60,7 +60,6 @@
     },
     "section_collection_button_list_e8hqp9": {
       "type": "section-collection-button-list",
-      "disabled": true,
       "custom_css": [
         "a {font-size: 12px; line-height: 24px;}"
       ],
@@ -135,9 +134,11 @@
         "enable_menu": true,
         "enable_collections": true,
         "filters_menu_alignment": "left",
-        "filters_layout": "static",
+        "filters_layout": "drawer",
         "filter_menu": "",
-        "collections_menu": "{{ collection.metafields.custom.subcollections.value }}",
+        "collections_menu": [
+
+        ],
         "filter_sticky": true,
         "filters_show_more_limit": 3,
         "enable_custom_filters_font_size": true,
