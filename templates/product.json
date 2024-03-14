@@ -266,6 +266,52 @@
         "fix_zindex": 0
       }
     },
+    "contact_ways_xb3X4b": {
+      "type": "contact-ways",
+      "blocks": {
+        "item_Ped7QJ": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "WhatsApp",
+            "link": ""
+          }
+        },
+        "item_CARQUg": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "+49 71 42 - 344 01 58",
+            "link": ""
+          }
+        },
+        "item_bqfCyJ": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "Inzahlungnahme",
+            "link": ""
+          }
+        },
+        "item_DeajDW": {
+          "type": "item",
+          "settings": {
+            "icon_svg": "",
+            "text": "Nachricht schreiben",
+            "link": "shopify:\/\/pages\/sie-suchen-eine-bestimmte-uhr"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ped7QJ",
+        "item_CARQUg",
+        "item_bqfCyJ",
+        "item_DeajDW"
+      ],
+      "settings": {
+        "title": "Sie haben Fragen zu dieser Uhr?"
+      }
+    },
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f": {
       "type": "section-spacer",
       "settings": {
@@ -529,49 +575,13 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "contact_ways_xb3X4b": {
-      "type": "contact-ways",
-      "blocks": {
-        "item_Ped7QJ": {
-          "type": "item",
-          "settings": {
-            "icon_svg": "",
-            "text": "",
-            "link": ""
-          }
-        },
-        "item_CARQUg": {
-          "type": "item",
-          "settings": {
-            "icon_svg": "",
-            "text": "",
-            "link": ""
-          }
-        },
-        "item_bqfCyJ": {
-          "type": "item",
-          "settings": {
-            "icon_svg": "",
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_Ped7QJ",
-        "item_CARQUg",
-        "item_bqfCyJ"
-      ],
-      "settings": {
-        "title": "Do you have any questions about this watch?"
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-product",
     "section_custom_liquid_zTTbR6",
+    "contact_ways_xb3X4b",
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
     "contact_ways_b9RtDD",
     "section_custom_liquid_ytT3Lt",
@@ -580,7 +590,6 @@
     "reviews",
     "section_custom_liquid_jEHJdT",
     "section_custom_liquid_kReYBz",
-    "recently-viewed",
-    "contact_ways_xb3X4b"
+    "recently-viewed"
   ]
 }
