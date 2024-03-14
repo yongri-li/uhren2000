@@ -1,7 +1,7 @@
 <div class="p-3 md:p-10">
   <div class="flex flex-col justify-between gap-2 rounded-xl bg-[#f7f7f7] px-4 py-6 shadow-sm lg:flex-row lg:items-center">
     <div class="grid w-full items-center justify-between gap-5 px-5 text-center font-serif md:flex">
-      <span class="text-center text-xl">{{ section.settings.title }}</span>
+      <span class="text-center text-2xl">{{ section.settings.title }}</span>
       {% for block in section.blocks %}
         <a class="no-underline flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit" href="{{ block.settings.link }}" rel="nofollow noopener">
           {{ block.settings.icon_svg }}
