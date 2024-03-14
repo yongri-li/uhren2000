@@ -3,12 +3,11 @@
     <div class="grid w-full items-center justify-between gap-5 px-5 text-center font-serif md:flex">
       <span class="text-center text-xl">{{ section.settings.title }}</span>
       {% for block in section.blocks %}
-        <a class="flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit" href="{{ block.settings.link }}" rel="nofollow noopener">
+        <a class="no-underline flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit" href="{{ block.settings.link }}" rel="nofollow noopener">
           {{ block.settings.icon_svg }}
-          <span style="vertical-align: inherit;" class="no-underline"> {{ block.settings.text }} </span>
+          <span style="vertical-align: inherit;" class="text-lg"> {{ block.settings.text }} </span>
         </a>
       {% endfor %}
-
     </div>
   </div>
 </div>
