@@ -45,7 +45,8 @@
       "custom_css": [
         "h2,h3,h4,h5 {color: white;}",
         " {background-color: black; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; margin-top: -20px;}",
-        "a {color: #b99e7a;}"
+        "a {color: #b99e7a;}",
+        ".text-white {color: #fff;}"
       ],
       "settings": {
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
