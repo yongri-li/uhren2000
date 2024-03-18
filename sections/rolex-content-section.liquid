@@ -25,8 +25,6 @@
         text-transform : none!important;
     }
 
-
-
     @media (max-width : 1300px) {
         .section-rolex {
             width : calc(100% + 40px);
@@ -45,7 +43,7 @@
 
 <div class="relative bg-black p-5 pt-44 text-white section-rolex">
     <div class="absolute right-0 top-0 h-fit w-2/3">
-        <img loading="lazy" src="{{ section.settings.background-image | img_url : "800x" }}" title="Rolex_Datejust_used" alt="Rolex_Datejust_used" class="max-h-full w-full object-cover opacity-50" />
+        <img loading="lazy" src="{{ section.settings.background-image | img_url: '800x' }}" title="Rolex_Datejust_used" alt="Rolex_Datejust_used" class="max-h-full w-full object-cover opacity-50" />
 
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
 
@@ -54,7 +52,8 @@
 
     <div class="relative">
         <h1 class="font-serif text-4xl md:text-5xl color-[#fff]">{{ section.settings.heading-text }}</h1>
-        <button class="mt-5 rounded-full bg-[#c1a57e] px-5 py-3 font-serif text-lg text-white">{{ section.settings.button-text }}</button>
+        <!-- Button als Link für die Weiterleitung -->
+        <a href="{{ section.settings.button-url }}" class="mt-5 rounded-full bg-[#c1a57e] px-5 py-3 font-serif text-lg text-white" role="button">{{ section.settings.button-text }}</a>
     </div>
     <div class="relative grid md:grid-cols-2 color-[#fff] w-full">
         <div class='color-[#fff]'>
