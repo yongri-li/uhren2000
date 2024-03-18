@@ -562,7 +562,8 @@
     "recently-viewed": {
       "type": "section-recently-viewed-products",
       "custom_css": [
-        "a {text-transform: none; font-weight: 400; text-align: center;}"
+        "a {text-transform: none; font-weight: 400; text-align: center;}",
+        "p {text-transform: none; text-align: center;}"
       ],
       "settings": {
         "number_of_items": 6,
