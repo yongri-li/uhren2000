@@ -40,139 +40,15 @@
         "spacing_mobile": 30
       }
     },
-    "section_collage_6mxfcU": {
-      "type": "section-collage",
-      "blocks": {
-        "image_Pi8HrF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "text_position": "text-center",
-            "title": "",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
-          }
-        }
-      },
-      "block_order": [
-        "image_Pi8HrF"
-      ],
+    "rolex_content_section_zztXhh": {
+      "type": "rolex-content-section",
       "settings": {
-        "mirrored": false,
-        "width": "boxed",
-        "height": "size-s",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_icon_text_blocks_TcGGtL": {
-      "type": "section-icon-text-blocks",
-      "blocks": {
-        "text_pVPWtN": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "image_height": 55,
-            "title": "",
-            "subtitle": "",
-            "text": "<h6>Mit einer Dresswatch unterstreicht der Träger Stil und Klasse<\/h6><p>Eine Dresswatch ist eine Uhr, die den Betrachter durch höchste Eleganz beeindruckt. Ihrem Träger bescheinigt eine solche Uhr Stil und Klasse. Getragen werden diese Uhren, die auch Anzuguhren genannte werden, zu besonderen Anlässen. Liebhaber luxuriöser Uhren kaufen eine Dresswatch, um damit bei Geschäftsessen, aber auch bei Abendterminen, wie Konzerte oder bei einem Galadinner sowie anderen Anlässen ein deutliches Statement zu setzen. Hochwertige Materialien für die Gehäuse, wie Gold oder Platin, sowie exklusives Design unterstreichen die Besonderheit dieser hochwertigen Uhren. Die bemerkenswerten Modelle gibt es für Herren und Damen. Die weltweit bekannten und für ihren Luxus berühmten Traditionsmarken bieten gerade in diesem Bereich schöne und wertvolle Modelle in höchster Qualität an.<\/p><h6>Geprägt von besonderen Eigenschaften<\/h6><p>Viele Uhren werden heute ganz selbstverständlich zu allen Anlässen getragen. Trotzdem legen viele Liebhaber luxuriöser Uhren großen Wert darauf, eine Dresswatch zu kaufen. Eine solche Uhr besticht durch außergewöhnliche Eigenschaften. Die Gehäuse dieser Uhren sind in der Regel besonders flach. Damit können die Anzugsuhren perfekt unter dem Hemd getragen werden. Zwar werden die eleganten Zeitmesser aus hochwertigem Material gefertigt. Zu den exquisiten Gehäusen aus Edelstahl, Gold oder Platin passen Armbänder aus Krokoleder besonders gut. Dennoch fällt eine perfekte Anzuguhr nicht durch übermäßige Extras auf. Zurückhaltendes Design ist ein hervorragendes Merkmal dieser Zeitmesser der Extraklasse.<\/p>",
-            "link_text": "Dress Watches für Sie & Ihn",
-            "link_url": "shopify:\/\/collections\/alle-uhren",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        },
-        "text_RK8Brd": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "image_height": 55,
-            "title": "",
-            "subtitle": "",
-            "text": "<h6>Klassische und elegante Schönheiten<\/h6><p>Die Omega De Ville zum Beispiel ist eine klassisch schöne Dreizeiger-Uhr. Mit ihrem Gehäuse aus Gold und dem guillochiertem Zifferblatt ergänzt die exquisite Uhr jeden besonderen Anlass. Auch die IWC Portofino ist wie gemacht für gehobene Anlässe. Elegant und gut ablesbar passt sie mit ihrem besonders flachen Gehäuse optimal unter den Anzug. Uhrenmodelle von Lange und Söhne sind der Inbegriff außergewöhnlich luxuriöser Anzuguhren. Mit einem silbernen Zifferblatt mit goldenen Indexen besticht die A. Lange und Söhne Saxonia Thin. Ihr Gehäuse ist nur 5,9 Millimeter hoch. Als Dresswatch mit höchstem Anspruch lässt sich die A. Lange & Söhne Lange 1 bezeichnen. Sie gilt als das Flaggschiff der Traditionsmanufaktur aus Glashütte.<br\/><br\/>Eine der berühmtesten Uhren weltweit ist die Jaeger-LeCoultre Reverso. Diesen Titel trägt die elegante Uhr mit dem besonderen Gehäuse im Art-Déco-Design schon seit dem Jahr 1937. Eine besonders schöne Uhr für Anzug oder Kleid ist die Jaeger-LeCoultre Master. Auch sie verkörpert höchste Qualität und Uhrmacherkunst und sieht zu festlichen Anlässen besonders gut aus. Elegante Schönheiten sind die Modelle aus dem Hause Patek Philippe. Uhren der Schweizer Marke verkörpern Perfektionismus in der höchsten Form. Kunden, die eine Dresswatch kaufen wollen, die über die Jahre noch an Wert gewinnt, liegen mit der Patek Philippe Calatrava richtig. Klassische Schönheit strahlt die Patek Philippe Weltzeituhr aus. Mit kühler Klarheit überrascht die Patek Phillippe Ellipse d'Or.<\/p><p>Nicht zuletzt stehen die bemerkenswerten Modelle aus dem Traditionsunternehmen Rolex für die schlichte Eleganz und die überzeugende Funktionalität einer Dresswatch. Benannt nach dem berühmten italienischen Bildhauer Benvenuto Cellini besticht die Rolex Cellini durch klassische Formen und traditionelles Design. Als typisches Modell im Vintage-Stil erinnert diese Anzuguhr an die Schönheit vergangener Epochen. Ganz im heute steht die Rolex Day Date. Diese Uhr für den besonderen Anlass gibt es nur in 18 Karat Gold oder Platin.<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        }
-      },
-      "block_order": [
-        "text_pVPWtN",
-        "text_RK8Brd"
-      ],
-      "custom_css": [
-        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
-        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
-      ],
-      "settings": {
-        "items_width": 4,
-        "text_alignment": "center",
-        "title": "Dress Watches sind Perfekt zum jedem Anlass und nicht nur schön anzusehen",
-        "title_font": "secondary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "font_size": "16px",
-        "link_text": "Button",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "blocks_text_alignment": "start",
-        "blocks_title_font": "primary",
-        "blocks_title_size": "h2",
-        "blocks_subtitle_font": "secondary",
-        "blocks_subtitle_size": "h2",
-        "blocks_title_color_palette": "black",
-        "blocks_title_weight": "700",
-        "blocks_subtitle_color_palette": "black",
-        "blocks_subtitle_weight": "400",
-        "blocks_font_size": "16px",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
+        "background-image": "{{ page.metafields.custom.background_picture.value }}",
+        "heading-text": "{{ page.metafields.custom.heading.value }}",
+        "content-text": "{{ page.metafields.custom.content | metafield_tag }}",
+        "button-url": "{{ page.metafields.custom.button.value }}",
+        "button-text": "",
+        "contact-info": "{{ page.metafields.custom.contact | metafield_tag }}"
       }
     },
     "section_custom_liquid_bhQtQ6": {
@@ -219,8 +95,7 @@
   "order": [
     "breadcrumbs",
     "main-page",
-    "section_collage_6mxfcU",
-    "section_icon_text_blocks_TcGGtL",
+    "rolex_content_section_zztXhh",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
   ]
