@@ -23,13 +23,7 @@
     {% if section.settings.fill_images %}data-fill_images{% endif %}
     {% if section.settings.show_in_circle and section.settings.image_ratio == 100 %}data-images_rounded{% endif %}
     data-content_alignment="text-{{ section.settings.content_alignment }}"
->
-  {%- for product in collections.all.products -%}
-    {%- unless product.tags contains 'Uhren-Archiv' -%}
-      <!-- Hier den Code für die Produktkachel einfügen -->
-    {%- endunless -%}
-  {%- endfor -%}
-</ul>
+></ul>
 
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
