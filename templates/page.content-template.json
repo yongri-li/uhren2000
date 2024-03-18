@@ -46,7 +46,8 @@
         "h1,h2,h3,h4,h5 {color: white; text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400;}",
         " {background-color: black; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; margin-top: -20px;}",
         "a {color: #b99e7a;}",
-        ".text-white {color: #fff;}"
+        ".text-white {color: #fff;}",
+        "h2 {font-size: 22px;}"
       ],
       "settings": {
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
