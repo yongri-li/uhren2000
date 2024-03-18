@@ -43,7 +43,7 @@
     "rolex_content_section_zztXhh": {
       "type": "rolex-content-section",
       "custom_css": [
-        "h3, h4, h5 {color: white;}",
+        "h2,h3,h4,h5 {color: white;}",
         " {background-color: black; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; margin-top: -20px;}"
       ],
       "settings": {
