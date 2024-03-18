@@ -229,7 +229,7 @@
             "title_weight": "700",
             "newsletter_text": "<p>Abonnieren Sie unseren Newsletter und verpassen Sie keine Angebote, Neuigkeiten und Veranstaltungen rund um Uhren. Bleiben Sie immer informiert und verpassen Sie keine Chance auf tolle Uhrenangebote!<\/p>",
             "footer_button_color": "accent",
-            "enable_newsletter_terms_checkbox": true,
+            "enable_newsletter_terms_checkbox": false,
             "newsletter_terms_text": "<p>Ich bin mit der <a href=\"\/collections\" title=\"Alle Kollektionen\">Datenschutzerklärung <\/a>einverstanden<\/p>"
           }
         }
