@@ -16,6 +16,7 @@
     </div>
   </header>
 {%- endif -%}
+
 <ul class="l4cl{% if section.settings.text_alignment == 'center' %} justify-center{% endif %}"
     data-number_of_items={{ section.settings.number_of_items }}
     {% if section.settings.show_title %}data-show_title{% endif %}
@@ -23,7 +24,13 @@
     {% if section.settings.fill_images %}data-fill_images{% endif %}
     {% if section.settings.show_in_circle and section.settings.image_ratio == 100 %}data-images_rounded{% endif %}
     data-content_alignment="text-{{ section.settings.content_alignment }}"
-></ul>
+>
+  {%- for product in collections.all_products -%}
+    {%- unless product.tags contains 'Uhren-Archiv' -%}
+      <li>{{ product.title }}</li>
+    {%- endunless -%}
+  {%- endfor -%}
+</ul>
 
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
