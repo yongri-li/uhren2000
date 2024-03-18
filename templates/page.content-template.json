@@ -89,41 +89,14 @@
             "button_color_palette": "accent",
             "show_link": false
           }
-        },
-        "text_ACeW4c": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "image_height": 55,
-            "title": "Column",
-            "subtitle": "",
-            "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        },
-        "text_iEnqak": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "image_height": 55,
-            "title": "Column",
-            "subtitle": "",
-            "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
         }
       },
       "block_order": [
         "text_YbMdHB",
-        "text_CQMnXK",
-        "text_ACeW4c",
-        "text_iEnqak"
+        "text_CQMnXK"
+      ],
+      "custom_css": [
+        "{background: linear-gradient(to bottom, #f8f8f8, #ffffff); margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 160px;}"
       ],
       "settings": {
         "items_width": 4,
