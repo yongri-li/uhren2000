@@ -70,7 +70,7 @@
             "title": "",
             "subtitle": "",
             "text": "",
-            "link_text": "Button",
+            "link_text": "",
             "link_url": "",
             "button_color_palette": "accent",
             "show_link": false
@@ -81,10 +81,10 @@
           "settings": {
             "icon": "none",
             "image_height": 55,
-            "title": "Column",
+            "title": "",
             "subtitle": "",
             "text": "",
-            "link_text": "Button",
+            "link_text": "",
             "link_url": "",
             "button_color_palette": "accent",
             "show_link": false
