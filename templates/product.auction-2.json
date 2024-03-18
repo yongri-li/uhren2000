@@ -49,6 +49,7 @@
         },
         "content_7LFryc": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "layout": "none",
             "collapse": false,
@@ -66,6 +67,7 @@
         },
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "height": 65,
             "height_mobile": 20
@@ -73,6 +75,7 @@
         },
         "variant_selection": {
           "type": "variant_selection",
+          "disabled": true,
           "settings": {
             "selection_type": "buttons",
             "options": true,
@@ -96,6 +99,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_tax": false,
             "font_size": 16
@@ -103,6 +107,7 @@
         },
         "content_meryVV": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "layout": "none",
             "collapse": false,
@@ -133,6 +138,7 @@
         },
         "inventory": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
           }
         },
@@ -170,6 +176,7 @@
         },
         "c300d32f-398c-41a9-b22b-d5c9f40ed345": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "height": 20,
             "height_mobile": 20
@@ -184,6 +191,7 @@
         },
         "content_bQGz6K": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "layout": "tab",
             "collapse": false,
