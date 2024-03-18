@@ -46,8 +46,8 @@
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
         "heading-text": "{{ page.metafields.custom.heading.value }}",
         "content-text": "{{ page.metafields.custom.content | metafield_tag }}",
-        "button-url": "",
-        "button-text": "",
+        "button-url": "www.google.de",
+        "button-text": "www.google.de",
         "contact-info": "{{ page.metafields.custom.contact | metafield_tag }}"
       }
     },
