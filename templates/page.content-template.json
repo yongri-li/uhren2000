@@ -52,7 +52,7 @@
         "content-text": "{{ page.metafields.custom.content | metafield_tag }}",
         "button-url": "shopify:\/\/pages\/ankauf-ihrer-luxusuhr-zu-fairen-konditionen",
         "button-text": "{{ page.metafields.custom.button.value }}",
-        "contact-info": "<h4>Telefonische Beratung<br\/>Mo-Sa 9 - 18 Uhr<\/h4><h4><a href=\"tel:+4971423440158\">+49 7142 - 3440158<br\/><br\/><\/a>Persönliche Abholung vor Ort nach Terminvereinbarung möglich.<\/h4>"
+        "contact-info": "<h5>Telefonische Beratung<br\/>Mo-Sa 9 - 18 Uhr<\/h5><h5><a href=\"tel:+4971423440158\">+49 7142 - 3440158<br\/><\/a>Persönliche Abholung vor Ort nach Terminvereinbarung möglich.<\/h5>"
       }
     },
     "section_custom_liquid_bhQtQ6": {
