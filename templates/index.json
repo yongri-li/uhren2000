@@ -67,6 +67,20 @@
         "btn_url2": "shopify:\/\/pages\/ankauf-ihrer-luxusuhr-zu-fairen-konditionen"
       }
     },
+    "rolex-content-section": {
+      "type": "rolex-content-section",
+      "custom_css": [
+        "h3 {color: white;}"
+      ],
+      "settings": {
+        "background-image": "shopify:\/\/shop_images\/Rolex_Datejust_gebraucht_480x480_2x_d1b918f9-c4fa-4708-acc2-e0152b475f32.jpg",
+        "heading-text": "Selling a used Rolex watch - this is how it works",
+        "content-text": "<h3>Would you like to sell your Rolex watch at a good price?<\/h3><p>We can do this quickly and easily. We will help you and support you with our experience and many years of expertise. We would be happy to buy and sell your branded watch at a fair price or accept it as a trade-in at the best conditions. Your complete satisfaction as our customer is always our focus. Trust and honesty are a way of life for us. You always receive the best conditions when purchasing luxury watches .<br\/><br\/>This makes purchasing used watches from Rolex, Breitling, Omega, Panerai and others very easy.<br\/><br\/>Sell ​​your Rolex watch in Stuttgart, Karlsruhe, Mannheim, Freiburg im Breisgau, Heidelberg, Ulm or Heilbronn at the best price with us on site. If you live close to our branch, we offer you the opportunity to sell your watch with confidence directly in our store. Our team will also be happy to evaluate your watch in advance by telephone. Have your watch picked up safely by our valuables delivery service, or visit us to sell your watch in peace and a relaxed atmosphere. Convince yourself here of the fast and very good service that we offer you when purchasing your watch. Customers who live in Pforzheim, Reutlingen, Ludwigsburg, Esslingen am Neckar or Tübingen also benefit from this comprehensive support and proximity to us in the Baden-Württemberg area. According to the motto \"Cash against clock\" you can sell quickly, discreetly and at a good market price in our branch. Make an appointment by phone today and take advantage of our expertise and extensive service when selling your watch.<\/p><h3>After delivery, your watch will be evaluated professionally and competently in our watch workshop.<\/h3><p>Our master watchmakers have years of experience in evaluating valuable watches. They examine the watches thoroughly and assess their condition fairly. This means you always get the best price from us. We pay immediately after the assessment, so you don't have to wait long for your money.<br\/><br\/>We would be happy to give you a non-binding assessment of your Rolex watch before you send it directly to us via courier. To do this, however, we need important information about your watch and its condition. For this purpose, you have the option of sending us online important data and images of your watch that you would like to sell to us. A corresponding purchase form is available online.<br\/><br\/>Detailed photos of your watch make it easier for our experts to provide the most comprehensive and accurate assessment possible. Please note that this way we can give you an estimate of the price of your watch. We can only tell you with certainty how much your watch is ultimately worth after an intensive visual and technical inspection. Our estimates usually do not deviate from the amount to be paid out. We look forward to seeing you and your watch. It has never been easier, safer or more straightforward to sell a Rolex watch.<\/p>",
+        "button-url": "",
+        "button-text": "Sell ​​Rolex watch",
+        "contact-info": "<p>Telephone advice<br\/>Mon-Sat 9 a.m. - 6 p.m.<br\/><em>+49 7142 - 3440158<\/em><br\/><br\/>Personal pickup on site possible by appointment.<\/p>"
+      }
+    },
     "codext_watch_presenter_7jLHCC": {
       "type": "codext-watch-presenter",
       "blocks": {
@@ -775,6 +789,7 @@
   "order": [
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
     "top_banner_jQRJiV",
+    "rolex-content-section",
     "codext_watch_presenter_7jLHCC",
     "section_custom_liquid_6E7kid",
     "section_icon_text_blocks_JNGVqa",
