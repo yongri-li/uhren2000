@@ -1535,7 +1535,7 @@
         }
     {% endunless %}
 
- .archivartikel-verkauft {
+.archivartikel-verkauft {
     background-color: #202020;
     border-radius: 15px;
     padding: 20px;
@@ -1543,10 +1543,11 @@
     color: #fff;
     margin-bottom: 20px;
     max-width: 500px;
+    margin: 0 auto; /* Zentrierung horizontal */
 }
 
-.verkauft-text {
-    margin-bottom: 20px;
+.verkauft-text strong {
+    font-weight: bold;
 }
 
 .sonderangebote-button {
@@ -1562,7 +1563,15 @@
 
 .sonderangebote-button:hover {
     background-color: #aa9170;
-} 
+}
+
+.sonderangebote-button:hover {
+    background-color: #aa9170;
+}
+
+.archivartikel-verkauft .sonderangebote-button:hover {
+    color: #fff; /* Button-Text weiß beim Hovern */
+}
 </style>
 
 {% schema %}
