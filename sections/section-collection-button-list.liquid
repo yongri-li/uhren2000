@@ -1,4 +1,7 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+
+{{ "link-buttons-slider.css" | asset_url | stylesheet_tag}}
+
 {%- liquid
 
   if section.settings.link_text != empty and section.settings.link_url != blank
@@ -56,16 +59,36 @@
   </header>
 {%- endif -%}
 {% if section.settings.collections != blank %}
-  <p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}">
-    {%- for collection in section.settings.collections -%}
-      {%- liquid
-        capture current
-          cycle 1, 2, 3, 4, 5, 6
-        endcapture
-      -%}
-      <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}">{{ collection.title }}</a>
-    {%- endfor -%}
-  </p>
+  
+
+  <section class='link-btn-slider'>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        
+        {%- for collection in section.settings.collections -%}
+          <div class="swiper-slide">
+            <p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}" title="{{ collection.title }}">
+          {%- liquid
+            capture current
+              cycle 1, 2, 3, 4, 5, 6
+            endcapture
+          -%}
+          <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}"><span>{{ collection.title }}</span></a>
+            </p>
+          </div>
+        {%- endfor -%}
+      
+        
+      </div>
+  
+    </div>
+  
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </section>
+
+
 {% endif %}
 {%- if link and section.settings.text_alignment == 'center' -%}
   {{ link | replace: 'class-x', 'm0 text-center' }}
@@ -100,6 +123,10 @@
     {% endif %}
   }
 </style>
+
+
+{{ 'link-buttons.js' | asset_url | script_tag}}
+
 
 {% schema %}
 {
