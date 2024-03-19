@@ -65,7 +65,7 @@
       ],
       "settings": {
         "collections": "{{ collection.metafields.custom.subcollections.value }}",
-        "buttons_color_palette": "white",
+        "buttons_color_palette": "light_2",
         "button_styling": "fill",
         "text_alignment": "center",
         "title": "",
