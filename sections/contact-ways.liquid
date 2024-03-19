@@ -1,11 +1,11 @@
 <div class="p-3 md:p-10 w-full">
-  <div class="flex flex-col justify-between gap-2 rounded-xl bg-[#f7f7f7] px-4 py-6 shadow-sm lg:flex-row lg:items-center w-full">
-    <div class="grid w-full items-center justify-between gap-5 px-5 text-center font-serif md:flex">
-      <span class="text-center text-xl">{{ section.settings.title }}</span>
+  <div class="flex flex-wrap justify-between gap-2 rounded-xl bg-[#f7f7f7] p-4 shadow-sm w-full">
+    <div class="flex w-full flex-col items-center justify-between gap-5 px-5 text-center font-serif md:flex-row">
+      <span class="text-xl">{{ section.settings.title }}</span>
       {% for block in section.blocks %}
-        <a class="no-underline flex w-full items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white md:w-fit" href="{{ block.settings.link }}" rel="nofollow noopener">
+        <a class="no-underline flex items-center justify-center gap-2 rounded-full bg-[#c1a57e] px-4 py-2 text-white" href="{{ block.settings.link }}" rel="nofollow noopener">
           {{ block.settings.icon_svg }}
-          <span style="vertical-align: inherit;" class="text-lg"> {{ block.settings.text }} </span>
+          <span class="text-lg" style="vertical-align: inherit;">{{ block.settings.text }}</span>
         </a>
       {% endfor %}
     </div>
