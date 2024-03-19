@@ -1,5 +1,19 @@
 {% style %}
 
+@media (min-width : 1400px) {
+  .search-compact-is-centered #root #search {
+      max-width: 800px;
+      margin-left : -60px!important;
+  }
+}
+
+@media (max-width : 1399px) and (min-width : 1024px) {
+  .search-compact-is-centered #root #search {
+      max-width: 600px;
+  }
+}
+
+
 @media (min-width : 1024px) {
   
   #search button {
@@ -85,9 +99,6 @@
     align-items : center;
   }
 
-  .search-compact-is-centered #root #search {
-      max-width: 500px;
-  }
 }
   span#cart-count {
     display : none;
@@ -115,6 +126,150 @@
   
   #nav-user .user-login a , #nav-user .cart a {
     display : flex!important;
+  }
+
+
+  [data-type="main-nav"] > li,
+  .horizontal-nav > li {
+    margin : 0 10px 0 0!important;
+    padding-left : 10px!important;
+    padding-right : 10px!important;
+  }
+
+  [data-type="main-nav"] > li:hover,
+  .horizontal-nav > li:hover {
+    background-color : #c1a57e!important;
+  }
+
+  [data-type="main-nav"] > li > a,
+  .horizontal-nav > li > a {
+    color : black!important;
+  }
+
+  [data-type="main-nav"] > li:hover > a,
+  .horizontal-nav > li:hover > a {
+    color : white!important;
+  }
+
+  [data-type="main-nav"] > li:nth-child(4) > a[accesskey="4"]  {
+    padding-left : 0px!important;
+    padding-right : 0px!important;
+  }
+  
+
+  [data-type="main-nav"] > li:nth-child(4):hover > a[accesskey="4"]  {
+    background-color : #c1a57e!important;
+  }
+
+
+  [data-type="main-nav"] > li > ul {
+    background-color : #c1a57e!important;
+    border-bottom-left-radius : 20px!important;
+    border-bottom-right-radius : 20px!important;
+  }
+
+  [data-type="main-nav"] > li > ul li.ff-secondary ul li a {
+    color : white!important;
+    background-color : rgba(0 , 0, 0, 0);
+    /* transition : background-color 0.5s; */
+    padding : 10px 10px;
+  }
+
+  [data-type="main-nav"] > li > ul li.ff-secondary ul li a:hover {
+    background-color : rgba(0 , 0, 0, 1);
+  }
+
+
+  [data-type="main-nav"] > li.sub-static.sub.hover .ff-secondary ul li a {
+    color : white!important;
+    background-color : rgba(0 , 0, 0, 0);
+    /* transition : background-color 0.5s; */
+    padding : 10px 10px!important;
+  }
+
+  [data-type="main-nav"] > li.sub-static.sub.hover .ff-secondary ul li a:hover {
+    background-color : rgba(0 , 0, 0, 1);
+  }
+   
+
+  /* [data-type="main-nav"] > li:nth-child(3) > .ff-secondary {
+    width : max-content!important;
+  } */
+
+  [data-type="main-nav"] > li:nth-child(3) > ul {
+    padding-top : 0!important;
+  }
+
+  [data-type="main-nav"] > li:nth-child(3) > .ff-secondary ul li {
+    background-color : rgba(0 , 0, 0, 0);
+    /* transition : background-color 0.5s; */
+  }
+
+  [data-type="main-nav"] > li:nth-child(3) > .ff-secondary ul li a {
+    color : white!important;
+    padding :10px 25px  10px 15px!important;
+    width : max-content!important;
+  }
+
+  [data-type="main-nav"] > li:nth-child(3) > .ff-secondary ul li:hover {
+    background-color : rgba(0 , 0, 0, 1);
+  }
+   
+
+
+  [data-type="main-nav"] > li:first-child > ul li.ff-secondary ul li a > img {
+    mix-blend-mode : unset;
+  } 
+
+  [data-type="main-nav"] > li.sub-static.sub.hover .ff-secondary ul li a > img {
+    mix-blend-mode : unset;
+  } 
+
+
+  .horizontal-nav li.sub > ul {
+    flex-direction : column;
+    background-color : #c1a57e!important;
+    padding : 0!important;
+    margin-left : -50px!important;
+    width : 300px;
+    left : unset!important;
+    right : unset!important;
+    border-bottom-left-radius : 20px!important;
+    border-bottom-right-radius : 20px!important;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary {
+      border : none!important;
+      width : 100%!important;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li {
+    margin-bottom : 0px!important;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li > a {
+    color : white!important;
+    padding : 8px 25px;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li:hover {
+    background-color : black;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li:hover > a {
+    color : white!important;
+  }
+
+  #nav [data-type="main-nav"] .custom-seperate {
+    display : none;
+  }
+
+  #nav-user .user-login a, #nav-user .cart a {
+    align-items :center;
+  }
+
+  #nav > ul > li > ul > *:before, #nav-bar > ul > li > ul > *:before {
+    border: none!important;
   }
 
 {% endstyle %}
