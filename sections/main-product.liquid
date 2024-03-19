@@ -983,9 +983,12 @@
         <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
     </button>
 {%- else -%}
-    <button type="submit" class="disabled overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
-        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.not_in_stock' | t }}
+    <button type="button" class="disabled-button" disabled>
+        Archivartikel - Verkauft
+        <br>
+        Dieser Artikel ist bereits verkauft, aber hier gelangen Sie zu unseren aktuellen Sonderangeboten
     </button>
+    <a href="LINK_TO_SPECIAL_OFFERS" class="special-offers-button">Sonderangebote</a>
 {%- endif -%}
                         </p>
                         {%- if show_dynamic_buybutton -%}
