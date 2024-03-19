@@ -1,0 +1,83 @@
+section.link-btn-slider .swiper {
+    padding : 0 40px;
+  }
+  
+  section.link-btn-slider .swiper .swiper-slide .link-btn a  {
+    width : calc(100% - 25px)!important;
+    min-width : calc(100% - 25px)!important;
+    max-width : calc(100% - 25px)!important;
+    padding : 16px!important;
+  }
+
+  section.link-btn-slider .swiper  p.link-btn {
+    margin : 0!important;
+    overflow: hidden;
+  }
+  
+  @media (max-width : 500px) {
+    
+    section.link-btn-slider .swiper {
+        margin-right : 0!important;
+      justify-content: center;
+    }
+  }
+  
+  section.link-btn-slider .swiper .swiper-slide .link-btn a span {
+    display : block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+   }
+  
+  
+  .link-btn-slider .swiper-slide {
+      /* min-width: max-content;
+      width: max-content;
+      max-width: max-content; */
+  }
+  
+  .link-btn-slider .swiper-button-prev, .link-btn-slider .swiper-button-next {
+      border: 1px solid #446b8a!important;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%!important;
+      background: #446b8a!important;
+      color: white;
+      top : 29px!important;
+      /* border : 1px solid white!important; */
+  }
+  
+  .link-btn-slider .swiper .link-btn a {
+    margin : 0;
+
+  }
+  
+  .link-btn-slider .swiper-button-prev:hover, .swiper-button-next:hover {
+    border: 1px solid #fff;
+  }
+
+  @media (max-width : 500px) {
+    .link-btn-slider .swiper {
+      padding : 0!important;
+    }
+
+    .link-btn-slider .swiper-button-prev, .link-btn-slider .swiper-button-next {
+      display: none;
+    }
+
+    section.link-btn-slider .swiper .swiper-slide .link-btn a  {
+      width : calc(100% - 15px)!important;
+      min-width : calc(100% - 15px)!important;
+      max-width : calc(100% - 15px)!important;
+      padding : 15px!important;
+    }
+
+    section.link-btn-slider .swiper .swiper-slide .link-btn a  {
+      margin-left : 12px;
+    }
+
+    section.link-btn-slider .swiper .swiper-button-next {
+      border : 1px solid white!important;
+    }
+  }
