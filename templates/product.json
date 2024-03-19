@@ -113,7 +113,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "<center style=\"margin-top: -25px; margin-bottom: 20px; font-size: 12px;\">\n  <span style=\"color: #8f8f8f;\">Preise inkl. MwSt.<\/span> \n  <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.de\/\" style=\"color: #c6ae8e;\">zzgl. Versandkosten<\/a><\/span>\n<\/center>",
+            "liquid": "{% unless product.tags contains 'Uhren-Archiv' %}\n  <center style=\"margin-top: -25px; margin-bottom: 20px; font-size: 12px;\">\n    <span style=\"color: #8f8f8f;\">Preise inkl. MwSt.<\/span> \n    <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.de\/\" style=\"color: #c6ae8e;\">zzgl. Versandkosten<\/a><\/span>\n  <\/center>\n{% endunless %}",
             "html": "",
             "show_contact_form": false
           }
