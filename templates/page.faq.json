@@ -330,10 +330,24 @@
         "text_4VTTXV": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "12.) Kann ich mich auch noch gegen einen Verkauf entscheiden?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Da es sich um eine unverbindliche Wertermittlung handelt, können Sie sich jederzeit gegen einen Verkauf an uns entscheiden.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_4NKijr": {
+          "type": "text",
+          "settings": {
+            "faq_question": "13.) Wie kann ich Ihnen meine Uhr zukommen lassen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie können uns hierzu gerne persönlich besuchen kommen. Eine andere Möglichkeit wäre der postalische Weg über einen Wertkurier. Diesen können entweder Sie selbst beauftragen oder wir lassen Ihre Uhr von unserem Wertkurier abholen.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -397,6 +411,7 @@
         "text_6R7XGa",
         "text_xe6R3Q",
         "text_4VTTXV",
+        "text_4NKijr",
         "text_TWR6hP",
         "text_Tgp6d3",
         "text_cCFMxJ"
