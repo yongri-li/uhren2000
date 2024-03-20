@@ -129,6 +129,9 @@
         "faq_2",
         "faq_3"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "alignment": "left",
         "compact": false,
@@ -271,6 +274,9 @@
         "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2",
         "1aac02b6-6669-4da9-8318-348245b71f6a",
         "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; text-transform: none; margin-bottom: -30px;}"
       ],
       "settings": {
       }
