@@ -80,10 +80,10 @@
         "faq_1": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 1",
-            "icon": "none",
+            "faq_question": "Anschrift & Kontakt",
+            "icon": "group",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer question 1<\/p>",
+            "faq_answer": "<p><strong>Uhren2000 GmbH<\/strong><\/p><p>Bahnhofstraße 56-64<br\/>74321 Bietigheim-Bissingen<br\/>Deutschland<\/p><p>Tel.: +49 7142-3440158<br\/>Mobil: +49 176-64792253<br\/>Email: info@uhren2000.de<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -94,10 +94,10 @@
         "faq_2": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 2",
-            "icon": "none",
+            "faq_question": "Öffnungszeiten",
+            "icon": "24_hour_clock",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer question 2<\/p>",
+            "faq_answer": "<p>Bei Fragen erreichen Sie uns unter den oben aufgeführten Telefonnummern. Mo-Sa 9 - 18 Uhr.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -108,10 +108,10 @@
         "faq_3": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 3",
-            "icon": "none",
+            "faq_question": "Abholung",
+            "icon": "shopping_bag",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer question 3<\/p>",
+            "faq_answer": "<p>Abholung nur nach Terminabsprache möglich.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -128,7 +128,7 @@
       "settings": {
         "alignment": "left",
         "compact": false,
-        "title": "Collapsible content",
+        "title": "FAQ",
         "title_font": "primary",
         "title_size": "h4",
         "enable_custom_text_styling": false,
