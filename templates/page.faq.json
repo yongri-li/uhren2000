@@ -718,6 +718,9 @@
         "text_KBGgG9",
         "text_67T6Kx"
       ],
+      "custom_css": [
+        "span {text-transform: none; font-size: 15px;}"
+      ],
       "settings": {
         "alignment": "center",
         "compact": true,
