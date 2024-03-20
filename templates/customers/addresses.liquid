@@ -11,7 +11,7 @@
   {%- else -%}
     {%- if customer.default_address -%}
       <div class="w50">
-        <h2 class="size-18">{{ 'customer.addresses.default_address_label' | t }}</h2>
+        <h2 class="">{{ 'customer.addresses.default_address_label' | t }}</h2>
         <div class="m6bx">
           <p>
             {{ customer.default_address.first_name }} {{ customer.default_address.last_name }}<br>
@@ -32,7 +32,7 @@
     {%- for address in customer.addresses -%}
       {%- unless address == customer.default_address -%}
         <div class="w50">
-          <h2 class="size-18">{{ 'customer.addresses.address_label' | t: position: forloop.index }}</h2>
+          <h2 class="">{{ 'customer.addresses.address_label' | t: position: forloop.index }}</h2>
           <div class="m6bx">
             <p>
               {{ address.first_name }} {{ address.last_name }}<br>
