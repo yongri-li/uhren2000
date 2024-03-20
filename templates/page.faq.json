@@ -274,10 +274,10 @@
         "text_dcb68i": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "8.) Wann erhalte ich eine Rückmeldung von Ihnen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Wenn Sie uns das Ankaufsformular zugesendet haben, machen wir uns damit einen ersten Eindruck zu Ihrer Uhr. In der Regel melden wir uns innerhalb von 24-Stunden, entweder telefonisch oder per E-Mail bei Ihnen, um Ihnen den Wert Ihrer Uhr mitzuteilen.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -288,10 +288,10 @@
         "text_a6ytUm": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "9.) Ich bin mit dem Preis einverstanden. Wie geht es jetzt weiter?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Natürlich benötigen wir die Uhr zur genaueren Begutachtung in unserem Hause. Der Ankauf kann dabei persönlich bei uns vor Ort stattfinden oder Sie können uns die Uhr auch auf postalischem Wege zukommen lassen. Hierbei ist wichtig, das Paket in voller Kaufpreishöhe versichern zu lassen! Sollten Sie sich nicht sicher sein, mit welchem Unternehmen Sie die Uhr versenden sollen, lassen wir die Uhr auch gerne durch einen von uns organisierten Wertkurier bei Ihnen abholen. Ist die Uhr dann bei uns im Haus, wird Sie nochmal genau überprüft und schon im Anschluss erhalten Sie den Ankaufspreis zu Ihrer Uhr.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -302,10 +302,10 @@
         "text_6R7XGa": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "10.) Kann ich Ihnen meine Uhr auch persönlich verkaufen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Selbstverständlich bieten wir Ihnen an, Ihre Uhr auch direkt bei uns vor Ort zu verkaufen. Ein Vorteil dabei ist, dass wir in einem direkten Gespräch, gemeinsam den Kaufpreis ermitteln können., Bei einem persönlichen Verkauf bitten wir darum, vorab telefonisch einen Termin mit uns zu vereinbaren.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -316,10 +316,10 @@
         "text_xe6R3Q": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "11.) Muss ich bei einem persönlichen Verkauf einen Termin vereinbaren?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Damit wir Ihnen und Ihrer Uhr auch genügend Zeit entgegenbringen können, bitten wir im Vorfeld um eine telefonische Terminvereinbarung.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
