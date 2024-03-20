@@ -484,10 +484,10 @@
         "text_djbCUm": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "23.) Wie erfolgt die Auszahlung meiner Uhr?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Bei einem rein postalischen Ankauf ist es uns natürlich nur möglich, den Kaufpreis auf Ihr angegebenes Bankkonto zu überweisen. Sollten Sie beim Ankauf persönlich bei uns vor Ort sein, können Sie sich entweder für Bargeld oder eine Sofort Überweisung entscheiden.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -498,10 +498,10 @@
         "text_VGVMbc": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "24.) Welche weiteren Gebühren können beim Verkauf anfallen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Außer den Versandgebühren gibt es keine weiteren verstecken Kosten.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -512,10 +512,10 @@
         "text_AYJaTR": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "25.) Kann ich Ihnen meine Uhr auch gegen Bargeld verkaufen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Eine Bargeldauszahlung ist bei einem persönlichen Verkauf vor Ort möglich.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -526,10 +526,10 @@
         "text_giDWrA": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "26.) Was für Möglichkeiten habe ich noch, außer einem Verkauf meiner Uhr?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Wir können Ihre Uhr bei uns in Kommission nehmen. Hier bestimmen Sie den Preis, welchen Sie für die Uhr haben möchten. Bei einem erfolgreichen Abschluss behalten wir lediglich 8 % Provision vom erzielten Kaufpreis ein. Auch eine Inzahlungnahme Ihrer gebrauchten oder ungetragenen Uhr ist bei uns jederzeit möglich.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -540,10 +540,10 @@
         "text_z3qwCT": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "27.) Wie läuft ein Kommissionsverkauf ab?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Entscheiden Sie sich für einen Kommissionsverkauf teilen Sie uns den Preis mit, den Sie für Ihre Uhr erzielen möchten. Die Uhr wird dann in unserem Shop und weiteren relevanten Internetportalen zum Verkauf angeboten. Wird die Uhr zum angegebenen Preis verkauft, behalten wir lediglich 8 % Provision vom Kaufpreis ein. Während des gesamten Verkaufsprozesses stehen wir Ihnen natürlich jederzeit zur Verfügung und besprechen weitere Strategien, um den Verkauf der Uhr anzuregen. Hier erhalten Sie auch regelmäßig Rückmeldung, wie viele Reaktionen wir auf Ihre Uhr haben.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -554,10 +554,10 @@
         "text_CADYdW": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "28.) Kann ich einen Kommissionsverkauf auch abbrechen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Ist es Ihnen möglich Ihre Uhr selbstständig zu verkaufen, senden wir Ihnen diese natürlich unverzüglich per Wertkurier zurück.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -568,10 +568,10 @@
         "text_JM63yW": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "29.) Welche Kosten entstehen bei einem Kommissionsverkauf?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Es entstehen Ihnen keine weiteren Kosten, außer bei erfolgreichem Kaufabschluss die 8 % Provision für uns.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -582,10 +582,10 @@
         "text_6jwapj": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "30.) Wie läuft eine Inzahlungnahme ab?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Sie bieten uns Ihre gebrauchte oder ungetragene Uhr an und nennen uns im selben Zuge die Uhr, welche Sie bei uns erwerben möchten. Wir machen Ihnen dann ein Angebot zu Ihrer Uhr. Entweder Sie müssen dann einen kleinen Aufpreis zur neuen Uhr bezahlen oder Sie erhalten von uns die Differenz zurückerstattet.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -596,10 +596,10 @@
         "text_nHyVAK": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "31.) Ist eine Inzahlungnahme auch persönlich möglich?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Auch eine Inzahlungnahme kann bei uns vor Ort durchgeführt werden.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
