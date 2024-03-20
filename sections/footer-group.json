@@ -229,7 +229,7 @@
             "title_weight": "700",
             "newsletter_text": "<p>Abonnieren Sie unseren Newsletter und verpassen Sie keine Angebote, Neuigkeiten und Veranstaltungen rund um Uhren. Bleiben Sie immer informiert und verpassen Sie keine Chance auf tolle Uhrenangebote!<\/p>",
             "footer_button_color": "accent",
-            "enable_newsletter_terms_checkbox": false,
+            "enable_newsletter_terms_checkbox": true,
             "newsletter_terms_text": "<p>Ich bin mit der <a href=\"\/collections\" title=\"Alle Kollektionen\">Datenschutzerklärung <\/a>einverstanden<\/p>"
           }
         }
@@ -241,7 +241,8 @@
         "newsletter_GCWWRU"
       ],
       "custom_css": [
-        "h5 {color: #c6ae8e !important; white-space: nowrap;}"
+        "h5 {color: #c6ae8e !important; white-space: nowrap;}",
+        "label {min-width: 500px;}"
       ],
       "settings": {
         "footer_color": "black",
