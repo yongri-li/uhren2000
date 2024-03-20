@@ -37,7 +37,7 @@
             {%- assign max_chars_message_rendered = 'gift_cards.recipient.form.max_characters' | t: max_chars: max_chars_message -%}
             <label for="recipient-message-{{ section.id }}">{{ 'gift_cards.recipient.form.message_label' | t }}</label>
             <textarea id="recipient-message-{{ section.id }}" name="properties[Message]" maxlength="{{ max_chars_message }}" placeholder="{{ 'gift_cards.recipient.form.message' | t }}">{{ form.message }}</textarea>
-            <span class="overlay-gray size-12 last-child">{{ max_chars_message_rendered }}</span>
+            <span class="overlay-gray last-child">{{ max_chars_message_rendered }}</span>
         </p>
         <p data-error-key="send_on"{%- if form.errors contains 'send_on' -%} class="is-invalid"{% endif %}>
             <label for="recipient-send-on-{{ section.id }}">{{ 'gift_cards.recipient.form.send_on_label' | t }}</label>
