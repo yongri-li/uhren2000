@@ -15,7 +15,7 @@
         endif
       -%}
       <div class="palette-{{ block.settings.color_palette }} {% if overlay %}overlay{% endif %} m6bx" {{ block.shopify_attributes }}>
-        <h2 class="size-20">{{ block.settings.title }}</h2>
+        <h2 class="">{{ block.settings.title }}</h2>
         {%- if block.settings.show_shop_address and shop.address.street -%}
         <p class="m15">
           {{ shop.address.street }}<br> {{ shop.address.zip }} {{ shop.address.city }}<br> {{ shop.address.country }}
