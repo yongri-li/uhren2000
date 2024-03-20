@@ -18,10 +18,11 @@
         "1660057774ac015cbe-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rolex_GMT_Master_II_116710_BLNR.jpg",
             "layout": "background",
             "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
+            "overlay_opacity": 50,
+            "color_palette": "black",
             "text_position": "text-center",
             "title": "Fragen und Antworten zum Thema Ankauf von Uhren",
             "title_font": "secondary",
@@ -63,7 +64,7 @@
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "m",
-        "spacing_desktop": 50,
+        "spacing_desktop": 100,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -718,9 +719,9 @@
         "text_67T6Kx"
       ],
       "settings": {
-        "alignment": "left",
+        "alignment": "center",
         "compact": true,
-        "title": "Frequently asked questions",
+        "title": "",
         "title_font": "primary",
         "title_size": "h4",
         "enable_custom_text_styling": false,
