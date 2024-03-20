@@ -32,6 +32,9 @@
         "title",
         "content"
       ],
+      "custom_css": [
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 20px !important;}"
+      ],
       "settings": {
         "max_width": 980,
         "content_alignment": "center",
