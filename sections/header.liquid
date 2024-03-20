@@ -592,7 +592,7 @@
                     <p>
                       <label for="login_password">{{ 'customer.login.password' | t }}<span class="overlay-theme">*</span> <a href="./" class="show"><span>Toon</span> <span class="hidden">Hide</span></a></label>
                       <input type="password" id="login_password" name="customer[password]" placeholder="{{ 'customer.login.password' | t }}" required>
-                      <a href="{{ routes.account_login_url }}#recover" class="size-12">{{ 'customer.login.forgot_password' | t }}</a>
+                      <a href="{{ routes.account_login_url }}#recover" class="">{{ 'customer.login.forgot_password' | t }}</a>
                     </p>
                     <p class="submit">
                       <button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.login.submit' | t }}</button>
