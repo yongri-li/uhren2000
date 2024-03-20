@@ -109,7 +109,7 @@
           "type": "text",
           "settings": {
             "faq_question": "Abholung",
-            "icon": "shopping_bag",
+            "icon": "question",
             "header_image_width": 25,
             "faq_answer": "<p>Abholung nur nach Terminabsprache möglich.<\/p>",
             "page": "",
