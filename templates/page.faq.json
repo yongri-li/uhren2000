@@ -606,6 +606,76 @@
             "html": "",
             "show_contact_form": false
           }
+        },
+        "text_3cC4FM": {
+          "type": "text",
+          "settings": {
+            "faq_question": "32.) Kann ich nur die gleiche Marke in Zahlung geben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie können uns bei einer Inzahlungnahme jede Uhr zum Ankauf anbieten, auch wenn diese nicht derselben Uhrenmarke entspricht, welche Sie bei uns erwerben möchten.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_EiBDGm": {
+          "type": "text",
+          "settings": {
+            "faq_question": "33.) Kann ich nur eine gleichwertige Uhr in Zahlung geben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Natürlich können Sie uns auch eine Uhr verkaufen, welche unter oder über dem Preis Ihrer neuen Uhr liegt. Sie zahlen dann lediglich die Aufzahlung oder wir zahlen Ihnen die Differenz der Uhren aus.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Bm44ka": {
+          "type": "text",
+          "settings": {
+            "faq_question": "34.) Wie funktioniert die Geschäftsauflösung als Juwelier bei Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Bei einer Geschäftsauflösung können Sie uns gerne schriftlich Ihr komplettes Konvolut zum Verkauf anbieten. Wir machen Ihnen dann umgehend ein Angebot zu Ihrem kompletten Warenbestand.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_KBGgG9": {
+          "type": "text",
+          "settings": {
+            "faq_question": "35.) Wie ist der Ablauf als Uhrenhändler bei Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie können sich bei uns als Uhrenhändler registrieren. Gerne können Sie uns dann Ihren Kunden weitervermitteln und erhalten bei erfolgreichem Abschluss eines Kaufes eine Provision von uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_67T6Kx": {
+          "type": "text",
+          "settings": {
+            "faq_question": "36.) Kann ich meine gebrauchte Uhr auch als Uhrenhändler verkaufen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
         }
       },
       "block_order": [
@@ -639,7 +709,12 @@
         "text_CADYdW",
         "text_JM63yW",
         "text_6jwapj",
-        "text_nHyVAK"
+        "text_nHyVAK",
+        "text_3cC4FM",
+        "text_EiBDGm",
+        "text_Bm44ka",
+        "text_KBGgG9",
+        "text_67T6Kx"
       ],
       "settings": {
         "alignment": "left",
