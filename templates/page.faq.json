@@ -765,6 +765,15 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
+    },
+    "section_custom_liquid_qCWtxP": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -772,6 +781,7 @@
     "16600577754dc9d1c6",
     "1660057806e4225ceb",
     "16534818921d9da639",
-    "main-page"
+    "main-page",
+    "section_custom_liquid_qCWtxP"
   ]
 }
