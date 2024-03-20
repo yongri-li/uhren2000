@@ -74,6 +74,9 @@
     },
     "page-service-menu": {
       "type": "page-service-menu",
+      "custom_css": [
+
+      ],
       "settings": {
         "menu": "main-menu"
       }
@@ -299,7 +302,7 @@
         "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af"
       ],
       "custom_css": [
-        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; text-transform: none; margin-bottom: -30px;}"
+        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; text-transform: none; margin-bottom: -30px; font-weight: 400;}"
       ],
       "settings": {
       }
