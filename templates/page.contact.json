@@ -301,7 +301,7 @@
     "section-google-maps": {
       "type": "section-google-maps",
       "settings": {
-        "google_maps_iframe": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2800.4613648351315!2d-75.69569834823506!3d45.420200278997804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0502f07d210b%3A0xa1502f7f1d25c118!2sShopify!5e0!3m2!1snl!2snl!4v1653470436404!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "google_maps_iframe": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d10481.751842110676!2d9.113849!3d48.945146!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799d46ac7b2f47f%3A0xee291da8b1325e36!2sBahnhofstra%C3%9Fe%2056%2C%2074321%20Bietigheim-Bissingen%2C%20Deutschland!5e0!3m2!1sde!2sus!4v1710932662344!5m2!1sde!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
