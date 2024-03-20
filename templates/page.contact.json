@@ -18,32 +18,33 @@
         "slide_1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rolex_Datejust_gebraucht.jpg",
             "layout": "background",
             "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
+            "overlay_opacity": 5,
+            "color_palette": "black",
             "text_position": "text-left",
-            "title": "How can we help you?",
-            "title_font": "primary",
+            "title": "Wie können wir weiterhelfen?",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "light",
+            "title_weight": "400",
             "subtitle": "",
             "subtitle_font": "secondary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
             "subtitle_color_palette": "black",
             "subtitle_weight": "400",
-            "text": "<p>Give your customers more details about your service.<\/p>",
+            "text": "",
             "enable_custom_font_styling": false,
             "font_size": "16px",
-            "first_link_text": "Button",
+            "first_link_text": "",
             "first_link_url": "shopify:\/\/collections\/all",
             "first_button_color_palette": "accent",
             "first_button_styling": "fill",
             "first_show_link": false,
-            "second_link_text": "Button",
+            "second_link_text": "",
             "second_link_url": "shopify:\/\/collections\/all",
             "second_button_color_palette": "accent",
             "second_button_styling": "fill",
@@ -53,6 +54,9 @@
       },
       "block_order": [
         "slide_1"
+      ],
+      "custom_css": [
+        "{text-transform: none;}"
       ],
       "settings": {
         "width": "boxed",
@@ -223,9 +227,9 @@
         "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2": {
           "type": "information",
           "settings": {
-            "color_palette": "light",
-            "title": "Account details",
-            "text": "<p><a href=\"\/account\" title=\"\/account\">Track your last order<\/a>, <a href=\"\/account\" title=\"\/account\">view all orders<\/a> or <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">manage your addresses<\/a>.<\/p>",
+            "color_palette": "dark",
+            "title": "Ihr Kundenkonto",
+            "text": "<p><a href=\"\/account\" title=\"\/account\">Tracke Sie Ihre Bestellung<\/a>, oder <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">verwalte sie Ihr Profil<\/a>.<\/p>",
             "show_login_links": true,
             "show_shop_address": false,
             "show_maps_url": false,
@@ -238,8 +242,8 @@
           "type": "information",
           "settings": {
             "color_palette": "light",
-            "title": "Customer service",
-            "text": "<p>Give your customers more details about your online store.<\/p>",
+            "title": "UHREN2000 Kundenservice",
+            "text": "<p>Sie haben Fragen zu einer Bestellung oder möchten Kontakt zu uns aufnehmen? Wir freuen uns auf Sie!<\/p>",
             "show_login_links": false,
             "show_shop_address": false,
             "show_maps_url": false,
@@ -250,9 +254,10 @@
         },
         "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af": {
           "type": "information",
+          "disabled": true,
           "settings": {
             "color_palette": "light_2",
-            "title": "Theme Xclusive",
+            "title": "H",
             "text": "<p>Give your customer more details about your online store. <\/p>",
             "show_login_links": false,
             "show_shop_address": true,
@@ -290,6 +295,7 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
