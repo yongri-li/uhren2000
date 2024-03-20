@@ -90,7 +90,7 @@
         </li>
       {%- endfor -%}
     </ul>
-    <h2 class="size-18">{{ 'customer.order.summary' | t }}</h2>
+    <h2 class="">{{ 'customer.order.summary' | t }}</h2>
     <div class="table-wrapper m10">
       <table class="table-drop static">
         <caption>{{ 'customer.order.summary' | t }}</caption>
@@ -156,12 +156,12 @@
     {%- endif -%}
   </article>
   <article class="w40 t35">
-    <h2 class="size-18">{{ 'customer.order.billing_address' | t }}</h2>
+    <h2 class="">{{ 'customer.order.billing_address' | t }}</h2>
     <div class="m6bx">
       <p class="m0">{{ 'customer.orders.payment_status' | t }}: {% if order.financial_status == 'paid' %}<span class="strong"><i aria-hidden="true" class="icon-check"></i> {% endif %}{{ order.financial_status_label }}</span></p>
       {{ order.billing_address | format_address }}
     </div>
-    <h2 class="size-18">{{ 'customer.order.shipping_address' | t }}</h2>
+    <h2 class="">{{ 'customer.order.shipping_address' | t }}</h2>
     <div class="m6bx">
       <p class="m0">{{ 'customer.orders.fulfillment_status' | t }}: <span class="strong">{{ order.fulfillment_status_label }}</span></p>
       {%- if order.shipping_address != blank -%}
@@ -172,7 +172,7 @@
     </div>
     {%- assign fulfillments = order.line_items | map: "fulfillment" | where: "tracking_company" | uniq %}
     {%- if fulfillments.size > 0 -%}
-      <h2 class="size-18">{{ 'customer.orders.track_shipment' | t }}</h2>
+      <h2 class="">{{ 'customer.orders.track_shipment' | t }}</h2>
       <div class="m6bx">
         {%- for fulfillment in fulfillments -%}
           {%- assign created_at = fulfillment.created_at | time_tag: format: 'date' -%}
