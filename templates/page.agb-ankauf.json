@@ -17,6 +17,7 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "title_size": "h2"
           }
@@ -31,10 +32,9 @@
         "title",
         "content"
       ],
-      "disabled": true,
       "settings": {
         "max_width": 980,
-        "content_alignment": "start",
+        "content_alignment": "center",
         "text_alignment": "start",
         "spacing_desktop": 50,
         "spacing_mobile": 30
@@ -83,6 +83,7 @@
       "block_order": [
         "image_Pi8HrF"
       ],
+      "disabled": true,
       "settings": {
         "mirrored": false,
         "width": "boxed",
@@ -101,6 +102,7 @@
     },
     "section_icon_text_blocks_MtXjGD": {
       "type": "section-icon-text-blocks",
+      "disabled": true,
       "custom_css": [
         "{margin-bottom: 40px;}"
       ],
@@ -220,6 +222,7 @@
         "image_bQGyzE",
         "image_3bzyzE"
       ],
+      "disabled": true,
       "settings": {
         "items_width": 2,
         "width": "boxed",
@@ -273,6 +276,7 @@
         "text_pVPWtN",
         "text_RK8Brd"
       ],
+      "disabled": true,
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
         "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
