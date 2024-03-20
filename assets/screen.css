@@ -20685,3 +20685,14 @@ h6, .h6, .l4cl.category h6 { font-size: var(--mob_h6); }
 .cart-remove-icon {
   background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#000000" d="M352 480h320a32 32 0 1 1 0 64H352a32 32 0 0 1 0-64z"></path><path fill="#000000" d="M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"></path></g></svg>');
 }
+@media only screen and (min-width: 480px) {
+.shopify-policy__container {
+max-width: 70% !important;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.shopify-policy__container {
+max-width: 100% !important;
+}
+}
