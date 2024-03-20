@@ -254,11 +254,10 @@
         },
         "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af": {
           "type": "information",
-          "disabled": true,
           "settings": {
-            "color_palette": "light_2",
-            "title": "H",
-            "text": "<p>Give your customer more details about your online store. <\/p>",
+            "color_palette": "accent",
+            "title": "Hier finden Sie uns",
+            "text": "",
             "show_login_links": false,
             "show_shop_address": true,
             "show_maps_url": true,
