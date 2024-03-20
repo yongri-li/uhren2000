@@ -13,10 +13,9 @@
       "blocks": {
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "title_size": "h2",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         },
         "sorting": {
