@@ -396,6 +396,216 @@
             "html": "",
             "show_contact_form": false
           }
+        },
+        "text_jWhNWi": {
+          "type": "text",
+          "settings": {
+            "faq_question": "17.) Ist der Versand meiner Uhr sicher?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Der Versand Ihrer Uhr ist immer sicher, denn wir arbeiten nur mit Wertkurieren zusammen, bei denen die volle Höhe Ihrer Uhr versichert wird.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_kYmJDj": {
+          "type": "text",
+          "settings": {
+            "faq_question": "18.) Mit welchen Wertkurieren arbeiten Sie zusammen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Hauptsächlich arbeiten wir mit den Versanddienstleistern DerKurier, Intex und UPS zusammen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_7BVrbn": {
+          "type": "text",
+          "settings": {
+            "faq_question": "19.) Ist die Abholung meiner Uhr versichert?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Da die Abholung durch einen Wertkurier erfolgt, ist die Uhr bei einer Abholung immer in voller Höhe versichert.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_bYJRR6": {
+          "type": "text",
+          "settings": {
+            "faq_question": "20.) Muss ich meine Uhr vor dem Versand verpacken?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Ja, denn der Wertkurier übernimmt das vollständig verpackte Paket.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_gbNgkF": {
+          "type": "text",
+          "settings": {
+            "faq_question": "21.) Wie verpacke ich meine Uhr am sichersten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am besten Sie verpacken die Uhrenbox in einem etwas größeren Paket. Dann können Sie die Box mit Füllmaterial noch gut um polstern, damit diese nicht im Paket hin und her rutscht und möglicherweise beschädigt wird.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_AgmNjC": {
+          "type": "text",
+          "settings": {
+            "faq_question": "22.) Wann erfolgt die Auszahlung zu meiner Uhr?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Innerhalb von 24-Stunden nach Erhalt der Uhr, erfolgt die Zahlung auf Ihr Bankkonto.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_djbCUm": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_VGVMbc": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_AYJaTR": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_giDWrA": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_z3qwCT": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_CADYdW": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_JM63yW": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_6jwapj": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_nHyVAK": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
         }
       },
       "block_order": [
@@ -414,7 +624,22 @@
         "text_4NKijr",
         "text_TWR6hP",
         "text_Tgp6d3",
-        "text_cCFMxJ"
+        "text_cCFMxJ",
+        "text_jWhNWi",
+        "text_kYmJDj",
+        "text_7BVrbn",
+        "text_bYJRR6",
+        "text_gbNgkF",
+        "text_AgmNjC",
+        "text_djbCUm",
+        "text_VGVMbc",
+        "text_AYJaTR",
+        "text_giDWrA",
+        "text_z3qwCT",
+        "text_CADYdW",
+        "text_JM63yW",
+        "text_6jwapj",
+        "text_nHyVAK"
       ],
       "settings": {
         "alignment": "left",
