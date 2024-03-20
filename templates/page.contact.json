@@ -158,49 +158,72 @@
         "0fd44d31-da56-43fe-972d-74b438cbb328": {
           "type": "text",
           "settings": {
-            "title": "Name",
-            "placeholder": "Name",
+            "title": "Vorname",
+            "placeholder": "Vorname",
+            "required": true
+          }
+        },
+        "text_eei9EN": {
+          "type": "text",
+          "settings": {
+            "title": "Nachname",
+            "placeholder": "Nachname",
             "required": true
           }
         },
         "b8774408-fd65-4d42-865e-40eb5da3e9ee": {
           "type": "text",
           "settings": {
-            "title": "Company",
-            "placeholder": "Company",
-            "required": false
+            "title": "Telefon",
+            "placeholder": "Telefon",
+            "required": true
           }
         },
         "30c68dd5-0daf-4c67-9e87-30fae9f6db2e": {
           "type": "email",
           "settings": {
-            "title": "Email",
-            "placeholder": "Email"
+            "title": "eMail-Adresse",
+            "placeholder": "eMail-Adresse"
           }
         },
-        "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55": {
-          "type": "tel",
+        "text_LTwETJ": {
+          "type": "text",
           "settings": {
-            "title": "Phone number",
-            "placeholder": "Phone number",
-            "required": false
+            "title": "Betreff",
+            "placeholder": "Betreff",
+            "required": true
           }
         },
         "7f5b90a3-0ea1-466d-a8bb-fb174e340aed": {
           "type": "textarea",
           "settings": {
-            "title": "Message",
-            "placeholder": "Message",
+            "title": "Ihre Nachricht an uns",
+            "placeholder": "Kommentar",
             "required": true
+          }
+        },
+        "checkbox_3dwfpp": {
+          "type": "checkbox",
+          "settings": {
+            "title": "",
+            "option_1": "Ich habe die Datenschutzbestimmungen zur Kenntnis genommen.",
+            "option_2": "",
+            "option_3": "",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
+            "required": false
           }
         }
       },
       "block_order": [
         "0fd44d31-da56-43fe-972d-74b438cbb328",
+        "text_eei9EN",
         "b8774408-fd65-4d42-865e-40eb5da3e9ee",
         "30c68dd5-0daf-4c67-9e87-30fae9f6db2e",
-        "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55",
-        "7f5b90a3-0ea1-466d-a8bb-fb174e340aed"
+        "text_LTwETJ",
+        "7f5b90a3-0ea1-466d-a8bb-fb174e340aed",
+        "checkbox_3dwfpp"
       ],
       "settings": {
         "alignment": "left",
@@ -232,7 +255,7 @@
           "settings": {
             "color_palette": "dark",
             "title": "Ihr Kundenkonto",
-            "text": "<p><a href=\"\/account\" title=\"\/account\">Tracke Sie Ihre Bestellung<\/a>, oder <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">verwalte sie Ihr Profil<\/a>.<\/p>",
+            "text": "<p><a href=\"\/account\" title=\"\/account\">Tracke Sie Ihre Bestellung<\/a>, oder <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">verwalten Sie Ihr Profil<\/a>.<\/p>",
             "show_login_links": true,
             "show_shop_address": false,
             "show_maps_url": false,
