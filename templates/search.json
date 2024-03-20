@@ -15,7 +15,7 @@
           "type": "title",
           "settings": {
             "title_size": "h2",
-            "text_alignment": "center"
+            "text_alignment": "left"
           }
         },
         "sorting": {
