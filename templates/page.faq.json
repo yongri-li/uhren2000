@@ -777,8 +777,12 @@
     },
     "section_recently_viewed_products_V9Pm69": {
       "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400; text-align: center;}",
+        "p {text-transform: none; text-align: center;}"
+      ],
       "settings": {
-        "number_of_items": 5,
+        "number_of_items": 6,
         "image_ratio": 100,
         "show_in_circle": false,
         "fill_images": false,
