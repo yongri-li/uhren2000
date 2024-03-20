@@ -134,6 +134,7 @@
         "16600578063d5b7bba-2",
         "16600578063d5b7bba-3"
       ],
+      "disabled": true,
       "settings": {
         "items_width": 4,
         "text_alignment": "start",
