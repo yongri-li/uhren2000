@@ -33,7 +33,8 @@
         "content"
       ],
       "custom_css": [
-        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 30px !important;}"
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 30px !important;}",
+        "{magrin-top: 50px;}"
       ],
       "settings": {
         "max_width": 980,
