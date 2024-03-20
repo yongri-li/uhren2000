@@ -358,10 +358,10 @@
         "text_TWR6hP": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "14.) Können auch Sie die Abholung meiner Uhr organisieren?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Falls Sie sich nicht sicher sein sollten, welches Unternehmen Sie mit der Abholung Ihrer Uhr beauftragen sollen, können wir das gerne für Sie übernehmen. Sie geben uns die Abholadresse an und wir beauftragen einen Wertkurier. Die erforderlichen Versandunterlagen erhalten Sie dann von uns. Alternativ beraten wir Sie auch gerne, welchen Versanddienstleister Sie wählen können.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -372,10 +372,10 @@
         "text_Tgp6d3": {
           "type": "text",
           "settings": {
-            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "faq_question": "15.) Was für Kosten entstehen bei der Zusendung meiner Uhr?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "faq_answer": "<p>Sollten Sie sich für eine Zusendung auf eigene Verantwortung entscheiden, tragen Sie die Kosten für das Paket selbst. Organisieren wir die Abholung bei einem Wertkurier, übernehmen wir die Kosten ab einem Warenwert von 3000 €. Unter 3000 € trägt der Verkäufer die Versandkosten selbst.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
