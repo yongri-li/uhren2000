@@ -176,10 +176,10 @@
         "1653481892aca601d3-0": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 1",
+            "faq_question": "1.) Welche Uhrenmarken und Modelle kaufen Sie an?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer to question 1<\/p>",
+            "faq_answer": "<p>Uhren der Marken Audemars Piguet, Cartier, Omega, Patek Philippe, Hublot, TAG Heuer, Tudor, A. Lange und Söhne, Breitling, Panerai, IWC, Jaeger-LeCoultre und Rolex kaufen wir jederzeit an. Für begehrte Rolex Modelle wie die GMT-Master II, Yacht-Master, Air King, Sea-Dweller, Explorer I und II, Sky-Dweller, Submariner, Milgauss, Day-Date, Daytona und natürlich die Datejust Modelle, in jeder Größe, erhalten Sie bei uns immer den besten Preis.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -190,10 +190,10 @@
         "1653481892aca601d3-1": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 2",
+            "faq_question": "2.) Wie funktioniert ein Ankauf bei Ihnen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer to question 2<\/p>",
+            "faq_answer": "<p>Wenn Sie uns Ihre Uhr zum Ankauf anbieten möchten, können Sie ganz einfach unser Online Ankaufsformular ausfüllen. Hier werden die für uns relevanten Daten abgefragt. Sie erhalten innerhalb kürzester Zeit dann ein Angebot zur Uhr.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -204,10 +204,178 @@
         "1653481892aca601d3-2": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 3",
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer to question 3<\/p>",
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Nzy7fY": {
+          "type": "text",
+          "settings": {
+            "faq_question": "4.) Wie schnell ist der Verkauf meiner Uhr möglich?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Entscheiden Sie sich bei einem Verkauf Ihrer Uhr für uns, können wir die Uhr schon innerhalb von 1-2 Werktagen bei Ihnen zu Hause abholen. Direkt nach Prüfung dieser in unserem Hause erhalten Sie die Gutschrift innerhalb von 24-Stunden auf Ihr Bankkonto.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_4pANgJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "5.) Welche Daten zu meiner Uhr muss ich angeben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Neben der Marke und dem Modell ist natürlich noch die Referenz der Uhr sehr wichtig. Ebenfalls spielt das Ursprungsland der Papiere und auch das Garantiedatum eine wichtige Rolle. Des Weiteren benötigen wir noch das Gehäusematerial und das Armbandmaterial als Auskunft. Bilder zu Ihrer Uhr helfen uns, den Zustand dieser noch besser im Voraus einzuschätzen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_R9eAwG": {
+          "type": "text",
+          "settings": {
+            "faq_question": "6.) Welche Daten von mir muss ich angeben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Wir benötigen von Ihnen nur Ihren Namen, eine Telefon- oder Handynummer und eine E-Mail-Adresse.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_tcgebY": {
+          "type": "text",
+          "settings": {
+            "faq_question": "7.) Welche Vorteile habe ich bei Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Aufgrund unserer jahrelangen Erfahrung können wir den Wert Ihrer Uhr inzwischen leicht taxieren. Daher erhalten Sie bei uns mit nur wenig Aufwand immer den besten Preis für Ihre Uhr. Ein Ankauf bei uns ist immer schnell, sicher und unkompliziert. Zudem erfolgt die Auszahlung Ihrer Uhr direkt nach Eingang und Prüfung dieser.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_dcb68i": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_a6ytUm": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_6R7XGa": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_xe6R3Q": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_4VTTXV": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_TWR6hP": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Tgp6d3": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_cCFMxJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -219,7 +387,19 @@
       "block_order": [
         "1653481892aca601d3-0",
         "1653481892aca601d3-1",
-        "1653481892aca601d3-2"
+        "1653481892aca601d3-2",
+        "text_Nzy7fY",
+        "text_4pANgJ",
+        "text_R9eAwG",
+        "text_tcgebY",
+        "text_dcb68i",
+        "text_a6ytUm",
+        "text_6R7XGa",
+        "text_xe6R3Q",
+        "text_4VTTXV",
+        "text_TWR6hP",
+        "text_Tgp6d3",
+        "text_cCFMxJ"
       ],
       "settings": {
         "alignment": "left",
