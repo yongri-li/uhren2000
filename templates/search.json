@@ -8,7 +8,7 @@
       ],
       "settings": {
         "hide_desktop": false,
-        "hide_mobile": false,
+        "hide_mobile": true,
         "enable_share_button": false
       }
     },
