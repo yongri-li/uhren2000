@@ -70,7 +70,7 @@
 
 <div class="container">
   <div class="column">
-    <h3>Beschreibung</h3>
+    <h3>{{ 'product.product_description' | t }}</h3>
     {{ product.description }}
   </div>
   <div class="column">
@@ -78,11 +78,11 @@
       <!-- Block "Grunddaten" -->
       <div class="product-detail-block">
         <div class="product-detail-block-inner">
-          <h3>Grunddaten</h3>
+          <h3>{{ 'product.basic_data' | t }}</h3>
           <table class="no-border-table">
             {% if product.metafields.custom.zustand != blank %}
             <tr>
-              <td class="wider-column">Zustand</td>
+              <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
               <td>{{ product.metafields.custom.zustand }}</td>
             </tr>
             {% endif %}
@@ -94,37 +94,37 @@
             {% endif %}
             {% if product.metafields.custom.aufzug != blank %}
             <tr>
-              <td class="wider-column">Aufzug</td>
+              <td class="wider-column">{{ 'product.basic_data_elevator' | t }}</td>
               <td>{{ product.metafields.custom.aufzug }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.kaliber-werk != blank %}
             <tr>
-              <td class="wider-column">Kaliber/Werk</td>
+              <td class="wider-column">{{ 'product.basic_data_caliber_and_movement' | t }}</td>
               <td>{{ product.metafields.custom.kaliber-werk }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.gangreserve != blank %}
             <tr>
-              <td class="wider-column">Gangreserve</td>
+              <td class="wider-column">{{ 'product.basic_data_power' | t }}</td>
               <td>{{ product.metafields.custom.gangreserve }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.schliesse != blank %}
             <tr>
-              <td class="wider-column">Schließe</td>
+              <td class="wider-column">{{ 'product.basic_data_close' | t }}</td>
               <td>{{ product.metafields.custom.schliesse }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.geschlecht != blank %}
             <tr>
-              <td class="wider-column">Geschlecht</td>
+              <td class="wider-column">{{ 'product.basic_data_gender' | t }}</td>
               <td>{{ product.metafields.custom.geschlecht }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.wasserdicht != blank %}
             <tr>
-              <td class="wider-column">Wasserdicht</td>
+              <td class="wider-column">{{ 'product.basic_data_waterproof' | t }}</td>
               <td>{{ product.metafields.custom.wasserdicht }}</td>
             </tr>
             {% endif %}
@@ -135,41 +135,41 @@
       <!-- Block "Materialien & Farben" -->
       <div class="product-detail-block">
         <div class="product-detail-block-inner">
-          <h3>Materialien & Farben</h3>
+          <h3>{{ 'product.materials_and_colors' | t }}</h3>
           <table class="no-border-table">
             {% if product.metafields.custom.material-gehause != blank %}
             <tr>
-              <td>Material Gehäuse</td>
+              <td>{{ 'product.mat_color_houseing_material' | t }}</td>
               <td>{{ product.metafields.custom.material-gehause }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.material-armband != blank %}
             <tr>
-              <td>Material Armband</td>
+              <td>{{ 'product.mat_color_bracelet_material' | t }}</td>
               <td>{{ product.metafields.custom.material-armband }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.farbe-armband != blank %}
             <tr>
-              <td>Farbe Armband</td>
+              <td>{{ 'product.mat_color_color_bracelet' | t }}</td>
               <td>{{ product.metafields.custom.farbe-armband }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.material-schliesse != blank %}
             <tr>
-              <td>Material Schließe</td>
+              <td>{{ 'product.mat_color_material_clasp' | t }}</td>
               <td>{{ product.metafields.custom.material-schliesse }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.material-lunette != blank %}
             <tr>
-              <td>Material Lünette</td>
+              <td>{{ 'product.mat_color_bezel_material' | t }}</td>
               <td>{{ product.metafields.custom.material-lunette }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.farbe-zifferblatt != blank %}
             <tr>
-              <td>Farbe Zifferblatt</td>
+              <td>{{ 'product.mat_color_color_dial' | t }}</td>
               <td>{{ product.metafields.custom.farbe-zifferblatt }}</td>
             </tr>
             {% endif %}
@@ -180,23 +180,23 @@
       <!-- Block "Gehäuse & Zifferblatt" -->
       <div class="product-detail-block">
         <div class="product-detail-block-inner">
-          <h3>Gehäuse & Zifferblatt</h3>
+          <h3>{{ 'product.case_and_dial' | t }}</h3>
           <table class="no-border-table">
             {% if product.metafields.custom.durchmesser != blank %}
             <tr>
-              <td>Durchmesser Gehäuse</td>
+              <td>{{ 'product.case_dial_dia_housing' | t }}</td>
               <td>{{ product.metafields.custom.durchmesser }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.glas != blank %}
             <tr>
-              <td>Glas</td>
+              <td>{{ 'product.case_dial_glass' | t }}</td>
               <td>{{ product.metafields.custom.glas }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.zahlen-zifferblatt != blank %}
             <tr>
-              <td>Zahlen Zifferblatt</td>
+              <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
               <td>{{ product.metafields.custom.zahlen-zifferblatt }}</td>
             </tr>
             {% endif %}
@@ -207,7 +207,7 @@
       <!-- Block "Funktionen & Eigenschaften" -->
       <div class="product-detail-block">
         <div class="product-detail-block-inner">
-          <h3>Funktionen & Eigenschaften</h3>
+          <h3>{{ 'product.function_and_feature' | t }}</h3>
           <table class="no-border-table">
             {% assign funktionen_values = "" %}
             {% if product.metafields.custom.funktionen != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.funktionen | append: ", " %} {% endif %}
@@ -220,7 +220,7 @@
             {% if product.metafields.custom.Funktionen_8nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_8nd %} {% endif %}
             {% if funktionen_values != blank %}
             <tr>
-              <td>Funktionen</td>
+              <td>{{ 'product.func_feature_features' | t }}</td>
               <td>{{ funktionen_values | remove_last: ", " }}</td>
             </tr>
             {% endif %}
@@ -237,7 +237,7 @@
             {% if product.metafields.custom.Sonstiges_9nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_9nd %} {% endif %}
             {% if sonstiges_values != blank %}
             <tr>
-              <td>Sonstiges</td>
+              <td>{{ 'product.func_feature_miscellaneous' | t }}</td>
               <td>{{ sonstiges_values | remove_last: ", " }}</td>
             </tr>
             {% endif %}
