@@ -374,6 +374,7 @@
     },
     "section_custom_liquid_ytT3Lt": {
       "type": "section-custom-liquid",
+      "disabled": true,
       "custom_css": [
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; font-size: 20px;}",
         "td {font-size: 12px;}"
@@ -383,6 +384,15 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
+      }
+    },
+    "codext_description_blocks_6RAmT8": {
+      "type": "codext-description-blocks",
+      "custom_css": [
+        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; font-size: 20px;}",
+        "td {font-size: 12px;}"
+      ],
+      "settings": {
       }
     },
     "section_content_tabs_qznkbn": {
@@ -582,15 +592,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "codext_description_blocks_6RAmT8": {
-      "type": "codext-description-blocks",
-      "custom_css": [
-        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; font-size: 20px;}",
-        "td {font-size: 12px;}"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -601,12 +602,12 @@
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
     "contact_ways_b9RtDD",
     "section_custom_liquid_ytT3Lt",
+    "codext_description_blocks_6RAmT8",
     "section_content_tabs_qznkbn",
     "recommendations",
     "reviews",
     "section_custom_liquid_jEHJdT",
     "section_custom_liquid_kReYBz",
-    "recently-viewed",
-    "codext_description_blocks_6RAmT8"
+    "recently-viewed"
   ]
 }
