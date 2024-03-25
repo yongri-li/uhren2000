@@ -1,6 +1,238 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Codext-Description-Blocks",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Codext-Description-Blocks"
+    }
+  ]
+}
 {% endschema %}
+
+{% stylesheet %}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  width: 48%;
+  padding: 10px;
+  position: relative;
+}
+.column-description {
+  width: 100%;
+}
+.product-detail-block-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-detail-block {
+  width: 48%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .column, .product-detail-block {
+    width: 100%;
+  }
+}
+.no-border-table, .no-border-table td, .no-border-table th {
+  border: none;
+  padding: 3px 5px;
+  text-align: left;
+}
+.no-border-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+.no-border-table tr:nth-child(2n) > td {
+  background-color: #fff;
+}
+{% endstylesheet %}
+
+<div class="container">
+  <div class="column">
+    <h3>Beschreibung</h3>
+    {{ product.description }}
+  </div>
+  <div class="column">
+    <div class="product-detail-block-container">
+      <!-- Block "Grunddaten" -->
+      <div class="product-detail-block">
+        <div class="product-detail-block-inner">
+          <h3>Grunddaten</h3>
+          <table class="no-border-table">
+            {% if product.metafields.custom.zustand != blank %}
+            <tr>
+              <td class="wider-column">Zustand</td>
+              <td>{{ product.metafields.custom.zustand }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.jahr != blank %}
+            <tr>
+              <td class="wider-column">Jahr</td>
+              <td>{{ product.metafields.custom.jahr }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.aufzug != blank %}
+            <tr>
+              <td class="wider-column">Aufzug</td>
+              <td>{{ product.metafields.custom.aufzug }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.kaliber-werk != blank %}
+            <tr>
+              <td class="wider-column">Kaliber/Werk</td>
+              <td>{{ product.metafields.custom.kaliber-werk }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.gangreserve != blank %}
+            <tr>
+              <td class="wider-column">Gangreserve</td>
+              <td>{{ product.metafields.custom.gangreserve }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.schliesse != blank %}
+            <tr>
+              <td class="wider-column">Schließe</td>
+              <td>{{ product.metafields.custom.schliesse }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.geschlecht != blank %}
+            <tr>
+              <td class="wider-column">Geschlecht</td>
+              <td>{{ product.metafields.custom.geschlecht }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.wasserdicht != blank %}
+            <tr>
+              <td class="wider-column">Wasserdicht</td>
+              <td>{{ product.metafields.custom.wasserdicht }}</td>
+            </tr>
+            {% endif %}
+          </table>
+        </div>
+      </div>
+
+      <!-- Block "Materialien & Farben" -->
+      <div class="product-detail-block">
+        <div class="product-detail-block-inner">
+          <h3>Materialien & Farben</h3>
+          <table class="no-border-table">
+            {% if product.metafields.custom.material-gehause != blank %}
+            <tr>
+              <td>Material Gehäuse</td>
+              <td>{{ product.metafields.custom.material-gehause }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.material-armband != blank %}
+            <tr>
+              <td>Material Armband</td>
+              <td>{{ product.metafields.custom.material-armband }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.farbe-armband != blank %}
+            <tr>
+              <td>Farbe Armband</td>
+              <td>{{ product.metafields.custom.farbe-armband }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.material-schliesse != blank %}
+            <tr>
+              <td>Material Schließe</td>
+              <td>{{ product.metafields.custom.material-schliesse }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.material-lunette != blank %}
+            <tr>
+              <td>Material Lünette</td>
+              <td>{{ product.metafields.custom.material-lunette }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.farbe-zifferblatt != blank %}
+            <tr>
+              <td>Farbe Zifferblatt</td>
+              <td>{{ product.metafields.custom.farbe-zifferblatt }}</td>
+            </tr>
+            {% endif %}
+          </table>
+        </div>
+      </div>
+
+      <!-- Block "Gehäuse & Zifferblatt" -->
+      <div class="product-detail-block">
+        <div class="product-detail-block-inner">
+          <h3>Gehäuse & Zifferblatt</h3>
+          <table class="no-border-table">
+            {% if product.metafields.custom.durchmesser != blank %}
+            <tr>
+              <td>Durchmesser Gehäuse</td>
+              <td>{{ product.metafields.custom.durchmesser }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.glas != blank %}
+            <tr>
+              <td>Glas</td>
+              <td>{{ product.metafields.custom.glas }}</td>
+            </tr>
+            {% endif %}
+            {% if product.metafields.custom.zahlen-zifferblatt != blank %}
+            <tr>
+              <td>Zahlen Zifferblatt</td>
+              <td>{{ product.metafields.custom.zahlen-zifferblatt }}</td>
+            </tr>
+            {% endif %}
+          </table>
+        </div>
+      </div>
+
+      <!-- Block "Funktionen & Eigenschaften" -->
+      <div class="product-detail-block">
+        <div class="product-detail-block-inner">
+          <h3>Funktionen & Eigenschaften</h3>
+          <table class="no-border-table">
+            {% assign funktionen_values = "" %}
+            {% if product.metafields.custom.funktionen != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.funktionen | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_2nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_2nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_3nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_3nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_4nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_4nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_5nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_5nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_6nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_6nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_7nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_7nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Funktionen_8nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_8nd %} {% endif %}
+            {% if funktionen_values != blank %}
+            <tr>
+              <td>Funktionen</td>
+              <td>{{ funktionen_values | remove_last: ", " }}</td>
+            </tr>
+            {% endif %}
+
+            {% assign sonstiges_values = "" %}
+            {% if product.metafields.custom.sonstiges != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.sonstiges | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_2nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_2nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_3nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_3nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_4nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_4nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_5nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_5nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_6nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_6nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_7nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_7nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_8nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_8nd | append: ", " %} {% endif %}
+            {% if product.metafields.custom.Sonstiges_9nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_9nd %} {% endif %}
+            {% if sonstiges_values != blank %}
+            <tr>
+              <td>Sonstiges</td>
+              <td>{{ sonstiges_values | remove_last: ", " }}</td>
+            </tr>
+            {% endif %}
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
