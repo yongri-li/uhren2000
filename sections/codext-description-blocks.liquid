@@ -11,51 +11,65 @@
 }
 {% endschema %}
 
-{% stylesheet %}
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.column {
-  width: 48%;
-  padding: 10px;
-  position: relative;
-}
-.column-description {
-  width: 100%;
-}
-.product-detail-block-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.product-detail-block {
-  width: 48%;
-  margin-bottom: 20px;
-}
-@media only screen and (max-width: 768px) {
+<style>
   .container {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; /* Flexbox umbruch hinzugefügt */
+    justify-content: space-between; /* Zwischenraum zwischen Spalten hinzugefügt */
   }
-  .column, .product-detail-block {
+  .column {
+    width: 48%; /* Breite auf 48% für Desktop-Ansicht */
+    padding: 10px;
+    position: relative;
+  }
+  .column-description {
+    width: 100%; /* Vollständige Breite für die Beschreibungs-Spalte auf mobilen Geräten */
+  }
+  .product-detail-block-container {
+    display: flex;
+    flex-wrap: wrap; /* Flexbox umbruch hinzugefügt */
+    justify-content: space-between; /* Zwischenraum zwischen Blöcken hinzugefügt */
+  }
+  .product-detail-block {
+    width: 48%; /* Breite auf 48% für Desktop-Ansicht */
+    margin-bottom: 20px;
+  }
+  /* Andere Stile bleiben unverändert */
+
+  /* Media Query für Mobile */
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Spalten in mobile Ansicht vertikal anordnen */
+    }
+    .column {
+      width: 100%; /* Vollständige Breite für alle Spalten in mobiler Ansicht */
+    }
+    .product-detail-block {
+      width: 100%; /* Vollständige Breite für alle Blöcke in mobiler Ansicht */
+    }
+  }
+
+  /* Tabellen-Styling */
+  .no-border-table {
+    border-collapse: collapse;
     width: 100%;
   }
-}
-.no-border-table, .no-border-table td, .no-border-table th {
-  border: none;
-  padding: 3px 5px;
-  text-align: left;
-}
 .no-border-table {
   border-collapse: collapse;
   width: 100%;
-  table-layout: fixed;
+  table-layout: fixed; /* Gleichbleibende Breite der Spalten */
+}
+.no-border-table td,
+.no-border-table th {
+  border: none;
+  padding: 3px 5px;
+  text-align: left;
+  width: 50%; /* Setze die Breite der Spalten auf 50% */
 }
 .no-border-table tr:nth-child(2n) > td {
-  background-color: #fff;
+  background-color: #fff; 
 }
-{% endstylesheet %}
+</style>
 
 <div class="container">
   <div class="column">
