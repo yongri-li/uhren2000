@@ -62,8 +62,8 @@
     "title": "Cart",
     "to_cart": "View cart",
     "total": "Total",
-    "total_excluding_tax": "Total excluding VAT",
-    "total_including_tax": "Total including VAT",
+    "total_excluding_tax": "Total",
+    "total_including_tax": "Total",
     "total_products": "Total products",
     "upsell_title": "You may also like"
   },
