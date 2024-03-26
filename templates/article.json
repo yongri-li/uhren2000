@@ -19,12 +19,12 @@
           "type": "title",
           "settings": {
             "title_size": "h1",
-            "show_banner": true,
+            "show_banner": false,
             "overlay_opacity": 25,
             "color_palette": "dark",
-            "show_date": true,
-            "show_author": true,
-            "show_article_reading_time": true
+            "show_date": false,
+            "show_author": false,
+            "show_article_reading_time": false
           }
         },
         "featured_image": {
@@ -81,48 +81,17 @@
         "db5d637d-f346-4923-afc2-d959a7a5a8a6",
         "cae634eb-3596-48c8-9d94-628d20d4d95b"
       ],
+      "custom_css": [
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 30px !important;}"
+      ],
       "settings": {
         "big_fontsize": true,
-        "compact": true
-      }
-    },
-    "blogs_row": {
-      "type": "section-blog-posts",
-      "settings": {
-        "blog": "",
-        "number_of_items": 3,
-        "text_alignment": "start",
-        "title": "Blog posts",
-        "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "link_text": "View all",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "show_excerpt": false,
-        "button_color_palette_post": "accent",
-        "show_link_post": true,
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
+        "compact": false
       }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-article",
-    "blogs_row"
+    "main-article"
   ]
 }
