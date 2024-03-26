@@ -12,6 +12,13 @@
         "enable_share_button": false
       }
     },
+    "section_spacer_XC9tGF": {
+      "type": "section-spacer",
+      "settings": {
+        "height": 80,
+        "height_mobile": 20
+      }
+    },
     "main-article": {
       "type": "main-article",
       "blocks": {
@@ -92,6 +99,7 @@
   },
   "order": [
     "breadcrumbs",
+    "section_spacer_XC9tGF",
     "main-article"
   ]
 }
