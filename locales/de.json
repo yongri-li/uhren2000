@@ -423,6 +423,7 @@
     "excluding_tax": "Exkl. MwSt",
     "stock_tag": "letzter Vorrat",
     "not_in_stock_tag": "Auf Anfrage",
+    "archive_note": "Archivartikel - verkauft",
     "price_varies_label": "Ab",
     "vendor": "Anbieter",
     "sku": "REF. NR.",
