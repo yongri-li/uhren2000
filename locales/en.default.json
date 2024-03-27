@@ -514,7 +514,7 @@
     "search_form": {
       "placeholder": "What are you looking for?",
       "search_again": "Search again",
-      "submit": "Zoeken"
+      "submit": "Search"
     },
     "title": "Search",
     "view_all_results": "View all results",
