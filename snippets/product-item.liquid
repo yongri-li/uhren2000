@@ -785,9 +785,8 @@
               origin: 'productitem'
       -%}
     {%- endif -%}
-{%- assign archived_note = 'Archivartikel - verkauft' -%}
 {%- if product.tags contains 'Uhren-Archiv' -%}
-  <p class="archived-note">{{ archived_note }}</p>
+  <p class="archived-note">{{ 'archived_note' | t }}</p>
 {%- else -%}
   {%- if show_price -%}
     <p class="price">
