@@ -499,7 +499,8 @@
     "unit_price_label": "Standard price tag",
     "unit_price_separator": "\/",
     "vendor": "Vendor",
-    "view_in_your_space": "View in your space"
+    "view_in_your_space": "View in your space",
+    "archive_note": "Sold"
   },
   "search": {
     "amount_of_results": {
