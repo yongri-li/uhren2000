@@ -480,7 +480,7 @@
     "show_previous_results": "Vorherige Ergebnisse anzeigen"
   },
   "collection": {
-    "archive_note": "Archivartikel - verkauft",
+    "archived_note": "Archivartikel - verkauft",
     "amount_of_products": {
       "zero": "Keine Produkte",
       "one": "{{ amount }} Produkt",
