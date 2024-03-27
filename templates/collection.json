@@ -32,7 +32,8 @@
       "custom_css": [
         "h2,h3,h4,h5,h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020; max-width: 700px;}",
         "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none;}",
-        "p {max-width: 800px;}"
+        "p {max-width: 800px;}",
+        "a {color: #B99E7A;}"
       ],
       "settings": {
         "color_palette": "white",
