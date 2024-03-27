@@ -59,7 +59,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "<center style=\"margin-top: -10px; margin-bottom: 10px;\">\n  <span style=\"color: #000000; font-size: 12px;\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n<\/center>",
+            "liquid": "{% if product.metafields.custom.lieferumfang == true %}\n  <center style=\"margin-top: -10px; margin-bottom: 10px;\">\n    <span style=\"color: #000000; font-size: 12px;\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n  <\/center>\n{% endif %}",
             "html": "",
             "show_contact_form": false
           }
