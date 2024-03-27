@@ -1833,6 +1833,7 @@ html:not([dir='rtl']) #nav-bar > ul > li.text-end {
 }
 #nav-user > ul > li.lang > a img {
   max-height: none;
+  width: 50px;
 }
 #nav-user > ul > li > a ~ a.toggle {
   display: block;

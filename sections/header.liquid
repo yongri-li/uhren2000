@@ -1,7 +1,7 @@
 {% style %}
 
 @media (min-width : 1024px) {
-  
+
   #search button {
     min-width: auto;
     width: auto;
@@ -46,7 +46,7 @@
   }
 
   #nav-user .user-login:hover a div, #nav-user .cart:hover a div {
-    border-color :#c1a57e; 
+    border-color :#c1a57e;
   }
 
   #nav-user>ul>li:not(.currency,.cart)>a span {
@@ -100,7 +100,7 @@
   @media (max-width : 1023px) {
     span#cart-count {
       left: 25px;
-    }  
+    }
   }
 
   @media (max-width: 600px) {
@@ -112,7 +112,7 @@
       align-items : center;
     }
   }
-  
+
   #nav-user .user-login a , #nav-user .cart a {
     display : flex!important;
   }
@@ -408,9 +408,9 @@
             endif
           -%}
           {%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
-            <li class="sub{% unless customer %} user-login menu-hide{% endunless %}">
+            <li class="sub user-login {% unless customer %} menu-hide{% endunless %}">
               {%- if customer -%}
-                <a href="{{ routes.account_url }}" class="toggle">{% render 'icon-user' %} <span class="desktop-hide">{{ 'header.account.welcome_user_html' | t: name: customer.first_name }}</span></a>
+                <a href="{{ routes.account_url }}" class="toggle"><div>{% render 'icon-user' %}</div> <span>{{ customer.first_name }}</span></a>
                 <ul>
                   <li><a href="{{ routes.account_url }}">{% render 'icon-user' %} {{ 'header.account.overview' | t }}</a></li>
                   <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-box"></i> {{ 'header.account.orders' | t }}</a></li>
