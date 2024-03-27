@@ -285,9 +285,6 @@
       "second": "Sekunde"
     }
   },
-  "product-card": {
-    "archive_note": "Archivartikel - verkauft"
-  },
   "gift_cards": {
     "issued": {
       "page_title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
@@ -407,7 +404,6 @@
       "add_to_cart": "In den Warenkorb",
       "unavailable": "Nicht verfügbar",
       "not_in_stock": "Auf Anfrage",
-      "archive_note": "Archivartikel - verkauft",
       "choose_option": "Treffen Sie eine Entscheidung",
       "purchase_options_title": "Liefern Sie jede",
       "purchase_options_subtitle": "Sie können Ihr Abonnement monatlich kündigen",
@@ -423,7 +419,6 @@
     "excluding_tax": "Exkl. MwSt",
     "stock_tag": "letzter Vorrat",
     "not_in_stock_tag": "Auf Anfrage",
-    "archive_note": "Archivartikel - verkauft",
     "price_varies_label": "Ab",
     "vendor": "Anbieter",
     "sku": "REF. NR.",
