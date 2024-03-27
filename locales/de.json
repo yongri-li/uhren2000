@@ -376,6 +376,7 @@
     }
   },
   "product": {
+    "archive_note": "Archivartikel - verkauft",
     "reviews": {
       "title": "Rezensionen",
       "write_a_review": "Eine Rezension schreiben",
