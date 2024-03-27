@@ -31,16 +31,8 @@
         "header-block-usp-1": {
           "type": "usp",
           "settings": {
-            "usp": "<p><strong>Mo-Sa 9 - 18 Uhr Tel.<\/strong><a href=\"tel:+4971423440158\">+49 7142 - 3440158<\/a><\/p>",
+            "usp": "<p><strong>Mo-Sa 9 - 18 Uhr Tel. <\/strong><a href=\"tel:+4971423440158\">+49 7142 - 3440158<\/a><\/p>",
             "show_check": true
-          }
-        },
-        "header-block-usp-2": {
-          "type": "usp",
-          "disabled": true,
-          "settings": {
-            "usp": "<p>Give your customers more details about your online store<\/p>",
-            "show_check": false
           }
         },
         "389714c7-7aae-4332-b8fe-9bf28b57ab30": {
@@ -114,7 +106,6 @@
       },
       "block_order": [
         "header-block-usp-1",
-        "header-block-usp-2",
         "389714c7-7aae-4332-b8fe-9bf28b57ab30",
         "menu_4j4Vd9"
       ],
