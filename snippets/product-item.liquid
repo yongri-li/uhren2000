@@ -786,7 +786,7 @@
       -%}
     {%- endif -%}
 {%- if product.tags contains 'Uhren-Archiv' -%}
-  <p class="archived-note">Archivartikel - verkauft</p>
+  <p class="archived-note">{{ 'archived_note_text' | translate }}</p>
 {%- else -%}
   {%- if show_price -%}
     <p class="price">
