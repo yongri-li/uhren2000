@@ -451,7 +451,7 @@
       "choose_option": "Make a choice",
       "in_stock": "{{ amount }} in stock",
       "not_in_stock": "Out of stock",
-      "archive_note": "Archivartikel - verkauft",
+      "archive_note": "Sold",
       "one_time_purchase": "One-time purchase",
       "purchase_options_subtitle": "You can cancel your subscription monthly",
       "purchase_options_title": "Deliver every",
