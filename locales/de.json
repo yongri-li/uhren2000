@@ -285,6 +285,9 @@
       "second": "Sekunde"
     }
   },
+  "product-card": {
+    "archive_note": "Archivartikel - verkauft"
+  },
   "gift_cards": {
     "issued": {
       "page_title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
@@ -376,9 +379,6 @@
     }
   },
   "product": {
-    "notes": {
-      "archive_note": "Archivartikel - verkauft"
-    },
     "reviews": {
       "title": "Rezensionen",
       "write_a_review": "Eine Rezension schreiben",
