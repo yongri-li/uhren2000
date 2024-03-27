@@ -376,6 +376,9 @@
     }
   },
   "product": {
+    "notes": {
+      "archive_note": "Archivartikel - verkauft"
+    },
     "reviews": {
       "title": "Rezensionen",
       "write_a_review": "Eine Rezension schreiben",
@@ -513,7 +516,6 @@
         "range_to": "zu"
       },
       "show_products": {
-        "archive_note": "Archivartikel - verkauft",
         "zero": "Null",
         "one": "Ein",
         "other": "Andere"
