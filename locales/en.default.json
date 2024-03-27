@@ -500,7 +500,8 @@
     "unit_price_separator": "\/",
     "vendor": "Vendor",
     "view_in_your_space": "View in your space",
-    "archive_note": "Sold"
+    "archive_note": "Sold",
+    "archived_note_text": "Sold"
   },
   "search": {
     "amount_of_results": {
