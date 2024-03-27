@@ -59,7 +59,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "{% assign lieferumfang = product.metafields.custom.lieferumfang %}\n\n{% if lieferumfang == true %}\n  <center style=\"margin-top: -10px; margin-bottom: 10px;\">\n    <span style=\"color: #000000; font-size: 12px;\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n  <\/center>\n{% endif %}",
+            "liquid": "<div class=\"lieferumfang-container\">\n  <span class=\"lieferumfang\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n<\/div>\n\n<style>\n  .lieferumfang-container {\n    text-align: center;\n    margin-top: -10px;\n    margin-bottom: 10px;\n  }\n\n  .lieferumfang {\n    color: #000000;\n    font-size: 12px;\n  }\n<\/style>",
             "html": "",
             "show_contact_form": false
           }
