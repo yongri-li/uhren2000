@@ -562,5 +562,8 @@
     "twitter": "X",
     "whatsapp": "WhatsApp",
     "youtube": "YouTube"
+  },
+  "product-card": {
+    "archive_note": "Sold"
   }
 }
