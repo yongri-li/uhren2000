@@ -376,7 +376,6 @@
     }
   },
   "product": {
-    "archive_note": "Archivartikel - verkauft",
     "reviews": {
       "title": "Rezensionen",
       "write_a_review": "Eine Rezension schreiben",
@@ -481,6 +480,7 @@
     "show_previous_results": "Vorherige Ergebnisse anzeigen"
   },
   "collection": {
+    "archive_note": "Archivartikel - verkauft",
     "amount_of_products": {
       "zero": "Keine Produkte",
       "one": "{{ amount }} Produkt",
