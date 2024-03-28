@@ -207,8 +207,8 @@
         "30c68dd5-0daf-4c67-9e87-30fae9f6db2e": {
           "type": "email",
           "settings": {
-            "title": "eMail-Adresse",
-            "placeholder": "eMail-Adresse"
+            "title": "E-Mail",
+            "placeholder": "E-Mail"
           }
         },
         "text_LTwETJ": {
@@ -311,7 +311,7 @@
             "text": "",
             "show_login_links": false,
             "show_shop_address": true,
-            "show_maps_url": true,
+            "show_maps_url": false,
             "show_phone_link": false,
             "show_mail_link": false,
             "show_whatsapp_link": false
