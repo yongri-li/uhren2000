@@ -241,6 +241,101 @@
         "fix_zindex": 0
       }
     },
+    "section_image_columns_text_pye7JG": {
+      "type": "section-image-columns-text",
+      "blocks": {
+        "image_UyH6h6": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_tFBzqt": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_UyH6h6",
+        "image_tFBzqt"
+      ],
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": true,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_icon_text_blocks_TcGGtL": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -356,75 +451,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_image_with_text_7HgHkX": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "text_H648aU": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Mit Global Blue Tax Free Shopping Geld sparen<\/h3><p>Haben Sie einen Wohnsitz außerhalb der EU-Grenzen, können Sie in unserem Geschäft bei Ihrem Einkauf kräftig sparen. Wir sind Partner bei Global Blue Tax Free. Deshalb bekommen Sie einen Teil der von Ihnen gezahlten Mehrwertsteuer auf Ihren Einkauf zurück, wenn Sie die EU wieder verlassen. Diese Ersparnis macht das Einkaufen bei uns für Sie besonders attraktiv. Außerdem ist der Vorgang einfach. <\/p><p>Steuerfrei mit Global Blue<\/p><p>Kaufen Sie in unserem Geschäft in Deutschland Waren im Wert von mindestens 25 EUR pro Geschäft ein, können Sie bereits das Tax Free Shopping nutzen. Dafür lassen Sie sich am besten von einem unserer Mitarbeiter bereits vor dem Einkaufen das dafür notwendige Tax-Free-Formular geben und füllen es nach dem Kauf aus. <\/p><p><a href=\"https:\/\/www.frankfurt-airport.com\/en\/airport-guide\/help-at-the-airport.html\" title=\"Globalblue Frankfurt\">Flughafen Frankfurt <\/a><\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "text_H648aU"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Dresswatch-2_1600x1600_d76f57b9-0e0c-423a-9ffa-7bc77f2769a0.jpg",
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "xs",
-        "enable_custom_height": true,
-        "custom_height": 260,
-        "text_position": "text-start",
-        "image_mobile": "shopify:\/\/shop_images\/Dresswatch-2_1600x1600_d76f57b9-0e0c-423a-9ffa-7bc77f2769a0.jpg",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_kpf4QF": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "text_FX6BFU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Treffen Sie Ihre Entscheidung für das steuerfreie Einkaufen noch bei uns vor Ort. Ein Formular für Global Blue Tax Free Shopping können Sie später nicht rückwirkend ausfüllen. Unsere Mitarbeiter helfen Ihnen gern bei allen Formalitäten. Sie achten auch darauf, dass das Datum auf dem Formular und auf dem originalen Kaufbeleg übereinstimmen.<br\/><br\/>Die Ware müssen Sie binnen drei Monaten aus der EU ausführen. Der Kaufmonat zählt dabei nicht mit. <br\/><br\/>Schnelle Abwicklung<br\/><br\/>Die Rückerstattung beim Tax Free Shopping erhalten Sie weltweit in über 250 Rückerstattungsstellen. Dabei können Sie den für Sie am besten geeigneten Weg wählen. Bargeld wird bei der Abreise direkt am Flughafen, aber auch an den Grenzübergangsstellen sowie in Ihrem Heimatland ausgezahlt. Eine Rückerstattung über die Kreditkarten dagegen dauert zwischen drei und fünf Werktagen und über die Post nimmt es insgesamt drei Wochen in Anspruch.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0634\/8780\/3545\/files\/global_tax_free_shopping_flyer.pdf?v=1709044750\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0634\/8780\/3545\/files\/global_tax_free_shopping_flyer.pdf?v=1709044750\">Download Global Tax Free Shopping Flyer<\/a><\/p><p><\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "text_FX6BFU"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Tax_Free_Logo_1600x1600_799abae8-006b-4d84-9a5e-b80f2cdcdc4a.jpg",
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "xs",
-        "enable_custom_height": false,
-        "custom_height": 260,
-        "text_position": "text-start",
-        "image_mobile": "shopify:\/\/shop_images\/Tax_Free_Logo_1600x1600_799abae8-006b-4d84-9a5e-b80f2cdcdc4a.jpg",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
@@ -433,10 +459,9 @@
     "section_collage_6mxfcU",
     "section_icon_text_blocks_MtXjGD",
     "section_image_columns_text_a7zEB6",
+    "section_image_columns_text_pye7JG",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
-    "section_recently_viewed_products_LHGaAV",
-    "section_image_with_text_7HgHkX",
-    "section_image_with_text_kpf4QF"
+    "section_recently_viewed_products_LHGaAV"
   ]
 }
