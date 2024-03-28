@@ -210,10 +210,10 @@
             "alignment": "left",
             "title_size": "h2",
             "title": "Popup",
-            "text": "<p>Test<\/p>",
+            "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "",
+            "liquid": "{% render 'shopify-block-formful_app_block_form_zD8WFN' %}",
             "html": ""
           }
         }
