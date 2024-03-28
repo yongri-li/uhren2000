@@ -328,8 +328,7 @@
     "section_custom_liquid_gdqaBg": {
       "type": "section-custom-liquid",
       "custom_css": [
-        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020; text-align: center; margin-top: 50px;}",
-        " {background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}"
+
       ],
       "settings": {
         "custom_liquid": "<!-- Styling to initially hide the section -->\n<style>\n  #shopify-section-template--16525535543449__171163181302601667 {\n    display: none;\n  }\n<\/style>\n\n<!-- JavaScript to Check Hash Value and Show Section -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var sectionToToggle = document.getElementById('shopify-section-template--16525535543449__171163181302601667');\n  \n  \/\/ Check if the URL hash matches '#?showsection=true'\n  if (window.location.hash === '#?showsection=true') {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'block'; \/\/ Show the section\n    }\n  }\n});\n<\/script>",
