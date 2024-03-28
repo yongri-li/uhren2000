@@ -198,6 +198,24 @@
             "html": "",
             "show_contact_form": false
           }
+        },
+        "popup_RDKqqX": {
+          "type": "popup",
+          "settings": {
+            "link_text": "Button",
+            "button_color_palette": "accent",
+            "button_style": "fill",
+            "wide": false,
+            "show_link": false,
+            "alignment": "left",
+            "title_size": "h2",
+            "title": "Popup",
+            "text": "<p>Test<\/p>",
+            "page": "sie-suchen-eine-bestimmte-uhr-1",
+            "image_width": 460,
+            "liquid": "",
+            "html": ""
+          }
         }
       },
       "block_order": [
@@ -218,7 +236,8 @@
         "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924",
         "c300d32f-398c-41a9-b22b-d5c9f40ed345",
         "custom_liquid_jhBc39",
-        "content_bQGz6K"
+        "content_bQGz6K",
+        "popup_RDKqqX"
       ],
       "custom_css": [
         "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
