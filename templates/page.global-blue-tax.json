@@ -247,7 +247,6 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Tax_Free_Logo_1600x1600_7950844d-9844-4a02-942c-c23dd4549f06.jpg",
             "image_height": 60,
             "title": "Mit Global Blue Tax Free Shopping Geld sparen",
             "subtitle": "",
@@ -261,7 +260,7 @@
         "text_RK8Brd": {
           "type": "text",
           "settings": {
-            "icon": "coupon",
+            "icon": "none",
             "image_height": 145,
             "title": "",
             "subtitle": "",
