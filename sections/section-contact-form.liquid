@@ -80,21 +80,21 @@
               <div class="w50 {% if block.type == 'checkbox' and block.settings.required %} checkbox-required{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.title != empty -%}<label for="{{ block.settings.title | handleize }}">{{ block.settings.title }}{%- if block.settings.required -%}<span class="overlay-theme">*</span>{%- endif -%}</label>{%- endif -%}
                 <ul class="check inline">
-                  {%- for i in (1..6) -%}
-                    {%- assign handle = 'option_x' | replace: 'x', forloop.index -%}
-                    {%- if block.settings[handle] != empty -%}
-                      <li>
-                        <input
-                          type="{{ block.type }}"
-                          id="{% if block.settings.title != empty %}{{ block.settings.title | handleize }}-{% endif %}{{ block.settings[handle] | handleize }}"
-                          name="contact[{% if block.type == 'radio' %}{{ block.settings.title | strip_html | escape }}{% else %}{% if block.settings.title != empty %}{{ block.settings.title | strip_html | append: ' - ' | append: block.settings[handle] | strip_html | escape }}{% else %}{{ block.settings[handle] | escape }}{% endif %}{% endif %}]"
-                          value="{{ block.settings[handle] | strip_html | escape }}"
-                          {% if block.settings.required and forloop.first %}required{% endif %}
-                        >
-                        <label for="{% if block.settings.title != empty %}{{ block.settings.title | handleize }}-{% endif %}{{ block.settings[handle] | handleize }}">{{ block.settings[handle] }}</label>
-                      </li>
-                    {%- endif -%}
-                  {%- endfor -%}
+                 {%- for i in (1..6) -%}
+  {%- assign handle = 'option_x' | replace: 'x', forloop.index -%}
+  {%- if block.settings[handle] != empty -%}
+    <li>
+      <input
+        type="{{ block.type }}"
+        id="{% if block.settings.title != empty %}{{ block.settings.title | handleize }}-{% endif %}{{ block.settings[handle] | handleize }}"
+        name="contact[{% if block.type == 'radio' %}{{ block.settings.title | strip_html | escape }}{% else %}{% if block.settings.title != empty %}{{ block.settings.title | strip_html | append: ' - ' | append: block.settings[handle] | strip_html | escape }}{% else %}{{ block.settings[handle] | escape }}{% endif %}{% endif %}]"
+        value="{{ block.settings[handle] | strip_html | escape }}"
+        {% if block.settings.required and forloop.first %}required{% endif %}
+      >
+      <label for="{% if block.settings.title != empty %}{{ block.settings.title | handleize }}-{% endif %}{{ block.settings[handle] | handleize }}"{{ block.shopify_attributes }}>{{ block.settings[handle] | strip_html | newline_to_br | link_to }}</label>
+    </li>
+  {%- endif -%}
+{%- endfor -%}
                 </ul>
               </div>
             {%- elsif block.type == 'select' %}
