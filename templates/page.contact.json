@@ -230,8 +230,8 @@
         "checkbox_3dwfpp": {
           "type": "checkbox",
           "settings": {
-            "title": "",
-            "option_1": "Ich habe die Datenschutzbestimmungen zur Kenntnis genommen.",
+            "title": "Datenschutz",
+            "option_1": "Ich bin mit der Datenschutzerklärung einverstanden",
             "option_2": "",
             "option_3": "",
             "option_4": "",
