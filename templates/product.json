@@ -343,6 +343,9 @@
       "block_order": [
         "formful_app_block_form_CCy66B"
       ],
+      "custom_css": [
+        "{display: none;}"
+      ],
       "settings": {
       }
     },
