@@ -328,7 +328,7 @@
     "section_custom_liquid_gdqaBg": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Styling to initially hide the section -->\n<style>\n  #shopify-section-template--16525535543449__171163181302601667 {\n    display: none;\n  }\n<\/style>\n\n<!-- JavaScript to Check URL Parameter and Show Section -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var sectionToToggle = document.getElementById('shopify-section-template--16525535543449__171163181302601667');\n  var urlParams = new URLSearchParams(window.location.search);\n  \n  \/\/ Check if the URL parameter 'showsection' is set to 'true'\n  if (urlParams.get('showsection') === 'true') {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'block'; \/\/ Show the section\n    }\n  }\n});\n<\/script>",
+        "custom_liquid": "<!-- Styling to initially hide the section -->\n<style>\n  #shopify-section-template--16525535543449__171163181302601667 {\n    display: none;\n  }\n<\/style>\n\n<!-- JavaScript to Check Hash Value and Show Section -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var sectionToToggle = document.getElementById('shopify-section-template--16525535543449__171163181302601667');\n  \n  \/\/ Check if the URL hash matches '#?showsection=true'\n  if (window.location.hash === '#?showsection=true') {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'block'; \/\/ Show the section\n    }\n  }\n});\n<\/script>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
