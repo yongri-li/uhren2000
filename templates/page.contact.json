@@ -155,6 +155,27 @@
         "fix_zindex": 0
       }
     },
+    "17116292534b5a3557": {
+      "type": "apps",
+      "blocks": {
+        "formful_app_block_form_ARpeXp": {
+          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "settings": {
+            "form_id": "form_jQjYL_hxXw",
+            "max_width": 49,
+            "column_gap": 2,
+            "row_gap": 1,
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "formful_app_block_form_ARpeXp"
+      ],
+      "settings": {
+      }
+    },
     "section-contact-form": {
       "type": "section-contact-form",
       "blocks": {
@@ -215,7 +236,7 @@
             "option_4": "",
             "option_5": "",
             "option_6": "",
-            "required": false
+            "required": true
           }
         }
       },
@@ -228,6 +249,7 @@
         "7f5b90a3-0ea1-466d-a8bb-fb174e340aed",
         "checkbox_3dwfpp"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "left",
         "title": "Kontaktformular",
@@ -350,6 +372,7 @@
     "section-slideshow",
     "page-service-menu",
     "section-faq",
+    "17116292534b5a3557",
     "section-contact-form",
     "page-service-info-blocks",
     "main-page",
