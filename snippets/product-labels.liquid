@@ -4,6 +4,8 @@
   assign custom_label_key = settings.product_custom_label | split: '.' | last
   assign custom_label = product.metafields[custom_label_namespace][custom_label_key]
   assign total_stock = 0
+  assign now = 'now' | date: '%s'
+  assign days_since_creation = now | minus: product.created_at | date: '%s' | divided_by: 86400
 
   if origin == 'productitem'
     for variant in product.variants
@@ -47,7 +49,7 @@
   {%- if total_stock <= 0 and current_variant.inventory_management != nil and current_variant.inventory_policy == 'continue' and current_variant.available and current_variant.inventory_quantity <= 0 and settings.preorder -%}
     <span class="overlay-preorder">{{ 'product.preorder_tag' | t }}</span>
   {%- endif -%}
-  {%- if custom_label != blank -%}
-    <span>{{ custom_label }}</span>
+  {%- if custom_label != blank and days_since_creation <= 14 -%}
+    <span class="custom-new-product-label">{{ custom_label }}</span>
   {%- endif %}
 </span>
