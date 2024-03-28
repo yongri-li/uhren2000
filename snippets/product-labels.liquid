@@ -32,6 +32,17 @@
       assign discount = current_variant.compare_at_price | minus: current_variant.price | money
     endif
   endif
+
+  # New code block to handle custom label visibility for 'new_product_label' only
+  assign product_created_at = product.created_at | date: "%s"
+  assign current_time = "now" | date: "%s"
+  assign time_difference = current_time | minus: product_created_at | divided_by: 86400 # Convert seconds to days
+  
+  if custom_label_key == 'new_product_label' and time_difference > 14
+    assign hide_custom_label = true
+  else
+    assign hide_custom_label = false
+  endif
 -%}
 
 <span class="s1lb label plain">
@@ -47,7 +58,7 @@
   {%- if total_stock <= 0 and current_variant.inventory_management != nil and current_variant.inventory_policy == 'continue' and current_variant.available and current_variant.inventory_quantity <= 0 and settings.preorder -%}
     <span class="overlay-preorder">{{ 'product.preorder_tag' | t }}</span>
   {%- endif -%}
-  {%- if custom_label != blank -%}
+  {%- if custom_label != blank and hide_custom_label == false -%}
     <span>{{ custom_label }}</span>
   {%- endif %}
 </span>
