@@ -331,7 +331,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<!-- Styling to initially hide the section -->\n<style>\n  #shopify-section-template--16525535543449__171163181302601667 {\n    display: none;\n  }\n<\/style>\n\n<!-- JavaScript to Check Hash Value and Show Section on Page Load and Hash Change -->\n<script>\nfunction toggleSectionBasedOnHash() {\n  var sectionToToggle = document.getElementById('shopify-section-template--16525535543449__171163181302601667');\n  \n  \/\/ Check if the URL hash matches '#?showsection=true'\n  if (window.location.hash === '#?showsection=true') {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'block'; \/\/ Show the section\n    }\n  } else {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'none'; \/\/ Hide the section\n    }\n  }\n}\n\n\/\/ Listen for hash changes\nwindow.addEventListener('hashchange', toggleSectionBasedOnHash, false);\n\n\/\/ Check the hash when the page loads\ndocument.addEventListener('DOMContentLoaded', toggleSectionBasedOnHash);\n<\/script>",
+        "custom_liquid": "<!-- Styling to initially hide the section -->\n<style>\n  #shopify-section-template--16525535543449__171163181302601667 {\n    display: none;\n  }\n<\/style>\n\n<!-- JavaScript to Check Hash Value and Show Section on Page Load and Hash Change -->\n<script>\nfunction toggleSectionBasedOnHash() {\n  var sectionToToggle = document.getElementById('shopify-section-template--16525535543449__171163181302601667');\n  \n  \/\/ Check if the URL hash matches '#?showsection=true'\n  if (window.location.hash === '#?showsection=true') {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'block'; \/\/ Show the section\n    }\n  } else {\n    if (sectionToToggle) {\n      sectionToToggle.style.display = 'none'; \/\/ Hide the section\n    }\n  }\n}\n\n\/\/ Listen for hash changes\nwindow.addEventListener('hashchange', toggleSectionBasedOnHash, false);\n\n\/\/ Check the hash when the page loads\ndocument.addEventListener('DOMContentLoaded', toggleSectionBasedOnHash);\n<\/script>\n\n<!-- Styling for the section -->\n<style>\n  #shopify-section-template--16525535543449__171163181302601667 h3 {\n    font-family: \"Georgia Pro Light\", Georgia, serif;\n    font-weight: 100;\n    font-size: 30px;\n    text-transform: none;\n    color: #202020;\n    text-align: center;\n    margin-top: 50px;\n  }\n\n  #shopify-section-template--16525535543449__171163181302601667 {\n    background-color: #f7f7f7;\n    margin-left: -300px;\n    margin-right: -300px;\n    padding-left: 300px;\n    padding-right: 300px;\n    margin-bottom: 20px;\n  }\n<\/style>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -356,7 +356,8 @@
         "formful_app_block_form_CCy66B"
       ],
       "custom_css": [
-        "{display: none;}"
+        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020; text-align: center; margin-top: 50px;}",
+        " {background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}"
       ],
       "settings": {
       }
