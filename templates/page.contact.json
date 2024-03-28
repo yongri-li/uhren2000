@@ -155,6 +155,28 @@
         "fix_zindex": 0
       }
     },
+    "17116294499af599f4": {
+      "type": "apps",
+      "blocks": {
+        "formful_app_block_form_aadUzw": {
+          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "settings": {
+            "form_id": "form_jQjYL_hxXw",
+            "max_width": 30,
+            "column_gap": 2,
+            "row_gap": 1,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "formful_app_block_form_aadUzw"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
     "section-contact-form": {
       "type": "section-contact-form",
       "blocks": {
@@ -350,6 +372,7 @@
     "section-slideshow",
     "page-service-menu",
     "section-faq",
+    "17116294499af599f4",
     "section-contact-form",
     "page-service-info-blocks",
     "main-page",
