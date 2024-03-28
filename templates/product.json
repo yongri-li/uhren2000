@@ -301,7 +301,7 @@
           "settings": {
             "icon_svg": "<svg xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M0.75 19.5L8.25 11.85M0.75 4.5L12 15.375L23.25 4.5H0.75ZM15.75 11.85L23.25 19.5L15.75 11.85Z\" stroke=\"#FFFFFF\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n<path d=\"M0.75 4.5H23.25V19.5H0.75V4.5Z\" stroke=\"#FFFFFF\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n<\/svg>",
             "text": "Nachricht schreiben",
-            "link": "shopify:\/\/pages\/sie-suchen-eine-bestimmte-uhr"
+            "link": "#"
           }
         }
       },
