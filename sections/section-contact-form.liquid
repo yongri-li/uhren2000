@@ -80,7 +80,7 @@
               <div class="w50 {% if block.type == 'checkbox' and block.settings.required %} checkbox-required{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.title != empty -%}<label for="{{ block.settings.title | handleize }}">{{ block.settings.title }}{%- if block.settings.required -%}<span class="overlay-theme">*</span>{%- endif -%}</label>{%- endif -%}
                 <ul class="check inline">
-                 {%- for i in (1..6) -%}
+{%- for i in (1..6) -%}
   {%- assign handle = 'option_x' | replace: 'x', forloop.index -%}
   {%- if block.settings[handle] != empty -%}
     <li>
@@ -91,7 +91,7 @@
         value="{{ block.settings[handle] | strip_html | escape }}"
         {% if block.settings.required and forloop.first %}required{% endif %}
       >
-      <label for="{% if block.settings.title != empty %}{{ block.settings.title | handleize }}-{% endif %}{{ block.settings[handle] | handleize }}"{{ block.shopify_attributes }}>{{ block.settings[handle] | strip_html | newline_to_br | link_to }}</label>
+      <label for="{% if block.settings.title != empty %}{{ block.settings.title | handleize }}-{% endif %}{{ block.settings[handle] | handleize }}"{{ block.shopify_attributes }}>{%- capture option_label -%}{{ block.settings[handle] }}{%- endcapture -%}{{ option_label | newline_to_br }}</label>
     </li>
   {%- endif -%}
 {%- endfor -%}
