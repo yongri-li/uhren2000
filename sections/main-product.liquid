@@ -927,10 +927,6 @@
       #shopify-section-{{ section.id }} .f8pr-price {
           --price_fz: {{ block.settings.font_size }}px;
       }
-      .swiper-button-prev, .swiper-button-next {
-user-select: none;
--webkit-user-select: none;
-}
     </style>
   {%- endif -%}
                 {%- when 'buy_button' -%}
@@ -1586,31 +1582,6 @@ user-select: none;
     font-size: 18px;
 }
 </style>
-
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Select all buttons, assuming they have a common class 'codext-contact-button'
-  var buttons = document.querySelectorAll('.codext-contact-button');
-
-  // Check if there are at least four buttons and add an event listener to the fourth one
-  if (buttons.length >= 4) {
-    var fourthButton = buttons[3]; // Array is zero-indexed, so the fourth item is at index 3
-    
-    fourthButton.addEventListener('click', function(event) {
-      event.preventDefault(); // Prevent default action if it's a link
-      var sectionToToggle = document.getElementById('171163181302601667'); // The section you want to show/hide
-      
-      // Toggle the display style
-      if (sectionToToggle.style.display === 'none' || sectionToToggle.style.display === '') {
-        sectionToToggle.style.display = 'block'; // Make the section visible
-      } else {
-        sectionToToggle.style.display = 'none'; // Optional: Hide the section again if the button is clicked a second time
-      }
-    });
-  }
-});
-</script>
 
 {% schema %}
 {
