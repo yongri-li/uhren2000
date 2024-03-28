@@ -4,6 +4,9 @@
   assign custom_label_key = settings.product_custom_label | split: '.' | last
   assign custom_label = product.metafields[custom_label_namespace][custom_label_key]
   assign total_stock = 0
+  assign today = 'now' | date: '%s' 
+  assign creation_date = product.created_at | date: '%s'
+  assign days_since_creation = today | minus: creation_date | divided_by: 86400
 
   if origin == 'productitem'
     for variant in product.variants
@@ -32,16 +35,10 @@
       assign discount = current_variant.compare_at_price | minus: current_variant.price | money
     endif
   endif
-
-  assign product_added_date = product.created_at | date: '%s' | times: 1000
-  assign current_date = 'now' | date: '%s' | times: 1000
-  assign days_since_added = (current_date - product_added_date) / (24 * 60 * 60 * 1000)  # Calculate days since product added
-
-  assign show_label = days_since_added <= 14  # Check if less than or equal to 14 days since added
 -%}
 
 <span class="s1lb label plain">
-  {%- if show_label -%}
+  {%- if show_sale_label -%}
     <span class="overlay-sale">{{ 'product.sale_tag' | t }}{% if settings.sale_label_price == 'percentage' %}&nbsp;-{{ discount }}%{% elsif settings.sale_label_price == 'amount' %}&nbsp;-{{ discount }}{% endif %}</span>
   {%- endif -%}
   {%- if settings.show_stock_label and total_stock > 0 and total_stock <= settings.stock_label_qty -%}
@@ -53,7 +50,7 @@
   {%- if total_stock <= 0 and current_variant.inventory_management != nil and current_variant.inventory_policy == 'continue' and current_variant.available and current_variant.inventory_quantity <= 0 and settings.preorder -%}
     <span class="overlay-preorder">{{ 'product.preorder_tag' | t }}</span>
   {%- endif -%}
-  {%- if custom_label != blank -%}
+  {%- if custom_label != blank and days_since_creation <= 14 -%}
     <span>{{ custom_label }}</span>
   {%- endif %}
 </span>
