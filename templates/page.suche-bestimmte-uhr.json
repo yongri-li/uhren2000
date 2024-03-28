@@ -291,6 +291,7 @@
         "textarea_bGz3RP",
         "checkbox_GrPtkq"
       ],
+      "disabled": true,
       "custom_css": [
         "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; padding-top: 50px; margin-bottom: 20px; padding-bottom: 20px;}",
         "button {color: #fff; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 200;}"
