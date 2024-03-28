@@ -325,6 +325,27 @@
         "height_mobile": 20
       }
     },
+    "171163181302601667": {
+      "type": "apps",
+      "blocks": {
+        "formful_app_block_form_CCy66B": {
+          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "settings": {
+            "form_id": "form_jQjYL_hxXw",
+            "max_width": 75,
+            "column_gap": 2,
+            "row_gap": 1,
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "formful_app_block_form_CCy66B"
+      ],
+      "settings": {
+      }
+    },
     "contact_ways_b9RtDD": {
       "type": "contact-ways",
       "blocks": {
@@ -600,6 +621,7 @@
     "section_custom_liquid_zTTbR6",
     "contact_ways_xb3X4b",
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
+    "171163181302601667",
     "contact_ways_b9RtDD",
     "codext_description_blocks_6b9Ekq",
     "section_custom_liquid_ytT3Lt",
