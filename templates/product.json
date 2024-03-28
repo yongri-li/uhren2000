@@ -325,6 +325,15 @@
         "height_mobile": 20
       }
     },
+    "section_custom_liquid_gdqaBg": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Clickable Text -->\n<div id=\"toggleDisplay\">Anfrage<\/div>\n\n<!-- Styling for the clickable text for better visibility -->\n<style>\n  #toggleDisplay {\n    cursor: pointer;\n    color: blue;\n    text-decoration: underline;\n  }\n<\/style>\n\n<!-- JavaScript to Toggle Display -->\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var toggleText = document.getElementById('toggleDisplay');\n  var sectionToToggle = document.getElementById('shopify-section-template--16525535543449__171163181302601667');\n\n  if (toggleText && sectionToToggle) {\n    toggleText.addEventListener('click', function() {\n      if (sectionToToggle.style.display === 'none') {\n        sectionToToggle.style.display = 'block'; \/\/ Use 'block' to show the section\n      } else {\n        sectionToToggle.style.display = 'none'; \/\/ Hide the section\n      }\n    });\n  }\n});\n<\/script>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "171163181302601667": {
       "type": "apps",
       "blocks": {
@@ -624,6 +633,7 @@
     "section_custom_liquid_zTTbR6",
     "contact_ways_xb3X4b",
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
+    "section_custom_liquid_gdqaBg",
     "171163181302601667",
     "contact_ways_b9RtDD",
     "codext_description_blocks_6b9Ekq",
