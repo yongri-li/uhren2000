@@ -231,7 +231,7 @@
           "type": "checkbox",
           "settings": {
             "title": "Datenschutz",
-            "option_1": "Ich bin mit der Datenschutzerklärung einverstanden",
+            "option_1": "Ich bin mit der <a href=\"https:\/\/uhren2000.myshopify.com\/policies\/privacy-policy\" target=\"_blank\">Datenschutzerklärung<\/a> einverstanden.",
             "option_2": "",
             "option_3": "",
             "option_4": "",
