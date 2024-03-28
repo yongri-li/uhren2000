@@ -367,6 +367,7 @@
         "textarea_bGz3RP",
         "checkbox_GrPtkq"
       ],
+      "disabled": true,
       "custom_css": [
         "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; padding-top: 50px; margin-bottom: 20px; padding-bottom: 20px;}",
         "button {color: #fff; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 200;}"
@@ -392,6 +393,27 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "17116291809585c6cd": {
+      "type": "apps",
+      "blocks": {
+        "formful_app_block_form_rAwWjW": {
+          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "settings": {
+            "form_id": "form_Sefm6AwatR",
+            "max_width": 75,
+            "column_gap": 2,
+            "row_gap": 1,
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "formful_app_block_form_rAwWjW"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -401,6 +423,7 @@
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV",
-    "section_contact_form_4NxppH"
+    "section_contact_form_4NxppH",
+    "17116291809585c6cd"
   ]
 }
