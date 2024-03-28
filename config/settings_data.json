@@ -93,7 +93,7 @@
     "show_stock_label": false,
     "stock_label_qty": 5,
     "show_out_of_stock_label": false,
-    "product_custom_label": "custom.new.product.label",
+    "product_custom_label": "custom.new_product_label",
     "show_product_stock": true,
     "layout_productcard": "standard",
     "quickshop_behavior": "static",
