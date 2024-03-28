@@ -33,10 +33,11 @@
     endif
   endif
 
-  # New code block to handle custom label visibility for 'new_product_label' only
-  assign product_created_at = product.created_at | date: "%s"
-  assign current_time = "now" | date: "%s"
-  assign time_difference = current_time | minus: product_created_at | divided_by: 86400 # Convert seconds to days
+# New code block to handle custom label visibility for 'new_product_label' only
+assign product_created_at = product.created_at | date: "%s"
+assign current_time = "now" | date: "%s"
+assign time_difference = current_time | minus: product_created_at | divided_by: 86400  # Convert seconds to days
+
   
   if custom_label_key == 'new_product_label' and time_difference > 14
     assign hide_custom_label = true
