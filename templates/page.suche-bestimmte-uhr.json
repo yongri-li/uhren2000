@@ -335,6 +335,10 @@
       "block_order": [
         "formful_app_block_form_zD8WFN"
       ],
+      "custom_css": [
+        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020; text-align: center; margin-top: 50px;}",
+        " {background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}"
+      ],
       "settings": {
       }
     }
