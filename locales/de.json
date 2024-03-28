@@ -455,7 +455,8 @@
     "description": "Beschreibung",
     "specifications": "Spezifikationen",
     "pros_and_cons": "Pro und Kontra",
-    "unit_price_label": "Einheitspreisschild"
+    "unit_price_label": "Einheitspreisschild",
+    "new_tag": "Neu"
   },
   "search": {
     "title": "Suche",
