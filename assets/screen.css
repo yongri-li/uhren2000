@@ -7558,7 +7558,7 @@ img[src*='maps.gstatic.com'],
   height: 100%;
   width: 100%;
   fill: hsla(0, 0%, 52%, 0.35);
-  background-color: hsla(0, 0%, 52%, 0.1);
+   background-image: url('https://cdn.shopify.com/s/files/1/0634/8780/3545/products/234-026-2.jpg?pad_color=fff&v=1708924779&width=350');
   -o-object-fit: contain;
   object-fit: contain;
 }
