@@ -198,24 +198,6 @@
             "html": "",
             "show_contact_form": false
           }
-        },
-        "popup_RDKqqX": {
-          "type": "popup",
-          "settings": {
-            "link_text": "Button",
-            "button_color_palette": "accent",
-            "button_style": "fill",
-            "wide": false,
-            "show_link": false,
-            "alignment": "left",
-            "title_size": "h2",
-            "title": "Popup",
-            "text": "",
-            "page": "",
-            "image_width": 460,
-            "liquid": "{% render 'shopify-block-formful_app_block_form_zD8WFN' %}",
-            "html": ""
-          }
         }
       },
       "block_order": [
@@ -236,8 +218,7 @@
         "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924",
         "c300d32f-398c-41a9-b22b-d5c9f40ed345",
         "custom_liquid_jhBc39",
-        "content_bQGz6K",
-        "popup_RDKqqX"
+        "content_bQGz6K"
       ],
       "custom_css": [
         "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
