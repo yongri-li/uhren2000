@@ -38,32 +38,10 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
-    },
-    "17097234327389b8d5": {
-      "type": "apps",
-      "blocks": {
-        "formful_app_block_form_qmBqJH": {
-          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
-          "settings": {
-            "form_id": "form_-As4ZceEZ1",
-            "max_width": 75,
-            "column_gap": 2,
-            "row_gap": 1,
-            "padding_top": 36,
-            "padding_bottom": 36
-          }
-        }
-      },
-      "block_order": [
-        "formful_app_block_form_qmBqJH"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-page",
-    "17097234327389b8d5"
+    "main-page"
   ]
 }

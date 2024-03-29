@@ -83,6 +83,9 @@
       "block_order": [
         "image_Pi8HrF"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "mirrored": false,
         "width": "boxed",
@@ -107,7 +110,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Mit Global Blue Tax Free Shopping Geld sparen",
+        "title": "WE OFFER GLOBAL TAX FREE SHOPPING",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -182,7 +185,7 @@
         "image_3bzyzE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
+            "image": "shopify:\/\/shop_images\/Tax_Free_Logo_1600x1600_799abae8-006b-4d84-9a5e-b80f2cdcdc4a.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
@@ -220,10 +223,106 @@
         "image_bQGyzE",
         "image_3bzyzE"
       ],
+      "disabled": true,
       "settings": {
         "items_width": 2,
         "width": "boxed",
         "height": "size-s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": true,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_columns_text_pye7JG": {
+      "type": "section-image-columns-text",
+      "blocks": {
+        "image_UyH6h6": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_tFBzqt": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_UyH6h6",
+        "image_tFBzqt"
+      ],
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-l",
         "enable_custom_height": false,
         "custom_height": 300,
         "space_between": 16,
@@ -244,9 +343,8 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Tax_Free_Logo_1600x1600_7950844d-9844-4a02-942c-c23dd4549f06.jpg",
             "image_height": 60,
-            "title": "",
+            "title": "Mit Global Blue Tax Free Shopping Geld sparen",
             "subtitle": "",
             "text": "<p>Haben Sie einen Wohnsitz außerhalb der EU-Grenzen, können Sie in unserem Geschäft bei Ihrem Einkauf kräftig sparen. Wir sind Partner bei Global Blue Tax Free. Deshalb bekommen Sie einen Teil der von Ihnen gezahlten Mehrwertsteuer auf Ihren Einkauf zurück, wenn Sie die EU wieder verlassen. Diese Ersparnis macht das Einkaufen bei uns für Sie besonders attraktiv. Außerdem ist der Vorgang einfach. <\/p><p>Steuerfrei mit Global Blue<\/p><p>Kaufen Sie in unserem Geschäft in Deutschland Waren im Wert von mindestens 25 EUR pro Geschäft ein, können Sie bereits das Tax Free Shopping nutzen. Dafür lassen Sie sich am besten von einem unserer Mitarbeiter bereits vor dem Einkaufen das dafür notwendige Tax-Free-Formular geben und füllen es nach dem Kauf aus. <\/p><p><\/p><p><\/p>",
             "link_text": "Download: Global Tax Free Shopping Flyer",
@@ -258,7 +356,7 @@
         "text_RK8Brd": {
           "type": "text",
           "settings": {
-            "icon": "coupon",
+            "icon": "none",
             "image_height": 145,
             "title": "",
             "subtitle": "",
@@ -276,7 +374,7 @@
       ],
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
-        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
+        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-bottom: 30px; max-width: 1200; font-size: 35px; font-weight: 100; text-transform: none; color: #202020;}"
       ],
       "settings": {
         "items_width": 4,
@@ -361,6 +459,7 @@
     "section_collage_6mxfcU",
     "section_icon_text_blocks_MtXjGD",
     "section_image_columns_text_a7zEB6",
+    "section_image_columns_text_pye7JG",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"

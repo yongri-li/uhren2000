@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.placeholder-svg {
+    background-image: url(https://cdn.shopify.com/s/files/1/0634/8780/3545/files/watch.svg?v=1711625751);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    opacity: .6;
+  }
+  .placeholder-svg path {
+   display: none!important;
+  }

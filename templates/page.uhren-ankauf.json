@@ -244,7 +244,7 @@
         "formful_app_block_form_dqFLae"
       ],
       "custom_css": [
-        "p {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020; text-align: center; margin-top: 50px;}",
+        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020; text-align: center; margin-top: 50px;}",
         " {background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}"
       ],
       "settings": {

@@ -461,7 +461,8 @@
       "view": "Options",
       "view_options": "View options",
       "pre_order": "Pre-order",
-      "pre_order_info": "Pre-order info"
+      "pre_order_info": "Pre-order info",
+      "new_tag": "New"
     },
     "including_tax": "Incl. VAT",
     "one_time_purchase": "One-time purchase",
@@ -499,7 +500,8 @@
     "unit_price_label": "Standard price tag",
     "unit_price_separator": "/",
     "vendor": "Vendor",
-    "view_in_your_space": "View in your space"
+    "view_in_your_space": "View in your space",
+    "new_tag": "New"
   },
   "search": {
     "amount_of_results": {
