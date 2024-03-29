@@ -102,6 +102,7 @@
     },
     "section_icon_text_blocks_TcGGtL": {
       "type": "section-icon-text-blocks",
+      "disabled": true,
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
         "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
@@ -148,38 +149,17 @@
         "title_mbnWdz": {
           "type": "title",
           "settings": {
-            "title": "Tell something about your brand",
-            "title_font": "primary",
+            "title": "Um das Thema Uhrenkauf abzurunden, haben Sie hier die Möglichkeit auf interessante Seiten zu gelangen, ohne suchen zu müssen.",
+            "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700"
           }
-        },
-        "content_AVVr9B": {
-          "type": "content",
-          "settings": {
-            "page": "",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        },
-        "button_DhEt4F": {
-          "type": "button",
-          "settings": {
-            "link_text": "Button",
-            "link_url": "\/",
-            "button_color_palette": "accent",
-            "button_style": "fill"
-          }
         }
       },
       "block_order": [
-        "title_mbnWdz",
-        "content_AVVr9B",
-        "button_DhEt4F"
+        "title_mbnWdz"
       ],
       "settings": {
         "color_palette": "white",
