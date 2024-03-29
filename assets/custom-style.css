@@ -533,3 +533,9 @@
 #search.not-empty .clear-toggle {
   display: none !important;
 }
+
+@media (max-width: 768px) {
+  .swiper-wrapper {
+    overflow: scroll;
+  }
+}
