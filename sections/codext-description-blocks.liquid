@@ -28,7 +28,7 @@
   .product-detail-block-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
   .product-detail-block {
     width: 48%;
@@ -61,10 +61,10 @@
   border: none;
   padding: 3px 5px;
   text-align: left;
-  width: 50%; 
+  width: 50%;
 }
 .no-border-table tr:nth-child(2n) > td {
-  background-color: #fff; 
+  background-color: #fff;
 }
 </style>
 
@@ -98,16 +98,16 @@
               <td>{{ product.metafields.custom.aufzug }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.kaliber-werk != blank %}
+            {% if product.metafields.custom.kaliber_werk != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_caliber_and_movement' | t }}</td>
-              <td>{{ product.metafields.custom.kaliber-werk }}</td>
+              <td>{{ product.metafields.custom.kaliber_werk }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.gangreserve != blank %}
+            {% if product.metafields.custom.gangreserve_h != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_power' | t }}</td>
-              <td>{{ product.metafields.custom.gangreserve }}</td>
+              <td>{{ product.metafields.custom.gangreserve_h }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.schliesse != blank %}

@@ -529,3 +529,7 @@
   margin-right: 10px;
   display: flex !important;
 }
+
+#search.not-empty .clear-toggle {
+  display: none !important;
+}
