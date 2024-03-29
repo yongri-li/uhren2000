@@ -14,6 +14,9 @@
     },
     "section_icon_text_blocks_hzNpCV": {
       "type": "section-icon-text-blocks",
+      "custom_css": [
+        "{margin-top: 50px;}"
+      ],
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
@@ -45,7 +48,7 @@
         "blocks_subtitle_color_palette": "black",
         "blocks_subtitle_weight": "400",
         "blocks_font_size": "16px",
-        "spacing_desktop": 30,
+        "spacing_desktop": 0,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -76,109 +79,6 @@
         "text_alignment": "start",
         "spacing_desktop": 50,
         "spacing_mobile": 30
-      }
-    },
-    "section_collage_6mxfcU": {
-      "type": "section-collage",
-      "blocks": {
-        "image_Pi8HrF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Taschenuhr.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "text_position": "text-center",
-            "title": "",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
-          }
-        }
-      },
-      "block_order": [
-        "image_Pi8HrF"
-      ],
-      "disabled": true,
-      "settings": {
-        "mirrored": false,
-        "width": "boxed",
-        "height": "size-s",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_icon_text_blocks_TcGGtL": {
-      "type": "section-icon-text-blocks",
-      "disabled": true,
-      "custom_css": [
-        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
-        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
-      ],
-      "settings": {
-        "items_width": 4,
-        "text_alignment": "center",
-        "title": "Um das Thema Uhrenkauf abzurunden, haben Sie hier die Möglichkeit auf interessante Seiten zu gelangen, ohne suchen zu müssen.",
-        "title_font": "secondary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "font_size": "16px",
-        "link_text": "Button",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "blocks_text_alignment": "start",
-        "blocks_title_font": "primary",
-        "blocks_title_size": "h2",
-        "blocks_subtitle_font": "secondary",
-        "blocks_subtitle_size": "h2",
-        "blocks_title_color_palette": "black",
-        "blocks_title_weight": "700",
-        "blocks_subtitle_color_palette": "black",
-        "blocks_subtitle_weight": "400",
-        "blocks_font_size": "16px",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
       }
     },
     "section_image_with_text_zaXRhA": {
@@ -220,7 +120,8 @@
         "text_iBye4B"
       ],
       "custom_css": [
-        "img {padding: 50px;}"
+        "img {padding: 50px;}",
+        "@media (min-width: 768px) {img {padding: 200px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/csm_LOGO-MW__1__e87990a47e_480x480_98aa896d-fb78-4d47-9e70-6b5597a03b83.png",
@@ -284,8 +185,6 @@
     "breadcrumbs",
     "section_icon_text_blocks_hzNpCV",
     "main-page",
-    "section_collage_6mxfcU",
-    "section_icon_text_blocks_TcGGtL",
     "section_image_with_text_zaXRhA",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
