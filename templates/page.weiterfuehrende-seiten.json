@@ -83,6 +83,7 @@
       "block_order": [
         "image_Pi8HrF"
       ],
+      "disabled": true,
       "settings": {
         "mirrored": false,
         "width": "boxed",
@@ -101,40 +102,6 @@
     },
     "section_icon_text_blocks_TcGGtL": {
       "type": "section-icon-text-blocks",
-      "blocks": {
-        "text_pVPWtN": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "image_height": 55,
-            "title": "",
-            "subtitle": "",
-            "text": "<h6>Uhren online oder direkt bei uns vor Ort kaufen<\/h6><p>Wir kaufen und verkaufen seit Jahren wertvolle Luxusuhren von großen und bekannten Markenherstellern. Auf unsere Erfahrung und unseren Service können Sie sich deshalb zu jeder Zeit verlassen. Ganz gleich, ob Sie getragene Luxusuhren zu einem Top-Preis kaufen oder uns Ihre Uhr zum Ankauf anbieten wollen: Unsere Mitarbeiter stehen Ihnen dabei stets mit Rat und Tat zur Seite. Für uns steht beim Ankauf und beim Verkauf von Uhren Ihre Zufriedenheit im Vordergrund. <\/p><h6>Rund um den Kauf exklusiver Luxusuhren<\/h6><p>Wenn Sie sich für wertvolle Uhren interessieren, sind Sie bei uns genau richtig. Sie können elegante und exklusive Uhren bei uns auf verschiedene Art und Weise erwerben oder zum Ankauf anbieten. Wenn Sie in der Nähe unserer Filiale wohnen, sollten Sie uns vor Ort besuchen. In unserem Ladengeschäft finden Sie alles, was Sie als Liebhaber von Luxusuhren begeistert. Wählen Sie wertvolle Uhren bei uns vor Ort oder bieten Sie uns Ihre Uhr zum Verkauf an. Sehr gern nehmen wir Ihre getragene Uhr für Damen oder Herren schnell und diskret in Zahlung.<\/p><p>Selbstverständlich können Sie Luxusuhren bei uns auch online kaufen. Dabei helfen wir Ihnen zu jeder Zeit. Suchen Sie sich aus unserem breiten Angebot im Online-Shop das für Sie passende Modell aus. Wir führen Uhren sämtlicher großer Markenhersteller. Bei uns können Sie die weltweit bekanntesten und begehrtesten Uhren kaufen. Wir führen auch besonders seltene Modelle, etwa aus limitierten Editionen. Entscheiden Sie sich in Ruhe, welches Modell Sie kaufen wollen. Während des gesamten Vorgangs bieten wir Ihnen Service und höchste Sicherheit. <\/p><h6>Handel mit wertvollen Markenuhren<\/h6><p>Bei uns können Sie nicht nur begehrte Luxusuhren kaufen. Ihre edle getragene Uhr können Sie uns auch gern verkaufen. Wir interessieren uns für den Ankauf von wertvollen Damen- und Herrenuhren bekannter Marken. Wenn Sie eine solche Uhr besitzen, können Sie uns diese praktisch rund um die Uhr verkaufen. Ankauf und Verkauf von wertvollen Armbanduhren ist Vertrauenssache.<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        },
-        "text_RK8Brd": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "image_height": 55,
-            "title": "",
-            "subtitle": "",
-            "text": "<p>Unsere Experten bieten Ihnen mit Ihrer Erfahrung hier höchsten Service und garantierte Sicherheit. Durch unser langjähriges Wissen rund um Luxusuhren können wir Ihnen immer die besten Modelle zu Top-Preisen verkaufen. Haben Sie sich für ein bestimmtes Modell entschieden, nehmen wir auch gern Ihre getragene Armbanduhr in Zahlung. Auf diesem Weg können Sie eine Menge Geld und Zeit sparen. Wenn Sie uns Ihre Luxusuhr zu den besten Konditionen verkaufen wollen, bieten wir Ihnen stets Bargeld gegen Uhr. Der Ankauf Ihres Zeitmessers erfolgt schnell und diskret und ist sowohl vor Ort als auch online möglich.<br\/><br\/>Sämtliche Uhren, Schmuck und Schreibgeräte, die Sie über uns erwerben, sind ungetragen oder in sehr gutem Zustand, sofern sie als \"getragen\" gekennzeichnet sind. Unsere Artikel werden daher selbstverständlich im kompletten Umfang geliefert. Das bedeutet, Sie erhalten den gewünschten Artikel in der Originalverpackung mit allem Zubehör, sowie dazugehörigen Papieren und internationaler Herstellergarantie. Diese wurde abgestempelt und weist die Seriennummer aus, die auch auf der Uhr eingraviert ist. Selbstverständlich erhalten Sie auch zu jedem Artikel eine Anleitung und ggf. Zubehör, wie Reinigungstuch, Anhänger, usw.<\/p><h6>Besichtigung der Uhren<\/h6><p><br\/><strong>Da sich das Objekt in sicherer Verwahrung befindet, ist eine Besichtigung jederzeit, jedoch nur nach vorheriger Absprache, möglich.<\/strong><\/p><h6>Versand<\/h6><p><br\/>Informationen zum Versand und Bezahlung finden Sie im Link hier <a href=\"\/pages\/zahlung-und-versand\" title=\"Zahlung und Versand\">Versand \/ Lieferzeit<\/a><\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        }
-      },
-      "block_order": [
-        "text_pVPWtN",
-        "text_RK8Brd"
-      ],
       "custom_css": [
         "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
         "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
@@ -142,7 +109,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Wissenswertes zum Kauf von Uhren",
+        "title": "Um das Thema Uhrenkauf abzurunden, haben Sie hier die Möglichkeit auf interessante Seiten zu gelangen, ohne suchen zu müssen.",
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -214,6 +181,92 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_image_with_text_zaXRhA": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_UQwahB": {
+          "type": "title",
+          "settings": {
+            "title": "Image with text",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_GjcR6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_TTXjiF": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_7tTBHE": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_KxBY7F": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_Mp7wpa": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Button",
+            "link_url_1": "\/",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_UQwahB",
+        "text_GjcR6i",
+        "usp_TTXjiF",
+        "usp_7tTBHE",
+        "usp_KxBY7F",
+        "buttons_Mp7wpa"
+      ],
+      "settings": {
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -222,6 +275,7 @@
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
-    "section_recently_viewed_products_LHGaAV"
+    "section_recently_viewed_products_LHGaAV",
+    "section_image_with_text_zaXRhA"
   ]
 }
