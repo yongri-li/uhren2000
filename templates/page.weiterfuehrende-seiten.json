@@ -92,15 +92,11 @@
             "font_size": "16px"
           }
         },
-        "title_UQwahB": {
-          "type": "title",
+        "spacer_97XqGd": {
+          "type": "spacer",
           "settings": {
-            "title": "",
-            "title_font": "secondary",
-            "title_size": "h4",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700"
+            "height": 55,
+            "height_mobile": 20
           }
         },
         "text_GjcR6i": {
@@ -124,7 +120,7 @@
       },
       "block_order": [
         "usp_jHwbEa",
-        "title_UQwahB",
+        "spacer_97XqGd",
         "text_GjcR6i",
         "text_iBye4B"
       ],
