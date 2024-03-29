@@ -12,6 +12,44 @@
         "enable_share_button": false
       }
     },
+    "section_icon_text_blocks_hzNpCV": {
+      "type": "section-icon-text-blocks",
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Um das Thema Uhrenkauf abzurunden, haben Sie hier die Möglichkeit auf interessante Seiten zu gelangen, ohne suchen zu müssen.",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 30,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "main-page": {
       "type": "main-page",
       "blocks": {
@@ -195,6 +233,7 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
+        "image_mobile": "shopify:\/\/shop_images\/csm_LOGO-MW__1__e87990a47e_480x480_98aa896d-fb78-4d47-9e70-6b5597a03b83.png",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -243,6 +282,7 @@
   },
   "order": [
     "breadcrumbs",
+    "section_icon_text_blocks_hzNpCV",
     "main-page",
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
