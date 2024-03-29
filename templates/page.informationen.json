@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_collage_6mxfcU": {
+      "type": "section-collage",
+      "blocks": {
+        "image_Pi8HrF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alten_Omega_Uhren.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_Pi8HrF"
+      ],
+      "settings": {
+        "mirrored": false,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_TcGGtL": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_pVPWtN": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<h6>Inzahlungnahme getragener Luxusuhren<\/h6><p>Die Inzahlungnahme einer wertvollen Uhr ist bei uns zu jeder Zeit und ohne Probleme für Sie möglich. Wollen Sie Ihre getragene Uhr, unter anderem der Marke Panerai, Omega oder Patek Philippe, bei uns in Zahlung geben, bieten wir Ihnen dafür die besten Konditionen. Auch wenn Sie eine wertvolle Armbanduhr verkaufen wollen, stehen wir Ihnen mit unserer Unterstützung zur Seite. Für gebrauchte Uhren bieten wir immer den marktgerechten Preis.<\/p><p>Die Modelle vieler bekannter Markenhersteller können Sie bei uns unkompliziert in Zahlung geben. Besitzen Sie zum Beispiel gebrauchte Uhren der Marken Rolex, TAG Heuer, Breitling oder IWC, können Sie sich zu jeder Zeit vertrauensvoll an uns wenden. Wir kaufen diese getragenen luxuriösen Uhren gern von Ihnen an oder nehmen Sie zu den besten Konditionen in Zahlung.<\/p><p>Wir von Uhren2000 nehmen Luxusuhren in Zahlung, wenn Sie als unser Kunde eine andere Uhr kaufen wollen. Wünschen Sie sich insbesondere eine wertvolle Uhr der Marke Audemars Piguet oder A. Lange & Söhne und besitzen Sie eine getragene Uhr einer anderen hochwertigen Marke, dann können Sie uns diese Uhr vertrauensvoll überlassen. Bei der Inzahlungnahme Ihrer getragenen Uhr sparen Sie geschickt viel Geld. Sie geben uns Ihre gebrauchte Uhr zum Ankauf oder zur Inzahlungnahme und kaufen dafür eine andere wertvolle Armbanduhr einer Luxusmarke von uns. Uhren2000 bietet Ihnen jederzeit Top-Konditionen, auch beim Verkauf von gebrauchten Uhren aus zweiter Hand. Unsere Erfahrungen im An- und Verkauf von Secondhand-Luxusuhren haben sich unsere Experten über lange Jahre erarbeitet.<\/p><p>Eine Inzahlungnahme von gebrauchten Uhren bieten wir Ihnen unabhängig davon, ob Sie bei uns eine ungetragene Armbanduhr der Luxusklasse, eine wertvolle gebrauchte Uhr oder eine Okkasion kaufen. Wir nehmen Ihre Luxusuhr auch in Zahlung, wenn Sie keine neue Uhr wünschen. Schnell und diskret erhalten Sie bei uns Bargeld gegen Uhr, wenn Sie uns ein wertvolles Stück verkaufen oder es bei uns in Zahlung geben.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_RK8Brd": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<h6>Beste Bedingungen für Verkauf und Inzahlungnahme<\/h6><p>Gebrauchte Uhren kaufen wir bei Uhren2000 schon seit Jahren sicher an. Deshalb ist auch der Ankauf Ihrer Armbanduhr bei unseren Experten in den besten Händen. Für alle wichtigen Fragen rund um den An- und Verkauf luxuriöser Zeitmesser steht Ihnen unser Team per E-Mail oder telefonisch gern zur Verfügung. Denn auch die Inzahlungnahme und der Ankauf wertvoller Luxusuhren sind Vertrauenssache. Deshalb garantieren wir Ihnen, dass der Vorgang für Sie vollkommen risikolos abläuft.<\/p><h6>Transport von Markenuhren sicher mit Wertkurier<\/h6><p>Ihre getragene Luxusuhr können Sie direkt in unserer Filiale vor Ort in Zahlung geben oder verkaufen. Das ist möglich, wenn Sie in örtlicher Nähe wohnen. Wenden Sie sich an die Experten in unserem Geschäft. Wir wickeln die Inzahlungnahme oder den Ankauf diskret ab.<br\/>Gebrauchte Uhren nehmen wir auch online in Zahlung. Gern holen wir Ihre Armbanduhr per versicherten Wertkurier bei Ihnen zu Hause ab. Dafür können Sie noch heute einen passenden Termin vereinbaren. Den Wertkurier organisieren wir dann kurzfristig. Der Transport ist voll versichert. So gelangen gebrauchte Uhren unbeschadet zu uns.<\/p><h6>Faire Bewertung für gebrauchte Uhren<\/h6><p>Unsere Experten im <a href=\"https:\/\/www.uhren2000.de\/uhren-ankauf\" target=\"_self\" title=\"Uhren Ankauf\">Uhren-Ankauf<\/a> verfügen über eine hohe Kompetenz bei der Bewertung von getragenen Uhren. Sie schätzen den Wert und den Preis für gebrauchte Uhren seriös ein. Eine unverbindliche Einschätzung geben Ihnen die Experten von Uhren2000 gern auch zuvor ab. Dafür benötigen sie von Ihnen wichtige Angaben zum Zustand Ihrer Luxusuhr. Eine exakte Einschätzung zum Wert Ihrer Uhr können wir Ihnen aber erst liefern, wenn wir diese intensiv, optisch und technisch geprüft haben.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pVPWtN",
+        "text_RK8Brd"
+      ],
+      "custom_css": [
+        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
+        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Inzahlungnahme Ihrer wertvollen Luxusuhr zu besten Konditionen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_bhQtQ6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_LHGaAV": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-page",
+    "section_collage_6mxfcU",
+    "section_icon_text_blocks_TcGGtL",
+    "section_custom_liquid_bhQtQ6",
+    "section_recently_viewed_products_LHGaAV"
+  ]
+}
