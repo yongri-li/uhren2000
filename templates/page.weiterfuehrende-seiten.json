@@ -142,6 +142,117 @@
         "fix_zindex": 0
       }
     },
+    "section_rich_text_fKq63g": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_mbnWdz": {
+          "type": "title",
+          "settings": {
+            "title": "Tell something about your brand",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_AVVr9B": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "button_DhEt4F": {
+          "type": "button",
+          "settings": {
+            "link_text": "Button",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "button_style": "fill"
+          }
+        }
+      },
+      "block_order": [
+        "title_mbnWdz",
+        "content_AVVr9B",
+        "button_DhEt4F"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_zaXRhA": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_UQwahB": {
+          "type": "title",
+          "settings": {
+            "title": "We are Trusted Dealers of Mondani Web: the World’s Most Reliable Network of Watch Sellers. Guaranteed by Mondani",
+            "title_font": "secondary",
+            "title_size": "h4",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_GjcR6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Themenverwandte Seiten über z.B. Uhrenarmbänder, Uhrenbeweger, Uhrenboxen oder auch Uhrenwerkzeug finden Sie im folgenden Abschnitt.<\/p><p><a href=\"https:\/\/www.watchband-berlin.com\/\" target=\"_blank\">https:\/\/www.watchband-berlin.com<\/a><br\/><\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "text_iBye4B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GOLD-SILBER-COINS heißt Sie in der Münzwelt der Numismatik herzlichst willkommen. Hier finden Sie Ihren Ansprechpartner für außergewöhnliche und äußerst seltene Münzen in Gold und Silber. Kaufen Sie hier besondere Münze und „Investieren“ Sie in die für immer erhaltene Werte, „Sammeln“ Sie Meisterwerke der Numismatik oder „Schenken“ Sie das Außergewöhnliche.<\/p><p>Münzshop:<br\/><a href=\"https:\/\/www.gold-silber-coins.de\/\" target=\"_blank\">https:\/\/www.gold-silber-coins.de\/<\/a><\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_UQwahB",
+        "text_GjcR6i",
+        "text_iBye4B"
+      ],
+      "custom_css": [
+        "img {padding: 200px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/csm_LOGO-MW__1__e87990a47e_480x480_98aa896d-fb78-4d47-9e70-6b5597a03b83.png",
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
       "settings": {
@@ -181,92 +292,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_image_with_text_zaXRhA": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_UQwahB": {
-          "type": "title",
-          "settings": {
-            "title": "Image with text",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700"
-          }
-        },
-        "text_GjcR6i": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        },
-        "usp_TTXjiF": {
-          "type": "usp",
-          "settings": {
-            "usp": "Tell a unique detail about this image",
-            "font": "secondary",
-            "font_size": "16px"
-          }
-        },
-        "usp_7tTBHE": {
-          "type": "usp",
-          "settings": {
-            "usp": "Tell a unique detail about this image",
-            "font": "secondary",
-            "font_size": "16px"
-          }
-        },
-        "usp_KxBY7F": {
-          "type": "usp",
-          "settings": {
-            "usp": "Tell a unique detail about this image",
-            "font": "secondary",
-            "font_size": "16px"
-          }
-        },
-        "buttons_Mp7wpa": {
-          "type": "buttons",
-          "settings": {
-            "link_text_1": "Button",
-            "link_url_1": "\/",
-            "button_color_palette_1": "accent",
-            "button_style_1": "fill",
-            "show_link_1": false,
-            "link_text_2": "",
-            "link_url_2": "",
-            "button_color_palette_2": "light",
-            "button_style_2": "fill",
-            "show_link_2": false
-          }
-        }
-      },
-      "block_order": [
-        "title_UQwahB",
-        "text_GjcR6i",
-        "usp_TTXjiF",
-        "usp_7tTBHE",
-        "usp_KxBY7F",
-        "buttons_Mp7wpa"
-      ],
-      "settings": {
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
@@ -274,8 +299,9 @@
     "main-page",
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
+    "section_rich_text_fKq63g",
+    "section_image_with_text_zaXRhA",
     "section_custom_liquid_bhQtQ6",
-    "section_recently_viewed_products_LHGaAV",
-    "section_image_with_text_zaXRhA"
+    "section_recently_viewed_products_LHGaAV"
   ]
 }
