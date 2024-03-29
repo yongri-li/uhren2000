@@ -153,6 +153,7 @@
           "main-account-login-block-usp-1": {
             "type": "usp",
             "settings": {
+              "usp": "<p>Give your customers more details.<\/p>"
             }
           }
         },

@@ -1,0 +1,139 @@
+section.link-btn-slider .swiper {
+    padding : 0 40px;
+  }
+  
+  section.link-btn-slider .swiper .swiper-slide .link-btn a  {
+    width : calc(100% - 25px)!important;
+    min-width : calc(100% - 25px)!important;
+    max-width : calc(100% - 25px)!important;
+    padding : 16px!important;
+  }
+
+  section.link-btn-slider .swiper  p.link-btn {
+    margin : 0!important;
+    overflow: hidden;
+  }
+  
+  @media (max-width : 500px) {
+    
+    section.link-btn-slider .swiper {
+        margin-right : 0!important;
+      justify-content: center;
+    }
+  }
+  
+  section.link-btn-slider .swiper .swiper-slide .link-btn a span {
+    display : block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+   }
+  
+  
+  .link-btn-slider .swiper-slide {
+      /* min-width: max-content;
+      width: max-content;
+      max-width: max-content; */
+  }
+  
+  .link-btn-slider .swiper .link-btn a {
+    margin : 0;
+  }
+  
+  /* .link-btn-slider .swiper-button-prev:hover, .swiper-button-next:hover {
+    border: 1px solid #fff;
+  } */
+  
+  .link-btn-slider .swiper-button-prev, .link-btn-slider .swiper-button-next {
+      /* border: 1px solid #446b8a!important; */
+      width: 40px;
+      height: 40px;
+      border-radius: 50%!important;
+      /* background: #446b8a!important; */
+      color: white!important;
+      margin-left: 0!important;
+      margin-right: 0!important;
+      justify-content: flex-start;
+      top : 29px!important;
+      /* border : 1px solid white!important; */
+  }
+
+  .link-btn-slider .swiper-button-prev a, .link-btn-slider .swiper-button-next a {
+    width: 40px;
+    height: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 100%;
+    max-height: 100%;
+    padding: 0;
+  }
+
+  .link-btn-slider .swiper-button-prev:before, .link-btn-slider .swiper-button-next:before {
+    z-index: 5;
+    color : white!important;
+  }
+
+  .link-btn-slider .swiper-button-prev:hover:before, .link-btn-slider .swiper-button-next:hover:before {
+    z-index: 5;
+    color : black!important;
+  }
+
+  .link-btn-slider .swiper-button-prev[class*="button-palette-light"], .link-btn-slider .swiper-button-next[class*="button-palette-light"],
+  .link-btn-slider .swiper-button-prev[class*="button-palette-white"], .link-btn-slider .swiper-button-next[class*="button-palette-white"] {
+    border: 1px solid rgba(0, 0, 0, 0.7)!important;
+  }
+
+
+  .link-btn-slider .swiper-button-prev[class*="button-palette-light"]:before, .link-btn-slider .swiper-button-next[class*="button-palette-light"]:before,
+  .link-btn-slider .swiper-button-prev[class*="button-palette-white"]:before, .link-btn-slider .swiper-button-next[class*="button-palette-white"]:before {
+    z-index: 5;
+    color :grey!important;
+  }
+
+  .link-btn-slider .swiper-button-prev[class*="button-palette-light_2"], .link-btn-slider .swiper-button-next[class*="button-palette-light_2"] {
+    border-color: transparent!important;
+  }
+
+  .link-btn-slider .swiper-button-prev[class*="button-palette-light_2"]:before, .link-btn-slider .swiper-button-next[class*="button-palette-light_2"]:before {
+    z-index: 5;
+    color :white!important;
+  }
+
+  .link-btn-slider .swiper-button-prev[class*="button-palette-light"]:hover:before, .link-btn-slider .swiper-button-next[class*="button-palette-light"]:hover:before,
+  .link-btn-slider .swiper-button-prev[class*="button-palette-white"]:hover:before, .link-btn-slider .swiper-button-next[class*="button-palette-white"]:hover:before {
+    color :black!important;
+  }
+
+  
+  .link-btn-slider .swiper-button-prev[class*="button-palette-dark"]:before, .link-btn-slider .swiper-button-next[class*="button-palette-dark"]:before,
+  .link-btn-slider .swiper-button-prev[class*="button-palette-black"]:before, .link-btn-slider .swiper-button-next[class*="button-palette-black"]:before {
+    z-index: 5;
+    color : white!important;
+  }
+  
+
+  @media (max-width : 500px) {
+    .link-btn-slider .swiper {
+      padding : 0!important;
+    }
+
+    .link-btn-slider .swiper-button-prev, .link-btn-slider .swiper-button-next {
+      display: none;
+    }
+
+    section.link-btn-slider .swiper .swiper-slide .link-btn a  {
+      width : calc(100% - 15px)!important;
+      min-width : calc(100% - 15px)!important;
+      max-width : calc(100% - 15px)!important;
+      padding : 15px!important;
+    }
+
+    section.link-btn-slider .swiper .swiper-slide .link-btn a  {
+      margin-left : 12px;
+    }
+
+    section.link-btn-slider .swiper .swiper-button-next {
+      border : 1px solid white!important;
+    }
+  }

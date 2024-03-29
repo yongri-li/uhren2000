@@ -110,7 +110,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .link-b
 [dir="rtl"] #root .l4cl[style*="--fixed_width"]/*:not(.justify-center)*/ li:not(:last-child) { margin-left: var(--dist_a); }
 /*[dir="rtl"] #root .l4cl.justify-center[style*="--fixed_width"] li:first-child { margin-right: var(--rpp); }*/
 [dir="rtl"] #root .l4cl[style*="--fixed_width"]/*:not(.justify-center)*/ li:last-child { margin-left: var(--rpp); }
-#root .l4cl > .swiper-custom-pagination .swiper-button-nav, #root .l4pr .swiper-button-nav, #root .m6fr .swiper-button-nav { width: calc(var(--arrow_size) + var(--label_dist) * 2); color: var(--white); font-size: calc(var(--arrow_size) * 0.4); pointer-events: none }
+#root .l4cl > .swiper-custom-pagination .swiper-button-nav, #root .l4pr .swiper-button-nav, #root .m6fr .swiper-button-nav { width: calc(var(--arrow_size) + var(--label_dist) * 2); color: var(--white); font-size: calc(var(--arrow_size) * 0.4); pointer-events: none; top : 0; height : 100%; }
 #root .l4cl > .swiper-custom-pagination .swiper-button-nav:before, #root .l4pr .swiper-button-nav:before, #root .m6fr .swiper-button-nav:before { color: inherit; }
 .l4cl > .swiper-custom-pagination .swiper-button-prev, #root .l4pr .swiper-button-prev, #root .m6fr .swiper-button-prev { left: var(--l0ra); right: var(--lar0); }
 .l4cl > .swiper-custom-pagination .swiper-button-next, #root .l4pr .swiper-button-next, #root .m6fr .swiper-button-next { left: var(--lar0); right: var(--l0ra); }

@@ -1,1 +1,43 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"hide_mobile":false}},"main-cart":{"type":"main-cart","blocks":{"2e80a36d-6430-46c3-9e9d-1dee82e7df53":{"type":"shipping_timer","settings":{}}},"block_order":["2e80a36d-6430-46c3-9e9d-1dee82e7df53"],"settings":{"show_dynamic_buybutton":true,"enable_giftcard_or_discount_tab":true,"show_payment_methods":true,"show_order_notes":true,"order_notes_alignment":"right"}}},"order":["breadcrumbs","main-cart"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-cart": {
+      "type": "main-cart",
+      "blocks": {
+        "2e80a36d-6430-46c3-9e9d-1dee82e7df53": {
+          "type": "shipping_timer",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "2e80a36d-6430-46c3-9e9d-1dee82e7df53"
+      ],
+      "settings": {
+        "title_size": "h2",
+        "show_dynamic_buybutton": true,
+        "enable_giftcard_or_discount_tab": true,
+        "show_payment_methods": true,
+        "show_order_notes": true,
+        "order_notes_alignment": "right",
+        "enable_terms_checkbox": false,
+        "terms_text": "<p>I accept the <a href='\/policies\/privacy-policy' title='Privacy Policy'>privacy policy<\/a>"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-cart"
+  ]
+}

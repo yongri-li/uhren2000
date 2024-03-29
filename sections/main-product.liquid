@@ -584,7 +584,7 @@
                                           {{ sizechart }}
                                         {% endif %}
                                         </span>
-                                       
+
                                     </label>
                                 {% endunless %}
                                 {%- if selection_type == 'dropdown' or enable_options -%}
@@ -844,6 +844,27 @@
                             {%- endfor -%}
                         {% endif %}
                     </div>
+                {% when 'lieferumfang' %}
+                  {% assign lieferumfang = product.metafields.custom.lieferumfang %}
+
+                  {% if lieferumfang != null and lieferumfang %}
+                    <div class="lieferumfang-container">
+                      <span class="lieferumfang">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</span>
+                    </div>
+
+                    <style>
+                      .lieferumfang-container {
+                        text-align: center;
+                        margin-top: -10px;
+                        margin-bottom: 10px;
+                      }
+
+                      .lieferumfang {
+                        color: #000000;
+                        font-size: 12px;
+                      }
+                    </style>
+                  {% endif %}
                 {%- when 'inventory' -%}
                     {% if preorder and settings.show_preorder_inventory == false %}{% continue %}{% endif %}
                     <div class="f8pr-stock m0">
@@ -897,7 +918,6 @@
 {%- when 'price' -%}
   {%- if product.tags contains 'Uhren-Archiv' -%}
     <p class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
-      Archivartikel - verkauft
     </p>
   {%- else -%}
     <p class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
@@ -983,9 +1003,14 @@
         <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
     </button>
 {%- else -%}
-    <button type="submit" class="disabled overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
-        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.not_in_stock' | t }}
-    </button>
+    <div class="archivartikel-verkauft">
+        <div class="verkauft-text">
+            <h6>Archivartikel - Verkauft</h6>
+            <br>
+            Dieser Artikel ist bereits verkauft, aber hier gelangen Sie zu unseren aktuellen Sonderangeboten
+        </div>
+        <a href="https://uhren2000.myshopify.com/collections/sonderangebote" class="sonderangebote-button">Sonderangebote</a>
+    </div>
 {%- endif -%}
                         </p>
                         {%- if show_dynamic_buybutton -%}
@@ -1129,6 +1154,10 @@
                         {%- endcapture -%}
                         {%- capture content -%}
                             {%- if block.type == 'content' -%}
+
+
+
+
                                 {%- if block.settings.text != empty -%}{{ block.settings.text }}{%- endif -%}
                                 {%- if block.settings.page != blank -%}{{ block.settings.page.content }}{%- endif -%}
                                 {%- if block.settings.image != blank -%}
@@ -1529,6 +1558,54 @@
             --c: 1;
         }
     {% endunless %}
+
+.archivartikel-verkauft {
+    background-color: #202020;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -10px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.verkauft-text {
+    margin-bottom: 13px;
+}
+
+.verkauft-text strong {
+    font-weight: bold;
+}
+
+.sonderangebote-button {
+    background-color: #B99E7A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 36px;
+    font-weight: 400;
+  font-size: 22px;
+    font-family: 'Georgia Pro', Georgia, serif;
+}
+
+.sonderangebote-button:hover {
+    background-color: #aa9170;
+
+}
+
+.archivartikel-verkauft .sonderangebote-button:hover {
+    color: #fff;
+}
+  .archivartikel-verkauft h6 {
+    font-weight: bold;
+    margin-bottom: -5px;
+    color: white;
+    text-transform: none;
+    font-size: 18px;
+}
 </style>
 
 {% schema %}
@@ -1900,6 +1977,10 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "lieferumfang",
+      "name": "lieferumfang "
     },
     {
       "type": "spacer",

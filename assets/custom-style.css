@@ -326,9 +326,139 @@
     margin-bottom: 30px;
   }
 }
+.l4ne {
+  align-items: stretch !important;
+  justify-content: space-between !important;
+  --dist: 0px !important;
+}
+.l4ne > li {
+  text-align: center;
+  flex-direction: column;
+  padding: 0;
+  display: flex;
+  padding: 1.875rem !important;
+  top: 0 !important;
+  background-color: #f7f7f7 !important;
+  border-radius: 23px !important;
+  transition: all 0.25s ease-in-out;
+  width: calc(33% - 20px) !important;
+  margin: 0px !important;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+.l4ne > li:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) !important;
+  background-color: white !important;
+}
+.l4ne > li > figure {
+  margin-bottom: 1.875rem;
+}
+.l4ne > li > h3 {
+  margin-bottom: 1.625rem;
+  padding-bottom: 1.625rem;
+  border-bottom: 1px solid #c1a57e;
+}
+.l4ne > li > h3 > .small {
+  margin-bottom: 1rem;
+}
+.l4ne .mobile-hide {
+  margin-bottom: 1.25rem !important;
+}
+.l4ne .button-palette-accent {
+  min-height: 52px;
+  height: 52px;
+  max-height: 52px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 27px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto !important;
+  background: #fff;
+  background-color: #fff;
+  font-family:
+    Playfair Display,
+    serif;
+  font-weight: 400;
+  font-size: 1.25rem !important;
+  margin-top: auto !important;
+  box-shadow: 0 0 50px #0000001a !important;
+  border: 1px solid #c1a57e;
+  color: #c1a57e !important;
+  box-sizing: content-box;
+}
+.l4ne > li:hover .button-palette-accent {
+  box-shadow: none !important;
+}
+.l4ne .button-palette-accent:hover {
+  border-color: black;
+}
+.l4ne .button-palette-accent > .no-before {
+  margin: 0px;
+  color: #c1a57e !important;
+  font-family:
+    Playfair Display,
+    serif;
+  font-size: 1.25rem;
+  letter-spacing: 0px;
+}
+.l4ne .button-palette-accent:hover .no-before {
+  color: black !important;
+}
+.l4ne .button-palette-accent > .no-before:before {
+  content: none;
+}
 
-.formful__branding {
-  opacity: 0;
+@media screen and (max-width: 768px) {
+  .l4ne > li {
+    width: calc(50% - 20px) !important;
+  }
+  .l4ne .button-palette-accent {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .l4ne .button-palette-accent > .no-before {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  .l4ne {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .l4ne > li {
+    width: calc(50% - 20px) !important;
+  }
+  .l4ne > li > .mobile-hide {
+    display: block !important;
+    position: static !important;
+  }
+  .l4ne .button-palette-accent {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .l4ne .button-palette-accent > .no-before {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .l4ne > li {
+    width: 100% !important;
+  }
 }
 
 .category-img ul li a img {
@@ -338,4 +468,64 @@
 
 .category-img ul li a {
   font-size: 18px;
+}
+
+#shopify-section-footer h5 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+#shopify-section-footer h5 strong,
+#shopify-section-footer h5 a {
+  color: white !important;
+}
+
+.shipping-link {
+  color: #c1a57e !important;
+  text-decoration: underline !important;
+}
+
+.customer-form-close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 100 !important;
+  cursor: pointer;
+}
+
+.customer-form-close svg {
+  width: 16px;
+  height: 16px;
+}
+
+#nav-user .user-login form a.toggle {
+  display: none !important;
+}
+
+.account-register-login {
+  line-height: 1;
+  font-size: 12px;
+  margin: 0;
+  color: #8f8f8f !important;
+  margin-top: 3px;
+}
+
+.user-login a span {
+  line-height: 1;
+}
+
+#nav-user > ul > li .lang-switcher {
+  background: #4a4a4a;
+  border-radius: 50%;
+  border: 2px solid #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  transition: all 0.3s;
+  margin-right: 10px;
+  display: flex !important;
 }

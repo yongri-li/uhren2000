@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "rolex_content_section_zztXhh": {
+      "type": "rolex-content-section",
+      "custom_css": [
+        "h1,h2,h3,h4,h5 {color: white; text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400;}",
+        " {background-color: black; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; margin-top: -20px;}",
+        "a {color: #b99e7a;}",
+        ".text-white {color: #fff;}",
+        "h2 {font-size: 22px;}",
+        "h1 {max-width: 800px;}"
+      ],
+      "settings": {
+        "background-image": "{{ page.metafields.custom.background_picture.value }}",
+        "heading-text": "{{ page.metafields.custom.heading.value }}",
+        "content-text": "{{ page.metafields.custom.content | metafield_tag }}",
+        "button-url": "shopify:\/\/pages\/uhren-ankauf",
+        "button-text": "{{ page.metafields.custom.button.value }}",
+        "contact-info": "<p>Telefonische Beratung<br\/>Mo-Sa 9 - 18 Uhr<br\/><br\/><a href=\"tel:+4971423440158\">+49 7142 - 3440158<br\/><br\/><\/a>Persönliche Abholung vor Ort nach Terminvereinbarung möglich.<\/p>"
+      }
+    },
+    "section_icon_text_blocks_ibk6XT": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_YbMdHB": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_CQMnXK": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_YbMdHB",
+        "text_CQMnXK"
+      ],
+      "custom_css": [
+        "{background: linear-gradient(to bottom, #f8f8f8, #ffffff); margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 160px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "start",
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_bhQtQ6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_LHGaAV": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400; text-align: center;}",
+        "p {text-transform: none; text-align: center;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-page",
+    "rolex_content_section_zztXhh",
+    "section_icon_text_blocks_ibk6XT",
+    "section_custom_liquid_bhQtQ6",
+    "section_recently_viewed_products_LHGaAV"
+  ]
+}

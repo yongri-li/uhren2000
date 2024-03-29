@@ -40,7 +40,7 @@
 </div>
 <div class="cols">
   <article class="w42">
-    <h2 class="size-18">{{ 'customer.account.details' | t }}</h2>
+    <h2 class="">{{ 'customer.account.details' | t }}</h2>
     <div class="m6bx overlay m10">
       <ul class="l4as caption">
         <li><span>{{ 'customer.name' | t }}</span> {{ customer.name }}</li>
@@ -55,7 +55,7 @@
   </article>
   {%- if section.settings.text != empty or section.settings.show_phone_link or section.settings.show_mail_link or section.settings.show_whatsapp_link -%}
     <article class="w58">
-      <h2 class="size-18">{{ 'customer.account.customer_service' | t }}</h2>
+      <h2 class="">{{ 'customer.account.customer_service' | t }}</h2>
       <div class="m6bx">
         {{ section.settings.text }}
         {%- if section.settings.show_phone_link or section.settings.show_mail_link or section.settings.show_whatsapp_link -%}
@@ -76,7 +76,7 @@
   {%- endif -%}
 </div>
 
-<h2 class="size-18">{{ 'customer.account.orders_title' | t }}</h2>
+<h2 class="">{{ 'customer.account.orders_title' | t }}</h2>
 {%- if customer.orders == blank -%}
   <p>{{ 'customer.account.no_orders_content' | t }}</p>
 {%- else -%}

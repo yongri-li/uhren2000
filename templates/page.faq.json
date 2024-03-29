@@ -3,7 +3,7 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "custom_css": [
-        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}",
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
         "ol {margin-bottom: 0;}"
       ],
       "settings": {
@@ -18,13 +18,14 @@
         "1660057774ac015cbe-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rolex_GMT_Master_II_116710_BLNR.jpg",
             "layout": "background",
             "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
+            "overlay_opacity": 50,
+            "color_palette": "black",
             "text_position": "text-center",
-            "title": "Image banner",
-            "title_font": "primary",
+            "title": "Fragen und Antworten zum Thema Ankauf von Uhren",
+            "title_font": "secondary",
             "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
@@ -35,15 +36,15 @@
             "enable_custom_subtext_styling": false,
             "subtitle_color_palette": "black",
             "subtitle_weight": "400",
-            "text": "<p>Highlight a new collection and share details about products related to this image<\/p>",
+            "text": "",
             "enable_custom_font_styling": false,
             "font_size": "16px",
-            "first_link_text": "Button",
+            "first_link_text": "",
             "first_link_url": "shopify:\/\/collections\/all",
             "first_button_color_palette": "accent",
             "first_button_styling": "fill",
             "first_show_link": false,
-            "second_link_text": "Button",
+            "second_link_text": "",
             "second_link_url": "shopify:\/\/collections\/all",
             "second_button_color_palette": "accent",
             "second_button_styling": "fill",
@@ -63,7 +64,7 @@
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "m",
-        "spacing_desktop": 50,
+        "spacing_desktop": 100,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -134,6 +135,7 @@
         "16600578063d5b7bba-2",
         "16600578063d5b7bba-3"
       ],
+      "disabled": true,
       "settings": {
         "items_width": 4,
         "text_alignment": "start",
@@ -176,10 +178,10 @@
         "1653481892aca601d3-0": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 1",
+            "faq_question": "1.) Welche Uhrenmarken und Modelle kaufen Sie an?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer to question 1<\/p>",
+            "faq_answer": "<p>Uhren der Marken Audemars Piguet, Cartier, Omega, Patek Philippe, Hublot, TAG Heuer, Tudor, A. Lange und Söhne, Breitling, Panerai, IWC, Jaeger-LeCoultre und Rolex kaufen wir jederzeit an. Für begehrte Rolex Modelle wie die GMT-Master II, Yacht-Master, Air King, Sea-Dweller, Explorer I und II, Sky-Dweller, Submariner, Milgauss, Day-Date, Daytona und natürlich die Datejust Modelle, in jeder Größe, erhalten Sie bei uns immer den besten Preis.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -190,10 +192,10 @@
         "1653481892aca601d3-1": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 2",
+            "faq_question": "2.) Wie funktioniert ein Ankauf bei Ihnen?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer to question 2<\/p>",
+            "faq_answer": "<p>Wenn Sie uns Ihre Uhr zum Ankauf anbieten möchten, können Sie ganz einfach unser Online Ankaufsformular ausfüllen. Hier werden die für uns relevanten Daten abgefragt. Sie erhalten innerhalb kürzester Zeit dann ein Angebot zur Uhr.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -204,10 +206,472 @@
         "1653481892aca601d3-2": {
           "type": "text",
           "settings": {
-            "faq_question": "Question 3",
+            "faq_question": "3.) Welche Möglichkeiten habe ich, um Ihnen meine Uhr anzubieten?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Answer to question 3<\/p>",
+            "faq_answer": "<p>Am einfachsten ist es unser Online Ankaufsformular auszufüllen. Hier werden bereits die Daten, welche für uns wichtig sind, abgefragt. Ebenso können Sie uns auch eine E-Mail schreiben und Ihre Uhr anbieten oder Sie melden sich einfach telefonisch bei uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Nzy7fY": {
+          "type": "text",
+          "settings": {
+            "faq_question": "4.) Wie schnell ist der Verkauf meiner Uhr möglich?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Entscheiden Sie sich bei einem Verkauf Ihrer Uhr für uns, können wir die Uhr schon innerhalb von 1-2 Werktagen bei Ihnen zu Hause abholen. Direkt nach Prüfung dieser in unserem Hause erhalten Sie die Gutschrift innerhalb von 24-Stunden auf Ihr Bankkonto.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_4pANgJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "5.) Welche Daten zu meiner Uhr muss ich angeben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Neben der Marke und dem Modell ist natürlich noch die Referenz der Uhr sehr wichtig. Ebenfalls spielt das Ursprungsland der Papiere und auch das Garantiedatum eine wichtige Rolle. Des Weiteren benötigen wir noch das Gehäusematerial und das Armbandmaterial als Auskunft. Bilder zu Ihrer Uhr helfen uns, den Zustand dieser noch besser im Voraus einzuschätzen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_R9eAwG": {
+          "type": "text",
+          "settings": {
+            "faq_question": "6.) Welche Daten von mir muss ich angeben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Wir benötigen von Ihnen nur Ihren Namen, eine Telefon- oder Handynummer und eine E-Mail-Adresse.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_tcgebY": {
+          "type": "text",
+          "settings": {
+            "faq_question": "7.) Welche Vorteile habe ich bei Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Aufgrund unserer jahrelangen Erfahrung können wir den Wert Ihrer Uhr inzwischen leicht taxieren. Daher erhalten Sie bei uns mit nur wenig Aufwand immer den besten Preis für Ihre Uhr. Ein Ankauf bei uns ist immer schnell, sicher und unkompliziert. Zudem erfolgt die Auszahlung Ihrer Uhr direkt nach Eingang und Prüfung dieser.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_dcb68i": {
+          "type": "text",
+          "settings": {
+            "faq_question": "8.) Wann erhalte ich eine Rückmeldung von Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Wenn Sie uns das Ankaufsformular zugesendet haben, machen wir uns damit einen ersten Eindruck zu Ihrer Uhr. In der Regel melden wir uns innerhalb von 24-Stunden, entweder telefonisch oder per E-Mail bei Ihnen, um Ihnen den Wert Ihrer Uhr mitzuteilen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_a6ytUm": {
+          "type": "text",
+          "settings": {
+            "faq_question": "9.) Ich bin mit dem Preis einverstanden. Wie geht es jetzt weiter?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Natürlich benötigen wir die Uhr zur genaueren Begutachtung in unserem Hause. Der Ankauf kann dabei persönlich bei uns vor Ort stattfinden oder Sie können uns die Uhr auch auf postalischem Wege zukommen lassen. Hierbei ist wichtig, das Paket in voller Kaufpreishöhe versichern zu lassen! Sollten Sie sich nicht sicher sein, mit welchem Unternehmen Sie die Uhr versenden sollen, lassen wir die Uhr auch gerne durch einen von uns organisierten Wertkurier bei Ihnen abholen. Ist die Uhr dann bei uns im Haus, wird Sie nochmal genau überprüft und schon im Anschluss erhalten Sie den Ankaufspreis zu Ihrer Uhr.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_6R7XGa": {
+          "type": "text",
+          "settings": {
+            "faq_question": "10.) Kann ich Ihnen meine Uhr auch persönlich verkaufen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Selbstverständlich bieten wir Ihnen an, Ihre Uhr auch direkt bei uns vor Ort zu verkaufen. Ein Vorteil dabei ist, dass wir in einem direkten Gespräch, gemeinsam den Kaufpreis ermitteln können., Bei einem persönlichen Verkauf bitten wir darum, vorab telefonisch einen Termin mit uns zu vereinbaren.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_xe6R3Q": {
+          "type": "text",
+          "settings": {
+            "faq_question": "11.) Muss ich bei einem persönlichen Verkauf einen Termin vereinbaren?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Damit wir Ihnen und Ihrer Uhr auch genügend Zeit entgegenbringen können, bitten wir im Vorfeld um eine telefonische Terminvereinbarung.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_4VTTXV": {
+          "type": "text",
+          "settings": {
+            "faq_question": "12.) Kann ich mich auch noch gegen einen Verkauf entscheiden?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Da es sich um eine unverbindliche Wertermittlung handelt, können Sie sich jederzeit gegen einen Verkauf an uns entscheiden.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_4NKijr": {
+          "type": "text",
+          "settings": {
+            "faq_question": "13.) Wie kann ich Ihnen meine Uhr zukommen lassen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie können uns hierzu gerne persönlich besuchen kommen. Eine andere Möglichkeit wäre der postalische Weg über einen Wertkurier. Diesen können entweder Sie selbst beauftragen oder wir lassen Ihre Uhr von unserem Wertkurier abholen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_TWR6hP": {
+          "type": "text",
+          "settings": {
+            "faq_question": "14.) Können auch Sie die Abholung meiner Uhr organisieren?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Falls Sie sich nicht sicher sein sollten, welches Unternehmen Sie mit der Abholung Ihrer Uhr beauftragen sollen, können wir das gerne für Sie übernehmen. Sie geben uns die Abholadresse an und wir beauftragen einen Wertkurier. Die erforderlichen Versandunterlagen erhalten Sie dann von uns. Alternativ beraten wir Sie auch gerne, welchen Versanddienstleister Sie wählen können.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Tgp6d3": {
+          "type": "text",
+          "settings": {
+            "faq_question": "15.) Was für Kosten entstehen bei der Zusendung meiner Uhr?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sollten Sie sich für eine Zusendung auf eigene Verantwortung entscheiden, tragen Sie die Kosten für das Paket selbst. Organisieren wir die Abholung bei einem Wertkurier, übernehmen wir die Kosten ab einem Warenwert von 3000 €. Unter 3000 € trägt der Verkäufer die Versandkosten selbst.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_cCFMxJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "16.) Was für Kosten entstehen bei der Rücksendung meiner Uhr?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Entscheiden Sie sich nach der Zusendung Ihrer Uhr gegen einen Verkauf oder Ihre Uhr entspricht nicht unseren Anforderungen, senden wir Ihnen die Uhr natürlich voll versichert und auch kostenfrei zurück.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_jWhNWi": {
+          "type": "text",
+          "settings": {
+            "faq_question": "17.) Ist der Versand meiner Uhr sicher?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Der Versand Ihrer Uhr ist immer sicher, denn wir arbeiten nur mit Wertkurieren zusammen, bei denen die volle Höhe Ihrer Uhr versichert wird.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_kYmJDj": {
+          "type": "text",
+          "settings": {
+            "faq_question": "18.) Mit welchen Wertkurieren arbeiten Sie zusammen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Hauptsächlich arbeiten wir mit den Versanddienstleistern DerKurier, Intex und UPS zusammen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_7BVrbn": {
+          "type": "text",
+          "settings": {
+            "faq_question": "19.) Ist die Abholung meiner Uhr versichert?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Da die Abholung durch einen Wertkurier erfolgt, ist die Uhr bei einer Abholung immer in voller Höhe versichert.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_bYJRR6": {
+          "type": "text",
+          "settings": {
+            "faq_question": "20.) Muss ich meine Uhr vor dem Versand verpacken?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Ja, denn der Wertkurier übernimmt das vollständig verpackte Paket.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_gbNgkF": {
+          "type": "text",
+          "settings": {
+            "faq_question": "21.) Wie verpacke ich meine Uhr am sichersten?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Am besten Sie verpacken die Uhrenbox in einem etwas größeren Paket. Dann können Sie die Box mit Füllmaterial noch gut um polstern, damit diese nicht im Paket hin und her rutscht und möglicherweise beschädigt wird.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_AgmNjC": {
+          "type": "text",
+          "settings": {
+            "faq_question": "22.) Wann erfolgt die Auszahlung zu meiner Uhr?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Innerhalb von 24-Stunden nach Erhalt der Uhr, erfolgt die Zahlung auf Ihr Bankkonto.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_djbCUm": {
+          "type": "text",
+          "settings": {
+            "faq_question": "23.) Wie erfolgt die Auszahlung meiner Uhr?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Bei einem rein postalischen Ankauf ist es uns natürlich nur möglich, den Kaufpreis auf Ihr angegebenes Bankkonto zu überweisen. Sollten Sie beim Ankauf persönlich bei uns vor Ort sein, können Sie sich entweder für Bargeld oder eine Sofort Überweisung entscheiden.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_VGVMbc": {
+          "type": "text",
+          "settings": {
+            "faq_question": "24.) Welche weiteren Gebühren können beim Verkauf anfallen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Außer den Versandgebühren gibt es keine weiteren verstecken Kosten.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_AYJaTR": {
+          "type": "text",
+          "settings": {
+            "faq_question": "25.) Kann ich Ihnen meine Uhr auch gegen Bargeld verkaufen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Eine Bargeldauszahlung ist bei einem persönlichen Verkauf vor Ort möglich.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_giDWrA": {
+          "type": "text",
+          "settings": {
+            "faq_question": "26.) Was für Möglichkeiten habe ich noch, außer einem Verkauf meiner Uhr?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Wir können Ihre Uhr bei uns in Kommission nehmen. Hier bestimmen Sie den Preis, welchen Sie für die Uhr haben möchten. Bei einem erfolgreichen Abschluss behalten wir lediglich 8 % Provision vom erzielten Kaufpreis ein. Auch eine Inzahlungnahme Ihrer gebrauchten oder ungetragenen Uhr ist bei uns jederzeit möglich.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_z3qwCT": {
+          "type": "text",
+          "settings": {
+            "faq_question": "27.) Wie läuft ein Kommissionsverkauf ab?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Entscheiden Sie sich für einen Kommissionsverkauf teilen Sie uns den Preis mit, den Sie für Ihre Uhr erzielen möchten. Die Uhr wird dann in unserem Shop und weiteren relevanten Internetportalen zum Verkauf angeboten. Wird die Uhr zum angegebenen Preis verkauft, behalten wir lediglich 8 % Provision vom Kaufpreis ein. Während des gesamten Verkaufsprozesses stehen wir Ihnen natürlich jederzeit zur Verfügung und besprechen weitere Strategien, um den Verkauf der Uhr anzuregen. Hier erhalten Sie auch regelmäßig Rückmeldung, wie viele Reaktionen wir auf Ihre Uhr haben.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_CADYdW": {
+          "type": "text",
+          "settings": {
+            "faq_question": "28.) Kann ich einen Kommissionsverkauf auch abbrechen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Ist es Ihnen möglich Ihre Uhr selbstständig zu verkaufen, senden wir Ihnen diese natürlich unverzüglich per Wertkurier zurück.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_JM63yW": {
+          "type": "text",
+          "settings": {
+            "faq_question": "29.) Welche Kosten entstehen bei einem Kommissionsverkauf?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Es entstehen Ihnen keine weiteren Kosten, außer bei erfolgreichem Kaufabschluss die 8 % Provision für uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_6jwapj": {
+          "type": "text",
+          "settings": {
+            "faq_question": "30.) Wie läuft eine Inzahlungnahme ab?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie bieten uns Ihre gebrauchte oder ungetragene Uhr an und nennen uns im selben Zuge die Uhr, welche Sie bei uns erwerben möchten. Wir machen Ihnen dann ein Angebot zu Ihrer Uhr. Entweder Sie müssen dann einen kleinen Aufpreis zur neuen Uhr bezahlen oder Sie erhalten von uns die Differenz zurückerstattet.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_nHyVAK": {
+          "type": "text",
+          "settings": {
+            "faq_question": "31.) Ist eine Inzahlungnahme auch persönlich möglich?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Auch eine Inzahlungnahme kann bei uns vor Ort durchgeführt werden.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_3cC4FM": {
+          "type": "text",
+          "settings": {
+            "faq_question": "32.) Kann ich nur die gleiche Marke in Zahlung geben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie können uns bei einer Inzahlungnahme jede Uhr zum Ankauf anbieten, auch wenn diese nicht derselben Uhrenmarke entspricht, welche Sie bei uns erwerben möchten.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_EiBDGm": {
+          "type": "text",
+          "settings": {
+            "faq_question": "33.) Kann ich nur eine gleichwertige Uhr in Zahlung geben?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Natürlich können Sie uns auch eine Uhr verkaufen, welche unter oder über dem Preis Ihrer neuen Uhr liegt. Sie zahlen dann lediglich die Aufzahlung oder wir zahlen Ihnen die Differenz der Uhren aus.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Bm44ka": {
+          "type": "text",
+          "settings": {
+            "faq_question": "34.) Wie funktioniert die Geschäftsauflösung als Juwelier bei Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Bei einer Geschäftsauflösung können Sie uns gerne schriftlich Ihr komplettes Konvolut zum Verkauf anbieten. Wir machen Ihnen dann umgehend ein Angebot zu Ihrem kompletten Warenbestand.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_KBGgG9": {
+          "type": "text",
+          "settings": {
+            "faq_question": "35.) Wie ist der Ablauf als Uhrenhändler bei Ihnen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie können sich bei uns als Uhrenhändler registrieren. Gerne können Sie uns dann Ihren Kunden weitervermitteln und erhalten bei erfolgreichem Abschluss eines Kaufes eine Provision von uns.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_67T6Kx": {
+          "type": "text",
+          "settings": {
+            "faq_question": "36.) Kann ich meine gebrauchte Uhr auch als Uhrenhändler verkaufen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Natürlich können Sie uns auch als Uhrenhändler Ihre gebrauchte Uhr zum Kauf anbieten und bei einer Einigung verkaufen.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -219,12 +683,48 @@
       "block_order": [
         "1653481892aca601d3-0",
         "1653481892aca601d3-1",
-        "1653481892aca601d3-2"
+        "1653481892aca601d3-2",
+        "text_Nzy7fY",
+        "text_4pANgJ",
+        "text_R9eAwG",
+        "text_tcgebY",
+        "text_dcb68i",
+        "text_a6ytUm",
+        "text_6R7XGa",
+        "text_xe6R3Q",
+        "text_4VTTXV",
+        "text_4NKijr",
+        "text_TWR6hP",
+        "text_Tgp6d3",
+        "text_cCFMxJ",
+        "text_jWhNWi",
+        "text_kYmJDj",
+        "text_7BVrbn",
+        "text_bYJRR6",
+        "text_gbNgkF",
+        "text_AgmNjC",
+        "text_djbCUm",
+        "text_VGVMbc",
+        "text_AYJaTR",
+        "text_giDWrA",
+        "text_z3qwCT",
+        "text_CADYdW",
+        "text_JM63yW",
+        "text_6jwapj",
+        "text_nHyVAK",
+        "text_3cC4FM",
+        "text_EiBDGm",
+        "text_Bm44ka",
+        "text_KBGgG9",
+        "text_67T6Kx"
+      ],
+      "custom_css": [
+        "span {text-transform: none; font-size: 15px;}"
       ],
       "settings": {
-        "alignment": "left",
+        "alignment": "center",
         "compact": true,
-        "title": "Frequently asked questions",
+        "title": "",
         "title_font": "primary",
         "title_size": "h4",
         "enable_custom_text_styling": false,
@@ -260,12 +760,54 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
         "text_alignment": "start",
         "spacing_desktop": 50,
         "spacing_mobile": 30
+      }
+    },
+    "section_custom_liquid_qCWtxP": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_V9Pm69": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400; text-align: center;}",
+        "p {text-transform: none; text-align: center;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": true,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     }
   },
@@ -274,6 +816,8 @@
     "16600577754dc9d1c6",
     "1660057806e4225ceb",
     "16534818921d9da639",
-    "main-page"
+    "main-page",
+    "section_custom_liquid_qCWtxP",
+    "section_recently_viewed_products_V9Pm69"
   ]
 }

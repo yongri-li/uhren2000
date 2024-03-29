@@ -3,7 +3,7 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "custom_css": [
-        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}",
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
         "ol {margin-bottom: 0;}"
       ],
       "settings": {
@@ -249,7 +249,7 @@
             "subtitle": "",
             "text": "<h6>Sportuhren begeistern durch Zuverlässigkeit und höchste Präzision<\/h6><p>Sportuhren sind viel mehr als nur luxuriöse Zeitmesser. Sie sind zuverlässige Begleiter bei vielen Trendsportarten, wie Golf, Segeln, Motorsport oder Fußball. Jeder international renommierte Uhrenhersteller hat mehrere hochwertige, präzise und höchst zuverlässige Kollektionen und Modelle dieser Kategorie in seinem Programm. Kunden kaufen Sportuhren nicht nur für die Freizeit. Auch im Büro oder auf Reisen bewähren sich die funktionalen Modelle auf das Beste. Nicht nur für Männer ist eine Sportuhr der Luxusklasse ein Muss. Auch viele moderne Frauen begeistern sich für diese beständigen und hochwertigen Zeitmesser.<\/p><h6>Hochklassige Begleiter für jede Herausforderung<\/h6><p>Kunden, die Sportuhren kaufen, erwarten von den Modellen absolute Spitzenleistungen. Eine Sportuhr muss auch in extremen Situationen bestehen. Viele Sportarten haben mit Wasser zu tun. Damit die Uhren auch mit diesem Element in Berührung kommen können, ohne Schaden zu nehmen, sollten sie bis zu 10 bar wasserdicht sein. Mehr als ein wichtiges Detail für sportliche Uhren sind hochmoderne und widerstandsfähige Materialien für die Gehäuse, wie Titan oder Carbon. Die Breitling Avenger Hurricane unter anderem überzeugt mit einem vollkommen neuen Material. Der Verbundwerkstoff Breitlight wiegt lediglich ein Drittel im Vergleich zu Titan. Die Omega Seamaster Planet Ocean Master Chronometer dagegen erscheint in einer Version aus Titan, mit Armbändern aus Kautschuk oder Textil. In dieser Ausstattung widersteht sie selbst beim Einsatz in Salzwasser. Die Audemars Piguet Royal Oak Offshore setzt auf Materialien aus dem Motorsport, wie Keramik, Carbon und Titan. Besonders geforderte Bestandteile, wie Drücker, Lünette und Krone, besitzen einen Überzug aus Kautschuk.<\/p>",
             "link_text": "Übersicht von Sportuhren",
-            "link_url": "shopify:\/\/collections\/alle-uhren",
+            "link_url": "https:\/\/uhren2000.myshopify.com\/collections\/alle-uhren?filter.p.m.custom.uhrentyp=Sportuhr",
             "button_color_palette": "accent",
             "show_link": false
           }

@@ -196,7 +196,7 @@
             "customer_support_img_width": 200,
             "customer_support_offset_right": 0,
             "customer_support_offset_bottom": 0,
-            "extra_customer_support": "<h5><strong>ZAHLUNGSARTEN<\/strong><\/h5><p>Vorauskasse, Barzahlung bei Abholung, PayPal<br\/><a href=\"https:\/\/www.uhren2000.de\/zahlung-und-versand\">Weitere Informationen finden Sie hier.<\/a><\/p><p><\/p><h5><strong>VERSANDARTEN<\/strong><\/h5><p>Gesicherter Wertversand mit INTEX, G4S und Der Kurier<br\/><a href=\"https:\/\/www.uhren2000.de\/zahlung-und-versand\">Weitere Informationen finden Sie hier.<\/a><\/p>",
+            "extra_customer_support": "<h5><strong>ZAHLUNGSARTEN<\/strong><\/h5><p>Vorauskasse, Barzahlung bei Abholung, PayPal<br\/><a href=\"\/pages\/zahlung-und-versand\" title=\"Zahlung und Versand\">Weitere Informationen finden Sie hier.<\/a><\/p><p><\/p><h5><strong>VERSANDARTEN<\/strong><\/h5><p>Gesicherter Wertversand mit INTEX, G4S und Der Kurier<br\/><a href=\"\/pages\/zahlung-und-versand\" title=\"Zahlung und Versand\">Weitere Informationen finden Sie hier.<\/a><\/p>",
             "show_socials": true,
             "socials_in_circle": true,
             "socials_color_palette": "black",
@@ -230,7 +230,7 @@
             "newsletter_text": "<p>Abonnieren Sie unseren Newsletter und verpassen Sie keine Angebote, Neuigkeiten und Veranstaltungen rund um Uhren. Bleiben Sie immer informiert und verpassen Sie keine Chance auf tolle Uhrenangebote!<\/p>",
             "footer_button_color": "accent",
             "enable_newsletter_terms_checkbox": true,
-            "newsletter_terms_text": "<p>Ich bin mit der <a href=\"\/collections\" title=\"Alle Kollektionen\">Datenschutzerklärung <\/a>einverstanden<\/p>"
+            "newsletter_terms_text": "<p>Ich bin mit der <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Datenschutzerklärung<\/a> einverstanden<\/p>"
           }
         }
       },
@@ -241,7 +241,8 @@
         "newsletter_GCWWRU"
       ],
       "custom_css": [
-        "h5 {color: #c6ae8e !important; white-space: nowrap;}"
+        "h5 {color: #c6ae8e !important; white-space: nowrap;}",
+        "label {min-width: 500px;}"
       ],
       "settings": {
         "footer_color": "black",
@@ -250,8 +251,8 @@
         "title_font": "primary",
         "font_size": "13px",
         "bottom_color": "dark",
-        "bottom_img": "shopify:\/\/shop_images\/Logo.png",
-        "bottom_img_width": 110,
+        "bottom_img": "shopify:\/\/shop_images\/Uhren2000_Logo.svg",
+        "bottom_img_width": 140,
         "bottom_img_link": "",
         "enable_country_selector": true,
         "enable_language_selector": true,

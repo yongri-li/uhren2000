@@ -163,10 +163,17 @@
       {%- endif -%}
       <li class="strong"><span>{% if cart.taxes_included %}{{ 'cart.total_including_tax' | t }}{% else %}{{ 'cart.total_excluding_tax' | t }}{% endif %}</span>{{ cart.total_price | money }}</li>
     </ul>
-    <div style="font-size: 12px; margin-top: -20px; margin-bottom: 20px;">
-        <span style="color: #8f8f8f;">Preise inkl. MwSt.</span> 
-        <span style="color: #c6ae8e; text-decoration: underline;"><a href="https://www.google.de/" style="color: #c6ae8e;">zzgl. Versandkosten</a></span>
-    </div>
+{% if request.locale.iso_code == "de" %}
+<div style="font-size: 12px; margin-top: -20px; margin-bottom: 20px;">
+    <span style="color: #8f8f8f;">Preise inkl. MwSt.</span> 
+    <span style="color: #c6ae8e; text-decoration: underline;"><a href="https://www.google.de/" style="color: #c6ae8e;">zzgl. Versandkosten</a></span>
+</div>
+{% else %}
+<div style="font-size: 12px; margin-top: -20px; margin-bottom: 20px;">
+    <span style="color: #8f8f8f;">Prices including VAT</span> 
+    <span style="color: #c6ae8e; text-decoration: underline;"><a href="https://www.google.de/" style="color: #c6ae8e;">plus shipping costs</a></span>
+</div>
+{% endif %}
   <p class="link-btn wide m10">
     {%- if settings.cart_drawer_checkout_button -%}
       <input type="hidden" name="checkout" value="Checkout">

@@ -3,7 +3,7 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "custom_css": [
-        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}",
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
         "ol {margin-bottom: 0;}"
       ],
       "settings": {
@@ -249,7 +249,7 @@
             "subtitle": "",
             "text": "<h6>Fliegeruhren sind funktional und können viel mehr als Modeuhren<\/h6><p>Fliegeruhren der Luxusklasse begeistern Liebhaber von hochwertigen Zeitmessern schon seit Jahrzehnten. Bis heute bestechen die besten Modelle aus den international renommierten Uhrenmanufakturen nicht nur Berufspiloten. Auch Hobbyflieger und sportliche Herren und Damen kaufen diese Uhren mit Vorliebe. Denn sie haben die besten Eigenschaften. Sie sind präzise und funktional. Unter allen Umständen überzeugen sie durch ihre Zuverlässigkeit und Beständigkeit.<\/p><h6>Die besten Eigenschaften wertvoller Uhren<\/h6><p>Vorbild vieler Pilotenuhren von heute sind die Militäruhren der Vierzigerjahre. Eine gute Ablesbarkeit der Zeit unter allen Umständen haben bereits diese Uhrenmodelle gewährleistet. Wichtiges Detail dafür ist unter anderem ein Zifferblatt in mattem Schwarz. Traditionell verfügt die Rolex GMT-Master, eine Fliegeruhr der Extra-Klasse, noch heute über ein solches Zifferblatt. Auch der sogenannte Nullindex in Form eines Dreiecks findet sich bei diesem Modell auf der Position zwölf Uhr.<\/p><p>Leuchtmasse auf den Zeigern und den Indexen sorgt dafür, dass der Pilot die Uhrzeit und andere wichtige Angaben auf einen Blick erkennen kann. Als ein hervorragendes Beispiel dafür, dass diese Merkmale bis heute gelten, steht die Fliegeruhr von Bell und Ross. Das französische Unternehmen versteht sich als Hersteller von Instrumentenuhren. Bei seinen Modellen für Piloten setzt es auf alle Eigenschaften, die hochwertige Fliegeruhren haben müssen.<\/p>",
             "link_text": "Alle Fliegeruhren entdecken",
-            "link_url": "shopify:\/\/collections\/alle-uhren",
+            "link_url": "https:\/\/uhren2000.myshopify.com\/collections\/alle-uhren?filter.p.m.custom.uhrentyp=Fliegeruhr",
             "button_color_palette": "accent",
             "show_link": false
           }

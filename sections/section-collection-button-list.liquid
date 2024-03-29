@@ -1,4 +1,7 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+
+{{ "link-buttons-slider.css" | asset_url | stylesheet_tag}}
+
 {%- liquid
 
   if section.settings.link_text != empty and section.settings.link_url != blank
@@ -55,27 +58,38 @@
     {%- endif -%}
   </header>
 {%- endif -%}
-<p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}">
-  {%- if section.settings.collections == blank %}
-    {%- for i in (1..9) %}
-      {%- liquid
-        capture current
-          cycle 1, 2, 3, 4, 5
-        endcapture
-      -%}
-        <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="./">Collection title</a>
-    {%- endfor -%}
-  {%- else %}
-    {%- for collection in section.settings.collections -%}
-      {%- liquid
-        capture current
-          cycle 1, 2, 3, 4, 5, 6
-        endcapture
-      -%}
-      <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}">{{ collection.title }}</a>
-    {%- endfor -%}
-  {% endif -%}
-</p>
+{% if section.settings.collections != blank %}
+  
+
+  <section class='link-btn-slider'>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        
+        {%- for collection in section.settings.collections -%}
+          <div class="swiper-slide">
+            <p class="link-btn{% if slider %} mobile-compact{% endif %} button-palette-{{ section.settings.buttons_color_palette }}{% if section.settings.text_alignment == 'center' %} text-center{% endif %}" title="{{ collection.title }}">
+          {%- liquid
+            capture current
+              cycle 1, 2, 3, 4, 5, 6
+            endcapture
+          -%}
+          <a class="{% if section.settings.button_styling == 'inv' %} inv{% endif %}" href="{{ collection.url }}"><span>{{ collection.title }}</span></a>
+            </p>
+          </div>
+        {%- endfor -%}
+      
+        
+      </div>
+  
+    </div>
+  
+    <div class="swiper-button-prev link-btn button-palette-{{ section.settings.buttons_color_palette }}"><a></a></div>
+    <div class="swiper-button-next link-btn button-palette-{{ section.settings.buttons_color_palette }}"><a></a></div>
+  
+  </section>
+
+
+{% endif %}
 {%- if link and section.settings.text_alignment == 'center' -%}
   {{ link | replace: 'class-x', 'm0 text-center' }}
 {%- elsif link and section.settings.text_alignment == 'start' -%}
@@ -109,6 +123,10 @@
     {% endif %}
   }
 </style>
+
+
+{{ 'link-buttons-slider.js' | asset_url | script_tag}}
+
 
 {% schema %}
 {

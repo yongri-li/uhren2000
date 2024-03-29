@@ -1,3 +1,12 @@
+{%  style %}
+
+  #shopify-section-template--16525535412377__page-service-info-blocks h2 {
+    margin : 0!important;
+    /* width : max-content; */
+  }
+  
+{% endstyle %}
+
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when '@app' -%}
@@ -15,7 +24,7 @@
         endif
       -%}
       <div class="palette-{{ block.settings.color_palette }} {% if overlay %}overlay{% endif %} m6bx" {{ block.shopify_attributes }}>
-        <h2 class="size-20">{{ block.settings.title }}</h2>
+        <h2 class="">{{ block.settings.title }}</h2>
         {%- if block.settings.show_shop_address and shop.address.street -%}
         <p class="m15">
           {{ shop.address.street }}<br> {{ shop.address.zip }} {{ shop.address.city }}<br> {{ shop.address.country }}

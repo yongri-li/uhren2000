@@ -1,0 +1,19 @@
+{
+  "parent": "product.json",
+  "context": {
+    "market": "de"
+  },
+  "sections": {
+    "main-product": {
+      "settings": {
+      },
+      "blocks": {
+        "content_7LFryc": {
+          "settings": {
+            "liquid": "{% if request.locale.iso_code == \"de\" %}\n<center style=\"margin-top: -10px; margin-bottom: 10px;\">\n  <span style=\"color: #000000; font-size: 12px;\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n<\/center>\n{% endif %}\n\n{% if request.locale.iso_code == \"en\" %}\n<center style=\"margin-top: -10px; margin-bottom: 10px;\">\n  <span style=\"color: #000000; font-size: 12px;\">Watch with box and papers, International warranty card and manufacturer packaging<\/span>\n<\/center>\n{% endif %}"
+          }
+        }
+      }
+    }
+  }
+}

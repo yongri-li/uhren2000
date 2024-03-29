@@ -4,7 +4,7 @@
 {% if display == 'language' %}
   {%- assign supported_language_flags = 'ar,cs,cz,de,da,de,en,en-gb,en-us,es,fi,fr,gr,he,hr,hu,it,ja,ko,nl,no,pl,pt,pt-pt,pt-br,ru,se,sk,sl,sv,th,tr,us,vi,zh,zh-tw,zh-cn' | split: ',' %}
   <li class="sub lang {{ extra_classes }}" data-title="{{ 'header.language' | t }}">
-    <a class="toggle{% if origin == 'footer' %} mobile-hide{% endif %}" href="./">
+    <a class="toggle{% if origin == 'footer' %} mobile-hide{% endif %} lang-switcher" href="./">
       {% assign iso_code_downcase = localization.language.iso_code | downcase %}
       {%- if supported_language_flags contains iso_code_downcase -%}
         <img src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}" alt="{{ 'header.flag_of' | t: country: localization.language.name }}" width="17" height="12" {% if origin == 'footer' %}loading="lazy"{% endif %}>

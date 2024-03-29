@@ -2374,5 +2374,15 @@ if (loadMoreItemClicked != null) {
 }
 
 window.addEventListener('DOMContentLoaded', function () {
-  document.querySelector('.formful__branding').innerHTML = '';
+  const formfulBranding = document.querySelector('.formful__branding');
+  if (formfulBranding) {
+    formfulBranding.innerHTML = '';
+  }
+
+  document
+    .querySelector('.customer-form-close')
+    .addEventListener('click', function () {
+      console.log('here');
+      document.querySelector('.user-login a.toggle').click();
+    });
 });

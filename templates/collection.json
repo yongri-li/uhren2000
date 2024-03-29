@@ -3,7 +3,7 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "custom_css": [
-        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px;}",
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
         "ol {margin-bottom: 0;}"
       ],
       "settings": {
@@ -32,7 +32,8 @@
       "custom_css": [
         "h2,h3,h4,h5,h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020; max-width: 700px;}",
         "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none;}",
-        "p {max-width: 800px;}"
+        "p {max-width: 800px;}",
+        "a {color: #B99E7A;}"
       ],
       "settings": {
         "color_palette": "white",
@@ -52,7 +53,42 @@
     "section_custom_liquid_wmGLCV": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.features-container {\n  display: flex;\n  flex-wrap: wrap;\n  background-color: #f7f7f7;\n  border-radius: 20px;\n  padding: 20px;\n  gap: 10px; \/* Abstand zwischen den Elementen *\/\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  gap: 10px; \/* Abstand zwischen Icon und Text *\/\n  flex: 0 1 auto; \/* Changed to allow for text wrapping *\/\n  padding: 20px;\n}\n\n.feature-icon {\n  width: 24px;\n  height: 24px;\n  fill: currentColor; \/* Farbe des Icons *\/\n}\n\n\/* Media Queries für Responsivität *\/\n@media (max-width: 768px) {\n  .feature-item {\n    flex-basis: calc(50% - 20px); \/* Change to allow two items per row with wrapping text *\/\n  }\n}\n\n@media (max-width: 480px) {\n  .feature-item {\n    flex-basis: 100%; \/* Ein Element pro Zeile *\/\n  }\n}\n<\/style>\n\n<div class=\"features-container\">\n  {% for i in (1..6) %}\n    <div class=\"feature-item\">\n      <svg xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n    <path d=\"M7.87012 15L13.8701 22L30.8701 1\" stroke=\"#C1A57E\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n    <path d=\"M26.7216 16C27.1305 18.6253 26.7253 21.3129 25.5605 23.7009C24.3956 26.0888 22.5271 28.0626 20.2064 29.3564C17.8858 30.6502 15.2244 31.202 12.5807 30.9374C9.93696 30.6728 7.43776 29.6045 5.41958 27.8764C3.4014 26.1483 1.96113 23.8433 1.29268 21.2719C0.624239 18.7004 0.759709 15.9858 1.68086 13.4936C2.602 11.0015 4.2646 8.85138 6.44481 7.3328C8.62502 5.81423 11.2182 5.0001 13.8751 5.00001C15.5913 4.99776 17.2909 5.33649 18.8751 5.99651\" stroke=\"#202020\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n<\/svg>\n      <span>\n        {% if i == 1 %}\n          Vollversicherte Sendungen <br>\/ Abholungen in DE kostenlos\n        {% elsif i == 2 %}\n          Individuelle Bandanpassung\n        {% elsif i == 3 %}\n          Zertifizierter Shop\n        {% elsif i == 4 %}\n          Sicher dank SSL<br> Verschlüsselung\n        {% elsif i == 5 %}\n          Vor Ort<br> Abholung Ihrer Uhr möglich\n        {% elsif i == 6 %}\n          365 Tage im Jahr Service\n        {% endif %}\n      <\/span>\n    <\/div>\n  {% endfor %}\n<\/div>",
+        "custom_liquid": "{% if request.locale.iso_code == \"de\" %}\n<style>\n.features-container {\n  display: flex;\n  flex-wrap: wrap;\n  background-color: #f7f7f7;\n  border-radius: 20px;\n  padding: 20px;\n  gap: 10px; \/* Abstand zwischen den Elementen *\/\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  gap: 10px; \/* Abstand zwischen Icon und Text *\/\n  flex: 0 1 auto; \/* Changed to allow for text wrapping *\/\n  padding: 20px;\n}\n\n.feature-icon {\n  width: 24px;\n  height: 24px;\n  fill: currentColor; \/* Farbe des Icons *\/\n}\n\n\/* Media Queries für Responsivität *\/\n@media (max-width: 768px) {\n  .feature-item {\n    flex-basis: calc(50% - 20px); \/* Change to allow two items per row with wrapping text *\/\n  }\n}\n\n@media (max-width: 480px) {\n  .feature-item {\n    flex-basis: 100%; \/* Ein Element pro Zeile *\/\n  }\n}\n<\/style>\n\n<div class=\"features-container\">\n  {% for i in (1..6) %}\n    <div class=\"feature-item\">\n      <svg xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n        <path d=\"M7.87012 15L13.8701 22L30.8701 1\" stroke=\"#C1A57E\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n        <path d=\"M26.7216 16C27.1305 18.6253 26.7253 21.3129 25.5605 23.7009C24.3956 26.0888 22.5271 28.0626 20.2064 29.3564C17.8858 30.6502 15.2244 31.202 12.5807 30.9374C9.93696 30.6728 7.43776 29.6045 5.41958 27.8764C3.4014 26.1483 1.96113 23.8433 1.29268 21.2719C0.624239 18.7004 0.759709 15.9858 1.68086 13.4936C2.602 11.0015 4.2646 8.85138 6.44481 7.3328C8.62502 5.81423 11.2182 5.0001 13.8751 5.00001C15.5913 4.99776 17.2909 5.33649 18.8751 5.99651\" stroke=\"#202020\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n      <\/svg>\n      <span>\n        {% if i == 1 %}\n          Vollversicherte Sendungen <br>\/ Abholungen in DE kostenlos\n        {% elsif i == 2 %}\n          Individuelle Bandanpassung\n        {% elsif i == 3 %}\n          Zertifizierter Shop\n        {% elsif i == 4 %}\n          Sicher dank SSL<br> Verschlüsselung\n        {% elsif i == 5 %}\n          Vor Ort<br> Abholung Ihrer Uhr möglich\n        {% elsif i == 6 %}\n          365 Tage im Jahr Service\n        {% endif %}\n      <\/span>\n    <\/div>\n  {% endfor %}\n<\/div>\n{% endif %}\n\n{% if request.locale.iso_code == \"en\" %}\n<style>\n.features-container {\n  display: flex;\n  flex-wrap: wrap;\n  background-color: #f7f7f7;\n  border-radius: 20px;\n  padding: 20px;\n  gap: 10px; \/* Gap between the elements *\/\n}\n\n.feature-item {\n  display: flex;\n  align-items: center;\n  gap: 10px; \/* Gap between icon and text *\/\n  flex: 0 1 auto; \/* Changed to allow for text wrapping *\/\n  padding: 20px;\n}\n\n.feature-icon {\n  width: 24px;\n  height: 24px;\n  fill: currentColor; \/* Color of the icon *\/\n}\n\n\/* Media Queries for responsiveness *\/\n@media (max-width: 768px) {\n  .feature-item {\n    flex-basis: calc(50% - 20px); \/* Change to allow two items per row with wrapping text *\/\n  }\n}\n\n@media (max-width: 480px) {\n  .feature-item {\n    flex-basis: 100%; \/* One item per row *\/\n  }\n}\n<\/style>\n\n<div class=\"features-container\">\n  {% for i in (1..6) %}\n    <div class=\"feature-item\">\n      <svg xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n        <path d=\"M7.87012 15L13.8701 22L30.8701 1\" stroke=\"#C1A57E\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n        <path d=\"M26.7216 16C27.1305 18.6253 26.7253 21.3129 25.5605 23.7009C24.3956 26.0888 22.5271 28.0626 20.2064 29.3564C17.8858 30.6502 15.2244 31.202 12.5807 30.9374C9.93696 30.6728 7.43776 29.6045 5.41958 27.8764C3.4014 26.1483 1.96113 23.8433 1.29268 21.2719C0.624239 18.7004 0.759709 15.9858 1.68086 13.4936C2.602 11.0015 4.2646 8.85138 6.44481 7.3328C8.62502 5.81423\n        11.2182 5.0001 13.8751 5.00001C15.5913 4.99776 17.2909 5.33649 18.8751 5.99651\" stroke=\"#202020\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/path>\n      <\/svg>\n      <span>\n        {% if i == 1 %}\n          Fully insured shipments <br>\/ pickups in DE for free\n        {% elsif i == 2 %}\n          Custom band adjustment\n        {% elsif i == 3 %}\n          Certified shop\n        {% elsif i == 4 %}\n          Secure thanks to SSL<br> encryption\n        {% elsif i == 5 %}\n          On-site<br> pickup of your watch possible\n        {% elsif i == 6 %}\n          365 days a year service\n        {% endif %}\n      <\/span>\n    <\/div>\n  {% endfor %}\n<\/div>\n{% endif %}",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_collection_button_list_e8hqp9": {
+      "type": "section-collection-button-list",
+      "custom_css": [
+        "a {font-size: 12px; line-height: 24px;}"
+      ],
+      "settings": {
+        "collections": "{{ collection.metafields.custom.subcollections.value }}",
+        "buttons_color_palette": "dark",
+        "button_styling": "fill",
+        "text_alignment": "center",
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "mobile_layout": "slider",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -63,7 +99,6 @@
       "blocks": {
         "sorting_hLcAiL": {
           "type": "sorting",
-          "disabled": true,
           "settings": {
           }
         },
@@ -106,7 +141,7 @@
 
         ],
         "filter_sticky": true,
-        "filters_show_more_limit": 7,
+        "filters_show_more_limit": 3,
         "enable_custom_filters_font_size": true,
         "filters_font_size": "14px",
         "image_swatches_size": "m",
@@ -249,6 +284,7 @@
     "breadcrumbs",
     "section_rich_text_gH9TQD",
     "section_custom_liquid_wmGLCV",
+    "section_collection_button_list_e8hqp9",
     "main-collection",
     "section_custom_liquid_NnBJ8E",
     "section_icon_text_blocks_gAUgfN",

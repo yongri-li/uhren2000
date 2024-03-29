@@ -220,9 +220,10 @@
                   endif
                 -%}
 {%- for product in collection.products -%}
-  {%- if request.path != '/collections/uhren-archiv' and product.tags contains 'Uhren-Archiv' -%}
+{%- if request.path != '/collections/uhren-archiv' and request.path != '/en/collections/uhren-archiv' and product.tags contains 'Uhren-Archiv' -%}
     {%- continue -%}
-  {%- endif -%}
+{%- endif -%}
+
   {%- liquid
     capture placeholder_int
       cycle 1, 2, 3, 4, 5, 6

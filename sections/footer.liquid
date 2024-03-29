@@ -27,7 +27,11 @@
       {%- when 'customer_support' -%}
         <div class="w25 m6cn{% unless block.settings.customer_support_img %} mobile-no-img{% endunless %}" style="--main_h_small:var(--main_{{ block.settings.title_size }});" {{ block.shopify_attributes }}>
           {%- if block.settings.title != empty -%}<{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}">{{ block.settings.title }}</{{ block.settings.title_size }}>{%- endif -%}
-          {{ block.settings.extra_customer_support }}
+          <h5>{% render 'icon-payment-method' %}<strong>ZAHLUNGSARTEN</strong><a class="header-toggle" href="./">Close</a></h5>
+          <p>Vorauskasse, Barzahlung bei Abholung, PayPal<br><a href="/pages/zahlung-und-versand" title="Zahlung und Versand">Weitere Informationen finden Sie hier.</a></p>
+          <p></p>
+          <h5>{% render 'icon-shipping-method' %}<strong>VERSANDARTEN</strong><a class="header-toggle" href="./">Close</a></h5>
+          <p>Gesicherter Wertversand mit INTEX, G4S und Der Kurier<br><a href="/pages/zahlung-und-versand" title="Zahlung und Versand">Weitere Informationen finden Sie hier.</a></p>
           {% if block.settings.show_socials %}
             {%- capture 'socials' -%}
               {%- if settings.social_instagram -%}instagram|{{settings.social_instagram}}|{{ settings.social_instagram_name }}->{%- endif -%}
@@ -91,7 +95,7 @@
         </div>
       {%- when 'newsletter' -%}
         <div class="w25 strong" style="--main_h_small:var(--main_{{ block.settings.title_size }});" {{ block.shopify_attributes }} >
-          <{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}">{{ block.settings.title }}</{{ block.settings.title_size }}>
+          <{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}"><strong>{{ block.settings.title }}</strong></{{ block.settings.title_size }}>
           {%- if block.settings.newsletter_text -%}{{ block.settings.newsletter_text }}{%- endif -%}
           {%- form 'customer', id: 'newsletter-footer' -%}
             <input type="hidden" name="contact[tags]" value="newsletter">
@@ -139,7 +143,10 @@
           {%- capture menu_blocks -%}
             {%- for link in linklists[block.settings.menu].links limit: first_menu_items_limit -%}
               <div class="{% if linklists[block.settings.menu].links.size > first_menu_items_limit %} mobile-hide{% endif %}{% if first_menu_items_limit == 6 %} w16{% endif %}" style="--main_h_small:var(--main_{{ block.settings.title_size }});" {{ block.shopify_attributes }}>
-                <{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}"><a href="{{ link.url }}">{{ link.title }}</a></{{ block.settings.title_size }}>
+                <{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}">
+
+                 <a href="{{ link.url }}">{{ link.title }}</a>
+                </{{ block.settings.title_size }}>
                 {%- if link.links != blank -%}
                   <ul>
                     {%- for sub in link.links -%}
@@ -161,7 +168,13 @@
         {%- else -%}
           {%- for link in linklists[block.settings.menu].links -%}
             <div style="--main_h_small:var(--main_{{ block.settings.title_size }});" {{ block.shopify_attributes }}>
-              <{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}"><a href="{{ link.url }}">{{ link.title }}</a></{{ block.settings.title_size }}>
+              <{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}">
+              {% if forloop.index == 1  %}
+                    {% render 'icon-information' %}
+                  {% else %}
+                    {% render 'icon-customer-service' %}
+                  {% endif %}
+              <a href="{{ link.url }}">{{ link.title }}</a></{{ block.settings.title_size }}>
               {%- if link.links != blank -%}
                 <ul>
                   {%- for sub in link.links -%}
@@ -271,8 +284,7 @@
     </figure>
     {%- if section.settings.bottom_img_link != empty -%}</a>{%- endif -%}
   {%- endif -%}
-  <p>&copy; <span class="date">{{ 'now' | date: "%Y" }}</span> {{ shop.name }}, Made with ❤️ by <a href="https://codext.de/">Codext</a>
-</a></p>
+  <p>&copy; <span class="date">{{ 'now' | date: "%Y" }}</span> {{ shop.name }}</a></p>
   <ul class="l4dr">
     {%- liquid
       if section.settings.enable_country_selector and localization.available_countries.size > 1
@@ -298,6 +310,9 @@
       {%- endfor -%}
     </ul>
   {%- endif -%}
+  <p>
+  * Alle Preise inkl. Mehrwertsteuer zzgl. <a href="/pages/zahlung-und-versand" class="shipping-link">Versandkosten.</a>
+  </p>
 </div>
 
 {% style %}

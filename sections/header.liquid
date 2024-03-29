@@ -1,5 +1,19 @@
 {% style %}
 
+@media (min-width : 1400px) {
+  .search-compact-is-centered #root #search {
+      max-width: 800px;
+      margin-left : -60px!important;
+  }
+}
+
+@media (max-width : 1399px) and (min-width : 1024px) {
+  .search-compact-is-centered #root #search {
+      max-width: 600px;
+  }
+}
+
+
 @media (min-width : 1024px) {
 
   #search button {
@@ -49,7 +63,7 @@
     border-color :#c1a57e;
   }
 
-  #nav-user>ul>li:not(.currency,.cart)>a span {
+  #nav-user>ul>li:not(.currency,.cart,.lang)>a span {
     display : block;
   }
 
@@ -85,9 +99,6 @@
     align-items : center;
   }
 
-  .search-compact-is-centered #root #search {
-      max-width: 500px;
-  }
 }
   span#cart-count {
     display : none;
@@ -115,6 +126,156 @@
 
   #nav-user .user-login a , #nav-user .cart a {
     display : flex!important;
+  }
+
+
+  [data-type="main-nav"] > li,
+  .horizontal-nav > li {
+    margin : 0 10px 0 0!important;
+    padding-left : 10px!important;
+    padding-right : 10px!important;
+  }
+
+  [data-type="main-nav"] > li:hover,
+  .horizontal-nav > li:hover {
+    background-color : #c1a57e!important;
+  }
+
+  [data-type="main-nav"] > li > a,
+  .horizontal-nav > li > a {
+    color : black!important;
+  }
+
+  [data-type="main-nav"] > li:hover > a,
+  .horizontal-nav > li:hover > a {
+    color : white!important;
+  }
+
+  [data-type="main-nav"] > li:nth-child(4) > a[accesskey="4"]  {
+    padding-left : 0px!important;
+    padding-right : 0px!important;
+  }
+
+
+  [data-type="main-nav"] > li:nth-child(4):hover > a[accesskey="4"]  {
+    background-color : #c1a57e!important;
+  }
+
+
+  [data-type="main-nav"] > li > ul {
+    background-color : #c1a57e!important;
+    border-bottom-left-radius : 20px!important;
+    border-bottom-right-radius : 20px!important;
+  }
+
+  [data-type="main-nav"] > li > ul li.ff-secondary ul li a {
+    color : white!important;
+    background-color : rgba(0 , 0, 0, 0);
+    /* transition : background-color 0.5s; */
+    padding : 10px 10px;
+  }
+
+  [data-type="main-nav"] > li > ul li.ff-secondary ul li a:hover {
+    background-color : rgba(0 , 0, 0, 1);
+  }
+
+
+  [data-type="main-nav"] > li.sub-static.sub.hover .ff-secondary ul li a {
+    color : white!important;
+    background-color : rgba(0 , 0, 0, 0);
+    /* transition : background-color 0.5s; */
+    padding : 10px 10px!important;
+  }
+
+  [data-type="main-nav"] > li.sub-static.sub.hover .ff-secondary ul li a:hover {
+    background-color : rgba(0 , 0, 0, 1);
+  }
+
+
+  /* [data-type="main-nav"] > li:nth-child(3) > .ff-secondary {
+    width : max-content!important;
+  } */
+
+  [data-type="main-nav"] > li:nth-child(3) > ul {
+    padding-top : 0!important;
+  }
+
+  [data-type="main-nav"] > li:nth-child(3) > .ff-secondary ul li {
+    background-color : rgba(0 , 0, 0, 0);
+    /* transition : background-color 0.5s; */
+  }
+
+  [data-type="main-nav"] > li:nth-child(3) > .ff-secondary ul li a {
+    color : white!important;
+    padding :10px 25px  10px 15px!important;
+    width : max-content!important;
+  }
+
+  [data-type="main-nav"] > li:nth-child(3) > .ff-secondary ul li:hover {
+    background-color : rgba(0 , 0, 0, 1);
+  }
+
+
+
+  [data-type="main-nav"] > li:first-child > ul li.ff-secondary ul li a > img {
+    mix-blend-mode : unset;
+  }
+
+  [data-type="main-nav"] > li.sub-static.sub.hover .ff-secondary ul li a > img {
+    mix-blend-mode : unset;
+  }
+
+
+  .horizontal-nav li.sub > ul {
+    flex-direction : column;
+    background-color : #c1a57e!important;
+    padding : 0!important;
+    margin-left : -50px!important;
+    width : 300px;
+    left : unset!important;
+    right : unset!important;
+    border-bottom-left-radius : 20px!important;
+    border-bottom-right-radius : 20px!important;
+  }
+
+  @media (max-width : 1100px) {
+    .horizontal-nav li.sub > ul {
+      margin-left : -20px!important;
+    }
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary {
+      border : none!important;
+      width : 100%!important;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li {
+    margin-bottom : 0px!important;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li > a {
+    color : white!important;
+    padding : 10px 10px;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li:hover {
+    background-color : black;
+  }
+
+  .horizontal-nav li.sub > ul li.ff-secondary > ul > li:hover > a {
+    color : white!important;
+  }
+
+  #nav [data-type="main-nav"] .custom-seperate {
+    display : none;
+  }
+
+  #nav-user .user-login a, #nav-user .cart a {
+    align-items :center;
+  }
+
+  #nav > ul > li > ul > *:before, #nav-bar > ul > li > ul > *:before {
+    border: none!important;
   }
 
 {% endstyle %}
@@ -418,7 +579,7 @@
                   <li><a href="{{ routes.account_logout_url }}"><i aria-hidden="true" class="icon-logout"></i> {{ 'header.account.logout' | t }}</a></li>
                 </ul>
               {%- else -%}
-                <a href="{{ routes.account_login_url }}" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"> <div> {% render 'icon-user' %} </div> <span class="">{{ 'header.account.login' | t }}</span></a>
+                <a href="{{ routes.account_login_url }}" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"> <div> {% render 'icon-user' %} </div> <span class="">{{ 'header.account.my_account' | t }}<br><span class="account-register-login">{{ 'header.account.login' | t }}</span></span></a>
                 <a href="{{ routes.account_login_url }}" class="mobile-only" data-panel="login" aria-label="{{ 'header.account.login' | t }}">{% render 'icon-user' %} <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
                 {%- form 'customer_login', class: 'f8vl' -%}
                   <fieldset>
@@ -431,13 +592,16 @@
                     <p>
                       <label for="login_password">{{ 'customer.login.password' | t }}<span class="overlay-theme">*</span> <a href="./" class="show"><span>Toon</span> <span class="hidden">Hide</span></a></label>
                       <input type="password" id="login_password" name="customer[password]" placeholder="{{ 'customer.login.password' | t }}" required>
-                      <a href="{{ routes.account_login_url }}#recover" class="size-12">{{ 'customer.login.forgot_password' | t }}</a>
+                      <a href="{{ routes.account_login_url }}#recover" class="">{{ 'customer.login.forgot_password' | t }}</a>
                     </p>
                     <p class="submit">
                       <button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.login.submit' | t }}</button>
                       {{ 'customer.register.title' | t }}<br> <a href="{{ routes.account_register_url }}" class="overlay-content">{{ 'customer.register.create_account_info' | t }}</a>
                     </p>
                   </fieldset>
+                  <span class="toggle customer-form-close"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" viewBox="0 0 490 490" xml:space="preserve">
+<polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490   489.292,457.678 277.331,245.004 489.292,32.337 "/>
+</svg></span>
                 {%- endform -%}
               {%- endif -%}
             </li>

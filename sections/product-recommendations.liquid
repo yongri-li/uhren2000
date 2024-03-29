@@ -44,10 +44,12 @@
           <ul class="l4cl slider {{ width_class }}">
             {%- liquid
               for product in recommendations.products
-                capture placeholder_int
-                  cycle 1, 2, 3, 4, 5, 6
-                endcapture
-                render 'product-item', product: product, placeholder_int: placeholder_int
+                unless product.tags contains 'uhren-archiv'
+                  capture placeholder_int
+                    cycle 1, 2, 3, 4, 5, 6
+                  endcapture
+                  render 'product-item', product: product, placeholder_int: placeholder_int
+                endunless
               endfor
             -%}
           </ul>
