@@ -84,10 +84,18 @@
     "section_image_with_text_zaXRhA": {
       "type": "section-image-with-text",
       "blocks": {
+        "usp_jHwbEa": {
+          "type": "usp",
+          "settings": {
+            "usp": "We are Trusted Dealers of <a href=\"https:\/\/www.mondaniweb.com\/\" title=\"https:\/\/www.mondaniweb.com\/\">Mondani Web: the World’s Most Reliable Network of Watch Sellers.<\/a> Guaranteed by Mondani",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
         "title_UQwahB": {
           "type": "title",
           "settings": {
-            "title": "We are Trusted Dealers of Mondani Web: the World’s Most Reliable Network of Watch Sellers. Guaranteed by Mondani",
+            "title": "",
             "title_font": "secondary",
             "title_size": "h4",
             "enable_custom_text_styling": false,
@@ -115,6 +123,7 @@
         }
       },
       "block_order": [
+        "usp_jHwbEa",
         "title_UQwahB",
         "text_GjcR6i",
         "text_iBye4B"
