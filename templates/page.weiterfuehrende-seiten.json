@@ -143,39 +143,6 @@
         "fix_zindex": 0
       }
     },
-    "section_rich_text_fKq63g": {
-      "type": "section-rich-text",
-      "blocks": {
-        "title_mbnWdz": {
-          "type": "title",
-          "settings": {
-            "title": "Um das Thema Uhrenkauf abzurunden, haben Sie hier die Möglichkeit auf interessante Seiten zu gelangen, ohne suchen zu müssen.",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700"
-          }
-        }
-      },
-      "block_order": [
-        "title_mbnWdz"
-      ],
-      "settings": {
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "text_position": "text-start",
-        "content_width": 1280,
-        "height": "xs",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "width": "wide",
-        "height_mobile": "xs",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
     "section_image_with_text_zaXRhA": {
       "type": "section-image-with-text",
       "blocks": {
@@ -279,7 +246,6 @@
     "main-page",
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
-    "section_rich_text_fKq63g",
     "section_image_with_text_zaXRhA",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
