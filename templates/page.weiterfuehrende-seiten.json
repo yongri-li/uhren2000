@@ -1,0 +1,197 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "section_icon_text_blocks_hzNpCV": {
+      "type": "section-icon-text-blocks",
+      "custom_css": [
+        "{margin-top: 50px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Um das Thema Uhrenkauf abzurunden, haben Sie hier die Möglichkeit auf interessante Seiten zu gelangen, ohne suchen zu müssen.",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_image_with_text_zaXRhA": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "usp_jHwbEa": {
+          "type": "usp",
+          "settings": {
+            "usp": "We are Trusted Dealers of <a href=\"https:\/\/www.mondaniweb.com\/\" title=\"https:\/\/www.mondaniweb.com\/\">Mondani Web: the World’s Most Reliable Network of Watch Sellers.<\/a> Guaranteed by Mondani",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "spacer_97XqGd": {
+          "type": "spacer",
+          "settings": {
+            "height": 55,
+            "height_mobile": 20
+          }
+        },
+        "text_GjcR6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Themenverwandte Seiten über z.B. Uhrenarmbänder, Uhrenbeweger, Uhrenboxen oder auch Uhrenwerkzeug finden Sie im folgenden Abschnitt.<\/p><p><a href=\"https:\/\/www.watchband-berlin.com\/\" target=\"_blank\">https:\/\/www.watchband-berlin.com<\/a><br\/><\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "text_iBye4B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GOLD-SILBER-COINS heißt Sie in der Münzwelt der Numismatik herzlichst willkommen. Hier finden Sie Ihren Ansprechpartner für außergewöhnliche und äußerst seltene Münzen in Gold und Silber. Kaufen Sie hier besondere Münze und „Investieren“ Sie in die für immer erhaltene Werte, „Sammeln“ Sie Meisterwerke der Numismatik oder „Schenken“ Sie das Außergewöhnliche.<\/p><p>Münzshop:<br\/><a href=\"https:\/\/www.gold-silber-coins.de\/\" target=\"_blank\">https:\/\/www.gold-silber-coins.de\/<\/a><\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "usp_jHwbEa",
+        "spacer_97XqGd",
+        "text_GjcR6i",
+        "text_iBye4B"
+      ],
+      "custom_css": [
+        "img {padding: 50px;}",
+        "@media (min-width: 768px) {img {padding: 200px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/csm_LOGO-MW__1__e87990a47e_480x480_98aa896d-fb78-4d47-9e70-6b5597a03b83.png",
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "image_mobile": "shopify:\/\/shop_images\/csm_LOGO-MW__1__e87990a47e_480x480_98aa896d-fb78-4d47-9e70-6b5597a03b83.png",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_bhQtQ6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_LHGaAV": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "section_icon_text_blocks_hzNpCV",
+    "main-page",
+    "section_image_with_text_zaXRhA",
+    "section_custom_liquid_bhQtQ6",
+    "section_recently_viewed_products_LHGaAV"
+  ]
+}
