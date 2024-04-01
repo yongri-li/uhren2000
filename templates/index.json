@@ -791,6 +791,17 @@
     },
     "test_article_BcGdbt": {
       "type": "Test-Article",
+      "blocks": {
+        "letter_block_pGDNGC": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "A"
+          }
+        }
+      },
+      "block_order": [
+        "letter_block_pGDNGC"
+      ],
       "settings": {
       }
     }
