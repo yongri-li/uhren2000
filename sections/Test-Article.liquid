@@ -31,6 +31,36 @@
 }
 {% endschema %}
 
+<style>
+  .blog-titles-lexicon .letter-group {
+    margin-bottom: 20px;
+  }
+  .blog-titles-lexicon h2 {
+    margin-bottom: 10px;
+  }
+  .blog-titles-lexicon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .blog-titles-lexicon li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .blog-titles-lexicon li:hover {
+    background-color: #f8f8f8;
+  }
+  .blog-titles-lexicon li:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
 <div class="blog-titles-lexicon">
   {% if section.blocks.size > 0 %}
     {% assign selected_blog_handle = section.settings.blog %}
