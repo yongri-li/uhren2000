@@ -234,8 +234,9 @@
     },
     "section_custom_liquid_QHd4gt": {
       "type": "section-custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% assign alphabet = \"abcdefghijklmnopqrstuvwxyz\" | split: \"\" %}\n{% assign blog_posts = blogs['default-blog'].articles | sort: 'title' %}\n{% assign indexed_posts = \"\" %}\n\n{% for letter in alphabet %}\n  {% assign posts_starting_with_letter = blog_posts | where_exp: \"article\", \"article.title | downcase | starts_with: letter\" %}\n  {% if posts_starting_with_letter.size > 0 %}\n    {% capture indexed_posts %}{{ indexed_posts }}{{ letter }}{% endcapture %}\n    <a href=\"#{{ letter }}\">{{ letter }}<\/a>\n  {% endif %}\n{% endfor %}\n\n{% for post in blog_posts %}\n  {% capture first_letter %}{{ post.title | downcase | slice: 0 }}{% endcapture %}\n  {% if indexed_posts contains first_letter %}\n    <h2 id=\"{{ first_letter }}\">{{ first_letter | upcase }}<\/h2>\n    {% assign posts_for_letter = blog_posts | where_exp: \"article\", \"article.title | downcase | starts_with: first_letter\" %}\n    {% for article in posts_for_letter %}\n      <li class=\"article\">\n        {{ article.title }}\n      <\/li>\n    {% endfor %}\n  {% endif %}\n{% endfor %}",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
