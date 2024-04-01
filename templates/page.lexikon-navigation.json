@@ -231,11 +231,21 @@
       "settings": {
         "blog": "default-blog"
       }
+    },
+    "section_custom_liquid_QHd4gt": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-page",
-    "codext_lexikon_nav_nQYX4W"
+    "codext_lexikon_nav_nQYX4W",
+    "section_custom_liquid_QHd4gt"
   ]
 }
