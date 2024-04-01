@@ -31,6 +31,31 @@
 }
 {% endschema %}
 
+{% paginate blogs[section.settings.blog].articles by 500 %}
+{% assign countItem = 0 %}
+<div class="blog-titles-lexicon">
+  {% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+      {% assign letter = block.settings.letter | upcase %}
+      <div class="letter-group">
+        <h2>{{ letter }}</h2>
+        <ul>
+          {% for article in blogs[section.settings.blog].articles %}
+            {% assign first_letter = article.title | slice: 0, 1 | upcase %}
+            {% if first_letter == letter %}
+              {% if countItem < 3 %}
+                <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
+                {% assign countItem = countItem | plus: 1 %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
+{% endpaginate %}
+
 <style>
   .blog-titles-lexicon .letter-group {
     display: flex;
@@ -44,15 +69,15 @@
     background-color: #ffffff;
   }
   .blog-titles-lexicon h2 {
-  margin: 0;
-  padding-right: 30px; /* Adjust spacing as needed */
-  padding-left: 30px;
-  flex-shrink: 0;
-  font-size: 100px;
-  font-family: "Georgia Pro Light", Georgia, serif;
-  font-weight: 400;
-  width: 150px; /* Fixed width for all H2 elements */
-  text-align: center; /* Center the letter in the fixed width */
+    margin: 0;
+    padding-right: 30px; /* Adjust spacing as needed */
+    padding-left: 30px;
+    flex-shrink: 0;
+    font-size: 100px;
+    font-family: "Georgia Pro Light", Georgia, serif;
+    font-weight: 400;
+    width: 150px; /* Fixed width for all H2 elements */
+    text-align: center; /* Center the letter in the fixed width */
   }
   .blog-titles-lexicon ul {
     list-style: none;
@@ -77,24 +102,3 @@
     color: #fff;
   }
 </style>
-
-<div class="blog-titles-lexicon">
-  {% if section.blocks.size > 0 %}
-    {% assign selected_blog_handle = section.settings.blog %}
-    {% assign articles = blogs[selected_blog_handle].articles | limit: 50 %}
-    {% for block in section.blocks %}
-      {% assign letter = block.settings.letter | upcase %}
-      <div class="letter-group">
-        <h2>{{ letter }}</h2>
-        <ul>
-          {% for article in articles %}
-            {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-            {% if first_letter == letter %}
-              <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
-  {% endif %}
-</div>
