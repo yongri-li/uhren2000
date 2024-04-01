@@ -770,6 +770,15 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_liquid_EMntTp": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "{% for article in blogs['default-blog'].articles %}\n  {% for tag in article.tags %}\n    {% if tag contains letter %}\n      <a href=\"\/page_{{ tag }}\">{{ tag }}<\/a>\n      {% break %}\n    {% endif %}\n  {% endfor %}\n  {% unless forloop.last %}|{% endunless %}\n{% endfor %}",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -785,6 +794,7 @@
     "section_collection_list_aJpN3j",
     "section_rich_text_AGD9pk",
     "section_promo_gallery_4tm6Rm",
-    "section_icon_text_blocks_C83yUN"
+    "section_icon_text_blocks_C83yUN",
+    "section_custom_liquid_EMntTp"
   ]
 }
