@@ -779,31 +779,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_custom_liquid_hLX8z9": {
-      "type": "section-custom-liquid",
-      "settings": {
-        "custom_liquid": "{% assign blog = blogs['default-blog'] %}\n{% assign sorted_articles = blog.articles %}\n\n\n\n{% paginate blogs['default-blog'].articles by 500 %}\n{% assign countItem = 0 %}\n{% for article in blogs['default-blog'].articles %}\n{% if countItem < 3 %}\n<li class=\"article\">\n    {{ article.title }}\n<\/li>\n{% endif %}\n{% endfor %}\n{% endpaginate %}",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "test_article_BcGdbt": {
-      "type": "Test-Article",
-      "blocks": {
-        "letter_block_pGDNGC": {
-          "type": "letter_block",
-          "settings": {
-            "letter": "A"
-          }
-        }
-      },
-      "block_order": [
-        "letter_block_pGDNGC"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -820,8 +795,6 @@
     "section_rich_text_AGD9pk",
     "section_promo_gallery_4tm6Rm",
     "section_icon_text_blocks_C83yUN",
-    "section_custom_liquid_EMntTp",
-    "section_custom_liquid_hLX8z9",
-    "test_article_BcGdbt"
+    "section_custom_liquid_EMntTp"
   ]
 }
