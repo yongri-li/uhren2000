@@ -40,160 +40,160 @@
         "spacing_mobile": 30
       }
     },
-    "test_article_WGjrqh": {
-      "type": "Test-Article",
+    "codext_lexikon_nav_nQYX4W": {
+      "type": "codext-lexikon-nav",
       "blocks": {
-        "letter_block_GU4gdc": {
+        "letter_block_RKpg4e": {
           "type": "letter_block",
           "settings": {
             "letter": "A"
           }
         },
-        "letter_block_PRUkjU": {
+        "letter_block_Nf8Dri": {
           "type": "letter_block",
           "settings": {
             "letter": "B"
           }
         },
-        "letter_block_9h8gFK": {
+        "letter_block_JC3YR3": {
           "type": "letter_block",
           "settings": {
             "letter": "C"
           }
         },
-        "letter_block_VTqGVi": {
+        "letter_block_DXkdWG": {
           "type": "letter_block",
           "settings": {
             "letter": "D"
           }
         },
-        "letter_block_iQYxaP": {
+        "letter_block_4AcydD": {
           "type": "letter_block",
           "settings": {
             "letter": "E"
           }
         },
-        "letter_block_fRH6xi": {
+        "letter_block_QebGTE": {
           "type": "letter_block",
           "settings": {
             "letter": "F"
           }
         },
-        "letter_block_7LRg3i": {
+        "letter_block_G9Gazg": {
           "type": "letter_block",
           "settings": {
             "letter": "G"
           }
         },
-        "letter_block_abMtFb": {
+        "letter_block_PiCjak": {
           "type": "letter_block",
           "settings": {
             "letter": "H"
           }
         },
-        "letter_block_PVzp4J": {
+        "letter_block_CcFHnp": {
           "type": "letter_block",
           "settings": {
             "letter": "I"
           }
         },
-        "letter_block_FYDAKn": {
+        "letter_block_Fr8ebw": {
           "type": "letter_block",
           "settings": {
             "letter": "J"
           }
         },
-        "letter_block_c4HL94": {
+        "letter_block_GWDKFX": {
           "type": "letter_block",
           "settings": {
             "letter": "K"
           }
         },
-        "letter_block_9kJCDB": {
+        "letter_block_frynRX": {
           "type": "letter_block",
           "settings": {
             "letter": "L"
           }
         },
-        "letter_block_VFNBrp": {
+        "letter_block_PRfyEM": {
           "type": "letter_block",
           "settings": {
             "letter": "M"
           }
         },
-        "letter_block_BcEKdA": {
+        "letter_block_bmMJFe": {
           "type": "letter_block",
           "settings": {
             "letter": "N"
           }
         },
-        "letter_block_qMTLVm": {
+        "letter_block_RTYTNa": {
           "type": "letter_block",
           "settings": {
             "letter": "O"
           }
         },
-        "letter_block_JJqc7r": {
+        "letter_block_nnHDfP": {
           "type": "letter_block",
           "settings": {
             "letter": "P"
           }
         },
-        "letter_block_fyYyxC": {
+        "letter_block_c7DKEm": {
           "type": "letter_block",
           "settings": {
             "letter": "Q"
           }
         },
-        "letter_block_iP6MAT": {
+        "letter_block_BYFfY7": {
           "type": "letter_block",
           "settings": {
             "letter": "R"
           }
         },
-        "letter_block_ae4MjD": {
+        "letter_block_zLQMrh": {
           "type": "letter_block",
           "settings": {
             "letter": "S"
           }
         },
-        "letter_block_jXq6PA": {
+        "letter_block_i3NT9e": {
           "type": "letter_block",
           "settings": {
             "letter": "T"
           }
         },
-        "letter_block_FNGeQH": {
+        "letter_block_bJJdLK": {
           "type": "letter_block",
           "settings": {
             "letter": "U"
           }
         },
-        "letter_block_fPJFjd": {
+        "letter_block_N9xpEe": {
           "type": "letter_block",
           "settings": {
             "letter": "V"
           }
         },
-        "letter_block_GaQQBR": {
+        "letter_block_9A4ETC": {
           "type": "letter_block",
           "settings": {
             "letter": "W"
           }
         },
-        "letter_block_CM79py": {
+        "letter_block_F4RViE": {
           "type": "letter_block",
           "settings": {
             "letter": "X"
           }
         },
-        "letter_block_WzV38q": {
+        "letter_block_67zqMt": {
           "type": "letter_block",
           "settings": {
             "letter": "Y"
           }
         },
-        "letter_block_aWVXLq": {
+        "letter_block_dG6CDA": {
           "type": "letter_block",
           "settings": {
             "letter": "Z"
@@ -201,32 +201,32 @@
         }
       },
       "block_order": [
-        "letter_block_GU4gdc",
-        "letter_block_PRUkjU",
-        "letter_block_9h8gFK",
-        "letter_block_VTqGVi",
-        "letter_block_iQYxaP",
-        "letter_block_fRH6xi",
-        "letter_block_7LRg3i",
-        "letter_block_abMtFb",
-        "letter_block_PVzp4J",
-        "letter_block_FYDAKn",
-        "letter_block_c4HL94",
-        "letter_block_9kJCDB",
-        "letter_block_VFNBrp",
-        "letter_block_BcEKdA",
-        "letter_block_qMTLVm",
-        "letter_block_JJqc7r",
-        "letter_block_fyYyxC",
-        "letter_block_iP6MAT",
-        "letter_block_ae4MjD",
-        "letter_block_jXq6PA",
-        "letter_block_FNGeQH",
-        "letter_block_fPJFjd",
-        "letter_block_GaQQBR",
-        "letter_block_CM79py",
-        "letter_block_WzV38q",
-        "letter_block_aWVXLq"
+        "letter_block_RKpg4e",
+        "letter_block_Nf8Dri",
+        "letter_block_JC3YR3",
+        "letter_block_DXkdWG",
+        "letter_block_4AcydD",
+        "letter_block_QebGTE",
+        "letter_block_G9Gazg",
+        "letter_block_PiCjak",
+        "letter_block_CcFHnp",
+        "letter_block_Fr8ebw",
+        "letter_block_GWDKFX",
+        "letter_block_frynRX",
+        "letter_block_PRfyEM",
+        "letter_block_bmMJFe",
+        "letter_block_RTYTNa",
+        "letter_block_nnHDfP",
+        "letter_block_c7DKEm",
+        "letter_block_BYFfY7",
+        "letter_block_zLQMrh",
+        "letter_block_i3NT9e",
+        "letter_block_bJJdLK",
+        "letter_block_N9xpEe",
+        "letter_block_9A4ETC",
+        "letter_block_F4RViE",
+        "letter_block_67zqMt",
+        "letter_block_dG6CDA"
       ],
       "settings": {
         "blog": "default-blog"
@@ -236,6 +236,6 @@
   "order": [
     "breadcrumbs",
     "main-page",
-    "test_article_WGjrqh"
+    "codext_lexikon_nav_nQYX4W"
   ]
 }
