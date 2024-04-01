@@ -23,28 +23,19 @@
 }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
-
-{% comment %}
-The section iterates through each block, fetching blog articles starting with the specified letter.
-{% endcomment %}
 <div class="blog-titles-lexicon">
+  {% assign articles = blogs['default-blog'].articles %}
   {% for block in section.blocks %}
     {% assign letter = block.settings.letter | upcase %}
     <div class="letter-group">
       <h2>{{ letter }}</h2>
       <ul>
-        {% assign articles = blogs['default-blog'].articles %}
-       {% for article in articles %}
-  {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-  {% if first_letter == letter %}
-    <li>{{ article.title | link_to: article.url }}</li>
-  {% endif %}
-{% endfor %}
+        {% for article in articles %}
+          {% assign first_letter = article.title | slice: 0, 1 | upcase %}
+          {% if first_letter == letter %}
+            <li>{{ article.title | link_to: article.url }}</li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   {% endfor %}
