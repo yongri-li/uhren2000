@@ -774,7 +774,7 @@
     "section_custom_liquid_EMntTp": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "{% for article in blogs['default-blog'].articles %}\n  {% for tag in article.tags %}\n    {% if tag contains letter %}\n      <a href=\"\/page_{{ tag }}\">{{ tag }}<\/a>\n      {% break %}\n    {% endif %}\n  {% endfor %}\n  {% unless forloop.last %}|{% endunless %}\n{% endfor %}",
+        "custom_liquid": "{% assign alphabet = \"abcdefghijklmnopqrstuvwxyz\" | split: \"\" %}\n\n{% for letter in alphabet %}\n  {% assign tag_found = false %}\n  \n  {% for article in blogs['default-blog'].articles %}\n    {% for tag in article.tags %}\n      {% if tag == letter %}\n        {% assign tag_found = true %}\n        <a href=\"\/page_{{ tag }}\">{{ tag }}<\/a>\n        {% break %}\n      {% endif %}\n    {% endfor %}\n    \n    {% if tag_found %}\n      {% break %}\n    {% endif %}\n  {% endfor %}\n  \n  {% unless tag_found %}\n    {{ letter }}\n  {% endunless %}\n  \n  {% unless forloop.last %}\n    | \n  {% endunless %}\n  \n{% endfor %}",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
