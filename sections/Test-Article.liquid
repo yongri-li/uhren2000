@@ -1,6 +1,14 @@
 {% schema %}
 {
   "name": "Alphabetical Blog Titles",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Select Blog",
+      "info": "Choose the blog to display articles from alphabetically."
+    }
+  ],
   "blocks": [
     {
       "type": "letter_block",
@@ -25,7 +33,8 @@
 
 <div class="blog-titles-lexicon">
   {% if section.blocks.size > 0 %}
-    {% assign articles = blogs['default-blog'].articles %}
+    {% assign selected_blog_handle = section.settings.blog %}
+    {% assign articles = blogs[selected_blog_handle].articles %}
     {% for block in section.blocks %}
       {% assign letter = block.settings.letter | upcase %}
       <div class="letter-group">
