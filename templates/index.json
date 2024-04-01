@@ -788,6 +788,11 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "test_article_BcGdbt": {
+      "type": "Test-Article",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -805,6 +810,7 @@
     "section_promo_gallery_4tm6Rm",
     "section_icon_text_blocks_C83yUN",
     "section_custom_liquid_EMntTp",
-    "section_custom_liquid_hLX8z9"
+    "section_custom_liquid_hLX8z9",
+    "test_article_BcGdbt"
   ]
 }

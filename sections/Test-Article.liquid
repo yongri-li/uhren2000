@@ -24,19 +24,21 @@
 {% endschema %}
 
 <div class="blog-titles-lexicon">
-  {% assign articles = blogs['default-blog'].articles %}
-  {% for block in section.blocks %}
-    {% assign letter = block.settings.letter | upcase %}
-    <div class="letter-group">
-      <h2>{{ letter }}</h2>
-      <ul>
-        {% for article in articles %}
-          {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-          {% if first_letter == letter %}
-            <li>{{ article.title | link_to: article.url }}</li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
+  {% if section.blocks.size > 0 %}
+    {% assign articles = blogs['default-blog'].articles %}
+    {% for block in section.blocks %}
+      {% assign letter = block.settings.letter | upcase %}
+      <div class="letter-group">
+        <h2>{{ letter }}</h2>
+        <ul>
+          {% for article in articles %}
+            {% assign first_letter = article.title | slice: 0, 1 | upcase %}
+            {% if first_letter == letter %}
+              <li>{{ article.title | link_to: article.url }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  {% endif %}
 </div>
