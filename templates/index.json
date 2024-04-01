@@ -779,6 +779,15 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_custom_liquid_hLX8z9": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "{% assign blog = blogs['default-blog'] %}\n{% assign sorted_articles = blog.articles | sort: 'title' %}\n<ul>\n  {% for article in sorted_articles %}\n    <li>{{ article.title }}<\/li>\n  {% endfor %}\n<\/ul>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -795,6 +804,7 @@
     "section_rich_text_AGD9pk",
     "section_promo_gallery_4tm6Rm",
     "section_icon_text_blocks_C83yUN",
-    "section_custom_liquid_EMntTp"
+    "section_custom_liquid_EMntTp",
+    "section_custom_liquid_hLX8z9"
   ]
 }
