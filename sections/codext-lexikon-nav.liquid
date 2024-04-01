@@ -79,22 +79,21 @@
 </style>
 
 <div class="blog-titles-lexicon">
-  {% if section.blocks.size > 0 %}
-    {% assign selected_blog_handle = section.settings.blog %}
-    {% assign articles = blogs[selected_blog_handle].articles %}
-    {% for block in section.blocks %}
-      {% assign letter = block.settings.letter | upcase %}
+  {% assign selected_blog_handle = section.settings.blog %}
+  {% assign articles = blogs[selected_blog_handle].articles | sort: 'title' %}
+  {% assign alphabet = "abcdefghijklmnopqrstuvwxyz" | split: "" %}
+  
+  {% for letter in alphabet %}
+    {% assign articles_starting_with_letter = articles | where_exp: "article", "article.title | downcase | starts_with: letter" %}
+    {% if articles_starting_with_letter.size > 0 %}
       <div class="letter-group">
-        <h2>{{ letter }}</h2>
+        <h2>{{ letter | upcase }}</h2>
         <ul>
-          {% for article in articles %}
-            {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-            {% if first_letter == letter %}
-              <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
-            {% endif %}
+          {% for article in articles_starting_with_letter %}
+            <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
-    {% endfor %}
-  {% endif %}
+    {% endif %}
+  {% endfor %}
 </div>
