@@ -42,11 +42,21 @@
     },
     "section_custom_liquid_9CBiL9": {
       "type": "section-custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "<!-- Alphabet navigation -->\n<div class=\"alphabet-navigation\">\n  {% assign alphabet = \"abcdefghijklmnopqrstuvwxyz\" | split: \"\" %}\n  {% assign blog_posts = blogs['default-blog'].articles %}\n  {% assign indexed_posts = \"\" %}\n\n  <!-- Generate a list of starting letters of all blog posts -->\n  {% for post in blog_posts %}\n    {% assign first_letter = post.title | first | downcase %}\n    {% unless indexed_posts contains first_letter %}\n      {% assign indexed_posts = indexed_posts | append: first_letter %}\n    {% endunless %}\n  {% endfor %}\n\n  <!-- Alphabet buttons -->\n  {% for letter in alphabet %}\n    {% if indexed_posts contains letter %}\n      <!-- Button for each letter with posts -->\n      <button onclick=\"location.href='\/blogs\/news\/{{ letter }}'\">{{ letter | upcase }}<\/button>\n    {% else %}\n      <!-- Disabled button for letters without posts -->\n      <button disabled>{{ letter | upcase }}<\/button>\n    {% endif %}\n  {% endfor %}\n<\/div>",
-        "spacing_desktop": 80,
-        "spacing_mobile": 30,
+        "custom_liquid": "<div class=\"container\">\n  <!-- Content wrapper -->\n  <div class=\"content-wrapper\">\n    <!-- Alphabet navigation -->\n    <div class=\"alphabet-navigation\">\n      {% assign alphabet = \"abcdefghijklmnopqrstuvwxyz\" | split: \"\" %}\n      {% assign blog_posts = blogs['default-blog'].articles %}\n      {% assign indexed_posts = \"\" %}\n\n      <!-- Generate a list of starting letters of all blog posts -->\n      {% for post in blog_posts %}\n        {% assign first_letter = post.title | first | downcase %}\n        {% unless indexed_posts contains first_letter %}\n          {% assign indexed_posts = indexed_posts | append: first_letter %}\n        {% endunless %}\n      {% endfor %}\n\n      <!-- Alphabet buttons -->\n      {% for letter in alphabet %}\n        {% if indexed_posts contains letter %}\n          <!-- Button for each letter with posts -->\n          <button onclick=\"location.href='\/blogs\/news\/{{ letter }}'\">{{ letter | upcase }}<\/button>\n        {% else %}\n          <!-- Disabled button for letters without posts -->\n          <button disabled>{{ letter | upcase }}<\/button>\n        {% endif %}\n      {% endfor %}\n    <\/div>\n  <\/div>\n<\/div>",
+        "spacing_desktop": 300,
+        "spacing_mobile": 300,
         "fix_zindex": 0
+      }
+    },
+    "contact_ways_Nn6BGa": {
+      "type": "contact-ways",
+      "disabled": true,
+      "settings": {
+        "title": "Do you have any questions about this watch?"
       }
     },
     "codext_lexikon_nav_nQYX4W": {
@@ -256,6 +266,7 @@
     "breadcrumbs",
     "main-page",
     "section_custom_liquid_9CBiL9",
+    "contact_ways_Nn6BGa",
     "codext_lexikon_nav_nQYX4W",
     "section_custom_liquid_QHd4gt"
   ]
