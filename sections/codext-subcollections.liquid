@@ -1,5 +1,5 @@
 {% comment %}
-  Diese Section zeigt standardmäßig Titel von Kollektionen an, die aus einem Metafeld vom Typ 'Kollektionenliste' stammen.
+  Diese Section zeigt Titel von Kollektionen an, die aus einem Metafeld vom Typ 'Kollektionenliste' stammen.
 {% endcomment %}
 
 <section>
@@ -21,7 +21,17 @@
   </div>
 </section>
 
-<style>
+{% schema %}
+{
+  "presets": [
+    {
+      "name": "Codext-Subcollections"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
 .subcollections {
   display: flex;
   flex-wrap: wrap;
@@ -31,4 +41,4 @@
   flex-basis: 30%;
   margin-bottom: 1em;
 }
-</style>
+{% endstylesheet %}
