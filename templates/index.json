@@ -337,7 +337,7 @@
         ".img-multiply {padding: 120px;}"
       ],
       "settings": {
-        "collection": "sonderangebote",
+        "collection": "alle-uhren",
         "layout": "slider",
         "limit": 5,
         "number_of_items": 4,
