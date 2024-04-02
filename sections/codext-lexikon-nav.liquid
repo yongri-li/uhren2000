@@ -44,15 +44,15 @@
     background-color: #ffffff;
   }
   .blog-titles-lexicon h2 {
-    margin: 0;
-    padding-right: 30px; /* Adjust spacing as needed */
-    padding-left: 30px;
-    flex-shrink: 0;
-    font-size: 100px;
-    font-family: "Georgia Pro Light", Georgia, serif;
-    font-weight: 400;
-    width: 150px; /* Fixed width for all H2 elements */
-    text-align: center; /* Center the letter in the fixed width */
+  margin: 0;
+  padding-right: 30px; /* Adjust spacing as needed */
+  padding-left: 30px;
+  flex-shrink: 0;
+  font-size: 100px;
+  font-family: "Georgia Pro Light", Georgia, serif;
+  font-weight: 400;
+  width: 150px; /* Fixed width for all H2 elements */
+  text-align: center; /* Center the letter in the fixed width */
   }
   .blog-titles-lexicon ul {
     list-style: none;
@@ -81,43 +81,20 @@
 <div class="blog-titles-lexicon">
   {% if section.blocks.size > 0 %}
     {% assign selected_blog_handle = section.settings.blog %}
-    <div id="articles-container">
-      {% include 'load_articles', articles: blogs[selected_blog_handle].articles %}
-    </div>
+    {% assign articles = blogs[selected_blog_handle].articles %}
+    {% for block in section.blocks %}
+      {% assign letter = block.settings.letter | upcase %}
+      <div class="letter-group">
+        <h2>{{ letter }}</h2>
+        <ul>
+          {% for article in articles %}
+            {% assign first_letter = article.title | slice: 0, 1 | upcase %}
+            {% if first_letter == letter %}
+              <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
   {% endif %}
 </div>
-
-<script>
-  var selectedBlogHandle = '{{ section.settings.blog }}';
-  var articlesContainer = document.getElementById('articles-container');
-  var allArticlesLoaded = false;
-  var page = 1;
-
-  loadAllArticles();
-
-  function loadAllArticles() {
-    fetchArticles(page)
-      .then(function(articlesHtml) {
-        if (articlesHtml.trim() === '') {
-          allArticlesLoaded = true;
-          return;
-        }
-        articlesContainer.insertAdjacentHTML('beforeend', articlesHtml);
-        page++;
-        if (!allArticlesLoaded) {
-          loadAllArticles();
-        }
-      })
-      .catch(function(error) {
-        console.error('Error loading articles:', error);
-      });
-  }
-
-  function fetchArticles(page) {
-    var url = '/blogs/' + selectedBlogHandle + '?page=' + page + '&limit=50';
-    return fetch(url)
-      .then(function(response) {
-        return response.text();
-      });
-  }
-</script>
