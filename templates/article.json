@@ -89,10 +89,10 @@
         "cae634eb-3596-48c8-9d94-628d20d4d95b"
       ],
       "custom_css": [
-        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 30px !important;}"
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 200; font-size: 30px !important; text-align: center;}"
       ],
       "settings": {
-        "big_fontsize": true,
+        "big_fontsize": false,
         "compact": true
       }
     }
