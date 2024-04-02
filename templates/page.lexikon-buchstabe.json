@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_custom_liquid_9CBiL9": {
+      "type": "section-custom-liquid",
+      "custom_css": [
+        ".alphabet-navigation {display: flex; justify-content: center; align-items: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "<style>\n  body {\n    margin: 0; \/* Remove default margin *\/\n    padding: 0; \/* Remove default padding *\/\n  }\n  .container {\n    display: flex;\n    justify-content: center; \/* Horizontally center the content *\/\n    width: 100%; \/* Ensure the container takes full width *\/\n  }\n  .content-wrapper {\n    display: flex; \/* Use flexbox to center children *\/\n    justify-content: center; \/* Horizontally center the content *\/\n    width: 100%; \/* Take up full width *\/\n  }\n  .alphabet-navigation {\n    \/* Now the navigation is centered within the content-wrapper *\/\n    text-align: center; \/* Center inline elements within the container *\/\n    padding: 10px 0; \/* Add some padding at the top and bottom *\/\n  }\n  \/* Styling for buttons with links *\/\n  .alphabet-navigation span.button-link,\n  .alphabet-navigation span.button-no-link {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    text-decoration: none;\n    background-color: #fff;\n    color: #B99E7A;\n    border: 2px solid #B99E7A;\n    border-radius: 50%;\n    width: 40px;\n    height: 40px;\n    padding: 0;\n    margin: 5px;\n    cursor: pointer;\n    transition: border-color 0.3s, background-color 0.3s, color 0.3s;\n  }\n  .alphabet-navigation span.button-link:hover {\n    background-color: black;\n    color: #fff;\n    border-color: black;\n  }\n  \/* Styling for buttons without links *\/\n  .alphabet-navigation span.button-no-link {\n    background-color: white;\n    color: #333;\n    border: 2px solid #ccc;\n  }\n<\/style>\n<\/head>\n<body>\n\n<div class=\"container\">\n  <!-- Content wrapper -->\n  <div class=\"content-wrapper\">\n    <!-- Alphabet navigation -->\n    <div class=\"alphabet-navigation\">\n      {% paginate blogs['default-blog'].articles by 500 %}\n        {% assign alphabet = \"abcdefghijklmnopqrstuvwxyz\" | split: \"\" %}\n        {% assign blog_posts = blogs['default-blog'].articles %}\n        {% assign indexed_posts = \"\" %}\n\n        <!-- Generate a list of starting letters of all blog posts -->\n        {% for post in blog_posts %}\n          {% assign first_letter = post.title | first | downcase %}\n          {% unless indexed_posts contains first_letter %}\n            {% assign indexed_posts = indexed_posts | append: first_letter %}\n          {% endunless %}\n        {% endfor %}\n\n        <!-- Alphabet links -->\n        {% for letter in alphabet %}\n          {% if indexed_posts contains letter %}\n            <!-- Span for buttons with link for each letter with posts -->\n            <span class=\"button-link\" onclick=\"window.location='\/blogs\/news\/{{ letter }}'\">{{ letter | upcase }}<\/span>\n          {% else %}\n            <!-- Span for buttons without link for letters without posts -->\n            <span class=\"button-no-link\">{{ letter | upcase }}<\/span>\n          {% endif %}\n        {% endfor %}\n      {% endpaginate %}\n    <\/div>\n  <\/div>\n<\/div>\n\n<\/body>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 50,
+        "fix_zindex": 0
+      }
+    },
+    "contact_ways_Nn6BGa": {
+      "type": "contact-ways",
+      "disabled": true,
+      "settings": {
+        "title": "Do you have any questions about this watch?"
+      }
+    },
+    "codext_lexikon_nav_nQYX4W": {
+      "type": "codext-lexikon-nav",
+      "blocks": {
+        "letter_block_RKpg4e": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "A"
+          }
+        },
+        "letter_block_Nf8Dri": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "B"
+          }
+        },
+        "letter_block_JC3YR3": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "C"
+          }
+        },
+        "letter_block_DXkdWG": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "D"
+          }
+        },
+        "letter_block_4AcydD": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "E"
+          }
+        },
+        "letter_block_QebGTE": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "F"
+          }
+        },
+        "letter_block_G9Gazg": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "G"
+          }
+        },
+        "letter_block_PiCjak": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "H"
+          }
+        },
+        "letter_block_CcFHnp": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "I"
+          }
+        },
+        "letter_block_Fr8ebw": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "J"
+          }
+        },
+        "letter_block_GWDKFX": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "K"
+          }
+        },
+        "letter_block_frynRX": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "L"
+          }
+        },
+        "letter_block_PRfyEM": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "M"
+          }
+        },
+        "letter_block_bmMJFe": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "N"
+          }
+        },
+        "letter_block_RTYTNa": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "O"
+          }
+        },
+        "letter_block_nnHDfP": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "P"
+          }
+        },
+        "letter_block_c7DKEm": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "Q"
+          }
+        },
+        "letter_block_BYFfY7": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "R"
+          }
+        },
+        "letter_block_zLQMrh": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "S"
+          }
+        },
+        "letter_block_i3NT9e": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "T"
+          }
+        },
+        "letter_block_bJJdLK": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "U"
+          }
+        },
+        "letter_block_N9xpEe": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "V"
+          }
+        },
+        "letter_block_9A4ETC": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "W"
+          }
+        },
+        "letter_block_F4RViE": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "X"
+          }
+        },
+        "letter_block_67zqMt": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "Y"
+          }
+        },
+        "letter_block_dG6CDA": {
+          "type": "letter_block",
+          "settings": {
+            "letter": "Z"
+          }
+        }
+      },
+      "block_order": [
+        "letter_block_RKpg4e",
+        "letter_block_Nf8Dri",
+        "letter_block_JC3YR3",
+        "letter_block_DXkdWG",
+        "letter_block_4AcydD",
+        "letter_block_QebGTE",
+        "letter_block_G9Gazg",
+        "letter_block_PiCjak",
+        "letter_block_CcFHnp",
+        "letter_block_Fr8ebw",
+        "letter_block_GWDKFX",
+        "letter_block_frynRX",
+        "letter_block_PRfyEM",
+        "letter_block_bmMJFe",
+        "letter_block_RTYTNa",
+        "letter_block_nnHDfP",
+        "letter_block_c7DKEm",
+        "letter_block_BYFfY7",
+        "letter_block_zLQMrh",
+        "letter_block_i3NT9e",
+        "letter_block_bJJdLK",
+        "letter_block_N9xpEe",
+        "letter_block_9A4ETC",
+        "letter_block_F4RViE",
+        "letter_block_67zqMt",
+        "letter_block_dG6CDA"
+      ],
+      "settings": {
+        "blog": "default-blog"
+      }
+    },
+    "section_custom_liquid_QHd4gt": {
+      "type": "section-custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% assign alphabet = \"abcdefghijklmnopqrstuvwxyz\" | split: \"\" %}\n{% assign blog_posts = blogs['default-blog'].articles | sort: 'title' %}\n{% assign indexed_posts = \"\" %}\n\n{% for letter in alphabet %}\n  {% assign posts_starting_with_letter = blog_posts | where_exp: \"article\", \"article.title | downcase | starts_with: letter\" %}\n  {% if posts_starting_with_letter.size > 0 %}\n    {% capture indexed_posts %}{{ indexed_posts }}{{ letter }}{% endcapture %}\n    <a href=\"#{{ letter }}\">{{ letter }}<\/a>\n  {% endif %}\n{% endfor %}\n\n{% for post in blog_posts %}\n  {% capture first_letter %}{{ post.title | downcase | slice: 0 }}{% endcapture %}\n  {% if indexed_posts contains first_letter %}\n    <h2 id=\"{{ first_letter }}\">{{ first_letter | upcase }}<\/h2>\n    {% assign posts_for_letter = blog_posts | where_exp: \"article\", \"article.title | downcase | starts_with: first_letter\" %}\n    {% for article in posts_for_letter %}\n      <li class=\"article\">\n        {{ article.title }}\n      <\/li>\n    {% endfor %}\n  {% endif %}\n{% endfor %}",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-page",
+    "section_custom_liquid_9CBiL9",
+    "contact_ways_Nn6BGa",
+    "codext_lexikon_nav_nQYX4W",
+    "section_custom_liquid_QHd4gt"
+  ]
+}
