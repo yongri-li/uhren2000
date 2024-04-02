@@ -36,15 +36,27 @@
             "font_weight": "400",
             "font_size": "16px"
           }
+        },
+        "content_fq6P9e": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<h6>Das Uhrenmarkenlexikon bietet eine umfassende Sammlung von Informationen über bekannte Uhrenmarken, ihre Geschichte, Designs und Innovationen. Von renommierten Schweizer Marken wie Rolex und Omega bis hin zu aufstrebenden Labels wie Nomos Glashütte werden alle wichtigen Aspekte der Uhrmacherei abgedeckt. Tauchen Sie ein und entdecken Sie die faszinierende Welt der Zeitmesser.<\/h6>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "13px"
+          }
         }
       },
       "block_order": [
         "title_iTjDdK",
-        "content_zKNJK8"
+        "content_zKNJK8",
+        "content_fq6P9e"
       ],
       "custom_css": [
         "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 50px !important; text-align: center;}",
-        "@media only screen and (min-width: 768px) {{margin-top: -90px; margin-bottom: -90px; }}"
+        "@media only screen and (min-width: 768px) {{margin-top: -90px; margin-bottom: -90px; } h6 {text-transform: none; font-weight: 400; font-size: 15px !important; text-align: center !important; width: 900px; margin: 0 auto; }}",
+        "h6 {text-transform: none; font-weight: 400; font-size: 15px !important; text-align: center !important; margin: 0 auto;}"
       ],
       "settings": {
         "color_palette": "white",
