@@ -1,0 +1,44 @@
+{% comment %}
+  Dieses Schema erlaubt es, die Titel von Kollektionen in einer Section darzustellen.
+  Die Kollektionen werden aus dem Metafeld 'custom.subcollections' ausgelesen.
+{% endcomment %}
+
+<section>
+  {% if section.settings.show_subcollections %}
+    <div class="subcollections">
+      {% assign subcollections = collections[collects.collection_handle].metafields.custom.subcollections %}
+
+      {% for subcollection_title in subcollections %}
+        <div class="subcollection">
+          <h3>{{ subcollection_title }}</h3>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Subkollektionen Titel",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_subcollections",
+      "label": "Subkollektionen anzeigen",
+      "default": true
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.subcollections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.subcollection {
+  flex-basis: 30%;
+  margin-bottom: 1em;
+}
+{% endstylesheet %}
