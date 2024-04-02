@@ -53,7 +53,6 @@
     "codext_subcollections_hztHaf": {
       "type": "codext-subcollections",
       "settings": {
-        "show_subcollections": true
       }
     },
     "section_custom_liquid_wmGLCV": {
@@ -161,6 +160,15 @@
       "type": "section-custom-liquid",
       "settings": {
         "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_bYrKmX": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "{% assign current_collection_handle = collection.handle %}\n{% for collection in collections %}\n  {% if collection.metafields.custom.subcollections contains current_collection_handle %}\n    <a href=\"{{ collection.url }}\">{{ collection.title }}<\/a>\n  {% endif %}\n{% endfor %}",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -294,6 +302,7 @@
     "section_collection_button_list_e8hqp9",
     "main-collection",
     "section_custom_liquid_NnBJ8E",
+    "section_custom_liquid_bYrKmX",
     "section_icon_text_blocks_gAUgfN",
     "section_custom_liquid_UAegCH",
     "section_recently_viewed_products_UjcyQc"
