@@ -4,13 +4,16 @@
 
 <section>
   <div class="subcollections">
-    {% assign subcollections = collection.metafields.custom.subcollections %}
-    {% if subcollections %}
-      {% for item in subcollections %}
-        {% assign subcollection = collections[item] %}
-        <div class="subcollection">
-          <h3>{{ subcollection.title }}</h3>
-        </div>
+    {% assign subcollections_handles = collection.metafields.custom.subcollections %}
+
+    {% if subcollections_handles.size > 0 %}
+      {% for handle in subcollections_handles %}
+        {% assign subcollection = collections[handle] %}
+        {% if subcollection %}
+          <div class="subcollection">
+            <h3>{{ subcollection.title }}</h3>
+          </div>
+        {% endif %}
       {% endfor %}
     {% else %}
       <p>Keine Subkollektionen definiert.</p>
@@ -18,7 +21,7 @@
   </div>
 </section>
 
-{% stylesheet %}
+<style>
 .subcollections {
   display: flex;
   flex-wrap: wrap;
@@ -28,4 +31,4 @@
   flex-basis: 30%;
   margin-bottom: 1em;
 }
-{% endstylesheet %}
+</style>
