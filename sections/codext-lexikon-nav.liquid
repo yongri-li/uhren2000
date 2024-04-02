@@ -81,20 +81,21 @@
 <div class="blog-titles-lexicon">
   {% if section.blocks.size > 0 %}
     {% assign selected_blog_handle = section.settings.blog %}
-    {% assign articles = blogs[selected_blog_handle].articles %}
-    {% for block in section.blocks %}
-      {% assign letter = block.settings.letter | upcase %}
-      <div class="letter-group">
-        <h2>{{ letter }}</h2>
-        <ul>
-          {% for article in articles %}
-            {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-            {% if first_letter == letter %}
-              <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
+    {% paginate blogs[selected_blog_handle].articles by 50 %}
+      {% for block in section.blocks %}
+        {% assign letter = block.settings.letter | upcase %}
+        <div class="letter-group">
+          <h2>{{ letter }}</h2>
+          <ul>
+            {% for article in paginate.items %}
+              {% assign first_letter = article.title | slice: 0, 1 | upcase %}
+              {% if first_letter == letter %}
+                <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    {% endpaginate %}
   {% endif %}
 </div>
