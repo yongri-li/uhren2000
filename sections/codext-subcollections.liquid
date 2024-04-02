@@ -1,41 +1,22 @@
 {% comment %}
-  Diese Section zeigt Titel von Kollektionen an, die aus einem Metafeld vom Typ 'Kollektionenliste' stammen.
+  Diese Section zeigt standardmäßig Titel von Kollektionen an, die aus einem Metafeld vom Typ 'Kollektionenliste' stammen.
 {% endcomment %}
 
 <section>
-  {% assign subcollections_metafield = collection.metafields.custom.subcollections %}
-  {% if subcollections_metafield and section.settings.show_subcollections %}
-    <div class="subcollections">
-      {% for item in subcollections_metafield %}
+  <div class="subcollections">
+    {% assign subcollections = collection.metafields.custom.subcollections %}
+    {% if subcollections %}
+      {% for item in subcollections %}
         {% assign subcollection = collections[item] %}
         <div class="subcollection">
           <h3>{{ subcollection.title }}</h3>
         </div>
       {% endfor %}
-    </div>
-  {% else %}
-    <p>Keine Subkollektionen definiert.</p>
-  {% endif %}
+    {% else %}
+      <p>Keine Subkollektionen definiert.</p>
+    {% endif %}
+  </div>
 </section>
-
-{% schema %}
-{
-  "name": "Subkollektionen Titel",
-  "settings": [
-    {
-      "type": "checkbox",
-      "id": "show_subcollections",
-      "label": "Subkollektionen anzeigen",
-      "default": true
-    }
-  ],
-  "presets": [
-    {
-      "name": "Codext-Subcollections"
-    }
-  ]
-}
-{% endschema %}
 
 {% stylesheet %}
 .subcollections {
