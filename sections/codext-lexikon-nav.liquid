@@ -97,4 +97,45 @@
       </div>
     {% endfor %}
   {% endif %}
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const blogHandle = '{{ section.settings.blog }}';
+    let allArticles = [];
+    
+    function fetchArticles(page = 1) {
+      fetch(`/blogs/${blogHandle}/articles.json?page=${page}&limit=50`)
+        .then(response => response.json())
+        .then(data => {
+          allArticles = allArticles.concat(data.articles);
+          
+          if (data.articles.length === 50) {
+            // If 50 articles are returned, there might be more to load
+            fetchArticles(page + 1);
+          } else {
+            // All articles have been loaded
+            displayArticles(allArticles);
+          }
+        })
+        .catch(error => console.error('Error loading articles:', error));
+    }
+    
+    function displayArticles(articles) {
+      articles.forEach(article => {
+        // Implement logic to display articles
+        // For example, group by the first letter and append to the corresponding section
+        const firstLetter = article.title.toUpperCase().charAt(0);
+        const letterGroup = document.querySelector(`.letter-group h2:contains('${firstLetter}')`).parentElement;
+        if (letterGroup) {
+          const ul = letterGroup.querySelector('ul');
+          const li = document.createElement('li');
+          li.innerHTML = `<a href="${article.url}" class="button">${article.title}</a>`;
+          ul.appendChild(li);
+        }
+      });
+    }
+    
+    fetchArticles();
+  });
+</script>
+
 </div>
