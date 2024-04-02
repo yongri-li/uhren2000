@@ -90,7 +90,7 @@
             {% assign countItem = 0 %}
             {% for article in blogs[selected_blog_handle].articles %}
               {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-              {% if first_letter == letter and countItem < 3 %}
+              {% if first_letter == letter and countItem < 100 %}
                 <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
                 {% assign countItem = countItem | plus: 1 %}
               {% endif %}
