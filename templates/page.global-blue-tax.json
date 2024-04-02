@@ -414,6 +414,15 @@
         "fix_zindex": 0
       }
     },
+    "section_custom_liquid_N6JzMi": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align: center;\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0634\/8780\/3545\/files\/Tax_Free_Shopping_1600x1600_049d9363-0635-46fd-9893-2b1de18b8cbc.jpg?v=1712062631\" alt=\"Steuerfreies Einkaufen\" style=\"width: 300px;\">\n<\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
       "settings": {
@@ -463,6 +472,7 @@
     "section_image_columns_text_a7zEB6",
     "section_image_columns_text_pye7JG",
     "section_icon_text_blocks_TcGGtL",
+    "section_custom_liquid_N6JzMi",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
   ]
