@@ -12,6 +12,55 @@
         "enable_share_button": false
       }
     },
+    "section_rich_text_MTHVyR": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_iTjDdK": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Tell something about your brand",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_zKNJK8": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<h1>Uhrenmarken Lexikon<\/h1>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_iTjDdK",
+        "content_zKNJK8"
+      ],
+      "custom_css": [
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 50px !important; text-align: center;}",
+        "@media only screen and (min-width: 768px) {{margin-top: -90px; margin-bottom: -90px; }}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "main-page": {
       "type": "main-page",
       "blocks": {
@@ -260,59 +309,15 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_rich_text_MTHVyR": {
-      "type": "section-rich-text",
-      "blocks": {
-        "title_iTjDdK": {
-          "type": "title",
-          "settings": {
-            "title": "Tell something about your brand",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700"
-          }
-        },
-        "content_zKNJK8": {
-          "type": "content",
-          "settings": {
-            "page": "",
-            "text": "<h1>Uhrenmarken Lexikon<\/h1>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_iTjDdK",
-        "content_zKNJK8"
-      ],
-      "settings": {
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "text_position": "text-start",
-        "content_width": 1280,
-        "height": "xs",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "width": "wide",
-        "height_mobile": "xs",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
     "breadcrumbs",
+    "section_rich_text_MTHVyR",
     "main-page",
     "section_custom_liquid_9CBiL9",
     "contact_ways_Nn6BGa",
     "codext_lexikon_nav_nQYX4W",
-    "section_custom_liquid_QHd4gt",
-    "section_rich_text_MTHVyR"
+    "section_custom_liquid_QHd4gt"
   ]
 }
