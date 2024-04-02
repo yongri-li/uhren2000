@@ -72,6 +72,9 @@
       "block_order": [
         "letter_block_RKpg4e"
       ],
+      "custom_css": [
+        "{margin-bottom: 80px;}"
+      ],
       "settings": {
         "blog": "default-blog"
       }
