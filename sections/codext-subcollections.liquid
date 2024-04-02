@@ -4,15 +4,22 @@
 
 <section>
   <div class="subcollections">
+    {% comment %}Metafeld Debugging{% endcomment %}
+    <pre>Metafeld-Werte: {{ collection.metafields.custom.subcollections | json }}</pre>
+
     {% assign subcollections_handles = collection.metafields.custom.subcollections %}
 
-    {% if subcollections_handles.size > 0 %}
+    {% if subcollections_handles %}
+      <p>Anzahl der Subkollektionen: {{ subcollections_handles.size }}</p>
+
       {% for handle in subcollections_handles %}
         {% assign subcollection = collections[handle] %}
         {% if subcollection %}
           <div class="subcollection">
             <h3>{{ subcollection.title }}</h3>
           </div>
+        {% else %}
+          <p>Subkollektion mit Handle '{{ handle }}' nicht gefunden.</p>
         {% endif %}
       {% endfor %}
     {% else %}
