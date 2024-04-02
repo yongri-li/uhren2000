@@ -1,20 +1,20 @@
 {% comment %}
-  Dieses Schema erlaubt es, die Titel von Kollektionen in einer Section darzustellen.
-  Die Kollektionen werden aus dem Metafeld 'custom.subcollections' ausgelesen.
+  Diese Section zeigt Titel von Kollektionen an, die aus einem Metafeld vom Typ 'Kollektionenliste' stammen.
 {% endcomment %}
 
 <section>
-  {% if section.settings.show_subcollections %}
+  {% assign subcollections_metafield = collection.metafields.custom.subcollections %}
+  {% if subcollections_metafield and section.settings.show_subcollections %}
     <div class="subcollections">
-      {% assign subcollection_handles = collection.metafields.custom.subcollections %}
-
-      {% for handle in subcollection_handles %}
-        {% assign subcollection = collections[handle] %}
+      {% for item in subcollections_metafield %}
+        {% assign subcollection = collections[item] %}
         <div class="subcollection">
           <h3>{{ subcollection.title }}</h3>
         </div>
       {% endfor %}
     </div>
+  {% else %}
+    <p>Keine Subkollektionen definiert.</p>
   {% endif %}
 </section>
 
