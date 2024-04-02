@@ -73,7 +73,8 @@
         "letter_block_RKpg4e"
       ],
       "custom_css": [
-        "{margin-bottom: 80px;}"
+        "{margin-bottom: 80px; background-color: #fff;}",
+        ".blog-titles-lexicon .letter-group:nth-child(odd) {background-color: #fff;}"
       ],
       "settings": {
         "blog": "lexikon"
