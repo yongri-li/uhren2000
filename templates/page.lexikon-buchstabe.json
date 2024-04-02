@@ -65,7 +65,7 @@
         "letter_block_RKpg4e": {
           "type": "letter_block",
           "settings": {
-            "letter": "A"
+            "letter": "{{ page.metafields.custom.buchstabe_lexikon.value }}"
           }
         }
       },
