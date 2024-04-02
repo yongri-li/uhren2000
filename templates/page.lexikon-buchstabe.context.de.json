@@ -1,0 +1,8 @@
+{
+  "parent": "page.lexikon-buchstabe.json",
+  "context": {
+    "market": "de"
+  },
+  "sections": {
+  }
+}
