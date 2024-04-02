@@ -4,22 +4,19 @@
 
 <section>
   <div class="subcollections">
-    {% comment %}Metafeld Debugging{% endcomment %}
-    <p>Metafeld-Rohdaten: {{ collection.metafields.custom.subcollections }}</p>
-
-    {% assign subcollections_handles = collection.metafields.custom.subcollections %}
-
-    {% if subcollections_handles %}
-      <p>Anzahl der Subkollektionen: {{ subcollections_handles | size }}</p>
-
-      {% for handle in subcollections_handles %}
-        {% assign subcollection = collections[handle] %}
+    {% assign gids = collection.metafields.custom.subcollections %}
+    
+    {% if gids %}
+      {% for gid in gids %}
+        {% assign collection_id = gid | split: '/' | last %}
+        {% assign subcollection = collections | where: 'id', collection_id | first %}
+        
         {% if subcollection %}
           <div class="subcollection">
             <h3>{{ subcollection.title }}</h3>
           </div>
         {% else %}
-          <p>Subkollektion mit dem Handle '{{ handle }}' nicht gefunden.</p>
+          <p>Subkollektion mit der ID '{{ collection_id }}' nicht gefunden.</p>
         {% endif %}
       {% endfor %}
     {% else %}
