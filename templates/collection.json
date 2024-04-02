@@ -33,7 +33,7 @@
         "h2,h3,h4,h5,h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020; max-width: 700px;}",
         "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none;}",
         "p {max-width: 800px;}",
-        "a {color: #B99E7A;}"
+        "a {color: #b99e7a;}"
       ],
       "settings": {
         "color_palette": "white",
@@ -48,6 +48,12 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
+      }
+    },
+    "codext_subcollections_hztHaf": {
+      "type": "codext-subcollections",
+      "settings": {
+        "show_subcollections": true
       }
     },
     "section_custom_liquid_wmGLCV": {
@@ -283,6 +289,7 @@
   "order": [
     "breadcrumbs",
     "section_rich_text_gH9TQD",
+    "codext_subcollections_hztHaf",
     "section_custom_liquid_wmGLCV",
     "section_collection_button_list_e8hqp9",
     "main-collection",

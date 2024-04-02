@@ -6,11 +6,12 @@
 <section>
   {% if section.settings.show_subcollections %}
     <div class="subcollections">
-      {% assign subcollections = collections[collects.collection_handle].metafields.custom.subcollections %}
+      {% assign subcollection_handles = collection.metafields.custom.subcollections %}
 
-      {% for subcollection_title in subcollections %}
+      {% for handle in subcollection_handles %}
+        {% assign subcollection = collections[handle] %}
         <div class="subcollection">
-          <h3>{{ subcollection_title }}</h3>
+          <h3>{{ subcollection.title }}</h3>
         </div>
       {% endfor %}
     </div>
