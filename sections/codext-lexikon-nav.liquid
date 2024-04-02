@@ -87,11 +87,20 @@
         <div class="letter-group">
           <h2>{{ letter }}</h2>
           <ul>
-            {% assign countItem = 0 %}
+            {% assign articles_array = '' | split: ',' %}
             {% for article in blogs[selected_blog_handle].articles %}
               {% assign first_letter = article.title | slice: 0, 1 | upcase %}
-              {% if first_letter == letter and countItem < 100 %}
-                <li><a href="{{ article.url }}" class="button">{{ article.title }}</a></li>
+              {% if first_letter == letter %}
+                {% assign article_info = article.title | append: '###' | append: article.url %}
+                {% assign articles_array = articles_array | push: article_info %}
+              {% endif %}
+            {% endfor %}
+            {% assign sorted_articles = articles_array | sort_natural %}
+            {% assign countItem = 0 %}
+            {% for item in sorted_articles %}
+              {% if countItem < 100 %}
+                {% assign article_parts = item | split: '###' %}
+                <li><a href="{{ article_parts[1] }}" class="button">{{ article_parts[0] }}</a></li>
                 {% assign countItem = countItem | plus: 1 %}
               {% endif %}
             {% endfor %}
