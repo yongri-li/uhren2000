@@ -118,7 +118,7 @@
         "@media only screen and (min-width: 768px) {{width: 80%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; } h1, h2, p {max-width: 900px; }}",
         "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none; color: #202020;}",
         "h2,h3 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-top: 30px; margin-bottom: 30px; max-width: 1200; font-size: 25px; color: #202020; font-weight: 100; text-transform: none;}",
-        "a {color: #B99E7A}"
+        "a {color: #b99e7a;}"
       ],
       "settings": {
         "color_palette": "white",
@@ -208,6 +208,7 @@
         "items_width": 3,
         "text_alignment": "center",
         "title": "{{ page.metafields.custom.ankauf_links_heading.value }}",
+        "enable_heading_display_control": true,
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -301,6 +302,7 @@
         "items_width": 3,
         "text_alignment": "center",
         "title": "{{ page.metafields.custom.ankauf_weitere_seiten_links_heading.value }}",
+        "enable_heading_display_control": true,
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
