@@ -116,7 +116,7 @@
       ],
       "custom_css": [
         "@media only screen and (min-width: 768px) {{width: 80%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; } h1, h2, p {max-width: 900px; }}",
-        "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020;}",
+        "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none; color: #202020;}",
         "h2,h3 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-top: 30px; margin-bottom: 30px; max-width: 1200; font-size: 25px; color: #202020; font-weight: 100; text-transform: none;}"
       ],
       "settings": {
@@ -369,22 +369,23 @@
         "text_jjY6kj"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {{display: none; }}"
+        "@media only screen and (min-width: 769px) {{display: none; }}",
+        "span {Text-transform: none;}"
       ],
       "settings": {
         "alignment": "center",
         "compact": true,
         "title": "",
-        "title_font": "primary",
+        "title_font": "secondary",
         "title_size": "h2",
-        "enable_custom_text_styling": false,
+        "enable_custom_text_styling": true,
         "title_color_palette": "white",
         "title_weight": "700",
         "subtitle": "",
         "subtitle_font": "secondary",
         "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
+        "enable_custom_subtext_styling": true,
+        "subtitle_color_palette": "white",
         "subtitle_weight": "400",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
