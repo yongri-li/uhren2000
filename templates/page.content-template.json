@@ -88,7 +88,7 @@
         "custom_code_f9bMYJ": {
           "type": "custom_code",
           "settings": {
-            "custom_html": "<div style=\"height: 2px; background-color: #ffca20; margin-top: 20px; margin-bottom: 20px;\"><\/div>"
+            "custom_html": "<div style=\"height: 2px; background-color: #EFEFEF; margin-top: 20px; margin-bottom: 20px;\"><\/div>"
           }
         },
         "content_AePK6n": {
