@@ -64,7 +64,7 @@
         "btn_text1": "Angebote ansehen",
         "btn_url1": "shopify:\/\/collections\/alle-uhren",
         "btn_text2": "Ihre Uhr verkaufen",
-        "btn_url2": "shopify:\/\/pages\/ankauf-ihrer-luxusuhr-zu-fairen-konditionen"
+        "btn_url2": "shopify:\/\/pages\/uhren-ankauf"
       }
     },
     "codext_watch_presenter_7jLHCC": {
@@ -296,6 +296,7 @@
         "items_width": 6,
         "text_alignment": "start",
         "title": "",
+        "enable_heading_display_control": false,
         "title_font": "primary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -739,6 +740,7 @@
         "items_width": 4,
         "text_alignment": "center",
         "title": "Uhren2000 - Ihr Onlineshop für Luxusuhren",
+        "enable_heading_display_control": false,
         "title_font": "primary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
