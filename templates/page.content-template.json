@@ -329,8 +329,96 @@
     },
     "section_custom_liquid_48KQmi": {
       "type": "section-custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "{% if page.metafields.custom.weitere_links %} \n  {{ page.metafields.custom.weitere_links  | metafield_tag }} \n{% else %} \n  <p>Keine weiteren Links vorhanden.<\/p> \n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.test_links %}\n  <div class=\"link-list\">\n    {% assign links = page.metafields.custom.test_links | newline_to_br | split: '<br \/>' %}\n    {% for link in links %}\n      <div class=\"link-item\">\n        {{ link }}\n      <\/div>\n    {% endfor %}\n  <\/div>\n{% endif %}\n\n\n<style>\n.link-list {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.link-item {\n  flex: 1 1 calc(33.333% - 20px);\n  margin: 10px;\n}\n\n<style>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_YnFgAE": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_R36tWn": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_FiaJXN": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_KttRTU": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_R36tWn",
+        "text_FiaJXN",
+        "text_KttRTU"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "start",
+        "title": "Multicolumn",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -347,6 +435,7 @@
     "section_icon_text_blocks_ibk6XT",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV",
-    "section_custom_liquid_48KQmi"
+    "section_custom_liquid_48KQmi",
+    "section_icon_text_blocks_YnFgAE"
   ]
 }
