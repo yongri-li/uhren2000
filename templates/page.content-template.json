@@ -187,7 +187,8 @@
       ],
       "custom_css": [
         "p {text-align: center; font-weight: 600;}",
-        "a {text-decoration: none; line-height: 1; white-space: nowrap;}"
+        "a {text-decoration: none; line-height: 1.5; white-space: nowrap; font-weight: 600;}",
+        "li {margin: 0 auto; text-align: center; text-decoration: none; line-height: 1.5; white-space: nowrap;}"
       ],
       "settings": {
         "items_width": 3,
