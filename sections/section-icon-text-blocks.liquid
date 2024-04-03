@@ -1,5 +1,12 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 {%- liquid
+  assign hide_section = false
+  if section.settings.title == blank and section.settings.hide_if_title_empty
+    assign hide_section = true
+  endif
+-%}
+
+{% if hide_section == false %}
   assign number = section.settings.items_width | at_most: section.blocks.size
   case number
     when 1
@@ -47,6 +54,7 @@
     <p class="class-x{% unless section.settings.show_link %} link-btn {% endunless %} button-palette-{{ section.settings.button_color_palette }}"><a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ section.settings.link_text }}{% if section.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
   {%- endcapture %}
 {%- endif -%}
+  {% endif %}
 
 <article>
   {%- if show_header -%}
@@ -190,6 +198,12 @@
       "label": "t:global.typography.primary_title.label",
       "default": "Multicolumn"
     },
+    {
+  "type": "checkbox",
+  "id": "hide_if_title_empty",
+  "label": "Sektion ausblenden, wenn die Erste Überschrift leer ist",
+  "default": false
+},
     {
       "type": "select",
       "id": "title_font",
