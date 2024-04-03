@@ -330,7 +330,7 @@
     "section_custom_liquid_48KQmi": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .rolex-modelle-container {\n    display: flex;\n    justify-content: space-between; \/* verteilt den Inhalt gleichmäßig *\/\n    background-color: #f2f2f2; \/* grauer Hintergrund für den Balken *\/\n    padding: 20px; \/* Abstand innen im Balken *\/\n    font-family: 'Arial', sans-serif; \/* Schriftart *\/\n    font-size: 16px; \/* Schriftgröße *\/\n  }\n\n  .rolex-modell {\n    margin: 0 10px; \/* Abstand zwischen den Modellen *\/\n  }\n\n  .rolex-modell p {\n    margin: 0; \/* Entfernt den Standardabstand von <p> *\/\n    color: #333; \/* Textfarbe *\/\n  }\n\n  \/* Falls keine Links vorhanden sind *\/\n  .keine-links {\n    text-align: center; \/* Zentriert den Text \"Keine weiteren Links vorhanden.\" *\/\n  }\n<\/style>\n\n<div class=\"rolex-modelle-container\">\n  {% if page.metafields.custom.weitere_links %}\n    {% for link in page.metafields.custom.weitere_links %}\n      <div class=\"rolex-modell\">\n        {{ link | metafield_tag }} \n      <\/div>\n    {% endfor %}\n  {% else %} \n    <p class=\"keine-links\">Keine weiteren Links vorhanden.<\/p> \n  {% endif %}\n<\/div>",
+        "custom_liquid": "{% if page.metafields.custom.weitere_links %} \n  {{ page.metafields.custom.weitere_links  | metafield_tag }} \n{% else %} \n  <p>Keine weiteren Links vorhanden.<\/p> \n{% endif %}",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
