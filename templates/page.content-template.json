@@ -141,7 +141,7 @@
         "@media only screen and (max-width: 768px) {{display: none; }}"
       ],
       "settings": {
-        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "custom_liquid": "{% if page.metafields.custom.ankauf_weitere_seiten_links_heading != blank or page.metafields.custom.ankauf_links_heading != blank %}\n  <div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>\n{% endif %}",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
