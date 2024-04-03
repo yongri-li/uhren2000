@@ -188,7 +188,8 @@
       "custom_css": [
         "p {text-align: center; font-weight: 600;}",
         "a {text-decoration: none; line-height: 1.5; white-space: nowrap; font-weight: 600;}",
-        "li {margin: 0 auto; text-align: center; text-decoration: none; line-height: 1.5; white-space: nowrap;}"
+        "li {margin: 0 auto; text-align: center; text-decoration: none; line-height: 1.5; white-space: nowrap;}",
+        "@media only screen and (max-width: 768px) {{display: none; }}"
       ],
       "settings": {
         "items_width": 3,
@@ -221,7 +222,100 @@
         "blocks_subtitle_color_palette": "black",
         "blocks_subtitle_weight": "400",
         "blocks_font_size": "16px",
-        "spacing_desktop": 50,
+        "spacing_desktop": 130,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_BYb8My": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_AriY7c": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "{{ page.metafields.custom.ankauf_weitere_seiten_links_1 | metafield_tag }}",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_tnQLaY": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "{{ page.metafields.custom.ankauf_weitere_seiten_links_2 | metafield_tag }}",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_Y73wGh": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "{{ page.metafields.custom.ankauf_weitere_seiten_links_3 | metafield_tag }}",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_AriY7c",
+        "text_tnQLaY",
+        "text_Y73wGh"
+      ],
+      "custom_css": [
+        "p {text-align: center; font-weight: 600;}",
+        "a {text-decoration: none; line-height: 1.5; white-space: nowrap; font-weight: 600;}",
+        "li {margin: 0 auto; text-align: center; text-decoration: none; line-height: 1.5; white-space: nowrap;}",
+        "@media only screen and (max-width: 768px) {{display: none; }}"
+      ],
+      "settings": {
+        "items_width": 3,
+        "text_alignment": "center",
+        "title": "{{ page.metafields.custom.ankauf_weitere_seiten_links_heading.value }}",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 130,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -263,7 +357,7 @@
         "text_jjY6kj"
       ],
       "custom_css": [
-
+        "@media only screen and (min-width: 769px) {{display: none; }}"
       ],
       "settings": {
         "alignment": "center",
@@ -334,6 +428,7 @@
     "section_custom_liquid_mML8Xn",
     "section_rich_text_Qg4VXk",
     "section_icon_text_blocks_YnFgAE",
+    "section_icon_text_blocks_BYb8My",
     "section_faq_rMFU3M",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
