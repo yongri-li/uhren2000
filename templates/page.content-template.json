@@ -101,7 +101,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "{{ block.settings.page.metafields.custom.ankauf_content | metafield_tag }}",
+            "text": "<p>This will load, but not the Metafield Content<\/p>{{ block.settings.page.metafields.custom.ankauf_content | metafield_tag }}",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
