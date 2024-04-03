@@ -1,72 +1,81 @@
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-{%- liquid
-  assign number = section.settings.items_width | at_most: section.blocks.size
-  case number
-    when 1
-      assign width_class = 'w100'
-    when 2
-      assign width_class = 'w50'
-    when 3
-      assign width_class = 'w33'
-    when 4
-      assign width_class = 'w25'
-    when 5
-      assign width_class = 'w20'
-    when 6
-      assign width_class = 'w16'
-  endcase
+{% assign display_section = true %}
 
-  if section.settings.link_text != empty and section.settings.link_url != blank
-    assign link = true
-  endif
+{% if section.settings.enable_heading_display_control and section.settings.title == blank %}
+  {% assign display_section = false %}
+{% endif %}
 
-  if section.settings.title != empty or section.settings.subtitle != empty or section.settings.text != empty
-    assign show_header = true
-  elsif link and section.settings.text_alignment == 'start'
-    assign show_header = true
-  endif
+{% if display_section %}
+  {% assign number = section.settings.items_width | at_most: section.blocks.size %}
+  {% case number %}
+    {% when 1 %}
+      {% assign width_class = 'w100' %}
+    {% when 2 %}
+      {% assign width_class = 'w50' %}
+    {% when 3 %}
+      {% assign width_class = 'w33' %}
+    {% when 4 %}
+      {% assign width_class = 'w25' %}
+    {% when 5 %}
+      {% assign width_class = 'w20' %}
+    {% when 6 %}
+      {% assign width_class = 'w16' %}
+  {% endcase %}
 
-  if section.settings.title != empty and section.settings.subtitle != empty
-    assign container_div = true
-  elsif section.settings.title != empty and section.settings.text != empty
-    assign container_div = true
-  elsif section.settings.subtitle != empty and section.settings.text != empty
-    assign container_div = true
-  endif
+  {% if section.settings.link_text != empty and section.settings.link_url != blank %}
+    {% assign link = true %}
+  {% endif %}
 
-  capture title_classes
-    echo 'w900 '
-    if section.settings.text_alignment == 'center'
-      echo ' text-center align-center'
-    endif
-  endcapture
--%}
+  {% if section.settings.title != empty or section.settings.subtitle != empty or section.settings.text != empty %}
+    {% assign show_header = true %}
+  {% elsif link and section.settings.text_alignment == 'start' %}
+    {% assign show_header = true %}
+  {% endif %}
 
-{%- if link %}
-  {%- capture link -%}
-    <p class="class-x{% unless section.settings.show_link %} link-btn {% endunless %} button-palette-{{ section.settings.button_color_palette }}"><a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ section.settings.link_text }}{% if section.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
-  {%- endcapture %}
-{%- endif -%}
+  {% if section.settings.title != empty and section.settings.subtitle != empty %}
+    {% assign container_div = true %}
+  {% elsif section.settings.title != empty and section.settings.text != empty %}
+    {% assign container_div = true %}
+  {% elsif section.settings.subtitle != empty and section.settings.text != empty %}
+    {% assign container_div = true %}
+  {% endif %}
 
-<article>
-  {%- if show_header -%}
-    <header class="cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}" style="font-size:{{ section.settings.font_size }};">
-      {%- if container_div -%}<div class="{{ title_classes }}">{%- endif -%}
-          {%- if section.settings.title != blank -%}
-          <{{ section.settings.title_size }} class="{{ title_classes }} ff-{{ section.settings.title_font }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
-        {%- endif -%}
-        {%- if section.settings.subtitle != blank -%}
-          <{{ section.settings.subtitle_size }} class="{{ title_classes }} ff-{{ section.settings.subtitle_font }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
-        {%- endif -%}
-        {%- if section.settings.text != empty -%}
-          {{ section.settings.text }}
-        {%- endif -%}
-      {%- if container_div -%}</div>{%- endif -%}
-      {%- if link and section.settings.text_alignment == 'start' -%}
-        {{ link | replace: 'class-x', 'mobile-hide' }}
-      {%- endif -%}
-    </header>
-  {%- endif -%}
+  {% capture title_classes %}
+    w900 
+    {% if section.settings.text_alignment == 'center' %}
+      text-center align-center
+    {% endif %}
+  {% endcapture %}
+
+  {% if link %}
+    {% capture link %}
+      <p class="class-x{% unless section.settings.show_link %} link-btn {% endunless %} button-palette-{{ section.settings.button_color_palette }}">
+        <a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">
+          {{ section.settings.link_text }}{% if section.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}
+        </a>
+      </p>
+    {% endcapture %}
+  {% endif %}
+
+  <article>
+    {% if show_header %}
+      <header class="cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}" style="font-size:{{ section.settings.font_size }};">
+        {% if container_div %}<div class="{{ title_classes }}">{% endif %}
+          {% if section.settings.title != blank %}
+            <{{ section.settings.title_size }} class="{{ title_classes }} ff-{{ section.settings.title_font }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
+          {% endif %}
+          {% if section.settings.subtitle != blank %}
+            <{{ section.settings.subtitle_size }} class="{{ title_classes }} ff-{{ section.settings.subtitle_font }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
+          {% endif %}
+          {% if section.settings.text != empty %}
+            {{ section.settings.text }}
+          {% endif %}
+        {% if container_div %}</div>{% endif %}
+        {% if link and section.settings.text_alignment == 'start' %}
+          {{ link | replace: 'class-x', 'mobile-hide' }}
+        {% endif %}
+      </header>
+    {% endif %}
   {%- if section.blocks.size > 0 -%}
     <ul class="l4st slider-fraction text-{{ section.settings.blocks_text_alignment }} {{ width_class }}"{% if section.settings.enable_custom_text_styling %} style="font-size:{{ section.settings.blocks_font_size }};"{% endif %}>
       {%- for block in section.blocks -%}
@@ -120,6 +129,7 @@
     {{ link | replace: 'class-x', 'm0 mobile-only' }}
   {%- endif -%}
 </article>
+{% endif %}
 
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
