@@ -62,7 +62,7 @@
     "section_custom_liquid_mML8Xn": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"black-bar\"><\/div>\n<style>\n.black-bar {\n  height: 300px;\nbackground-color: black;\n  margin-left: -300px;\n  margin-right: -300px;\n  padding-left: 300px;\n  padding-right: 300px;\n  margin-bottom: 20px;\n  margin-top: -20px;\n}\n<style>",
+        "custom_liquid": "<div class=\"black-bar\"><\/div>\n\n<style>\n@media only screen and (min-width: 768px) {\n  .black-bar {\n    height: 300px;\n    background-color: black;\n    margin-left: -300px;\n    margin-right: -300px;\n    padding-left: 300px;\n    padding-right: 300px;\n    margin-bottom: 20px;\n    margin-top: -20px;\n  }\n}\n<\/style>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 25
@@ -75,7 +75,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "",
+            "text": "<h2>Rolex einfach verkaufen: Ankauf von Rolex Uhren online<\/h2><p>Selbstverständlich ist der Ankauf Ihrer Rolex Uhr Vertrauenssache. Das gilt erst recht, wenn Sie Ihre gebrauchte Rolex verkaufen wollen und nicht in der Nähe unserer Filiale wohnen. Wenn Sie uns das wertvolle Stück zur Begutachtung, zum Verkauf oder zur Inzahlungnahme überlassen, wollen Sie für diesen Fall ganz sicher gehen und nicht nur den besten Preis, sondern auch die höchste Sicherheit geboten bekommen. Das garantieren wir Ihnen zu jeder Zeit auch für den Fall, dass Sie den Verkauf oder die Inzahlungnahme nicht direkt vor Ort erledigen können.<\/p><p>Wir bei Uhren2000 zeichnen uns durch unsere jahrelange Erfahrung und unser Expertenwissen in Sachen Luxusuhren aus. Wir bieten Ihnen eine sichere und unkomplizierte Abwicklung sowie einen ausgezeichneten Kundenservice. Sie möchten eine gebrauchte Luxusuhr kaufen? Auch hier sind wir der richtige Ansprechpartner für Sie. Unser Sortiment umfasst eine große Auswahl an erstklassigen gebrauchten Luxusuhren bekannter Marken wie Rolex, Patek Philippe oder auch Audemars Piguet.<\/p><p>Beim Ankauf und Verkauf von gebrauchten Luxusuhren bieten wir deutschlandweit allen Kunden die Möglichkeit, online Uhren zu verkaufen. Dazu stellen wir Ihnen gern unseren sicheren Abholservice zur Verfügung. Wir arbeiten mit einem zuverlässigen Wertkurier zusammen. Dieser holt die wertvollen Luxusuhren sicher und direkt bei Ihnen ab. Nach der Absprache eines für Sie passenden Termins kommt der Wertkurier zu Ihnen. Damit gehen Sie keinerlei Risiko ein und können vollkommen sicher sein, dass Ihre Rolex-Uhr auch wirklich unbeschadet bei uns ankommt. <br\/>Wir legen großen Wert auf eine transparente und faire Bewertung, sodass Sie immer den bestmöglichen Preis für Ihre Luxusuhr erhalten.<\/p><h2>Wie viel ist Ihre gebrauchte Rolex wert?<\/h2><p>Der Wert einer gebrauchten Rolex hängt von mehreren Faktoren ab, wie Modell und Alter der Uhr, den Zustand der Uhr sowie vorhandenes Originalzubehör. Um den bestmöglichen Preis für Ihre gebrauchte Rolex zu erzielen, sollten Sie sicherstellen, dass die Uhr in gutem Zustand ist und alle Originalzubehörteile einschließlich der Verpackung und der Papiere, die mit der Uhr geliefert wurden, vorhanden sind.<\/p><p>Vorab <a href=\"https:\/\/www.uhren2000.de\/uhren-ankauf\" target=\"_self\" title=\"Ankauf von gebrauchten Luxusuhren\">Bewertung<\/a> gibt Auskunft, gerne unterbreiten wir Ihnen ein Angebot. Rolex verkaufen leicht gemacht!<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -86,8 +86,7 @@
         "content_AePK6n"
       ],
       "custom_css": [
-        "{width: 100%; margin: -250px auto 0;}",
-        ".module-color-palette:before {border-radius: 18px !important;}"
+        "@media only screen and (min-width: 768px) {{width: 100%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; }}"
       ],
       "settings": {
         "color_palette": "white",
@@ -216,6 +215,7 @@
         "text_YbMdHB",
         "text_CQMnXK"
       ],
+      "disabled": true,
       "custom_css": [
         "{background: linear-gradient(to bottom, #f8f8f8, #ffffff); margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 160px;}"
       ],
