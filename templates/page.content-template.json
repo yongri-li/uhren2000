@@ -59,6 +59,15 @@
         "contact-info": "<p>Telefonische Beratung<br\/>Mo-Sa 9 - 18 Uhr<br\/><br\/><a href=\"tel:+4971423440158\">+49 7142 - 3440158<br\/><br\/><\/a>Persönliche Abholung vor Ort nach Terminvereinbarung möglich.<\/p>"
       }
     },
+    "section_custom_liquid_mML8Xn": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"black-bar\"><\/div>\n<style>\n.black-bar {\n  height: 300px;\nbackground-color: black;\n  margin-left: -300px;\n  margin-right: -300px;\n  padding-left: 300px;\n  padding-right: 300px;\n  margin-bottom: 20px;\n  margin-top: -20px;\n}\n<style>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_icon_text_blocks_ibk6XT": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -180,6 +189,7 @@
     "breadcrumbs",
     "main-page",
     "rolex_content_section_zztXhh",
+    "section_custom_liquid_mML8Xn",
     "section_icon_text_blocks_ibk6XT",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
