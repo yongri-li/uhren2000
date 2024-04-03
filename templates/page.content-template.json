@@ -61,16 +61,36 @@
     },
     "section_custom_liquid_mML8Xn": {
       "type": "section-custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
         "custom_liquid": "<div class=\"black-bar\"><\/div>\n\n<style>\n@media only screen and (min-width: 768px) {\n  .black-bar {\n    height: 300px;\n    background-color: black;\n    margin-left: -300px;\n    margin-right: -300px;\n    padding-left: 300px;\n    padding-right: 300px;\n    margin-bottom: 20px;\n    margin-top: -20px;\n  }\n}\n<\/style>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
-        "fix_zindex": 25
+        "fix_zindex": 0
       }
     },
     "section_rich_text_Qg4VXk": {
       "type": "section-rich-text",
       "blocks": {
+        "title_aNeWUX": {
+          "type": "title",
+          "settings": {
+            "title": "Schnell und vor allem sicher Uhren online verkaufen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "spacer_yYLEg6": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
         "content_AePK6n": {
           "type": "content",
           "settings": {
@@ -83,10 +103,12 @@
         }
       },
       "block_order": [
+        "title_aNeWUX",
+        "spacer_yYLEg6",
         "content_AePK6n"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {{width: 100%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; }}"
+        "@media only screen and (min-width: 768px) {{width: 80%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; } h1, h2, p {max-width: 800px; }}"
       ],
       "settings": {
         "color_palette": "white",
