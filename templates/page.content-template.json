@@ -193,8 +193,8 @@
       "settings": {
         "items_width": 3,
         "text_alignment": "center",
-        "title": "",
-        "title_font": "primary",
+        "title": "{{ page.metafields.custom.ankauf_links_heading.value }}",
+        "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
         "title_color_palette": "black",
