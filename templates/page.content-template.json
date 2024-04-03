@@ -266,16 +266,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_custom_liquid_48KQmi": {
-      "type": "section-custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% if page.metafields.custom.test_links %}\n  <div class=\"link-list\">\n    {% assign links = page.metafields.custom.test_links | newline_to_br | split: '<br \/>' %}\n    {% for link in links %}\n      <div class=\"link-item\">\n        {{ link }}\n      <\/div>\n    {% endfor %}\n  <\/div>\n{% endif %}\n\n\n<style>\n.link-list {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.link-item {\n  flex: 1 1 calc(33.333% - 20px);\n  margin: 10px;\n}\n\n<style>",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
@@ -286,7 +276,6 @@
     "section_rich_text_Qg4VXk",
     "section_icon_text_blocks_YnFgAE",
     "section_custom_liquid_bhQtQ6",
-    "section_recently_viewed_products_LHGaAV",
-    "section_custom_liquid_48KQmi"
+    "section_recently_viewed_products_LHGaAV"
   ]
 }
