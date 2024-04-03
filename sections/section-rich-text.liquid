@@ -46,12 +46,8 @@
             {%- if block.settings.page != empty -%}
               {{ block.settings.page.content }}
             {%- endif %}
-                {%- if block.settings.metafield_namespace_key != blank -%}
-      {{ block.settings.metafield_namespace_key | metafield }}
-    {%- else -%}
-      {{ block.settings.text }}
-    {%- endif %}
-  </div>
+            {{ block.settings.text }}
+          </div>
         {%- when 'button' -%}
           {% assign prev_block_index = forloop.index0 | minus: 1 %}
           {% assign next_block_index = forloop.index0 | plus: 1 %}
