@@ -85,10 +85,10 @@
             "title_weight": "700"
           }
         },
-        "spacer_yYLEg6": {
-          "type": "spacer",
+        "custom_code_f9bMYJ": {
+          "type": "custom_code",
           "settings": {
-            "height": 35
+            "custom_html": "<div style=\"height: 2px; background-color: #ffca20; margin-top: 20px; margin-bottom: 20px;\"><\/div>"
           }
         },
         "content_AePK6n": {
@@ -104,7 +104,7 @@
       },
       "block_order": [
         "title_aNeWUX",
-        "spacer_yYLEg6",
+        "custom_code_f9bMYJ",
         "content_AePK6n"
       ],
       "custom_css": [
