@@ -185,9 +185,13 @@
         "text_FiaJXN",
         "text_KttRTU"
       ],
+      "custom_css": [
+        "p {text-align: center; font-weight: 600;}",
+        "a {text-decoration: none; line-height: 1;}"
+      ],
       "settings": {
-        "items_width": 4,
-        "text_alignment": "start",
+        "items_width": 3,
+        "text_alignment": "center",
         "title": "",
         "title_font": "primary",
         "title_size": "h2",
