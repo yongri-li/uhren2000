@@ -330,7 +330,7 @@
     "section_custom_liquid_48KQmi": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign metafield_value = page.metafields.custom.weitere_links %}\n{% if metafield_value %}\n  <div id=\"richtext-output\"><\/div>\n  <script>\n    \/\/ Parsen Sie das JSON aus dem Metafield\n    var richtextContent = {{ metafield_value | json }};\n    \/\/ Funktion, um rekursiv durch den JSON-Inhalt zu gehen und HTML zu bauen\n    function buildHTMLFromJSON(node) {\n      if (node.type === 'text') {\n        return document.createTextNode(node.value);\n      }\n      var element = document.createElement(node.type === 'root' ? 'div' : node.type);\n      if (node.type === 'list') {\n        element = document.createElement(node.listType === 'ordered' ? 'ol' : 'ul');\n      }\n      if (node.type === 'listItem') {\n        element = document.createElement('li');\n      }\n      if (node.children) {\n        node.children.forEach(function(child) {\n          element.appendChild(buildHTMLFromJSON(child));\n        });\n      }\n      return element;\n    }\n    \/\/ Rufen Sie die Funktion auf und setzen Sie das resultierende HTML\n    document.getElementById('richtext-output').appendChild(buildHTMLFromJSON(richtextContent));\n  <\/script>\n{% endif %}",
+        "custom_liquid": "{% if page.metafields.custom.weitere_links %} \n  {{ page.metafields.custom.weitere_links  | metafield_tag }} \n{% else %} \n  <p>Keine weiteren Links vorhanden.<\/p> \n{% endif %}",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
