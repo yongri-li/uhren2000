@@ -108,7 +108,7 @@
           <div class="module-spacer" style="margin-bottom:{{ block.settings.height }}px;" {{ block.shopify_attributes }}></div>
                 {%- when 'custom_code' -%}
         <div class="custom-code-block" {{ block.shopify_attributes }}>
-          {{ block.settings.custom_html | render }}
+          {{ block.settings.custom_liquid | render }}
         </div>
       {%- endcase -%}
     {%- endfor -%}
