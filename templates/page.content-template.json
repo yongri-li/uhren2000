@@ -226,6 +226,65 @@
         "fix_zindex": 0
       }
     },
+    "section_faq_rMFU3M": {
+      "type": "section-faq",
+      "blocks": {
+        "text_KdtTLn": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ block.settings.page.metafields.custom.ankauf_links_heading.value }}",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "{{ block.settings.page.metafields.custom.ankauf_links_1 | metafield_tag }}{{ block.settings.page.metafields.custom.ankauf_links_2 | metafield_tag }}{{ block.settings.page.metafields.custom.ankauf_links_3 | metafield_tag }}",
+            "page": "{{ page }}",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_jjY6kj": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ block.settings.page.metafields.custom.ankauf_weitere_seiten_links_heading.value }}",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "{{ block.settings.page.metafields.custom.ankauf_weitere_seiten_links_1 | metafield_tag }}{{ block.settings.page.metafields.custom.ankauf_weitere_seiten_links_2 | metafield_tag }}{{ block.settings.page.metafields.custom.ankauf_weitere_seiten_links_3 | metafield_tag }}",
+            "page": "{{ page }}",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "text_KdtTLn",
+        "text_jjY6kj"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "alignment": "center",
+        "compact": false,
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_custom_liquid_bhQtQ6": {
       "type": "section-custom-liquid",
       "settings": {
@@ -275,6 +334,7 @@
     "section_custom_liquid_mML8Xn",
     "section_rich_text_Qg4VXk",
     "section_icon_text_blocks_YnFgAE",
+    "section_faq_rMFU3M",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
   ]
