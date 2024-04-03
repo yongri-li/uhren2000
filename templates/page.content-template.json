@@ -88,7 +88,7 @@
         "custom_code_f9bMYJ": {
           "type": "custom_code",
           "settings": {
-            "custom_liquid": "<p>Your custom HTML or Liquid code here<\/p>"
+            "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>"
           }
         },
         "spacer_8a3Hhc": {
@@ -100,7 +100,7 @@
         "content_AePK6n": {
           "type": "content",
           "settings": {
-            "page": "",
+            "page": "{{ page }}",
             "text": "{{ block.settings.page.metafields.custom.ankauf_content | metafield_tag }}",
             "font": "secondary",
             "font_weight": "400",
