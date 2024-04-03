@@ -117,7 +117,7 @@
       "custom_css": [
         "@media only screen and (min-width: 768px) {{width: 80%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; } h1, h2, p {max-width: 900px; }}",
         "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 30px; text-transform: none; color: #202020;}",
-        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-top: 30px; margin-bottom: 30px; max-width: 1200; font-size: 25px; color: #202020; font-weight: 100; text-transform: none;}"
+        "h2, h3 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-top: 30px; margin-bottom: 30px; max-width: 1200; font-size: 25px; color: #202020; font-weight: 100; text-transform: none;}"
       ],
       "settings": {
         "color_palette": "white",
