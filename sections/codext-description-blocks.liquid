@@ -69,10 +69,14 @@
 </style>
 
 <div class="container">
-  <div class="column">
-    <h3>{{ 'product.product_description' | t }}</h3>
-    {{ product.description }}
-  </div>
+<div class="column">
+  <h3>{{ 'product.product_description' | t }}</h3>
+  {{ product.description }}
+  
+  {% if product.custom.differenzbesteuert == true %}
+    <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
+  {% endif %}
+</div>
   <div class="column">
     <div class="product-detail-block-container">
       <!-- Block "Grunddaten" -->
