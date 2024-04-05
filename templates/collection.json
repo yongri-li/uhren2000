@@ -52,6 +52,7 @@
     },
     "codext_subcollections_hztHaf": {
       "type": "codext-subcollections",
+      "disabled": true,
       "settings": {
       }
     },
@@ -221,6 +222,7 @@
         "items_width": 2,
         "text_alignment": "start",
         "title": "",
+        "enable_heading_display_control": false,
         "title_font": "primary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
