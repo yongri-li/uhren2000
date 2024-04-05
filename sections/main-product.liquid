@@ -995,8 +995,8 @@
                       </span>
                             {%- endif -%}
 {%- if preorder -%}
-    <button type="submit" class="preorder-button{% if block.settings.button_style == 'inv' %} inv{% endif %}">
-        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ settings.preorder_button_text }}
+<button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
+        <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
     </button>
 {%- elsif current_variant.available -%}
     <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
