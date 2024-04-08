@@ -115,8 +115,8 @@
         "title_P9X74n": {
           "type": "title",
           "settings": {
-            "title": "AUKTION #1",
-            "title_font": "primary",
+            "title": "Auktion #1",
+            "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
@@ -202,8 +202,8 @@
         "title_nNndiT": {
           "type": "title",
           "settings": {
-            "title": "AUKTION #2",
-            "title_font": "primary",
+            "title": "Auktion #2",
+            "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
@@ -289,8 +289,8 @@
         "title_c8eCXD": {
           "type": "title",
           "settings": {
-            "title": "AUKTION #3",
-            "title_font": "primary",
+            "title": "Auktion #3",
+            "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
