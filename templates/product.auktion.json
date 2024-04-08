@@ -606,7 +606,7 @@
         "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
         "p.stock.overlay-error.list-hide {display: none;}",
         ".img-multiply {padding: 120px;}",
-        "p.archived-note {text-transform: none; font-weight: 400; text-align: center;}"
+        "p.archived-note {text-transform: none; font-weight: 800; text-align: center;}"
       ],
       "settings": {
         "number_of_items": 6,
