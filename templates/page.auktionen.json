@@ -23,6 +23,7 @@
         },
         "content": {
           "type": "content",
+          "disabled": true,
           "settings": {
           }
         }
@@ -105,7 +106,7 @@
         "title_P9X74n": {
           "type": "title",
           "settings": {
-            "title": "Image with text",
+            "title": "AUKTION #1",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -116,7 +117,7 @@
         "text_ntRrn6": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "text": "",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -149,7 +150,7 @@
         "buttons_EfaEC8": {
           "type": "buttons",
           "settings": {
-            "link_text_1": "Button",
+            "link_text_1": "Jetzt bieten",
             "link_url_1": "\/",
             "button_color_palette_1": "accent",
             "button_style_1": "fill",
@@ -171,6 +172,7 @@
         "buttons_EfaEC8"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/116618LB-banner.jpg",
         "overlay_opacity_img": 0,
         "color_palette": "white",
         "overlay_opacity": 100,
@@ -180,7 +182,7 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
-        "spacing_desktop": 50,
+        "spacing_desktop": 150,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -191,7 +193,7 @@
         "title_nNndiT": {
           "type": "title",
           "settings": {
-            "title": "Image with text",
+            "title": "AUKTION #2",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -202,7 +204,7 @@
         "text_6wxYNg": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "text": "",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -235,7 +237,7 @@
         "buttons_LEYH6e": {
           "type": "buttons",
           "settings": {
-            "link_text_1": "Button",
+            "link_text_1": "Jetzt bieten",
             "link_url_1": "\/",
             "button_color_palette_1": "accent",
             "button_style_1": "fill",
@@ -257,6 +259,7 @@
         "buttons_LEYH6e"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/116503-Schwarz-2020-100-G2.jpg",
         "overlay_opacity_img": 0,
         "color_palette": "white",
         "overlay_opacity": 100,
@@ -266,7 +269,7 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
-        "spacing_desktop": 50,
+        "spacing_desktop": 150,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -277,7 +280,7 @@
         "title_c8eCXD": {
           "type": "title",
           "settings": {
-            "title": "Image with text",
+            "title": "AUKTION #3",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -288,7 +291,7 @@
         "text_QQBYBb": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "text": "",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -297,7 +300,7 @@
         "usp_cwhegx": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Rückgabegarantie und Kundenschutz",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -305,7 +308,7 @@
         "usp_NKkGcT": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Sichere Transaktionen",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -313,7 +316,7 @@
         "usp_BhNMmm": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Expertise und Authentizitätsgarantie",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -321,7 +324,7 @@
         "buttons_7wabdR": {
           "type": "buttons",
           "settings": {
-            "link_text_1": "Button",
+            "link_text_1": "Jetzt bieten",
             "link_url_1": "\/",
             "button_color_palette_1": "accent",
             "button_style_1": "fill",
@@ -343,6 +346,7 @@
         "buttons_7wabdR"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/116503-Weiss-2021-G1-2.jpg",
         "overlay_opacity_img": 0,
         "color_palette": "white",
         "overlay_opacity": 100,
@@ -352,6 +356,15 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_ANyDe4": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -367,9 +380,9 @@
             "image_height": 55,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Mit einer Dresswatch unterstreicht der Träger Stil und Klasse<\/h6><p>Eine Dresswatch ist eine Uhr, die den Betrachter durch höchste Eleganz beeindruckt. Ihrem Träger bescheinigt eine solche Uhr Stil und Klasse. Getragen werden diese Uhren, die auch Anzuguhren genannte werden, zu besonderen Anlässen. Liebhaber luxuriöser Uhren kaufen eine Dresswatch, um damit bei Geschäftsessen, aber auch bei Abendterminen, wie Konzerte oder bei einem Galadinner sowie anderen Anlässen ein deutliches Statement zu setzen. Hochwertige Materialien für die Gehäuse, wie Gold oder Platin, sowie exklusives Design unterstreichen die Besonderheit dieser hochwertigen Uhren. Die bemerkenswerten Modelle gibt es für Herren und Damen. Die weltweit bekannten und für ihren Luxus berühmten Traditionsmarken bieten gerade in diesem Bereich schöne und wertvolle Modelle in höchster Qualität an.<\/p><h6>Geprägt von besonderen Eigenschaften<\/h6><p>Viele Uhren werden heute ganz selbstverständlich zu allen Anlässen getragen. Trotzdem legen viele Liebhaber luxuriöser Uhren großen Wert darauf, eine Dresswatch zu kaufen. Eine solche Uhr besticht durch außergewöhnliche Eigenschaften. Die Gehäuse dieser Uhren sind in der Regel besonders flach. Damit können die Anzugsuhren perfekt unter dem Hemd getragen werden. Zwar werden die eleganten Zeitmesser aus hochwertigem Material gefertigt. Zu den exquisiten Gehäusen aus Edelstahl, Gold oder Platin passen Armbänder aus Krokoleder besonders gut. Dennoch fällt eine perfekte Anzuguhr nicht durch übermäßige Extras auf. Zurückhaltendes Design ist ein hervorragendes Merkmal dieser Zeitmesser der Extraklasse.<\/p>",
-            "link_text": "Dress Watches für Sie & Ihn",
-            "link_url": "https:\/\/uhren2000.myshopify.com\/collections\/alle-uhren?filter.p.m.custom.uhrentyp=Dress+Watch",
+            "text": "<p>Mit einer exquisiten Auswahl, die von traditionsreichen Marken wie Vacheron Constantin, über die technische Brillanz von IWC, bis hin zum avantgardistischen Design von Hublot reicht, bietet Uhren2000 eine unvergleichliche Bandbreite an Luxusuhren.<\/p><p>Die Sicherheit und Zufriedenheit unserer Kunden hat bei unseren Online-Auktionen oberste Priorität. Jede Uhr wird vor der Listung von unseren zertifizierten Uhrmachern eingehend geprüft und begutachtet. Wir garantieren Authentizität und Qualität durch umfangreiche Expertisen und stellen sicher, dass jede Uhr den hohen Standards unserer anspruchsvollen Klientel entspricht. Mit detaillierten Beschreibungen, hochauflösenden Bildern und der Möglichkeit, Herkunftsnachweise und Zertifikate einzusehen, streben wir nach vollständiger Transparenz.<\/p>",
+            "link_text": "",
+            "link_url": "",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -381,7 +394,7 @@
             "image_height": 55,
             "title": "",
             "subtitle": "",
-            "text": "<h6>Klassische und elegante Schönheiten<\/h6><p>Die Omega De Ville zum Beispiel ist eine klassisch schöne Dreizeiger-Uhr. Mit ihrem Gehäuse aus Gold und dem guillochiertem Zifferblatt ergänzt die exquisite Uhr jeden besonderen Anlass. Auch die IWC Portofino ist wie gemacht für gehobene Anlässe. Elegant und gut ablesbar passt sie mit ihrem besonders flachen Gehäuse optimal unter den Anzug. Uhrenmodelle von Lange und Söhne sind der Inbegriff außergewöhnlich luxuriöser Anzuguhren. Mit einem silbernen Zifferblatt mit goldenen Indexen besticht die A. Lange und Söhne Saxonia Thin. Ihr Gehäuse ist nur 5,9 Millimeter hoch. Als Dresswatch mit höchstem Anspruch lässt sich die A. Lange & Söhne Lange 1 bezeichnen. Sie gilt als das Flaggschiff der Traditionsmanufaktur aus Glashütte.<br\/><br\/>Eine der berühmtesten Uhren weltweit ist die Jaeger-LeCoultre Reverso. Diesen Titel trägt die elegante Uhr mit dem besonderen Gehäuse im Art-Déco-Design schon seit dem Jahr 1937. Eine besonders schöne Uhr für Anzug oder Kleid ist die Jaeger-LeCoultre Master. Auch sie verkörpert höchste Qualität und Uhrmacherkunst und sieht zu festlichen Anlässen besonders gut aus. Elegante Schönheiten sind die Modelle aus dem Hause Patek Philippe. Uhren der Schweizer Marke verkörpern Perfektionismus in der höchsten Form. Kunden, die eine Dresswatch kaufen wollen, die über die Jahre noch an Wert gewinnt, liegen mit der Patek Philippe Calatrava richtig. Klassische Schönheit strahlt die Patek Philippe Weltzeituhr aus. Mit kühler Klarheit überrascht die Patek Phillippe Ellipse d'Or.<\/p><p>Nicht zuletzt stehen die bemerkenswerten Modelle aus dem Traditionsunternehmen Rolex für die schlichte Eleganz und die überzeugende Funktionalität einer Dresswatch. Benannt nach dem berühmten italienischen Bildhauer Benvenuto Cellini besticht die Rolex Cellini durch klassische Formen und traditionelles Design. Als typisches Modell im Vintage-Stil erinnert diese Anzuguhr an die Schönheit vergangener Epochen. Ganz im heute steht die Rolex Day Date. Diese Uhr für den besonderen Anlass gibt es nur in 18 Karat Gold oder Platin.<\/p>",
+            "text": "<p>Unsere benutzerfreundliche Plattform ermöglicht es Ihnen, ausführliche Informationen zu jedem Zeitmesser zu erhalten, Fragen direkt an unsere Spezialisten zu richten und die Geschichte sowie die Besonderheiten jedes einzelnen Stückes zu verstehen. Bei Uhren2000 finden Sie nicht nur ein Accessoire – Sie finden ein Stück Geschichte, eine Investition, die über Generationen hinweg Bestand hat.<\/p><p>Treten Sie unserer Auktionsseite bei und erleben Sie den Nervenkitzel des Bietens in einer sicheren und vertrauensvollen Umgebung. Ob Sie ein seltenes Sammlerstück oder das neueste Modell einer Ikone der Uhrenwelt suchen, unsere Auktionen sind darauf ausgerichtet, Ihre Wünsche zu erfüllen. Genießen Sie den Komfort und die Bequemlichkeit, von überall aus auf Weltklasse-Uhren bieten zu können, mit der Gewissheit, dass Sie bei Uhren2000 nur das Beste erwerben.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -400,7 +413,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Dress Watches sind Perfekt zum jedem Anlass und nicht nur schön anzusehen",
+        "title": "Willkommen bei Uhren2000, der Premium-Adresse für Liebhaber und Sammler erstklassiger Zeitmesser. Unsere Auktionsseite ist ein Paradies für Enthusiasten, die auf der Suche nach Exklusivität, handwerklicher Perfektion und Investitionssicherheit sind.",
         "enable_heading_display_control": false,
         "title_font": "secondary",
         "title_size": "h2",
@@ -482,6 +495,7 @@
     "section_image_with_text_WpGw8b",
     "section_image_with_text_kht7fB",
     "section_image_with_text_fxFEhy",
+    "section_custom_liquid_ANyDe4",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
