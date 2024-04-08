@@ -53,7 +53,7 @@
         "button_i4PzLM"
       ],
       "custom_css": [
-        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px !important;}"
+        "h2 {max-width: 1000;}"
       ],
       "settings": {
         "color_palette": "white",
@@ -63,7 +63,7 @@
         "height": "xs",
         "enable_custom_height": false,
         "custom_height": 300,
-        "width": "wide",
+        "width": "boxed",
         "height_mobile": "xs",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
