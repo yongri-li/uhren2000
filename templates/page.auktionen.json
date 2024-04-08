@@ -17,7 +17,6 @@
       "blocks": {
         "title_wh3yWN": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "title": "Tauchen Sie ein in die Welt der Luxusuhren bei unseren exklusiven Auktionen von Uhren2000!",
             "title_font": "secondary",
@@ -31,7 +30,7 @@
           "type": "content",
           "settings": {
             "page": "{{ page }}",
-            "text": "<h1>Tauchen Sie ein in die Welt der Luxusuhren bei unseren exklusiven Auktionen von Uhren2000!<\/h1>",
+            "text": "<p>Erleben Sie das unvergleichliche Gefühl, eine Luxusuhr zu besitzen, die nicht nur die Zeit misst, sondern auch Ihren Stil und Ihre Persönlichkeit unterstreicht. Bei Uhren2000 finden Sie die perfekte Kombination aus erstklassiger Qualität, exklusivem Design und unübertroffener Exklusivität. Tauchen Sie ein und lassen Sie sich von unserer faszinierenden Kollektion inspirieren!<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "18px"
@@ -190,9 +189,9 @@
         "height": "l",
         "enable_custom_height": false,
         "custom_height": 300,
-        "text_position": "text-start",
+        "text_position": "text-center",
         "spacing_desktop": 150,
-        "spacing_mobile": 30,
+        "spacing_mobile": 60,
         "fix_zindex": 0
       }
     },
@@ -277,9 +276,9 @@
         "height": "l",
         "enable_custom_height": false,
         "custom_height": 300,
-        "text_position": "text-end",
+        "text_position": "text-center",
         "spacing_desktop": 150,
-        "spacing_mobile": 30,
+        "spacing_mobile": 60,
         "fix_zindex": 0
       }
     },
@@ -364,9 +363,9 @@
         "height": "l",
         "enable_custom_height": false,
         "custom_height": 300,
-        "text_position": "text-start",
+        "text_position": "text-center",
         "spacing_desktop": 150,
-        "spacing_mobile": 30,
+        "spacing_mobile": 60,
         "fix_zindex": 0
       }
     },
