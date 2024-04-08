@@ -360,7 +360,7 @@
         "subtitle_weight": "400",
         "content_alignment": "center",
         "show_title": true,
-        "show_price": false,
+        "show_price": true,
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
