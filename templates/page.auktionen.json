@@ -40,6 +40,65 @@
         "spacing_mobile": 30
       }
     },
+    "section_collage_6mxfcU": {
+      "type": "section-collage",
+      "blocks": {
+        "image_Pi8HrF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_Pi8HrF"
+      ],
+      "settings": {
+        "mirrored": false,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_image_with_text_WpGw8b": {
       "type": "section-image-with-text",
       "blocks": {
@@ -126,60 +185,173 @@
         "fix_zindex": 0
       }
     },
-    "section_collage_6mxfcU": {
-      "type": "section-collage",
+    "section_image_with_text_kht7fB": {
+      "type": "section-image-with-text",
       "blocks": {
-        "image_Pi8HrF": {
-          "type": "image",
+        "title_nNndiT": {
+          "type": "title",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "text_position": "text-center",
-            "title": "",
+            "title": "Image with text",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
+            "title_weight": "700"
+          }
+        },
+        "text_6wxYNg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_9wnzGz": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_FGW3KF": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_9UrUP9": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_LEYH6e": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Button",
+            "link_url_1": "\/",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
           }
         }
       },
       "block_order": [
-        "image_Pi8HrF"
+        "title_nNndiT",
+        "text_6wxYNg",
+        "usp_9wnzGz",
+        "usp_FGW3KF",
+        "usp_9UrUP9",
+        "buttons_LEYH6e"
       ],
       "settings": {
-        "mirrored": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-right",
         "width": "boxed",
-        "height": "size-s",
+        "height": "l",
         "enable_custom_height": false,
         "custom_height": 300,
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_fxFEhy": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_c8eCXD": {
+          "type": "title",
+          "settings": {
+            "title": "Image with text",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_QQBYBb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_cwhegx": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_NKkGcT": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_BhNMmm": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_7wabdR": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Button",
+            "link_url_1": "\/",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_c8eCXD",
+        "text_QQBYBb",
+        "usp_cwhegx",
+        "usp_NKkGcT",
+        "usp_BhNMmm",
+        "buttons_7wabdR"
+      ],
+      "settings": {
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -306,8 +478,10 @@
   "order": [
     "breadcrumbs",
     "main-page",
-    "section_image_with_text_WpGw8b",
     "section_collage_6mxfcU",
+    "section_image_with_text_WpGw8b",
+    "section_image_with_text_kht7fB",
+    "section_image_with_text_fxFEhy",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
     "section_recently_viewed_products_LHGaAV"
