@@ -212,6 +212,10 @@
   max-width: 24rem;
 }
 
+.flex-shrink {
+  flex-shrink: 1;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -537,11 +541,18 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 50%;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .placeholder-svg path {
-  display: none!important;
+  display: none !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .hover\:text-white:hover {
