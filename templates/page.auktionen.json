@@ -40,6 +40,92 @@
         "spacing_mobile": 30
       }
     },
+    "section_image_with_text_WpGw8b": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_P9X74n": {
+          "type": "title",
+          "settings": {
+            "title": "Image with text",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_ntRrn6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_m8wNNg": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_zD6686": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_FHKB3H": {
+          "type": "usp",
+          "settings": {
+            "usp": "Tell a unique detail about this image",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_EfaEC8": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Button",
+            "link_url_1": "\/",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_P9X74n",
+        "text_ntRrn6",
+        "usp_m8wNNg",
+        "usp_zD6686",
+        "usp_FHKB3H",
+        "buttons_EfaEC8"
+      ],
+      "settings": {
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_collage_6mxfcU": {
       "type": "section-collage",
       "blocks": {
@@ -143,6 +229,7 @@
         "items_width": 4,
         "text_alignment": "center",
         "title": "Dress Watches sind Perfekt zum jedem Anlass und nicht nur schön anzusehen",
+        "enable_heading_display_control": false,
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -219,6 +306,7 @@
   "order": [
     "breadcrumbs",
     "main-page",
+    "section_image_with_text_WpGw8b",
     "section_collage_6mxfcU",
     "section_icon_text_blocks_TcGGtL",
     "section_custom_liquid_bhQtQ6",
