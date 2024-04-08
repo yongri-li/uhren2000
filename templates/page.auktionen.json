@@ -12,6 +12,74 @@
         "enable_share_button": false
       }
     },
+    "section_rich_text_4GxT3p": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_wh3yWN": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Tauchen Sie ein in die Welt der Luxusuhren bei unseren exklusiven Auktionen von Uhren2000!",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_pJyCCW": {
+          "type": "content",
+          "settings": {
+            "page": "{{ page }}",
+            "text": "<h1>Tauchen Sie ein in die Welt der Luxusuhren bei unseren exklusiven Auktionen von Uhren2000!<\/h1>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "18px"
+          }
+        },
+        "button_i4PzLM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "Button",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "button_style": "fill"
+          }
+        }
+      },
+      "block_order": [
+        "title_wh3yWN",
+        "content_pJyCCW",
+        "button_i4PzLM"
+      ],
+      "custom_css": [
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px !important;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-center",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_hkQeW8": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "main-page": {
       "type": "main-page",
       "blocks": {
@@ -41,65 +109,6 @@
         "spacing_mobile": 30
       }
     },
-    "section_collage_6mxfcU": {
-      "type": "section-collage",
-      "blocks": {
-        "image_Pi8HrF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Anzug_Rolex-1.jpg",
-            "overlay_opacity": 0,
-            "color_palette": "white",
-            "text_position": "text-center",
-            "title": "",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false,
-            "show_look": false,
-            "product_list": [
-
-            ],
-            "look_btn_color_palette": "buy_button",
-            "look_position": "end",
-            "show_look_label": false,
-            "look_label_text": "Label"
-          }
-        }
-      },
-      "block_order": [
-        "image_Pi8HrF"
-      ],
-      "settings": {
-        "mirrored": false,
-        "width": "boxed",
-        "height": "size-s",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "space_between": 16,
-        "image_zoom": true,
-        "image_move": false,
-        "layout_mobile": "rows",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
     "section_image_with_text_WpGw8b": {
       "type": "section-image-with-text",
       "blocks": {
@@ -126,7 +135,7 @@
         "usp_m8wNNg": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Rückgabegarantie und Kundenschutz",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -134,7 +143,7 @@
         "usp_zD6686": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Sichere Transaktionen",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -142,7 +151,7 @@
         "usp_FHKB3H": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Expertise und Authentizitätsgarantie",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -213,7 +222,7 @@
         "usp_9wnzGz": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Rückgabegarantie und Kundenschutz",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -221,7 +230,7 @@
         "usp_FGW3KF": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Sichere Transaktionen",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -229,7 +238,7 @@
         "usp_9UrUP9": {
           "type": "usp",
           "settings": {
-            "usp": "Tell a unique detail about this image",
+            "usp": "Expertise und Authentizitätsgarantie",
             "font": "secondary",
             "font_size": "16px"
           }
@@ -268,7 +277,7 @@
         "height": "l",
         "enable_custom_height": false,
         "custom_height": 300,
-        "text_position": "text-start",
+        "text_position": "text-end",
         "spacing_desktop": 150,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -413,7 +422,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Willkommen bei Uhren2000, der Premium-Adresse für Liebhaber und Sammler erstklassiger Zeitmesser. Unsere Auktionsseite ist ein Paradies für Enthusiasten, die auf der Suche nach Exklusivität, handwerklicher Perfektion und Investitionssicherheit sind.",
+        "title": "Willkommen bei Uhren2000, der Premium-Adresse für Liebhaber und Sammler erstklassiger Zeitmesser.",
         "enable_heading_display_control": false,
         "title_font": "secondary",
         "title_size": "h2",
@@ -490,8 +499,9 @@
   },
   "order": [
     "breadcrumbs",
+    "section_rich_text_4GxT3p",
+    "section_custom_liquid_hkQeW8",
     "main-page",
-    "section_collage_6mxfcU",
     "section_image_with_text_WpGw8b",
     "section_image_with_text_kht7fB",
     "section_image_with_text_fxFEhy",
