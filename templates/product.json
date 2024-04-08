@@ -101,14 +101,8 @@
             "font_size": 16
           }
         },
-        "lieferumfang_tarqjg": {
-          "type": "lieferumfang",
-          "settings": {
-          }
-        },
         "content_meryVV": {
           "type": "content",
-          "disabled": true,
           "settings": {
             "layout": "none",
             "collapse": false,
@@ -214,7 +208,6 @@
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "variant_selection",
         "price",
-        "lieferumfang_tarqjg",
         "content_meryVV",
         "buy_button",
         "inventory",
@@ -355,7 +348,8 @@
             "column_gap": 2,
             "row_gap": 1,
             "padding_top": 36,
-            "padding_bottom": 36
+            "padding_bottom": 36,
+            "color_scheme": ""
           }
         }
       },
@@ -608,7 +602,9 @@
       "type": "section-recently-viewed-products",
       "custom_css": [
         "a {text-transform: none; font-weight: 400; text-align: center;}",
-        "p {text-transform: none; text-align: center;}"
+        "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
+        "p.stock.overlay-error.list-hide {display: none;}",
+        ".img-multiply {padding: 120px;}"
       ],
       "settings": {
         "number_of_items": 6,
@@ -630,7 +626,7 @@
         "subtitle_weight": "400",
         "content_alignment": "start",
         "show_title": true,
-        "show_price": false,
+        "show_price": true,
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
