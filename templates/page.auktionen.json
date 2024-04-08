@@ -53,7 +53,8 @@
         "button_i4PzLM"
       ],
       "custom_css": [
-        "h2 {max-width: 1000;}"
+        "h2 {max-width: 900px;}",
+        "p {max-width: 900px;}"
       ],
       "settings": {
         "color_palette": "white",
