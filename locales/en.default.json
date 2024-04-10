@@ -456,7 +456,7 @@
       "choose": "Please choose...",
       "choose_option": "Make a choice",
       "in_stock": "{{ amount }} in stock",
-      "not_in_stock": "Out of stock",
+      "not_in_stock": "Upon request",
       "one_time_purchase": "One-time purchase",
       "purchase_options_subtitle": "You can cancel your subscription monthly",
       "purchase_options_title": "Deliver every",
@@ -475,7 +475,7 @@
       "free_pickup": "Free pickup in",
       "our_stores": "our shop(s)",
       "pick_up_available": "In stock",
-      "pick_up_unavailable": "Out of stock",
+      "pick_up_unavailable": "Upon request",
       "subtitle": "Search for a location near you!",
       "title": "Buy this product in one of our shops."
     },

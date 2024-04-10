@@ -786,7 +786,11 @@
       -%}
     {%- endif -%}
 {%- if product.tags contains 'Uhren-Archiv' -%}
-  <p class="archived-note">Archivartikel - verkauft</p>
+  {% if request.locale.iso_code == 'de' %}
+    <p class="archived-note">Archivartikel - verkauft</p>
+  {% else %}
+    <p class="archived-note">Archive item - sold</p>
+  {% endif %}
 {%- else -%}
   {%- if show_price -%}
     <p class="price">

@@ -1,0 +1,513 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "custom_css": [
+        "{background-color: #f7f7f7; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "ol {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "section_rich_text_4GxT3p": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_wh3yWN": {
+          "type": "title",
+          "settings": {
+            "title": "Tauchen Sie ein in die Welt der Luxusuhren bei unseren exklusiven Auktionen von Uhren2000!",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_pJyCCW": {
+          "type": "content",
+          "settings": {
+            "page": "{{ page }}",
+            "text": "<p>Erleben Sie das unvergleichliche Gefühl, eine Luxusuhr zu besitzen, die nicht nur die Zeit misst, sondern auch Ihren Stil und Ihre Persönlichkeit unterstreicht. Bei Uhren2000 finden Sie die perfekte Kombination aus erstklassiger Qualität, exklusivem Design und unübertroffener Exklusivität. Tauchen Sie ein und lassen Sie sich von unserer faszinierenden Kollektion inspirieren!<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "18px"
+          }
+        },
+        "button_i4PzLM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "Button",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "button_style": "fill"
+          }
+        }
+      },
+      "block_order": [
+        "title_wh3yWN",
+        "content_pJyCCW",
+        "button_i4PzLM"
+      ],
+      "custom_css": [
+        "h2 {max-width: 900px;}",
+        "p {max-width: 900px;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-center",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_hkQeW8": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_image_with_text_WpGw8b": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_P9X74n": {
+          "type": "title",
+          "settings": {
+            "title": "Auktion #1",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_ntRrn6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_m8wNNg": {
+          "type": "usp",
+          "settings": {
+            "usp": "Rückgabegarantie und Kundenschutz",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_zD6686": {
+          "type": "usp",
+          "settings": {
+            "usp": "Sichere Transaktionen",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_FHKB3H": {
+          "type": "usp",
+          "settings": {
+            "usp": "Expertise und Authentizitätsgarantie",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_EfaEC8": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Jetzt bieten",
+            "link_url_1": "https:\/\/uhren2000.myshopify.com\/products\/rolex-sea-dweller-ref-126606",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_P9X74n",
+        "text_ntRrn6",
+        "usp_m8wNNg",
+        "usp_zD6686",
+        "usp_FHKB3H",
+        "buttons_EfaEC8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/116618LB-banner.jpg",
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-center",
+        "spacing_desktop": 150,
+        "spacing_mobile": 60,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_kht7fB": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_nNndiT": {
+          "type": "title",
+          "settings": {
+            "title": "Auktion #2",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_6wxYNg": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_9wnzGz": {
+          "type": "usp",
+          "settings": {
+            "usp": "Rückgabegarantie und Kundenschutz",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_FGW3KF": {
+          "type": "usp",
+          "settings": {
+            "usp": "Sichere Transaktionen",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_9UrUP9": {
+          "type": "usp",
+          "settings": {
+            "usp": "Expertise und Authentizitätsgarantie",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_LEYH6e": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Jetzt bieten",
+            "link_url_1": "\/",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_nNndiT",
+        "text_6wxYNg",
+        "usp_9wnzGz",
+        "usp_FGW3KF",
+        "usp_9UrUP9",
+        "buttons_LEYH6e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/116503-Schwarz-2020-100-G2.jpg",
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-center",
+        "spacing_desktop": 150,
+        "spacing_mobile": 60,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_fxFEhy": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_c8eCXD": {
+          "type": "title",
+          "settings": {
+            "title": "Auktion #3",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_QQBYBb": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "usp_cwhegx": {
+          "type": "usp",
+          "settings": {
+            "usp": "Rückgabegarantie und Kundenschutz",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_NKkGcT": {
+          "type": "usp",
+          "settings": {
+            "usp": "Sichere Transaktionen",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "usp_BhNMmm": {
+          "type": "usp",
+          "settings": {
+            "usp": "Expertise und Authentizitätsgarantie",
+            "font": "secondary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_7wabdR": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Jetzt bieten",
+            "link_url_1": "\/",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_c8eCXD",
+        "text_QQBYBb",
+        "usp_cwhegx",
+        "usp_NKkGcT",
+        "usp_BhNMmm",
+        "buttons_7wabdR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/116503-Weiss-2021-G1-2.jpg",
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-center",
+        "spacing_desktop": 150,
+        "spacing_mobile": 60,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_ANyDe4": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_TcGGtL": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_pVPWtN": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Mit einer exquisiten Auswahl, die von traditionsreichen Marken wie Vacheron Constantin, über die technische Brillanz von IWC, bis hin zum avantgardistischen Design von Hublot reicht, bietet Uhren2000 eine unvergleichliche Bandbreite an Luxusuhren.<\/p><p>Die Sicherheit und Zufriedenheit unserer Kunden hat bei unseren Online-Auktionen oberste Priorität. Jede Uhr wird vor der Listung von unseren zertifizierten Uhrmachern eingehend geprüft und begutachtet. Wir garantieren Authentizität und Qualität durch umfangreiche Expertisen und stellen sicher, dass jede Uhr den hohen Standards unserer anspruchsvollen Klientel entspricht. Mit detaillierten Beschreibungen, hochauflösenden Bildern und der Möglichkeit, Herkunftsnachweise und Zertifikate einzusehen, streben wir nach vollständiger Transparenz.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_RK8Brd": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Unsere benutzerfreundliche Plattform ermöglicht es Ihnen, ausführliche Informationen zu jedem Zeitmesser zu erhalten, Fragen direkt an unsere Spezialisten zu richten und die Geschichte sowie die Besonderheiten jedes einzelnen Stückes zu verstehen. Bei Uhren2000 finden Sie nicht nur ein Accessoire – Sie finden ein Stück Geschichte, eine Investition, die über Generationen hinweg Bestand hat.<\/p><p>Treten Sie unserer Auktionsseite bei und erleben Sie den Nervenkitzel des Bietens in einer sicheren und vertrauensvollen Umgebung. Ob Sie ein seltenes Sammlerstück oder das neueste Modell einer Ikone der Uhrenwelt suchen, unsere Auktionen sind darauf ausgerichtet, Ihre Wünsche zu erfüllen. Genießen Sie den Komfort und die Bequemlichkeit, von überall aus auf Weltklasse-Uhren bieten zu können, mit der Gewissheit, dass Sie bei Uhren2000 nur das Beste erwerben.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pVPWtN",
+        "text_RK8Brd"
+      ],
+      "custom_css": [
+        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
+        "h2 {text-align: center; margin-bottom: 30px; max-width: 1200; font-size: 35px; color: #202020;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "Willkommen bei Uhren2000, der Premium-Adresse für Liebhaber und Sammler erstklassiger Zeitmesser.",
+        "enable_heading_display_control": false,
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_bhQtQ6": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"height: 2px; background-color: #f7f7f7; margin-top: 20px; margin-bottom: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_recently_viewed_products_LHGaAV": {
+      "type": "section-recently-viewed-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400;}"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "image_ratio": 100,
+        "show_in_circle": false,
+        "fill_images": false,
+        "text_alignment": "center",
+        "title": "Zuletzt angesehen",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "content_alignment": "center",
+        "show_title": true,
+        "show_price": true,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "section_rich_text_4GxT3p",
+    "section_custom_liquid_hkQeW8",
+    "main-page",
+    "section_image_with_text_WpGw8b",
+    "section_image_with_text_kht7fB",
+    "section_image_with_text_fxFEhy",
+    "section_custom_liquid_ANyDe4",
+    "section_icon_text_blocks_TcGGtL",
+    "section_custom_liquid_bhQtQ6",
+    "section_recently_viewed_products_LHGaAV"
+  ]
+}

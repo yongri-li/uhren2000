@@ -143,6 +143,7 @@
         "items_width": 4,
         "text_alignment": "center",
         "title": "Inzahlungnahme Ihrer wertvollen Luxusuhr zu besten Konditionen",
+        "enable_heading_display_control": false,
         "title_font": "secondary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
@@ -209,7 +210,7 @@
         "subtitle_weight": "400",
         "content_alignment": "center",
         "show_title": true,
-        "show_price": false,
+        "show_price": true,
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0

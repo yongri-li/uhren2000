@@ -1027,14 +1027,25 @@
         <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
     </button>
 {%- else -%}
-    <div class="archivartikel-verkauft">
-        <div class="verkauft-text">
-            <h6>Archivartikel - Verkauft</h6>
-            <br>
-            Dieser Artikel ist bereits verkauft, aber hier gelangen Sie zu unseren aktuellen Sonderangeboten
-        </div>
-        <a href="https://uhren2000.myshopify.com/collections/sonderangebote" class="sonderangebote-button">Sonderangebote</a>
+{% if request.locale.iso_code == 'de' %}
+<div class="archivartikel-verkauft">
+    <div class="verkauft-text">
+        <h6>Archivartikel - Verkauft</h6>
+        <br>
+        Dieser Artikel ist bereits verkauft, aber hier gelangen Sie zu unseren aktuellen Sonderangeboten
     </div>
+    <a href="https://uhren2000.myshopify.com/collections/sonderangebote" class="sonderangebote-button">Sonderangebote</a>
+</div>
+{% else %}
+<div class="archivartikel-verkauft">
+    <div class="verkauft-text">
+        <h6>Archive Item - Sold</h6>
+        <br>
+        This item has already been sold, but here you can find our current special offers
+    </div>
+    <a href="https://uhren2000.myshopify.com/collections/sonderangebote" class="sonderangebote-button">Special Offers</a>
+</div>
+{% endif %}
 {%- endif -%}
                         </p>
                         {%- if show_dynamic_buybutton -%}
