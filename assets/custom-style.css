@@ -539,3 +539,38 @@
     overflow: scroll;
   }
 }
+
+/* offer-on-request */
+
+.offer-on-request {
+  z-index: 45;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.product_offer-on-request-heading {
+  font-family: 'Georgia Pro Light', Georgia, serif;
+  font-weight: 100;
+  text-transform: none;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1;
+}
+
+.product_offer-on-request-button.sonderangebote-button {
+  background-color: rgb(54, 207, 54);
+  line-height: 1.3;
+}
+
+.sonderangebote-button.product_offer-on-request-button:hover {
+  color: white;
+}
+
+#main-product:has(.offer-on-request) .f8pr-price,
+#main-product:has(.offer-on-request) form.f8pr {
+  display: none;
+}

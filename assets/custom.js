@@ -2386,3 +2386,19 @@ window.addEventListener('DOMContentLoaded', function () {
       document.querySelector('.user-login a.toggle').click();
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  document
+    .querySelector('.product_offer-on-request-button')
+    .addEventListener('click', () => {
+      if (
+        document.querySelector('[id^="formful"]')?.closest('.shopify-section')
+      ) {
+        window.scrollTo(
+          0,
+          document.querySelector('[id^="formful"]').closest('.shopify-section')
+            .offsetTop
+        );
+      }
+    });
+});

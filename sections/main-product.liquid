@@ -356,6 +356,8 @@
         -%}
         <div class="f8pr">
             <legend>{{ 'product.form.title' | t }}</legend>
+
+
             {%- for block in section.blocks -%}
                 {%- case block.type -%}
                 {%- when '@app' -%}
@@ -916,9 +918,31 @@
                             {%- endif -%}
                     </div>
 {%- when 'price' -%}
+
+  {% if product.metafields.custom.abverkauf  %}
+    {% if product.tags contains 'Uhren-Archiv' %}
+      <div class="offer-on-request">
+        <div class="product_offer-on-request-heading">
+          {{ 'product.offer_on_request' | t }}
+        </div>
+        <a href="#?showsection=true" class="sonderangebote-button product_offer-on-request-button" rel="nofollow noopener"> {{ 'product.button_offer_on_request_label' | t }} </a>
+      </div>
+    {% elsif product.available == false %}
+      <div class="offer-on-request">
+        <div class="product_offer-on-request-heading">
+          {{ 'product.offer_on_request' | t }}
+        </div>
+        <a href="#?showsection=true" class="sonderangebote-button product_offer-on-request-button" rel="nofollow noopener"> {{ 'product.button_offer_on_request_label' | t }} </a>
+      </div>
+    {% endif %}
+
+    {% comment %} <a href="#" data-request-quote class="" {% endcomment %}
+  {% endif %}
+
+
   {%- if product.tags contains 'Uhren-Archiv' -%}
-    <p class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
-    </p>
+    <div class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
+    </div>
   {%- else -%}
     <p class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
       {%- if current_variant.compare_at_price > current_variant.price -%}

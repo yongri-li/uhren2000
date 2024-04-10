@@ -2354,7 +2354,6 @@ html:not([dir='rtl']) #nav-bar > ul > li.text-end {
   margin: 0;
 }
 .shopify-section-header.fixed #nav-top {
-  display: none;
 }
 #distance-counter {
   position: absolute;
