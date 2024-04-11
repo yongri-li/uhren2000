@@ -47,6 +47,11 @@
             "mobile_title_size": "h2"
           }
         },
+        "lieferumfang_mzNeHx": {
+          "type": "lieferumfang",
+          "settings": {
+          }
+        },
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
           "type": "spacer",
           "settings": {
@@ -187,6 +192,7 @@
         "spacer_tBNWW8",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "lieferumfang_mzNeHx",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "variant_selection",
         "price",
