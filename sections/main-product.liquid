@@ -919,22 +919,16 @@
                     </div>
 {%- when 'price' -%}
 
-  {% if product.metafields.custom.abverkauf  %}
-    {% if product.tags contains 'Uhren-Archiv' %}
+  {% if product.metafields.custom.abverkauf and product.available == false  %}
+    {% unless product.tags contains 'Uhren-Archiv' %}
       <div class="offer-on-request">
         <div class="product_offer-on-request-heading">
           {{ 'product.offer_on_request' | t }}
         </div>
         <a href="#?showsection=true" class="sonderangebote-button product_offer-on-request-button" rel="nofollow noopener"> {{ 'product.button_offer_on_request_label' | t }} </a>
       </div>
-    {% elsif product.available == false %}
-      <div class="offer-on-request">
-        <div class="product_offer-on-request-heading">
-          {{ 'product.offer_on_request' | t }}
-        </div>
-        <a href="#?showsection=true" class="sonderangebote-button product_offer-on-request-button" rel="nofollow noopener"> {{ 'product.button_offer_on_request_label' | t }} </a>
-      </div>
-    {% endif %}
+
+    {% endunless %}
 
     {% comment %} <a href="#" data-request-quote class="" {% endcomment %}
   {% endif %}
