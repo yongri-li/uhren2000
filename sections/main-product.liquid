@@ -847,9 +847,9 @@
                         {% endif %}
                     </div>
 {% when 'lieferumfang' %}
-  {% assign lieferumfang = product.metafields.custom.lieferumfang %}
+  {% assign box_papiere = product.metafields.custom.box_papiere %}
 
-  {% if lieferumfang == true %}
+  {% if box_papiere == true %}
     <div class="lieferumfang-container">
       <span class="lieferumfang">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</span>
     </div>
