@@ -47,23 +47,6 @@
             "mobile_title_size": "h2"
           }
         },
-        "content_7LFryc": {
-          "type": "content",
-          "settings": {
-            "layout": "none",
-            "collapse": false,
-            "title_size": "h5",
-            "title": "",
-            "icon": "none",
-            "header_image_width": 25,
-            "text": "",
-            "page": "",
-            "image_width": 465,
-            "liquid": "<div class=\"lieferumfang-container\">\n    <span class=\"lieferumfang\">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung<\/span>\n  <\/div>\n\n  <style>\n    .lieferumfang-container {\n      text-align: center;\n      margin-top: -10px;\n      margin-bottom: 10px;\n    }\n\n    .lieferumfang {\n      color: #000000;\n      font-size: 12px;\n    }\n  <\/style>",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
           "type": "spacer",
           "settings": {
@@ -204,7 +187,6 @@
         "spacer_tBNWW8",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "c7259cb9-7235-4028-b6df-3a68077fed80",
-        "content_7LFryc",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "variant_selection",
         "price",
