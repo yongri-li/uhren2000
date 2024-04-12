@@ -846,12 +846,19 @@
                             {%- endfor -%}
                         {% endif %}
                     </div>
+{% case request.locale.iso_code %}
+  {% when 'de' %}
+    {% assign lieferumfang_text = "Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung" %}
+  {% else %}
+    {% assign lieferumfang_text = "Watch with box and papers, international warranty card, and manufacturer packaging" %}
+{% endcase %}
+
 {% when 'lieferumfang' %}
   {% assign box_papiere = product.metafields.custom.box_papiere %}
 
   {% if box_papiere == true %}
     <div class="lieferumfang-container">
-      <span class="lieferumfang">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</span>
+      <span class="lieferumfang">{{ lieferumfang_text }}</span>
     </div>
 
     <style>
