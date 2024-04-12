@@ -82,16 +82,13 @@
     <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
   {% endif %}
 {% endif %}
-<div>
-  {% assign lieferumfang = product.metafields.custom.box_papiere %}
-  {% if lieferumfang == true %}
-    {% if request.locale.iso_code == "de" %}
-      <h2><strong>Lieferumfang</strong></h2>
-      <p>Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</p>
-    {% else %}
-      <h2><strong>Scope of Delivery</strong></h2>
-      <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
-    {% endif %}
+      {% assign lieferumfang = product.metafields.custom.box_papiere %}
+    {% if lieferumfang == true %}
+      {% if request.locale.iso_code == "de" %}
+          Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung
+        {% else %}
+          Watch with box and papers, international warranty card, and manufacturer's packaging
+        {% endif %}
   {% endif %}
 </div>
   
