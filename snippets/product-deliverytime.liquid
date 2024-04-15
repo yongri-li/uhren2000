@@ -73,21 +73,20 @@
         {{ lieferzeit_in_tagen }}
       </span>
     </{{ container }}>
-  {%- elsif total_stock > 0 or inventory_tracking == false -%}
+  {%- else -%}
     <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
-      {% if show_stock %}<svg ... ></svg>&nbsp;{% endif %}
-      {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
+      {% if show_stock %}
+        <svg ...></svg>&nbsp;{{ 'product.form.in_stock' | t: amount: total_stock }}
+      {% endif %}
       {%- if deliverytime_in_stock != empty -%}
-        <span {% if bold %}class="strong"{% endif %}>{{ deliverytime_in_stock }}</span>
-      {%- endif -%}
-    </{{ container }}>
-  {%- elsif inventory_tracking -%}
-    <{{ container }} class="stock overlay-error {{ extra_class }} {% if no_margin %}m0{% endif %}{% if deliverytime_not_in_stock == empty and bold %} strong{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
-      {% if show_stock %}{{ 'product.form.not_in_stock' | t }}{%- if deliverytime_not_in_stock != empty -%},{% endif %} {% endif %}
-      {%- if deliverytime_not_in_stock != empty -%}
         <span {% if bold %}class="strong"{% endif %}>
-          {{ deliverytime_not_in_stock }}
-          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span></span>{%- endif -%}
+          {% unless list_layout %}<i aria-hidden="true" class="icon-check"></i>{% endunless %}
+          {{ deliverytime_in_stock }}
+          {%- if deliverytime_info != empty -%}
+            &nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}">
+              <span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span>
+            </span>
+          {%- endif -%}
         </span>
       {%- endif -%}
     </{{ container }}>
