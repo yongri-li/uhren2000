@@ -406,7 +406,7 @@
       "quantity": "Anzahl",
       "add_to_cart": "In den Warenkorb",
       "unavailable": "Nicht verfügbar",
-      "not_in_stock": "Auf Anfrage",
+      "not_in_stock": "Nicht auf Lager",
       "choose_option": "Treffen Sie eine Entscheidung",
       "purchase_options_title": "Liefern Sie jede",
       "purchase_options_subtitle": "Sie können Ihr Abonnement monatlich kündigen",
@@ -422,7 +422,7 @@
     "including_tax": "Inkl. MwSt",
     "excluding_tax": "Exkl. MwSt",
     "stock_tag": "letzter Vorrat",
-    "not_in_stock_tag": "Auf Anfrage",
+    "not_in_stock_tag": "Nicht auf Lager",
     "price_varies_label": "Ab",
     "vendor": "Anbieter",
     "sku": "REF. NR.",
@@ -579,7 +579,7 @@
     "filters": {
       "availability": {
         "value": {
-          "out_of_stock": "Auf Anfrage"
+          "out_of_stock": "Nicht auf Lager"
         }
       }
     }
