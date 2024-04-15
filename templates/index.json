@@ -329,8 +329,53 @@
         "fix_zindex": 0
       }
     },
+    "dca4067f-cc37-4e13-b5fa-6bcec984f3c2": {
+      "type": "section-featured-products",
+      "custom_css": [
+        "a {text-transform: none; font-weight: 400; text-align: center;}",
+        "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
+        "p.stock.overlay-error.list-hide {display: none;}",
+        ".img-multiply {padding: 120px;}"
+      ],
+      "settings": {
+        "products": [
+          "patek-philippe-calatrava-weissgold-6007g-001",
+          "tudor-heritage-black-bay-bronze-79250bm-leder-2",
+          "rolex-yacht-master-116622-edelstahl-platin-rhodium",
+          "rolex-oyster-perpetual-milgauss-116400gv-1",
+          "patek-philippe-annual-calendar-5960p-001"
+        ],
+        "layout": "slider",
+        "number_of_items": 4,
+        "text_alignment": "center",
+        "title": "Aktuelle Uhren Angebote",
+        "title_font": "secondary",
+        "title_size": "h2",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "400",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "Alle Angebote entdecken",
+        "link_url": "shopify:\/\/collections\/alle-uhren",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_featured_collection_h7bn6M": {
       "type": "section-featured-collection",
+      "disabled": true,
       "custom_css": [
         "a {text-transform: none; font-weight: 400; text-align: center;}",
         "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
@@ -371,41 +416,6 @@
       "type": "section-custom-liquid",
       "settings": {
         "custom_liquid": "",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "dca4067f-cc37-4e13-b5fa-6bcec984f3c2": {
-      "type": "section-featured-products",
-      "disabled": true,
-      "settings": {
-        "products": [
-
-        ],
-        "layout": "slider",
-        "number_of_items": 4,
-        "text_alignment": "center",
-        "title": "Featured products",
-        "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": true,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "enable_custom_font_styling": false,
-        "font_size": "16px",
-        "link_text": "View all",
-        "link_url": "",
-        "button_color_palette": "black",
-        "show_link": false,
-        "mobile_layout": "slider",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -790,9 +800,9 @@
     "codext_watch_presenter_7jLHCC",
     "section_custom_liquid_6E7kid",
     "section_icon_text_blocks_JNGVqa",
+    "dca4067f-cc37-4e13-b5fa-6bcec984f3c2",
     "section_featured_collection_h7bn6M",
     "section_custom_liquid_WjPNQJ",
-    "dca4067f-cc37-4e13-b5fa-6bcec984f3c2",
     "b0948af1-0fb9-4b44-9183-42c54e10a3ae",
     "section_collection_list_aJpN3j",
     "section_rich_text_AGD9pk",
