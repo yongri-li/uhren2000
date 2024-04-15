@@ -1,8 +1,8 @@
 {
   "404": {
-    "404": "404",
-    "title": "Nicht gefunden",
-    "subtitle_html": "Diese Seite existiert nicht",
+    "404": "Hier haben wir nichts gefunden!",
+    "title": "Uhren2000",
+    "subtitle_html": "Diese Seite konnte nicht gefunden werden",
     "img_default_alt": "404 Seite Bild"
   },
   "blog": {
@@ -416,7 +416,8 @@
       "in_stock": "Sofort versandfertig, Lieferzeit 3 - 5 Tage",
       "choose": "Bitte auswählen...",
       "pre_order": "Pre-order",
-      "pre_order_info": "Pre-order Info"
+      "pre_order_info": "Pre-order Info",
+      "new_tag": ""
     },
     "including_tax": "Inkl. MwSt",
     "excluding_tax": "Exkl. MwSt",
@@ -459,7 +460,10 @@
     "specifications": "Spezifikationen",
     "pros_and_cons": "Pro und Kontra",
     "unit_price_label": "Einheitspreisschild",
-    "new_tag": "Neu"
+    "new_tag": "Neu",
+    "basic_data_year": "",
+    "basic_data_gangreserve": "",
+    "basic_data_kaliber": ""
   },
   "search": {
     "title": "Suche",
