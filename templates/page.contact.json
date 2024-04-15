@@ -251,6 +251,9 @@
         "7f5b90a3-0ea1-466d-a8bb-fb174e340aed",
         "checkbox_3dwfpp"
       ],
+      "custom_css": [
+        "h4 {font-size: 12px;}"
+      ],
       "settings": {
         "alignment": "left",
         "title": "Kontaktformular",
@@ -259,10 +262,10 @@
         "enable_custom_text_styling": false,
         "title_color_palette": "black",
         "title_weight": "700",
-        "subtitle": "",
+        "subtitle": "Mit * gekennzeichnete Felder sind Pflichtfelder.",
         "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": true,
         "subtitle_color_palette": "black",
         "subtitle_weight": "400",
         "button_color_palette": "accent",
