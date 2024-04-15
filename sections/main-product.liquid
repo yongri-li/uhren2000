@@ -921,12 +921,6 @@
 
   {% if product.metafields.custom.abverkauf  %}
     {% if product.tags contains 'Uhren-Archiv' %}
-      <div class="offer-on-request">
-        <div class="product_offer-on-request-heading">
-          {{ 'product.offer_on_request' | t }}
-        </div>
-        <a href="#?showsection=true" class="sonderangebote-button product_offer-on-request-button" rel="nofollow noopener"> {{ 'product.button_offer_on_request_label' | t }} </a>
-      </div>
     {% elsif product.available == false %}
       <div class="offer-on-request">
         <div class="product_offer-on-request-heading">
@@ -936,7 +930,6 @@
       </div>
     {% endif %}
   {% endif %}
-
 
   {%- if product.tags contains 'Uhren-Archiv' -%}
     <div class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
@@ -1021,14 +1014,37 @@
             <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
           </button>
           {%- elsif current_variant.available -%}
-            <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
-              <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
-            </button>
+            {% if product.tags contains "Uhren-Archiv" %}
+              <div class="archivartikel-verkauft">
+                <div class="verkauft-text">
+                    <h6>Archivartikel - Verkauft</h6>
+                    <br>
+                    Dieser Artikel ist bereits verkauft, aber hier gelangen Sie zu unseren aktuellen Sonderangeboten
+                </div>
+                <a href="https://uhren2000.myshopify.com/collections/sonderangebote" class="sonderangebote-button">Sonderangebote</a>
+              </div>
+              {% else %}
+              <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
+                <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
+              </button>
+            {% endif %}
           {%- else -%}
           {% if product.metafields.custom.abverkauf == blank or product.metafields.custom.abverkauf == false %}
-            <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
-              <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
-            </button>
+            {% if product.tags contains "Uhren-Archiv" %}
+              <div class="archivartikel-verkauft">
+                <div class="verkauft-text">
+                    <h6>Archivartikel - Verkauft</h6>
+                    <br>
+                    Dieser Artikel ist bereits verkauft, aber hier gelangen Sie zu unseren aktuellen Sonderangeboten
+                </div>
+                <a href="https://uhren2000.myshopify.com/collections/sonderangebote" class="sonderangebote-button">Sonderangebote</a>
+              </div>
+              {% else %}
+              <button type="submit" class="overlay-tertiary{% if block.settings.button_style == 'inv' %} inv{% endif %}">
+                <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
+              </button>
+            {% endif %}
+
             {% else %}
             {% if request.locale.iso_code == 'de' %}
               <div class="archivartikel-verkauft">
