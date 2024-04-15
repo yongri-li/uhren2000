@@ -123,7 +123,7 @@
       "settings": {
         "color_palette": "white",
         "overlay_opacity": 100,
-        "text_position": "text-center",
+        "text_position": "text-start",
         "content_width": 1280,
         "height": "xs",
         "enable_custom_height": false,
