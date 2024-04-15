@@ -25,10 +25,10 @@
       -%}
       <div class="palette-{{ block.settings.color_palette }} {% if overlay %}overlay{% endif %} m6bx" {{ block.shopify_attributes }}>
         <h2 class="">{{ block.settings.title }}</h2>
+        {{ block.settings.text }}
         {%- if block.settings.show_shop_address and shop.address.street -%}
-                  
         <p class="m15">
-          {{ block.settings.text }}<br> {{ shop.address.street }}<br> {{ shop.address.zip }} {{ shop.address.city }}<br> {{ shop.address.country }}
+          <br> {{ shop.address.street }}<br> {{ shop.address.zip }} {{ shop.address.city }}<br> {{ shop.address.country }}
           {% if block.settings.show_maps_url %}<a href="https://www.google.com/maps/search/?api=1&query={{ shop.name | append: ',' | append: shop.address.street | append: ',' | append: shop.address.zip | append: ',' | append: shop.address.city | append: ',' | append: shop.address.country | url_encode }}" rel="external noopener" target="external">{{ 'service.open_in_google_maps' | t }}</a>{% endif %}
         </p>
         {%- endif -%}
