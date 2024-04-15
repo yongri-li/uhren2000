@@ -413,7 +413,7 @@
       "one_time_purchase": "Einmaliger kauf",
       "title": "Produkt Form",
       "view_options": "Optionen anzeigen",
-      "in_stock": "Sofort versandfertig, Lieferzeit 3 - 5 Tage",
+      "in_stock": "Lieferzeit {{ product.metafields.custom.lieferzeit_in_tagen }}",
       "choose": "Bitte auswählen...",
       "pre_order": "Pre-order",
       "pre_order_info": "Pre-order Info",
