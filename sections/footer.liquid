@@ -27,11 +27,19 @@
       {%- when 'customer_support' -%}
         <div class="w25 m6cn{% unless block.settings.customer_support_img %} mobile-no-img{% endunless %}" style="--main_h_small:var(--main_{{ block.settings.title_size }});" {{ block.shopify_attributes }}>
           {%- if block.settings.title != empty -%}<{{ block.settings.title_size }} class="ff-{{ section.settings.title_font }} fw-{{ block.settings.title_weight }}">{{ block.settings.title }}</{{ block.settings.title_size }}>{%- endif -%}
-          <h5>{% render 'icon-payment-method' %}<strong>ZAHLUNGSARTEN</strong><a class="header-toggle" href="./">Close</a></h5>
-          <p>Vorauskasse, Barzahlung bei Abholung, PayPal<br><a href="/pages/zahlung-und-versand" title="Zahlung und Versand">Weitere Informationen finden Sie hier.</a></p>
-          <p></p>
-          <h5>{% render 'icon-shipping-method' %}<strong>VERSANDARTEN</strong><a class="header-toggle" href="./">Close</a></h5>
-          <p>Gesicherter Wertversand mit INTEX, G4S und Der Kurier<br><a href="/pages/zahlung-und-versand" title="Zahlung und Versand">Weitere Informationen finden Sie hier.</a></p>
+{% if request.locale.iso_code == 'de' %}
+    <h5>{% render 'icon-payment-method' %}<strong>ZAHLUNGSARTEN</strong><a class="header-toggle" href="./">Schließen</a></h5>
+    <p>Vorauskasse, Barzahlung bei Abholung, Kreditkarte<br><a href="/pages/zahlung-und-versand" title="Zahlung und Versand">Weitere Informationen finden Sie hier.</a></p>
+    <p></p>
+    <h5>{% render 'icon-shipping-method' %}<strong>VERSANDARTEN</strong><a class="header-toggle" href="./">Schließen</a></h5>
+    <p>Gesicherter Wertversand mit INTEX, G4S und Der Kurier<br><a href="/pages/zahlung-und-versand" title="Zahlung und Versand">Weitere Informationen finden Sie hier.</a></p>
+{% else %}
+    <h5>{% render 'icon-payment-method' %}<strong>PAYMENT METHODS</strong><a class="header-toggle" href="./">Close</a></h5>
+    <p>Advance payment, Cash payment upon pickup, Credit card<br><a href="/pages/payment-and-shipping" title="Payment and Shipping">Find more information here.</a></p>
+    <p></p>
+    <h5>{% render 'icon-shipping-method' %}<strong>SHIPPING METHODS</strong><a class="header-toggle" href="./">Close</a></h5>
+    <p>Secured value shipping with INTEX, G4S, and The Courier<br><a href="/pages/payment-and-shipping" title="Payment and Shipping">Find more information here.</a></p>
+{% endif %}
           {% if block.settings.show_socials %}
             {%- capture 'socials' -%}
               {%- if settings.social_instagram -%}instagram|{{settings.social_instagram}}|{{ settings.social_instagram_name }}->{%- endif -%}
