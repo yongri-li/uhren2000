@@ -846,33 +846,27 @@
                             {%- endfor -%}
                         {% endif %}
                     </div>
-{% when 'lieferumfang' %}
-  {% assign box_papiere = product.metafields.custom.box_papiere %}
+                {% when 'lieferumfang' %}
+                  {% assign lieferumfang = product.metafields.custom.lieferumfang %}
 
-{% if box_papiere == true %}
-    <div class="lieferumfang-container">
-      <span class="lieferumfang">
-        {% if request.locale.iso_code == "de" %}
-          Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung
-        {% else %}
-          Watch with box and papers, international warranty card, and manufacturer's packaging
-        {% endif %}
-      </span>
-    </div>
+                  {% if lieferumfang != null and lieferumfang %}
+                    <div class="lieferumfang-container">
+                      <span class="lieferumfang">Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</span>
+                    </div>
 
-    <style>
-      .lieferumfang-container {
-        text-align: center;
-        margin-top: -10px;
-        margin-bottom: 10px;
-      }
+                    <style>
+                      .lieferumfang-container {
+                        text-align: center;
+                        margin-top: -10px;
+                        margin-bottom: 10px;
+                      }
 
-      .lieferumfang {
-        color: black;
-        font-size: 12px;
-      }
-    </style>
-  {% endif %}
+                      .lieferumfang {
+                        color: #000000;
+                        font-size: 12px;
+                      }
+                    </style>
+                  {% endif %}
                 {%- when 'inventory' -%}
                     {% if preorder and settings.show_preorder_inventory == false %}{% continue %}{% endif %}
                     <div class="f8pr-stock m0">
