@@ -3,7 +3,7 @@
     "main-404": {
       "type": "main-404",
       "custom_css": [
-        "h1 {font-size: 15px;}"
+        "h1 {font-size: 9px;}"
       ],
       "settings": {
         "overlay_opacity": 100,
