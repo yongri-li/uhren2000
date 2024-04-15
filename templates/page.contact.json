@@ -166,7 +166,8 @@
             "column_gap": 2,
             "row_gap": 1,
             "padding_top": 0,
-            "padding_bottom": 0
+            "padding_bottom": 0,
+            "color_scheme": ""
           }
         }
       },
@@ -308,7 +309,7 @@
           "settings": {
             "color_palette": "accent",
             "title": "Hier finden Sie uns",
-            "text": "",
+            "text": "<p>Uhren2000 GmbH<\/p>",
             "show_login_links": false,
             "show_shop_address": true,
             "show_maps_url": false,
