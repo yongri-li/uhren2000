@@ -413,7 +413,7 @@
       "one_time_purchase": "Einmaliger kauf",
       "title": "Produkt Form",
       "view_options": "Optionen anzeigen",
-      "in_stock": "<p>Delivery Time: {{ product.metafields.custom.lieferzeit_in_tagen }}<\/p>",
+      "in_stock": "Sofort versandfertig",
       "choose": "Bitte auswählen...",
       "pre_order": "Pre-order",
       "pre_order_info": "Pre-order Info",
