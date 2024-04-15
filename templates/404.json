@@ -2,20 +2,83 @@
   "sections": {
     "main-404": {
       "type": "main-404",
+      "disabled": true,
       "custom_css": [
-        "h1 {font-size: 9px;}"
+        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 30px !important;}",
+        "span.strong {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 50px !important;}",
+        "p {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 18px !important;}"
       ],
       "settings": {
-        "overlay_opacity": 100,
-        "color_palette": "white",
+        "image": "shopify:\/\/shop_images\/TAG_Heuer_Carrera_gebraucht_1600x1600_8c772212-0f94-44cd-b60a-4c11d05855c3.jpg",
+        "overlay_opacity": 35,
+        "color_palette": "dark_gradient",
         "link_text": "Weiter einkaufen",
         "link_url": "shopify:\/\/collections\/alle-uhren",
         "button_color_palette": "accent",
         "show_link": false
       }
+    },
+    "section_rich_text_kzRUdm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_Axb6HP": {
+          "type": "title",
+          "settings": {
+            "title": "Entschuldigung",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_APbgX3": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Hier haben wir nichts gefunden!<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "button_q4nw9Q": {
+          "type": "button",
+          "settings": {
+            "link_text": "Hier geht's zurück zu unserem Angebot",
+            "link_url": "shopify:\/\/collections\/alle-uhren",
+            "button_color_palette": "accent",
+            "button_style": "inv"
+          }
+        }
+      },
+      "block_order": [
+        "title_Axb6HP",
+        "content_APbgX3",
+        "button_q4nw9Q"
+      ],
+      "custom_css": [
+        "{margin-top: 20px;}",
+        "h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 36px !important;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-center",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
-    "main-404"
+    "main-404",
+    "section_rich_text_kzRUdm"
   ]
 }

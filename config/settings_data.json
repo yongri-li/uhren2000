@@ -9,7 +9,7 @@
     "palette_dark": "#202020",
     "palette_accent": "#b99e7a",
     "palette_light_2": "#65b738",
-    "palette_light_gradient": "",
+    "palette_light_gradient": "linear-gradient(180deg, rgba(27, 27, 27, 1), rgba(255, 255, 255, 1) 19.065%, rgba(255, 255, 255, 1) 38%)",
     "palette_dark_gradient": "radial-gradient(rgba(0, 0, 0, 0.63) 4%, rgba(0, 0, 0, 1) 100%)",
     "title_color": "black",
     "text_color": "dark",
