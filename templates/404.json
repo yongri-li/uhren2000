@@ -2,6 +2,9 @@
   "sections": {
     "main-404": {
       "type": "main-404",
+      "custom_css": [
+        "h1 {font-size: 15px;}"
+      ],
       "settings": {
         "overlay_opacity": 100,
         "color_palette": "white",
