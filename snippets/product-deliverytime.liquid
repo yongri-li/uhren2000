@@ -74,7 +74,7 @@
     <path d="M8.05743 11.7873V12.666M5.42139 10.4693H10.6935V13.984H5.42139V10.4693ZM6.73941 10.4693V8.27255C6.73941 7.5494 7.33428 6.95453 8.05743 6.95453C8.78059 6.95453 9.37546 7.5494 9.37546 8.27255V10.4693H6.73941Z" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke="#59A72A" fill="none"></path>
   </svg>&nbsp;
   
-  {% if custom.lieferzeit_in_tagen == empty %}
+{% if custom.lieferzeit_in_tagen == empty %}
     {{ 'product.form.in_stock' | t: amount: total_stock }}
   {% else %}
     Sofort versandfertig, {{ custom.lieferzeit_in_tagen }}
