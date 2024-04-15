@@ -78,7 +78,7 @@
   {%- endif %}
 {% else %}
   {%- if lieferzeit_in_tagen != blank -%}
-    <span>Ready to ship immediately, {{ lieferzeit_in_tagen }} days</span>
+    <span>In stock, {{ lieferzeit_in_tagen }} days</span>
   {%- else -%}
     {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
   {%- endif %}
