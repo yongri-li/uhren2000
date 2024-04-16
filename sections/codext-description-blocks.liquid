@@ -282,7 +282,11 @@
             <tr>
               <td>{{ 'product.func_feature_features' | t }}</td>
               <!-- <td>{{ funktionen_values | remove_last: ", " }}</td> -->
-              <td>{{ product.metafields.custom.funktionen_metaobject }}</td>
+              {% for meta in product.metafields.custom.funktionen_metaobject.value %}
+                {% for meta_obj in meta.funktionen.value %}
+                  <td>{{ meta_obj }}</td>
+                {% endfor %}
+              {% endfor %}
             </tr>
             {% endif %}
 
@@ -300,7 +304,11 @@
             <tr>
               <td>{{ 'product.func_feature_miscellaneous' | t }}</td>
               <!-- <td>{{ sonstiges_values | remove_last: ", " }}</td> -->
-              <td>{{ product.metafields.custom.sonstiges_metaobject }}</td>
+              {% for meta in product.metafields.custom.farbe_zifferblatt_metaobject.value %}
+                {% for meta_obj in meta.farbe_zifferblatt.value %}
+                  <td>{{ meta_obj }}</td>
+                {% endfor %}
+              {% endfor %}
             </tr>
             {% endif %}
           </table>
