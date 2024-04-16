@@ -172,16 +172,16 @@
               <td>{{ product.metafields.custom.material_armband_metaobject }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.materialien_farben.value.farbe_armband != blank %}
+            {% if product.metafields.custom.farbe_armband_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_color_bracelet' | t }}</td>
-              <td>{{ product.metafields.custom.materialien_farben.value.farbe_armband }}</td>
+              <td>{{ product.metafields.custom.farbe_armband_metaobject }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.materialien_farben.value.material_schliesse != blank %}
+            {% if product.metafields.custom.material_schliesse_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_material_clasp' | t }}</td>
-              <td>{{ product.metafields.custom.materialien_farben.value.material_schliesse }}</td>
+              <td>{{ product.metafields.custom.material_schliesse_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.materialien_farben.value.material_lunette != blank %}
