@@ -205,10 +205,10 @@
         <div class="product-detail-block-inner">
           <h3>{{ 'product.case_and_dial' | t }}</h3>
           <table class="no-border-table">
-            {% if product.metafields.custom.geh_use_zifferblatt.value.durchmesser_gehause != blank %}
+            {% if product.metafields.custom.durchmesser_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_dia_housing' | t }}</td>
-              <td>{{ product.metafields.custom.geh_use_zifferblatt.value.durchmesser_gehause }}</td>
+              <td>{{ product.metafields.custom.durchmesser_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.geh_use_zifferblatt.value.glas != blank %}
