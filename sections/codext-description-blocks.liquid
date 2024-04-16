@@ -103,7 +103,7 @@
         <div class="product-detail-block-inner">
           <h3>{{ 'product.basic_data' | t }}</h3>
           <table class="no-border-table">
-            {% if product.metafields.custom.zustand != blank %}
+            {% if product.metafields.custom.zustand.zustand != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
               <td>{{ product.metafields.custom.zustand.zustand }}</td>
