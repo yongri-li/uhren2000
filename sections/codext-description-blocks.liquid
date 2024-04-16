@@ -160,10 +160,10 @@
         <div class="product-detail-block-inner">
           <h3>{{ 'product.materials_and_colors' | t }}</h3>
           <table class="no-border-table">
-            {% if product.metafields.custom.materialien_farben.value.material_gehause != blank %}
+            {% if product.metafields.custom.material_gehaeuse_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_houseing_material' | t }}</td>
-              <td>{{ product.metafields.custom.materialien_farben.value.material_gehause }}</td>
+              <td>{{ product.metafields.custom.material_gehaeuse_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.materialien_farben.value.material_armband != blank %}
