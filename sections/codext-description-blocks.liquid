@@ -139,10 +139,10 @@
               <td>{{ product.metafields.custom.schliesse_metaobject }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.basisdaten.value.geschlecht != blank %}
+            {% if product.metafields.custom.geschlecht_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_gender' | t }}</td>
-              <td>{{ product.metafields.custom.basisdaten.value.geschlecht }}</td>
+              <td>{{ product.metafields.custom.geschlecht_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.basisdaten.value.wasserdicht != blank %}
