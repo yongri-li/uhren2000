@@ -133,10 +133,10 @@
               <td>{{ product.metafields.custom.gangreserve_h }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.basisdaten.value.schliesse != blank %}
+            {% if product.metafields.custom.schliesse_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_close' | t }}</td>
-              <td>{{ product.metafields.custom.basisdaten.value.schliesse }}</td>
+              <td>{{ product.metafields.custom.schliesse_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.basisdaten.value.geschlecht != blank %}
