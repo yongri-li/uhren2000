@@ -217,10 +217,10 @@
               <td>{{ product.metafields.custom.glas_metaobject }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.geh_use_zifferblatt.value.zahlen_zifferblatt != blank %}
+            {% if product.metafields.custom.zahlen_zifferblatt_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
-              <td>{{ product.metafields.custom.geh_use_zifferblatt.value.zahlen_zifferblatt }}</td>
+              <td>{{ product.metafields.custom.zahlen_zifferblatt_metaobject }}</td>
             </tr>
             {% endif %}
           </table>
@@ -241,11 +241,11 @@
             {% if product.metafields.custom.Funktionen_6nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_6nd | append: ", " %} {% endif %}
             {% if product.metafields.custom.Funktionen_7nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_7nd | append: ", " %} {% endif %}
             {% if product.metafields.custom.Funktionen_8nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_8nd %} {% endif %}
-            {% if product.metafields.custom.funktionen_eigenschaften.value.funktionen != blank %}
+            {% if product.metafields.custom.funktionen_metaobject != blank %}
             <tr>
               <td>{{ 'product.func_feature_features' | t }}</td>
               <!-- <td>{{ funktionen_values | remove_last: ", " }}</td> -->
-              <td>{{ product.metafields.custom.funktionen_eigenschaften.value.funktionen }}</td>
+              <td>{{ product.metafields.custom.funktionen_metaobject }}</td>
             </tr>
             {% endif %}
 
@@ -259,11 +259,11 @@
             {% if product.metafields.custom.Sonstiges_7nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_7nd | append: ", " %} {% endif %}
             {% if product.metafields.custom.Sonstiges_8nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_8nd | append: ", " %} {% endif %}
             {% if product.metafields.custom.Sonstiges_9nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_9nd %} {% endif %}
-            {% if product.metafields.custom.funktionen_eigenschaften.value.funktionen != blank %}
+            {% if product.metafields.custom.sonstiges_metaobject != blank %}
             <tr>
               <td>{{ 'product.func_feature_miscellaneous' | t }}</td>
               <!-- <td>{{ sonstiges_values | remove_last: ", " }}</td> -->
-              <td>{{ product.metafields.custom.funktionen_eigenschaften.value.sonstiges }}</td>
+              <td>{{ product.metafields.custom.sonstiges_metaobject }}</td>
             </tr>
             {% endif %}
           </table>
