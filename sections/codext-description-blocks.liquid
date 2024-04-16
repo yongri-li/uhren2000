@@ -194,7 +194,11 @@
             {% if product.metafields.custom.farbe_armband_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_color_bracelet' | t }}</td>
-              <td>{{ product.metafields.custom.farbe_armband_metaobject }}</td>
+              {% for meta in product.metafields.custom.farbe_armband_metaobject.value %}
+                {% for meta_obj in meta.farbe_armband.value %}
+                  <td>{{ meta_obj }}</td>
+                {% endfor %}
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.material_schliesse_metaobject != blank %}
