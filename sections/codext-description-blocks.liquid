@@ -66,6 +66,13 @@
 .no-border-table tr:nth-child(2n) > td {
   background-color: #fff;
 }
+
+
+  .product-detail-block-container table tr {
+       display: flex;
+       align-items: flex-start;
+       margin-bottom: 10px;
+  } 
 </style>
 
 
@@ -106,9 +113,11 @@
             {% if product.metafields.custom.zustand_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.zustand_metaobject.value.zustand.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.jahr != blank %}
@@ -121,9 +130,11 @@
             <tr>
               <td class="wider-column">{{ 'product.basic_data_elevator' | t }}</td>
               <!-- <td>{{ product.metafields.custom.aufzug_metaobject }}</td> -->
+              <td>
               {% for meta in product.metafields.custom.aufzug_metaobject.value.aufzug.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.kaliber_werk != blank %}
@@ -141,25 +152,31 @@
             {% if product.metafields.custom.schliesse_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_close' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.schliesse_metaobject.value.schliesse.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.geschlecht_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_gender' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.geschlecht_metaobject.value.geschlecht.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.wasserdicht_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_waterproof' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.wasserdicht_metaobject.value.wasserdicht.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
           </table>
@@ -174,57 +191,69 @@
             {% if product.metafields.custom.material_gehaeuse_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_houseing_material' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.material_gehaeuse_metaobject.value %}
                 {% for meta_obj in meta.material_gehause.value %}
-                  <td>{{ meta_obj }}</td>
+                  <div>{{ meta_obj }}</div>
                 {% endfor %}
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.material_armband_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_bracelet_material' | t }}</td>
+              <td>
                {% for meta in product.metafields.custom.material_armband_metaobject.value %}
                 {% for meta_obj in meta.material_armband.value %}
-                  <td>{{ meta_obj }}</td>
+                  <div>{{ meta_obj }}</div>
                 {% endfor %}
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.farbe_armband_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_color_bracelet' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.farbe_armband_metaobject.value %}
                 {% for meta_obj in meta.farbe_armband.value %}
-                  <td>{{ meta_obj }}</td>
+                  <div>{{ meta_obj }}</div>
                 {% endfor %}
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.material_schliesse_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_material_clasp' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.material_schliesse_metaobject.value.material_schliesse.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.material_luenette_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_bezel_material' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.farbe_zifferblatt_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_color_dial' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.farbe_zifferblatt_metaobject.value %}
                 {% for meta_obj in meta.farbe_zifferblatt.value %}
-                  <td>{{ meta_obj }}</td>
+                  <div>{{ meta_obj }}</div>
                 {% endfor %}
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
           </table>
@@ -239,25 +268,31 @@
             {% if product.metafields.custom.durchmesser_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_dia_housing' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.durchmesser_metaobject.value.durchmesser.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.glas_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_glass' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.glas_metaobject.value.glas.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.zahlen_zifferblatt_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
+              <td>
               {% for meta in product.metafields.custom.zahlen_zifferblatt_metaobject.value.zahlen_zifferblatt.value %}
-                <td>{{ meta }}</td>
+                <div>{{ meta }}</div>
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
           </table>
@@ -282,11 +317,13 @@
             <tr>
               <td>{{ 'product.func_feature_features' | t }}</td>
               <!-- <td>{{ funktionen_values | remove_last: ", " }}</td> -->
+              <td>
               {% for meta in product.metafields.custom.funktionen_metaobject.value %}
                 {% for meta_obj in meta.funktionen.value %}
-                  <td>{{ meta_obj }}</td>
+                  <div>{{ meta_obj }}</div>
                 {% endfor %}
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
 
@@ -307,7 +344,7 @@
               <td>
               {% for meta in product.metafields.custom.sonstiges_metaobject.value %}
                 {% for meta_obj in meta.sonstiges.value %}
-                    <div>{{ meta_obj }}</div>
+                  <div>{{ meta_obj }}</div>
                 {% endfor %}
               {% endfor %}
               </td>
