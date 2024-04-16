@@ -150,13 +150,17 @@
             {% if product.metafields.custom.geschlecht_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_gender' | t }}</td>
-              <td>{{ product.metafields.custom.geschlecht_metaobject }}</td>
+              {% for meta in product.metafields.custom.schliesse_metaobject.value.schliesse.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.wasserdicht_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_waterproof' | t }}</td>
-              <td>{{ product.metafields.custom.wasserdicht_metaobject }}</td>
+              {% for meta in product.metafields.custom.schliesse_metaobject.value.schliesse.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
           </table>
