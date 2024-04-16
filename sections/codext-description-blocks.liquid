@@ -120,7 +120,10 @@
             {% if product.metafields.custom.aufzug_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_elevator' | t }}</td>
-              <td>{{ product.metafields.custom.aufzug_metaobject }}</td>
+              <!-- <td>{{ product.metafields.custom.aufzug_metaobject }}</td> -->
+              {% for meta in product.metafields.custom.aufzug_metaobject.value.aufzug.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.kaliber_werk != blank %}
