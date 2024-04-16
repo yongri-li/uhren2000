@@ -106,7 +106,7 @@
             {% if product.metafields.custom.zustand_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
-              <td>{{ product.metafields.custom.zustand_metaobject.zustand }}</td>
+              <td>{{ product.metafields.custom.zustand_metaobject.value }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.basisdaten.value.jahr != blank %}
