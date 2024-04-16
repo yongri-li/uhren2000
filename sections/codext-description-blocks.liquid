@@ -239,7 +239,7 @@
             {% if product.metafields.custom.durchmesser_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_dia_housing' | t }}</td>
-              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
+              {% for meta in product.metafields.custom.durchmesser_metaobject.value.durchmesser.value %}
                 <td>{{ meta }}</td>
               {% endfor %}
             </tr>
@@ -247,7 +247,7 @@
             {% if product.metafields.custom.glas_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_glass' | t }}</td>
-              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
+              {% for meta in product.metafields.custom.glas_metaobject.value.glas.value %}
                 <td>{{ meta }}</td>
               {% endfor %}
             </tr>
