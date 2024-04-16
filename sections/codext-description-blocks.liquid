@@ -174,9 +174,11 @@
             {% if product.metafields.custom.material_gehaeuse_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_houseing_material' | t }}</td>
-              <td>{{ product.metafields.custom.material_gehaeuse_metaobject.value }}</td>
+              <!-- <td>{{ product.metafields.custom.material_gehaeuse_metaobject.value }}</td> -->
               {% for meta in product.metafields.custom.material_gehaeuse_metaobject.value %}
-                <td>{{ meta }}</td>
+                {% for meta_obj in meta.value %}
+                  <td>{{ meta }}</td>
+                {% endfor %}
               {% endfor %}
             </tr>
             {% endif %}
