@@ -176,8 +176,7 @@
               <td>{{ 'product.mat_color_houseing_material' | t }}</td>
               <!-- <td>{{ product.metafields.custom.material_gehaeuse_metaobject.material_gehause.value }}</td> -->
               {% for meta in product.metafields.custom.material_gehaeuse_metaobject.value %}
-                <td>{{ meta.material_gehause.value }}</td>
-                {% for meta_obj in meta.value %}
+                {% for meta_obj in meta.material_gehause.value %}
                   <td>{{ meta.material_gehause }}</td>
                 {% endfor %}
               {% endfor %}
