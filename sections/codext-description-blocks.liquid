@@ -255,7 +255,7 @@
             {% if product.metafields.custom.zahlen_zifferblatt_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
-              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
+              {% for meta in product.metafields.custom.zahlen_zifferblatt_metaobject.value.zahlen_zifferblatt.value %}
                 <td>{{ meta }}</td>
               {% endfor %}
             </tr>
