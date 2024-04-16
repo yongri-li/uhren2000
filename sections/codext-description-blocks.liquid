@@ -239,19 +239,25 @@
             {% if product.metafields.custom.durchmesser_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_dia_housing' | t }}</td>
-              <td>{{ product.metafields.custom.durchmesser_metaobject }}</td>
+              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.glas_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_glass' | t }}</td>
-              <td>{{ product.metafields.custom.glas_metaobject }}</td>
+              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.zahlen_zifferblatt_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
-              <td>{{ product.metafields.custom.zahlen_zifferblatt_metaobject }}</td>
+              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_lunette.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
           </table>
