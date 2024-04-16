@@ -109,7 +109,7 @@
               <td>{{ product.metafields.custom.zustand_metaobject.value.zustand }}</td>
               {% for meta in product.metafields.custom.zustand_metaobject.value.zustand %}
                 {% for meta_value in meta.value %}
-                <td>{{ meta_value }}</td>
+                <td>{{ meta_value.zustand }}</td>
                 {%  endfor %}
               {% endfor %}
             </tr>
