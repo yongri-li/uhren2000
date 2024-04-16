@@ -580,4 +580,5 @@
 
 #main-product.m6pr>* {
   position: relative!important;
+  top: unset;
 }
