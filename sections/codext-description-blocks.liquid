@@ -304,13 +304,13 @@
             <tr>
               <td>{{ 'product.func_feature_miscellaneous' | t }}</td>
               <!-- <td>{{ sonstiges_values | remove_last: ", " }}</td> -->
+              <td>
               {% for meta in product.metafields.custom.sonstiges_metaobject.value %}
                 {% for meta_obj in meta.sonstiges.value %}
-                  <td>
                     <div>{{ meta_obj }}</div>
-                  </td>
                 {% endfor %}
               {% endfor %}
+              </td>
             </tr>
             {% endif %}
           </table>
