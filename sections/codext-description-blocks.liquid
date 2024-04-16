@@ -141,7 +141,10 @@
             {% if product.metafields.custom.schliesse_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_close' | t }}</td>
-              <td>{{ product.metafields.custom.schliesse_metaobject }}</td>
+              <!-- <td>{{ product.metafields.custom.schliesse_metaobject }}</td> -->
+              {% for meta in product.metafields.custom.schliesse_metaobject.value.schliesse.value %}
+                <td>{{ meta }}</td>
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.geschlecht_metaobject != blank %}
