@@ -212,7 +212,7 @@
             {% if product.metafields.custom.material_luenette_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_bezel_material' | t }}</td>
-              {% for meta in product.metafields.custom.geschlecht_metaobject.value.geschlecht.value %}
+              {% for meta in product.metafields.custom.material_luenette_metaobject.value.material_luenette.value %}
                 <td>{{ meta }}</td>
               {% endfor %}
             </tr>
