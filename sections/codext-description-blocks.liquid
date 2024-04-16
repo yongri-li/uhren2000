@@ -174,7 +174,6 @@
             {% if product.metafields.custom.material_gehaeuse_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_houseing_material' | t }}</td>
-              <!-- <td>{{ product.metafields.custom.material_gehaeuse_metaobject.material_gehause.value }}</td> -->
               {% for meta in product.metafields.custom.material_gehaeuse_metaobject.value %}
                 {% for meta_obj in meta.material_gehause.value %}
                   <td>{{ meta_obj }}</td>
@@ -185,7 +184,11 @@
             {% if product.metafields.custom.material_armband_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_bracelet_material' | t }}</td>
-              <td>{{ product.metafields.custom.material_armband_metaobject }}</td>
+               {% for meta in product.metafields.custom.material_armband_metaobject.value %}
+                {% for meta_obj in meta.material_armband.value %}
+                  <td>{{ meta_obj }}</td>
+                {% endfor %}
+              {% endfor %}
             </tr>
             {% endif %}
             {% if product.metafields.custom.farbe_armband_metaobject != blank %}
