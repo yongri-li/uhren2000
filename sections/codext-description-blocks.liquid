@@ -220,7 +220,11 @@
             {% if product.metafields.custom.farbe_zifferblatt_metaobject != blank %}
             <tr>
               <td>{{ 'product.mat_color_color_dial' | t }}</td>
-              <td>{{ product.metafields.custom.farbe_zifferblatt_metaobject }}</td>
+              {% for meta in product.metafields.custom.farbe_zifferblatt_metaobject.value %}
+                {% for meta_obj in meta.farbe_zifferblatt.value %}
+                  <td>{{ meta_obj }}</td>
+                {% endfor %}
+              {% endfor %}
             </tr>
             {% endif %}
           </table>
