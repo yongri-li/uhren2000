@@ -211,10 +211,10 @@
               <td>{{ product.metafields.custom.durchmesser_metaobject }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.geh_use_zifferblatt.value.glas != blank %}
+            {% if product.metafields.custom.glas_metaobject != blank %}
             <tr>
               <td>{{ 'product.case_dial_glass' | t }}</td>
-              <td>{{ product.metafields.custom.geh_use_zifferblatt.value.glas }}</td>
+              <td>{{ product.metafields.custom.glas_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.geh_use_zifferblatt.value.zahlen_zifferblatt != blank %}
