@@ -121,10 +121,10 @@
               <td>{{ product.metafields.custom.aufzug_metaobject }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.basisdaten.value.kaliber_werk != blank %}
+            {% if product.metafields.custom.kaliber_werk != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_caliber_and_movement' | t }}</td>
-              <td>{{ product.metafields.custom.basisdaten.value.kaliber_werk }}</td>
+              <td>{{ product.metafields.custom.kaliber_werk }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.basisdaten.value.gangreserve_h != blank %}
