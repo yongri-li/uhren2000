@@ -115,10 +115,10 @@
               <td>{{ product.metafields.custom.jahr }}</td>
             </tr>
             {% endif %}
-            {% if product.metafields.custom.basisdaten.value.aufzug != blank %}
+            {% if product.metafields.custom.aufzug_metaobject != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_elevator' | t }}</td>
-              <td>{{ product.metafields.custom.basisdaten.value.aufzug }}</td>
+              <td>{{ product.metafields.custom.aufzug_metaobject }}</td>
             </tr>
             {% endif %}
             {% if product.metafields.custom.basisdaten.value.kaliber_werk != blank %}
