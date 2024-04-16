@@ -575,3 +575,9 @@
 #main-product:has(.offer-on-request) form.f8pr {
   display: none;
 }
+
+
+
+#main-product.m6pr>* {
+  position: relative!important;
+}
