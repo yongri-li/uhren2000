@@ -306,7 +306,9 @@
               <!-- <td>{{ sonstiges_values | remove_last: ", " }}</td> -->
               {% for meta in product.metafields.custom.sonstiges_metaobject.value %}
                 {% for meta_obj in meta.sonstiges.value %}
-                  <td>{{ meta_obj }}</td>
+                  <td>
+                    <div>{{ meta_obj }}</div>
+                  </td>
                 {% endfor %}
               {% endfor %}
             </tr>
