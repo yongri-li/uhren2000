@@ -107,8 +107,8 @@
             <tr>
               <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
               <td>{{ product.metafields.custom.zustand_metaobject.value.zustand }}</td>
-              {% for meta in product.metafields.custom.zustand_metaobject.value.zustand[1] %}
-                <td>{{ meta }}</td>
+              {% for meta in product.metafields.custom.zustand_metaobject.value.zustand %}
+                <td>{{ meta | first }}</td>
               {% endfor %}
             </tr>
             {% endif %}
