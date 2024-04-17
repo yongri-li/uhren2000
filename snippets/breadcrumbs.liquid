@@ -24,19 +24,19 @@
       {% endif %}
 
     {% elsif template.name == 'blog' %}
-      <li>
+      {% comment %} <li>
         {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
-      </li>
+      </li> {% endcomment %}
       <li>
-        {{ blog.title | capitalize }}
+        {{ "uhrenlexikon" | capitalize }}
       </li>
 
     {% elsif template.name == 'article' %}
-      <li>
+      {% comment %} <li>
         {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
-      </li>
+      </li> {% endcomment %}
       <li>
-        {{ blog.title | link_to: blog.url }}
+        {{ "uhrenlexikon" | link_to: "https://uhren2000.myshopify.com/pages/uhrenlexikon" }}
       </li>
       <li>
         {{ article.title }}
