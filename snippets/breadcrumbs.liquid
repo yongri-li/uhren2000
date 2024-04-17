@@ -24,19 +24,25 @@
       {% endif %}
 
     {% elsif template.name == 'blog' %}
-      {% comment %} <li>
-        {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
-      </li> {% endcomment %}
       <li>
-        {{ "Lexikon" | capitalize }}
+        {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
+      </li>
+      <li>
+        {{ blog.title | capitalize }}
       </li>
 
     {% elsif template.name == 'article' %}
-      {% comment %} <li>
-        {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
-      </li> {% endcomment %}
+      {%- if blog.title != "Lexikon" -%}
+        <li>
+          {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
+        </li>
+      {%- endif -%}
       <li>
-        {{ blog.title | link_to: "https://uhren2000.myshopify.com/pages/uhrenlexikon" }}
+        {%- if blog.title == "Lexikon" -%}
+          {{ blog.title | link_to: "https://uhren2000.myshopify.com/pages/uhrenlexikon" }}
+        {% else %}
+          {{ blog.title | link_to: blog.url }}
+        {%- endif -%}
       </li>
       <li>
         {{ article.title }}
