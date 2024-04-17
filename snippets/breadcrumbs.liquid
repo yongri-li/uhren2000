@@ -28,7 +28,7 @@
         {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
       </li> {% endcomment %}
       <li>
-        {{ "uhrenlexikon" | capitalize }}
+        {{ blog.title | capitalize }}
       </li>
 
     {% elsif template.name == 'article' %}
@@ -36,7 +36,7 @@
         {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
       </li> {% endcomment %}
       <li>
-        {{ "uhrenlexikon" | link_to: "https://uhren2000.myshopify.com/pages/uhrenlexikon" }}
+        {{ blog.title | link_to: "https://uhren2000.myshopify.com/pages/uhrenlexikon" }}
       </li>
       <li>
         {{ article.title }}
