@@ -311,16 +311,16 @@
       {% # theme-check-enable %}
     </p>
   {%- endif -%}
+  <p class="footer-link-texts">
+  * Alle Preise inkl. Mehrwertsteuer zzgl. <a href="/pages/zahlung-und-versand" class="shipping-link">Versandkosten.</a>
+  </p>
   {%- if section.settings.show_payment_methods -%}
-    <ul class="l4pm box">
+    <ul class="footer-payments-icons l4pm box">
       {%- for payment_method in shop.enabled_payment_types -%}
         <li>{{ payment_method | payment_type_svg_tag }}</li>
       {%- endfor -%}
     </ul>
   {%- endif -%}
-  <p>
-  * Alle Preise inkl. Mehrwertsteuer zzgl. <a href="/pages/zahlung-und-versand" class="shipping-link">Versandkosten.</a>
-  </p>
 </div>
 
 {% style %}

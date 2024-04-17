@@ -594,3 +594,17 @@
 #main-product.m6pr .l4pr-container .swiper-outer .img-multiply img {
   padding: 0;
 }
+
+@media (min-width : 761px) {
+  .footer-link-texts {
+    padding-left: 50px;
+  }
+}
+
+.footer-link-texts {
+  margin-left: auto;
+}
+
+.footer-payments-icons {
+  margin-left: 0px!important;
+}

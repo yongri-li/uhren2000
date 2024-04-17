@@ -24,12 +24,22 @@
       {% endif %}
 
     {% elsif template.name == 'blog' %}
-      <li>
+      {% comment %} <li>
         {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
-      </li>
-      <li>
-        {{ blog.title | capitalize }}
-      </li>
+      </li> {% endcomment %}
+      {%- if blog.title != "Lexikon" -%}
+        <li>
+          {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
+        </li>
+        <li>
+          {{ blog.title | capitalize }}
+        </li>
+      {% else %}
+        <li>
+          {{ blog.title | link_to: "https://uhren2000.myshopify.com/pages/uhrenlexikon" }}
+        </li>
+      {%- endif -%}
+      
 
     {% elsif template.name == 'article' %}
       {%- if blog.title != "Lexikon" -%}
