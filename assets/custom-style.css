@@ -576,12 +576,19 @@
   display: none;
 }
 
+#main-product.m6pr, #main-product.m6pr .l4pr {
+  margin-bottom: 0;
+}
 
 
 #main-product.m6pr>* {
   position: static!important;
   width: 50%;
   margin-top: 20px;
+}
+
+#main-product.m6pr>div:last-child {
+  margin-top: 60px;
 }
 
 #main-product.m6pr .l4pr-container .swiper-outer .img-multiply img {

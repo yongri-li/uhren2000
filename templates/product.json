@@ -401,7 +401,7 @@
       "type": "codext-description-blocks",
       "custom_css": [
         "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; font-size: 20px;}",
-        "td {font-size: 12px; line-height: 1.5; margin-bottom: -10px;}"
+        "td {font-size: 12px;}"
       ],
       "settings": {
       }
