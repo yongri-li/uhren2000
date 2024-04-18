@@ -48,7 +48,7 @@
         "a {color: #b99e7a;}",
         ".text-white {color: #fff;}",
         "h2,h3 {font-size: 20px;}",
-        "h1 {max-width: 800px; overflow-wrap: break-word;}"
+        "h1 {max-width: 900px; overflow-wrap: break-word;}"
       ],
       "settings": {
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
