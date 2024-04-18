@@ -143,7 +143,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "Dress Watches sind Perfekt zum jedem Anlass und nicht nur schön anzusehen",
+        "title": "{{ page.metafields.custom.heading.value }}",
         "enable_heading_display_control": false,
         "title_font": "secondary",
         "title_size": "h1",
