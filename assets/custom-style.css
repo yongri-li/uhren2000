@@ -609,8 +609,3 @@
   margin-left: 0px!important;
 }
 
-@media (min-width : 1000px) {
-  .fancybox__container .fancybox__viewport .fancybox__slide img {
-    padding : 170px!important;
-  }
-}
