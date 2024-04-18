@@ -611,6 +611,6 @@
 
 @media (min-width : 1000px) {
   .fancybox__container .fancybox__viewport .fancybox__slide img {
-    padding : 150px!important;
+    padding : 170px!important;
   }
 }
