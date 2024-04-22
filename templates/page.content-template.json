@@ -47,8 +47,9 @@
         " {background-color: black; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; margin-top: -20px;}",
         "a {color: #b99e7a;}",
         ".text-white {color: #fff;}",
-        "h2, h3 {font-size: 21px;}",
-        "h5 {font-size: 31px; max-width: 400px;}"
+        "h2,h3 {font-size: 21px;}",
+        "h5 {font-size: 31px; max-width: 400px;}",
+        "h1 {font-size: 48px !important;}"
       ],
       "settings": {
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
