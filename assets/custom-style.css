@@ -572,6 +572,7 @@
 
 .sonderangebote-button.product_offer-on-request-button:hover {
   color: white;
+  background-color: #4E9424;
 }
 
 #main-product:has(.offer-on-request) .f8pr-price,
