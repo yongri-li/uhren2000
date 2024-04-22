@@ -67,7 +67,7 @@
 {%- assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen -%}
 
 {%- if show -%}
-  {%- if total_stock > 0 or inventory_tracking == false -%}
+  {%- if lieferzeit_in_tagen != blank -%}
     <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,35 +77,9 @@
           <path d="M8.05743 11.7873V12.666M5.42139 10.4693H10.6935V13.984H5.42139V10.4693ZM6.73941 10.4693V8.27255C6.73941 7.5494 7.33428 6.95453 8.05743 6.95453C8.78059 6.95453 9.37546 7.5494 9.37546 8.27255V10.4693H6.73941Z" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
         </svg>&nbsp;
       {% endif %}
-      {% if request.locale.iso_code == 'de' %}
-        {%- if lieferzeit_in_tagen != blank -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
-        {%- else -%}
-          {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
-        {%- endif %}
-      {% else %}
-        {%- if lieferzeit_in_tagen != blank -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} days</span>
-        {%- else -%}
-          {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
-        {%- endif %}
-      {% endif %}
-      {%- if deliverytime_in_stock != empty -%}
-        <span {% if bold %}class="strong"{% endif %}>
-          {% unless list_layout %}<i aria-hidden="true" class="icon-check"></i>{% endunless %}
-          {{ deliverytime_in_stock }}
-          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span></span>{%- endif -%}
-        </span>
-      {%- endif -%}
-    </{{ container }}>
-  {%- elsif inventory_tracking -%}
-    <{{ container }} class="stock overlay-error {{ extra_class }} {% if no_margin %}m0{% endif %}{% if deliverytime_not_in_stock == empty and bold %} strong{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
-      {% if show_stock %}{{ 'product.form.not_in_stock' | t }}{%- if deliverytime_not_in_stock != empty -%},{% endif %} {% endif %}
-      {%- if deliverytime_not_in_stock != empty -%}
-        <span {% if bold %}class="strong"{% endif %}>
-          {{ deliverytime_not_in_stock }}
-          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span></span>{%- endif -%}
-        </span>
+      <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
+      {%- if deliverytime_info != empty -%}
+        <span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span></span>
       {%- endif -%}
     </{{ container }}>
   {%- endif -%}
