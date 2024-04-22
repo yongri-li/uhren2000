@@ -16,3 +16,7 @@
 .swiper-button-prev {
   user-select: none;
 }
+
+p {
+  font-size: 1rem;
+}
