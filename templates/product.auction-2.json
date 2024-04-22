@@ -236,7 +236,8 @@
         ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}",
         "h3 {font-weight: 100;}",
         ".overlay-error {display: none;}",
-        ".archivartikel-verkauft {display: none;}"
+        ".archivartikel-verkauft {display: none;}",
+        ".submit m10 {margin-bottom: 50px;}"
       ],
       "settings": {
         "media_layout": "slider",
