@@ -81,15 +81,6 @@
   <h3>{{ 'product.product_description' | t }}</h3>
   {{ product.description }}
   
-{% if request.locale.iso_code == 'de' %}
-  {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
-    <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
-  {% endif %}
-{% else %}
-  {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
-    <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
-  {% endif %}
-{% endif %}
   
 {% assign lieferumfang = product.metafields.custom.box_papiere %}
 {% if lieferumfang == true %}
@@ -99,6 +90,16 @@
   {% else %}
     <strong>Delivery Contents</strong>
     <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
+  {% endif %}
+{% endif %}
+
+  {% if request.locale.iso_code == 'de' %}
+  {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
+    <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
+  {% endif %}
+{% else %}
+  {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
+    <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
   {% endif %}
 {% endif %}
 </div>
