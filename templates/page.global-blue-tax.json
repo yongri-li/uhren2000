@@ -376,8 +376,8 @@
         "text_RK8Brd"
       ],
       "custom_css": [
-        "h6 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
-        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-bottom: 30px; max-width: 1200; font-size: 35px; font-weight: 100; text-transform: none; color: #202020;}"
+        "h6 {font-family: \"Playfair Display\", serif; font-weight: 100; font-size: 22px; text-transform: none; color: #202020;}",
+        "h2 {font-family: \"Playfair Display\", serif; margin-bottom: 30px; max-width: 1200; font-size: 35px; font-weight: 100; text-transform: none; color: #202020;}"
       ],
       "settings": {
         "items_width": 4,

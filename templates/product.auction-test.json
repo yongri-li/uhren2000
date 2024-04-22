@@ -208,10 +208,10 @@
         "custom_liquid_jhBc39"
       ],
       "custom_css": [
-        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
+        "h2 {font-family: \"Playfair Display\", serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
         ".f8pr-codes {text-align: center; font-size: 12px; color: #8f8f8f; margin-bottom: -20px;}",
         ".f8pr-stock.m0 {text-align: center; margin-top: -10px;}",
-        ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}",
+        ".mobile-hide {text-transform: none; font-family: \"Playfair Display\", serif;}",
         "h3 {font-weight: 100;}",
         "@media screen and (min-width: 768px) {.m5.mob-h2 {margin-bottom: -40px; }}",
         "@media screen and (max-width: 767px) {.m5.mob-h2 {margin-bottom: 0px; }}"
@@ -339,7 +339,7 @@
         "tab_TkVeLT"
       ],
       "custom_css": [
-        "a {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}"
+        "a {font-family: \"Playfair Display\", serif; font-weight: 100; text-transform: none; text-align: center;}"
       ],
       "settings": {
         "alignment": "left",

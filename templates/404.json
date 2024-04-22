@@ -4,9 +4,9 @@
       "type": "main-404",
       "disabled": true,
       "custom_css": [
-        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 30px !important;}",
-        "span.strong {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 50px !important;}",
-        "p {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; font-size: 18px !important;}"
+        "h1 {text-transform: none; font-family: \"Playfair Display\", serif; font-weight: 400; font-size: 30px !important;}",
+        "span.strong {text-transform: none; font-family: \"Playfair Display\", serif; font-weight: 100; font-size: 50px !important;}",
+        "p {text-transform: none; font-family: \"Playfair Display\", serif; font-weight: 100; font-size: 18px !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TAG_Heuer_Carrera_gebraucht_1600x1600_8c772212-0f94-44cd-b60a-4c11d05855c3.jpg",
@@ -59,7 +59,7 @@
       ],
       "custom_css": [
         "{margin-top: 20px;}",
-        "h2 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 800; font-size: 36px !important;}"
+        "h2 {text-transform: none; font-family: \"Playfair Display\", serif; font-weight: 800; font-size: 36px !important;}"
       ],
       "settings": {
         "color_palette": "white",

@@ -54,8 +54,8 @@
         "content_fq6P9e"
       ],
       "custom_css": [
-        "h1 {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 50px !important; text-align: center;}",
-        "@media only screen and (min-width: 768px) {{margin-top: -90px; margin-bottom: -90px; } h6 {text-transform: none; font-weight: 400; font-size: 15px !important; text-align: center !important; width: 900px; margin: 0 auto; }}",
+        "h1 {text-transform: none; font-family: \"Playfair Display\", serif; font-weight: 400; font-size: 50px !important; text-align: center;}",
+        "@media only screen and (min-width: 768px) {{margin-top: -90px; margin-bottom: -90px; } h6 {text-transform: none; font-weight: 400; font-size: 15px !important; text-align: center !important; width: 840px; margin: 0 auto; }}",
         "h6 {text-transform: none; font-weight: 400; font-size: 15px !important; text-align: center !important; margin: 0 auto;}"
       ],
       "settings": {

@@ -20697,7 +20697,7 @@ h6, .h6, .l4cl.category h6 { font-size: var(--mob_h6); }
   }
 }
 .shopify-policy__container h1 {
-  font-family: 'Georgia Pro Light', Georgia, serif;
+  font-family: "Playfair Display", serif;
   text-transform: none;
   font-weight: 400;
 }
