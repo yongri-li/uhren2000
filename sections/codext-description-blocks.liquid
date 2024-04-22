@@ -80,7 +80,11 @@
 <div class="column">
   <h3>{{ 'product.product_description' | t }}</h3>
   {{ product.description }}
-  
+  <br>
+  {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
+{% if uhrenspezialbezeichnung %}
+  <p>{{ uhrenspezialbezeichnung }}</p>
+{% endif %}
   
 {% assign lieferumfang = product.metafields.custom.box_papiere %}
 {% if lieferumfang == true %}
@@ -92,13 +96,6 @@
     <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
   {% endif %}
 {% endif %}
-
-  
-{% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
-{% if uhrenspezialbezeichnung %}
-  <p>{{ uhrenspezialbezeichnung }}</p>
-{% endif %}
-
 
   {% if request.locale.iso_code == 'de' %}
   {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
