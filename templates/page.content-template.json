@@ -48,8 +48,7 @@
         "a {color: #b99e7a;}",
         ".text-white {color: #fff;}",
         "h2 {font-size: 21px;}",
-        "h3 {font-size: 31px;}",
-        ".section-rolex h1 {max-width: 900px;}"
+        "h3 {font-size: 31px;}"
       ],
       "settings": {
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
