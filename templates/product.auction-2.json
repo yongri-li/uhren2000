@@ -229,11 +229,11 @@
         "content_bQGz6K"
       ],
       "custom_css": [
-        "h2 {font-family: \"Playfair Display\", serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
+        "h2 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center; font-size: 35px;}",
         ".f8pr-codes {text-align: center; font-size: 12px; color: #8f8f8f; margin-bottom: -20px;}",
         ".f8pr-stock.m0 {text-align: center; margin-top: -10px;}",
         ".overlay-valid {color: #59a72a !important;}",
-        ".mobile-hide {text-transform: none; font-family: \"Playfair Display\", serif;}",
+        ".mobile-hide {text-transform: none; font-family: \"Georgia Pro Light\", Georgia, serif;}",
         "h3 {font-weight: 100;}",
         ".overlay-error {display: none;}",
         ".archivartikel-verkauft {display: none;}",
@@ -387,7 +387,7 @@
       "type": "section-custom-liquid",
       "disabled": true,
       "custom_css": [
-        "h3 {font-family: \"Playfair Display\", serif; font-weight: 100; text-transform: none; font-size: 20px;}",
+        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; font-size: 20px;}",
         "td {font-size: 12px;}"
       ],
       "settings": {
@@ -400,7 +400,7 @@
     "codext_description_blocks_ajbrUe": {
       "type": "codext-description-blocks",
       "custom_css": [
-        "h3 {font-family: \"Playfair Display\", serif; font-weight: 100; text-transform: none; font-size: 20px;}",
+        "h3 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; font-size: 20px;}",
         "td {font-size: 12px;}"
       ],
       "settings": {
@@ -486,7 +486,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "a {font-family: \"Playfair Display\", serif; font-weight: 100; text-transform: none; text-align: center;}"
+        "a {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 100; text-transform: none; text-align: center;}"
       ],
       "settings": {
         "alignment": "left",

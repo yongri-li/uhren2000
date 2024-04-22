@@ -333,7 +333,7 @@
       "type": "section-featured-products",
       "custom_css": [
         "a {text-transform: none; font-weight: 400; text-align: center;}",
-        "p.price {font-family: \"Playfair Display\", serif; font-size: 25px; text-align: center;}",
+        "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
         "p.stock.overlay-error.list-hide {display: none;}",
         ".img-multiply {padding: 120px;}"
       ],
@@ -378,7 +378,7 @@
       "disabled": true,
       "custom_css": [
         "a {text-transform: none; font-weight: 400; text-align: center;}",
-        "p.price {font-family: \"Playfair Display\", serif; font-size: 25px; text-align: center;}",
+        "p.price {font-family: \"Georgia Pro Light\", Georgia, serif; font-size: 25px; text-align: center;}",
         "p.stock.overlay-error.list-hide {display: none;}",
         ".img-multiply {padding: 120px;}"
       ],
@@ -541,7 +541,7 @@
         "title_J7bQE7"
       ],
       "custom_css": [
-        "h2 {text-align: center; margin-top: 20px; margin-bottom: 30px; font-weight: 100; font-family: \"Playfair Display\", serif; max-width: 1200; font-size: 35px; color: #202020; text-transform: none;}"
+        "h2 {text-align: center; margin-top: 20px; margin-bottom: 30px; font-weight: 100; font-family: \"Georgia Pro Light\", Georgia, serif; max-width: 1200; font-size: 35px; color: #202020; text-transform: none;}"
       ],
       "settings": {
         "color_palette": "white",
@@ -694,7 +694,7 @@
         "image_k9fgiJ"
       ],
       "custom_css": [
-        "h2 {text-align: center; margin-bottom: 30px; font-weight: 100; font-family: \"Playfair Display\", serif; max-width: 1200; font-size: 25px; color: #202020; text-transform: none;}"
+        "h2 {text-align: center; margin-bottom: 30px; font-weight: 100; font-family: \"Georgia Pro Light\", Georgia, serif; max-width: 1200; font-size: 25px; color: #202020; text-transform: none;}"
       ],
       "settings": {
         "items_width": 3,
@@ -744,7 +744,7 @@
         "text_jzEnjD"
       ],
       "custom_css": [
-        "h2 {text-align: center; margin-top: 20px; margin-bottom: 30px; font-weight: 100; font-family: \"Playfair Display\", serif; max-width: 1200; font-size: 35px; color: #202020; text-transform: none;}"
+        "h2 {text-align: center; margin-top: 20px; margin-bottom: 30px; font-weight: 100; font-family: \"Georgia Pro Light\", Georgia, serif; max-width: 1200; font-size: 35px; color: #202020; text-transform: none;}"
       ],
       "settings": {
         "items_width": 4,

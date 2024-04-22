@@ -880,6 +880,18 @@ details > div,
 #logo a,
 #logo .broken-img,
 a.email,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
 legend,
 h1 a,
 h2 a,
@@ -20685,7 +20697,7 @@ h6, .h6, .l4cl.category h6 { font-size: var(--mob_h6); }
   }
 }
 .shopify-policy__container h1 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Georgia Pro Light', Georgia, serif;
   text-transform: none;
   font-weight: 400;
 }
