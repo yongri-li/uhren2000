@@ -94,6 +94,8 @@
 {% endif %}
 
   
+{% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
+<div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
 
    {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
 {% if uhrenspezialbezeichnung %}
