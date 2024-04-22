@@ -206,7 +206,7 @@
       ],
       "settings": {
         "items_width": 3,
-        "text_alignment": "center",
+        "text_alignment": "start",
         "title": "{{ page.metafields.custom.ankauf_links_heading.value }}",
         "enable_heading_display_control": true,
         "title_font": "secondary",
@@ -301,7 +301,7 @@
       ],
       "settings": {
         "items_width": 3,
-        "text_alignment": "center",
+        "text_alignment": "start",
         "title": "{{ page.metafields.custom.ankauf_weitere_seiten_links_heading.value }}",
         "enable_heading_display_control": true,
         "title_font": "secondary",
