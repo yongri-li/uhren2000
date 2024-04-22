@@ -296,7 +296,8 @@
         "p {text-align: center; font-weight: 600;}",
         "a {text-decoration: none; line-height: 1; white-space: nowrap; font-weight: 600;}",
         "li {text-decoration: none; line-height: 1.5; white-space: nowrap;}",
-        "@media only screen and (max-width: 768px) {{display: none; }}"
+        "@media only screen and (max-width: 768px) {{display: none; }}",
+        "h2 {max-width: 900px;}"
       ],
       "settings": {
         "items_width": 3,
