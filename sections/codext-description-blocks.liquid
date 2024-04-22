@@ -93,7 +93,10 @@
   {% endif %}
 {% endif %}
 
-  {{ custom.uhrenspezialbezeichnung }}
+{% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
+{% if uhrenspezialbezeichnung %}
+  <p>{{ uhrenspezialbezeichnung }}</p>
+{% endif %}
 
   {% if request.locale.iso_code == 'de' %}
   {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
