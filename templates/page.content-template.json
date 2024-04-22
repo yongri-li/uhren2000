@@ -119,7 +119,8 @@
         "@media only screen and (min-width: 768px) {{width: 80%; margin: -250px auto 0; } .module-color-palette:before {border-radius: 18px !important; }}",
         "h1 {font-family: \"Georgia Pro Light\", Georgia, serif; font-weight: 400; font-size: 40px; text-transform: none; color: #202020;}",
         "h2,h3 {font-family: \"Georgia Pro Light\", Georgia, serif; margin-top: 30px; margin-bottom: 30px; max-width: 1200; font-size: 25px; color: #202020; font-weight: 100; text-transform: none;}",
-        "a {color: #b99e7a;}"
+        "a {color: #b99e7a;}",
+        "h1 {font-size: 48px;}"
       ],
       "settings": {
         "color_palette": "white",
