@@ -48,7 +48,6 @@
         "a {color: #b99e7a;}",
         ".text-white {color: #fff;}",
         "h2 {font-size: 22px;}",
-        "h3 {font-size: 30px;}",
         "h1 {line-height: 1.5; font-weight: 400; letter-spacing: normal; max-width: 800px;}"
       ],
       "settings": {
