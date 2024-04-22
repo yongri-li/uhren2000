@@ -92,12 +92,12 @@
     <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
   {% endif %}
 {% endif %}
-
+<br>
 {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
 {% if uhrenspezialbezeichnung %}
-  <br>
   <p>{{ uhrenspezialbezeichnung }}</p>
 {% endif %}
+
 
   {% if request.locale.iso_code == 'de' %}
   {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
