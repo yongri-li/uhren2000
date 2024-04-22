@@ -81,7 +81,10 @@
   <h3>{{ 'product.product_description' | t }}</h3>
   {{ product.description }}
 
+{% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
+<div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
 
+  
 {% assign lieferumfang = product.metafields.custom.box_papiere %}
 {% if lieferumfang == true %}
   {% if request.locale.iso_code == "de" %}
