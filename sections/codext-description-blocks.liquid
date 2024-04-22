@@ -93,6 +93,8 @@
   {% endif %}
 {% endif %}
 
+  {{ custom.uhrenspezialbezeichnung }}
+
   {% if request.locale.iso_code == 'de' %}
   {% if product.metafields.custom.differenzbesteuert == true or product.metafields.custom.differenzbesteuert == 'true' %}
     <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
