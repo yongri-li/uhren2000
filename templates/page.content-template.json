@@ -47,8 +47,8 @@
         " {background-color: black; margin-left: -300px; margin-right: -300px; padding-left: 300px; padding-right: 300px; margin-bottom: 20px; margin-top: -20px;}",
         "a {color: #b99e7a;}",
         ".text-white {color: #fff;}",
-        "h2 {font-size: 21px;}",
-        "h3 {font-size: 31px;}"
+        "h2, h3 {font-size: 21px;}",
+        "h5 {font-size: 31px; max-width: 400px;}"
       ],
       "settings": {
         "background-image": "{{ page.metafields.custom.background_picture.value }}",
@@ -56,7 +56,7 @@
         "content-text": "{{ page.metafields.custom.content | metafield_tag }}",
         "button-url": "shopify:\/\/pages\/uhren-ankauf",
         "button-text": "{{ page.metafields.custom.button.value }}",
-        "contact-info": "<p>Telefonische Beratung<br\/>Mo-Sa 9 - 18 Uhr<br\/><br\/><a href=\"tel:+4971423440158\">+49 7142 - 3440158<br\/><br\/><\/a>Persönliche Abholung vor Ort nach Terminvereinbarung möglich.<\/p>"
+        "contact-info": "<h5>Telefonische Beratung<br\/>Mo-Sa 9 - 18 Uhr<br\/><br\/><a href=\"tel:+4971423440158\">+49 7142 - 3440158<br\/><br\/><\/a>Persönliche Abholung vor Ort nach Terminvereinbarung möglich.<\/h5>"
       }
     },
     "section_custom_liquid_mML8Xn": {
@@ -297,7 +297,7 @@
         "a {text-decoration: none; line-height: 1; white-space: nowrap; font-weight: 600;}",
         "li {text-decoration: none; line-height: 1.5; white-space: nowrap;}",
         "@media only screen and (max-width: 768px) {{display: none; }}",
-        "h2 {max-width: 900px!important;}"
+        "h2 {max-width: 900px !important;}"
       ],
       "settings": {
         "items_width": 3,
