@@ -322,7 +322,8 @@
         "item_DeajDW"
       ],
       "custom_css": [
-        ".text-lg {font-size: 20px;}"
+        ".text-lg {font-size: 20px;}",
+        "{margin-top: 40px;}"
       ],
       "settings": {
         "title": "Sie haben Fragen zu dieser Uhr?"
