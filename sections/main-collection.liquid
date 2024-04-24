@@ -219,11 +219,8 @@
                     endfor
                   endif
                 -%}
-{%- for product in collection.products -%}
-{%- if request.path != '/collections/uhren-archiv' and request.path != '/en/collections/uhren-archiv' and product.tags contains 'Uhren-Archiv' -%}
-    {%- continue -%}
-{%- endif -%}
-
+{%- assign products_to_display = collection.products | where_exp: 'product', 'product.tags contains "Uhren-Archiv" == false' -%}
+{%- for product in products_to_display limit: 24 -%}
   {%- liquid
     capture placeholder_int
       cycle 1, 2, 3, 4, 5, 6
@@ -237,21 +234,21 @@
       assign no_lazyload = false
     endif
   -%}
-                  {%- render 'product-item',
-                    product: product,
-                    placeholder_int: placeholder_int,
-                    sizes: image_sizes,
-                    fill_images: section.settings.fill_images,
-                    img_padding: section.settings.images_padding,
-                    img_vertical_position: section.settings.images_vertical_position,
-                    enable_image_choice: section.settings.enable_image_choice,
-                    collection_img_view: collection_img_view,
-                    img_view: section.settings.product_image,
-                    custom_height_ratio: section.settings.custom_product_image_ratio,
-                    no_lazyload: no_lazyload,
-                    origin: 'collection'
-                  -%}
-                {%- endfor -%}
+  {%- render 'product-item',
+    product: product,
+    placeholder_int: placeholder_int,
+    sizes: image_sizes,
+    fill_images: section.settings.fill_images,
+    img_padding: section.settings.images_padding,
+    img_vertical_position: section.settings.images_vertical_position,
+    enable_image_choice: section.settings.enable_image_choice,
+    collection_img_view: collection_img_view,
+    img_view: section.settings.product_image,
+    custom_height_ratio: section.settings.custom_product_image_ratio,
+    no_lazyload: no_lazyload,
+    origin: 'collection'
+  -%}
+{%- endfor -%}
               </ul>
               {% render 'pagination',
                 paginate: paginate,
