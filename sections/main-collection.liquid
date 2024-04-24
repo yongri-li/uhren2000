@@ -219,39 +219,46 @@
                     endfor
                   endif
                 -%}
-{%- for product in collection.products -%}
-{%- if request.path != '/collections/uhren-archiv' and request.path != '/en/collections/uhren-archiv' and product.tags contains 'Uhren-Archiv' -%}
-    {%- continue -%}
-{%- endif -%}
+{%- assign products_count = 0 -%}
 
-  {%- liquid
-    capture placeholder_int
-      cycle 1, 2, 3, 4, 5, 6
-    endcapture
-    assign no_lazyload = false
-    if forloop.first or largest_product_img == product
-      assign no_lazyload = true
-    elsif width_class contains 'w50-mobile' and forloop.index == 2
-      assign no_lazyload = true
-    else
+{%- for product in collection.products -%}
+  {%- if product.tags contains 'Uhren-Archiv' -%}
+    {%- continue -%} {# Überspringt Produkte mit dem Tag "Uhren-Archiv" #}
+  {%- endif -%}
+
+  {%- if products_count < 24 -%} {# Prüft, ob weniger als 24 Produkte verarbeitet wurden #}
+    {%- liquid
+      capture placeholder_int
+        cycle 1, 2, 3, 4, 5, 6
+      endcapture
       assign no_lazyload = false
-    endif
-  -%}
-                  {%- render 'product-item',
-                    product: product,
-                    placeholder_int: placeholder_int,
-                    sizes: image_sizes,
-                    fill_images: section.settings.fill_images,
-                    img_padding: section.settings.images_padding,
-                    img_vertical_position: section.settings.images_vertical_position,
-                    enable_image_choice: section.settings.enable_image_choice,
-                    collection_img_view: collection_img_view,
-                    img_view: section.settings.product_image,
-                    custom_height_ratio: section.settings.custom_product_image_ratio,
-                    no_lazyload: no_lazyload,
-                    origin: 'collection'
-                  -%}
-                {%- endfor -%}
+      if forloop.first or largest_product_img == product
+        assign no_lazyload = true
+      elsif width_class contains 'w50-mobile' and forloop.index == 2
+        assign no_lazyload = true
+      else
+        assign no_lazyload = false
+      endif
+    -%}
+
+    {%- render 'product-item',
+      product: product,
+      placeholder_int: placeholder_int,
+      sizes: image_sizes,
+      fill_images: section.settings.fill_images,
+      img_padding: section.settings.images_padding,
+      img_vertical_position: section.settings.images_vertical_position,
+      enable_image_choice: section.settings.enable_image_choice,
+      collection_img_view: collection_img_view,
+      img_view: section.settings.product_image,
+      custom_height_ratio: section.settings.custom_product_image_ratio,
+      no_lazyload: no_lazyload,
+      origin: 'collection'
+    -%}
+
+    {%- assign products_count = products_count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
               </ul>
               {% render 'pagination',
                 paginate: paginate,
