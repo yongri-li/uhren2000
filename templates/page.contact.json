@@ -232,7 +232,7 @@
           "type": "checkbox",
           "settings": {
             "title": "Datenschutz",
-            "option_1": "Wir verwenden Ihre Angaben zur Beantwortung Ihrer Anfrage. Weitere Informationen finden Sie in unser Datenschutzerklärung.",
+            "option_1": "Wir verwenden Ihre Angaben zur Beantwortung Ihrer Anfrage. Weitere Informationen finden Sie in unser <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Datenschutzerklärung<\/a>.",
             "option_2": "",
             "option_3": "",
             "option_4": "",
