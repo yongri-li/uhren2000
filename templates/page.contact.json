@@ -232,7 +232,7 @@
           "type": "checkbox",
           "settings": {
             "title": "Datenschutz",
-            "option_1": "Ich bin mit der <a href=\"https:\/\/uhren2000.myshopify.com\/policies\/privacy-policy\" target=\"_blank\">Datenschutzerklärung<\/a> einverstanden.",
+            "option_1": "Wir verwenden Ihre Angaben zur Beantwortung Ihrer Anfrage. Weitere Informationen finden Sie in unser Datenschutzerklärung.",
             "option_2": "",
             "option_3": "",
             "option_4": "",
