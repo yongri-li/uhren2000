@@ -576,7 +576,7 @@
         "back_to_cart": "In den Warenkorb"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Zum Newsletter anmelden. Der Newsletter kann jederzeit kostenlos abbestellt werden. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung."
+        "accept_marketing_checkbox_label": "Zum Newsletter anmelden. Der Newsletter kann jederzeit kostenlos abbestellt werden. Weitere Informationen hierzu finden Sie in der <a href=\"https:\/\/www.google.de\">Datenschutzerklärung<\/a>"
       }
     },
     "filters": {
