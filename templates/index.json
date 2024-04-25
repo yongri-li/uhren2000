@@ -62,7 +62,7 @@
         "title": "Ihre Sicherheit liegt uns am Herzen",
         "subtitle": "Seit über 20 Jahren sind wir Ihr Ansprechpartner im Bereich Luxusuhren. Bei uns im Shop finden Sie eine Auswahl verschiedener Modelle.",
         "btn_text1": "Angebote ansehen",
-        "btn_url1": "shopify:\/\/collections\/alle-uhren",
+        "btn_url1": "shopify:\/\/collections\/1",
         "btn_text2": "Ihre Uhr verkaufen",
         "btn_url2": "shopify:\/\/pages\/uhren-ankauf"
       }
@@ -366,7 +366,7 @@
         "enable_custom_font_styling": false,
         "font_size": "16px",
         "link_text": "Alle Angebote entdecken",
-        "link_url": "shopify:\/\/collections\/alle-uhren",
+        "link_url": "shopify:\/\/collections\/1",
         "button_color_palette": "accent",
         "show_link": false,
         "mobile_layout": "slider",
@@ -385,7 +385,7 @@
         ".img-multiply {padding: 120px;}"
       ],
       "settings": {
-        "collection": "alle-uhren",
+        "collection": "1",
         "layout": "slider",
         "limit": 5,
         "number_of_items": 4,
@@ -636,7 +636,7 @@
             "enable_custom_font_styling": false,
             "font_size": "16px",
             "link_text": "Zum Shop",
-            "link_url": "shopify:\/\/collections\/alle-uhren",
+            "link_url": "shopify:\/\/collections\/1",
             "button_color_palette": "accent",
             "show_link": false,
             "show_look": false,
