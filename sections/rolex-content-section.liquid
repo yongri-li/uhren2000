@@ -40,15 +40,23 @@
     }
 
 .section-rolex .right-0.top-0 {
-    min-height: 100vh; /* Stellt sicher, dass das Bild mindestens so hoch wie der Bildschirm ist */
+    max-height: 100vh; /* Maximale Höhe auf Bildschirmhöhe begrenzen */
+    width: 100%; /* Breite auf die volle Breite des übergeordneten Elements einstellen */
+    overflow: hidden; /* Versteckt alles, was über den Container hinausgeht */
+}
+
+.section-rolex img {
+    max-height: 100vh; /* Maximale Höhe auf Bildschirmhöhe begrenzen */
+    width: auto; /* Breite des Bildes automatisch anpassen, um das Seitenverhältnis zu erhalten */
+    max-width: none; /* Entfernt eine eventuelle max-width Begrenzung */
 }
 
 {% endstyle %}
 
 <div class="relative bg-black p-5 pt-44 text-white section-rolex">
     {% if section.settings.background-image != blank %}
-    <div class="absolute right-0 top-0 min-h-screen w-2/3 overflow-hidden">
-        <img loading="lazy" src="{{ section.settings.background-image | img_url: '800x' }}" title="Rolex_Datejust_used" alt="Rolex_Datejust_used" class="min-h-screen w-full object-cover opacity-50" />
+    <div class="absolute right-0 top-0 max-h-screen w-full overflow-hidden">
+        <img loading="lazy" src="{{ section.settings.background-image | img_url: '800x' }}" title="Rolex_Datejust_used" alt="Rolex_Datejust_used" class="max-h-screen w-auto object-cover opacity-50" />
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
         <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
     </div>
