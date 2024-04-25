@@ -14,30 +14,31 @@
         font-style: normal; 
     }
 
-    .section-rolex {
-        width : calc(100% + 60px)!important;
-        margin-left : -30px!important;
-        padding-left : 30px;
-        padding-right : 30px;
-    }
 
     .section-rolex h1, .section-rolex h2, .section-rolex h3, .section-rolex h4, .section-rolex h5, .section-rolex h6 {
         text-transform : none!important;
     }
+  .section-rolex {
+    width : 100vw; /* Vollständige Breite des Viewports */
+    margin-left : calc(50% - 50vw); /* Zentriert die Section */
+    padding-left : 30px;
+    padding-right : 30px;
+}
 
-    @media (max-width : 1300px) {
-        .section-rolex {
-            width : calc(100% + 40px);
-            margin-left : -20px;
-        }
+@media (max-width : 1300px) {
+    .section-rolex {
+        width : 100vw;
+        margin-left : calc(50% - 50vw);
     }
+}
 
-    @media (max-width : 999px) {
-        .section-rolex {
-            width : calc(100% + 32px);
-            margin-left : -16px;
-        }
+@media (max-width : 999px) {
+    .section-rolex {
+        width : 100vw;
+        margin-left : calc(50% - 50vw);
     }
+}
+
 
 {% endstyle %}
 
