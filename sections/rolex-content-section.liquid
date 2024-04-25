@@ -39,20 +39,12 @@
         }
     }
 
-.section-rolex .right-0.top-0 {
-    max-height: 100vh; /* Maximale Höhe auf Bildschirmhöhe begrenzen */
-    width: 100%; /* Breite auf die volle Breite des übergeordneten Elements einstellen */
-    overflow: hidden; /* Versteckt alles, was über den Container hinausgeht */
-}
-
-
-
 {% endstyle %}
 
-<div class="relative bg-black p-5 pt-44 text-white section-rolex">
+<div class="relative {% if section.settings.background-image == blank %}bg-black{% endif %} p-5 pt-44 text-white section-rolex">
     {% if section.settings.background-image != blank %}
-    <div class="absolute right-0 top-0 min-h-screen w-2/3 overflow-hidden">
-        <img loading="lazy" src="{{ section.settings.background-image | img_url: '800x' }}" title="Rolex_Datejust_used" alt="Rolex_Datejust_used" class="min-h-screen w-full object-cover opacity-50" />
+    <div class="absolute right-0 top-0 h-fit w-2/3">
+        <img loading="lazy" src="{{ section.settings.background-image | img_url: '800x' }}" title="Rolex_Datejust_used" alt="Rolex_Datejust_used" class="max-h-full w-full object-cover opacity-50" />
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
         <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
     </div>
