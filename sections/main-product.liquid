@@ -926,7 +926,8 @@
 {%- when 'price' -%}
 
   {% if product.metafields.custom.preis_auf_anfrage  %}
-    {%- if product.metafields.codext.uhren-archiv == true -%}
+    {% if product.tags contains 'Uhren-Archiv' %}
+    {% elsif product.available == false %}
       <div class="offer-on-request">
         <div class="product_offer-on-request-heading">
           {{ 'product.offer_on_request' | t }}
@@ -936,7 +937,7 @@
     {% endif %}
   {% endif %}
 
-  {%- if product.metafields.codext.uhren-archiv == true -%}
+  {%- if product.tags contains 'Uhren-Archiv' -%}
     <div class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
     </div>
   {%- else -%}
@@ -1019,7 +1020,7 @@
             <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
           </button>
           {%- elsif current_variant.available -%}
-            {%- if product.metafields.codext.uhren-archiv == true -%}
+            {% if product.tags contains "Uhren-Archiv" %}
               <div class="archivartikel-verkauft">
                 <div class="verkauft-text">
                     <h6>Archivartikel - Verkauft</h6>
@@ -1035,7 +1036,7 @@
             {% endif %}
           {%- else -%}
           {% if product.metafields.custom.abverkauf == blank or product.metafields.custom.abverkauf == false %}
-            {%- if product.metafields.codext.uhren-archiv == true -%}
+            {% if product.tags contains "Uhren-Archiv" %}
               <div class="archivartikel-verkauft">
                 <div class="verkauft-text">
                     <h6>Archivartikel - Verkauft</h6>
