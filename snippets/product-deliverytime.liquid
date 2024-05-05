@@ -80,13 +80,13 @@
       {% endif %}
       {% if request.locale.iso_code == 'de' %}
         {%- if lieferzeit_in_tagen != blank -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
+          {% if total_stock > 0 %}Lieferzeit {{ lieferzeit_in_tagen }} Tage{% endif %}
         {%- else -%}
           {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
         {%- endif %}
       {% else %}
         {%- if lieferzeit_in_tagen != blank -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} days</span>
+          {% if total_stock > 0 %}Delivery time {{ lieferzeit_in_tagen }} days{% endif %}
         {%- else -%}
           {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
         {%- endif %}
