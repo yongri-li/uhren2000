@@ -927,7 +927,6 @@
 
   {% if product.metafields.custom.preis_auf_anfrage  %}
     {%- if product.metafields.codext.uhren-archiv == true -%}
-    {% elsif product.available == false %}
       <div class="offer-on-request">
         <div class="product_offer-on-request-heading">
           {{ 'product.offer_on_request' | t }}
