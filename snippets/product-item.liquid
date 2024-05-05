@@ -775,7 +775,7 @@
         </a>
       </p>
     {%- endif -%}
-    {%- if show_stock -%}
+    {%- if show_stock and product.metafields.codext.uhren-archiv != "True" -%}
       {%- render 'product-deliverytime',
               product: product,
               show_stock: false,
