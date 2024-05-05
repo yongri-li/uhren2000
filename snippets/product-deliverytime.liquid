@@ -65,7 +65,11 @@
   -%}
 {%- endif -%}
 
-{%- assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen -%}
+{%- if current_variant.metafields.custom.stock_level == "1" -%}
+  {%- assign lieferzeit_in_tagen = settings.default_product_deliverytime_in_stock -%}
+{%- else -%}
+  {%- assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen -%}
+{%- endif -%}
 
 {%- if show and product.metafields.codext.uhren-archiv == false -%}
   {%- if total_stock > 0 or inventory_tracking == false or product.metafields.custom.abverkauf == true -%}
