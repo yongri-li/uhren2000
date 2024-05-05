@@ -926,7 +926,7 @@
 {%- when 'price' -%}
 
   {% if product.metafields.custom.preis_auf_anfrage  %}
-    {% if product.tags contains 'Uhren-Archiv' %}
+    {%- if product.metafields.codext.uhren-archiv == true -%}
     {% elsif product.available == false %}
       <div class="offer-on-request">
         <div class="product_offer-on-request-heading">
@@ -937,7 +937,7 @@
     {% endif %}
   {% endif %}
 
-  {%- if product.tags contains 'Uhren-Archiv' -%}
+  {%- if product.metafields.codext.uhren-archiv == true -%}
     <div class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
     </div>
   {%- else -%}
