@@ -1019,7 +1019,7 @@
             <img src="https://cdn.shopify.com/s/files/1/0634/8780/3545/files/clock.png?v=1709540426" alt="Uhr Icon" style="vertical-align: middle; margin-right: 5px;"> {{ 'product.form.add_to_cart' | t }}
           </button>
           {%- elsif current_variant.available -%}
-            {% if product.tags contains "Uhren-Archiv" %}
+            {%- if product.metafields.codext.uhren-archiv == true -%}
               <div class="archivartikel-verkauft">
                 <div class="verkauft-text">
                     <h6>Archivartikel - Verkauft</h6>
@@ -1035,7 +1035,7 @@
             {% endif %}
           {%- else -%}
           {% if product.metafields.custom.abverkauf == blank or product.metafields.custom.abverkauf == false %}
-            {% if product.tags contains "Uhren-Archiv" %}
+            {%- if product.metafields.codext.uhren-archiv == true -%}
               <div class="archivartikel-verkauft">
                 <div class="verkauft-text">
                     <h6>Archivartikel - Verkauft</h6>
