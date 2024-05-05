@@ -204,7 +204,7 @@
                       endif
                     -%}
                     {%- for product in products -%}
-  {%- unless product.tags contains 'Uhren-Archiv' -%}
+  {%- unless product.metafields.codext.uhren-archiv == true -%}
     {%- liquid
       capture placeholder_int
         cycle 1, 2, 3, 4, 5, 6
