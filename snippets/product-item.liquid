@@ -775,16 +775,16 @@
         </a>
       </p>
     {%- endif -%}
-    {%- if show_stock and product.metafields.codext.uhren-archiv != "True" -%}
-      {%- render 'product-deliverytime',
-              product: product,
-              show_stock: false,
-              current_variant: current_variant,
-              container: "p",
-              extra_class: 'list-hide',
-              origin: 'productitem'
-      -%}
-    {%- endif -%}
+{%- if show_stock and product.metafields.codext.uhren-archiv != "True" -%} <!-- Diese Zeile prüft, ob das Metafeld "uhren-archiv" auf True gesetzt ist -->
+  {%- render 'product-deliverytime',
+          product: product,
+          show_stock: false,
+          current_variant: current_variant,
+          container: "p",
+          extra_class: 'list-hide',
+          origin: 'productitem'
+  -%}
+{%- endif -%}
     
 {%- if product.metafields.codext.uhren-archiv == true -%}
   {% if request.locale.iso_code == 'de' %}
