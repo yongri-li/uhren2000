@@ -785,12 +785,14 @@
               origin: 'productitem'
       -%}
     {%- endif -%}
-{%- if product.tags contains 'Uhren-Archiv' -%}
+    
+{%- if product.metafields.codext.uhren-archiv == true -%}
   {% if request.locale.iso_code == 'de' %}
     <p class="archived-note">Archivartikel - verkauft</p>
   {% else %}
     <p class="archived-note">Archive item - sold</p>
   {% endif %}
+
 {%- else -%}
   {%- if show_price -%}
     <p class="price">
