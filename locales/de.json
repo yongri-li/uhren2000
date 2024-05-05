@@ -582,7 +582,7 @@
     "filters": {
       "availability": {
         "value": {
-          "out_of_stock": "Nicht auf Lager"
+          "out_of_stock": "Auf Anfrage"
         }
       }
     }
