@@ -120,11 +120,11 @@
         <div class="product-detail-block-inner">
           <h3>{{ 'product.basic_data' | t }}</h3>
           <table class="no-border-table">
-            {% if product.metafields.custom.zustand_metaobject != blank %}
+            {% if product.metafields.codext.zustand != blank %}
             <tr>
               <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
               <td>
-              {% for meta in product.metafields.custom.zustand_metaobject.value.zustand.value %}
+              {% for meta in product.metafields.codext.zustand.value.zustand.value %}
                 <div>{{ meta }}</div>
               {% endfor %}
               </td>
