@@ -100,7 +100,11 @@
 {% if uhrenspezialbezeichnung %}
   <p>{{ uhrenspezialbezeichnung }}</p>
 {% endif %}
-   
+
+     {% assign herstellernummer = product.metafields.custom.artikelnummer %}
+{% if herstellernummer %}
+  <p>{{ herstellernummer }}</p>
+{% endif %}
 
  {% if request.locale.iso_code == 'de' %}
   {% unless product.charge_taxes %}
