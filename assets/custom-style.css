@@ -637,3 +637,7 @@
 .shopify-section.recently-viewed-products.recently-viewed-products-initialized .img-multiply {
   padding: 120px;
 }
+.stock.overlay-error.list-hide {
+    font-weight: bold;
+    font-size: 13px;
+}
