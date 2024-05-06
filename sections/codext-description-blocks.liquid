@@ -83,6 +83,10 @@
 
 {% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
 <div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
+     {% assign herstellernummer = product.metafields.custom.artikelnummer %}
+{% if herstellernummer %}
+  <p>{{ herstellernummer }}</p>
+{% endif %}
 
   
 {% assign lieferumfang = product.metafields.custom.box_papiere %}
@@ -101,10 +105,6 @@
   <p>{{ uhrenspezialbezeichnung }}</p>
 {% endif %}
 
-     {% assign herstellernummer = product.metafields.custom.artikelnummer %}
-{% if herstellernummer %}
-  <p>{{ herstellernummer }}</p>
-{% endif %}
 
  {% if request.locale.iso_code == 'de' %}
   {% unless product.charge_taxes %}
