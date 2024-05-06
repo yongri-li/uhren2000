@@ -83,10 +83,6 @@
 
 {% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
 <div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
-     {% assign herstellernummer = product.metafields.custom.artikelnummer %}
-{% if herstellernummer %}
-  <p>{{ herstellernummer }}</p>
-{% endif %}
 
   
 {% assign lieferumfang = product.metafields.custom.box_papiere %}
