@@ -101,7 +101,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "{% if product.metafields.codext.uhren-archiv == false %}\n      <center style=\"margin-top: -25px; margin-bottom: 20px; font-size: 12px;\">\n        {% if request.locale.iso_code == \"de\" %}\n          <span style=\"color: #8f8f8f;\">Preise inkl. MwSt.<\/span> \n          <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.de\/\" style=\"color: #c6ae8e;\">zzgl. Versandkosten<\/a><\/span>\n        {% else %}\n          <span style=\"color: #8f8f8f;\">Prices incl. VAT.<\/span> \n          <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.com\/\" style=\"color: #c6ae8e;\">plus shipping costs<\/a><\/span>\n        {% endif %}\n      <\/center>\n  {% endif %}",
+            "liquid": "{% if product.metafields.custom.preis_auf_anfrage == false and product.metafields.codext.uhren-archiv == false %}\n  <center style=\"margin-top: -25px; margin-bottom: 20px; font-size: 12px;\">\n    {% if request.locale.iso_code == \"de\" %}\n      <span style=\"color: #8f8f8f;\">Preise inkl. MwSt.<\/span> \n      <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.de\/\" style=\"color: #c6ae8e;\">zzgl. Versandkosten<\/a><\/span>\n    {% else %}\n      <span style=\"color: #8f8f8f;\">Prices incl. VAT.<\/span> \n      <span style=\"color: #c6ae8e; text-decoration: underline;\"><a href=\"https:\/\/www.google.com\/\" style=\"color: #c6ae8e;\">plus shipping costs<\/a><\/span>\n    {% endif %}\n  <\/center>\n{% endif %}",
             "html": "",
             "show_contact_form": false
           }
