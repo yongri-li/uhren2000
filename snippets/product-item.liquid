@@ -92,7 +92,7 @@
     assign total_stock = current_variant.inventory_quantity
   endif
   if total_stock <= 0 and current_variant.inventory_management != nil and current_variant.inventory_policy == 'continue' and current_variant.available and current_variant.inventory_quantity <= 0 and settings.preorder
-    assign preorder = true
+    assign preorder = false
     unless settings.show_preorder_inventory
       assign show_stock = false
     endunless
