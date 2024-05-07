@@ -23,6 +23,7 @@
   endif
 -%}
 
+
 {%- if settings.product_deliverytime_in_stock or settings.product_deliverytime_not_in_stock -%}
   {%- liquid
     assign deliverytime_in_stock_metafields_namespace = settings.product_deliverytime_in_stock | split: '.' | first
@@ -67,7 +68,7 @@
 
 {% assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen %}
 
-{%- if show and product.metafields.codext.uhren-archiv == false -%}
+{%- if true and product.metafields.codext.uhren-archiv != true -%}
   {%- if true -%}
     <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}
@@ -101,7 +102,7 @@
             stroke-miterlimit="10"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}"
+            stroke="{% if lieferzeit_in_tagen != blank and total_stock < 1 %}#EFC82C{% else %}#59A72A{% endif %}"
             fill="none"></path>
         </svg>&nbsp;
       {% endif %}
