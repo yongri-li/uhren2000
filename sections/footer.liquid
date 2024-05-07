@@ -316,11 +316,9 @@
   </p>
   {%- if section.settings.show_payment_methods -%}
    <ul class="footer-payments-icons l4pm box">
-  {%- for payment_method in shop.enabled_payment_types -%}
     {%- if payment_method == 'master' or payment_method == 'maestro' or payment_method == 'visa' -%}
       <li>{{ payment_method | payment_type_svg_tag }}</li>
     {%- endif -%}
-  {%- endfor -%}
 </ul>
   {%- endif -%}
 </div>
