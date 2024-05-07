@@ -1,113 +1,30 @@
-{%- liquid
-  assign current_variant = current_variant | default: product.selected_or_first_available_variant
-  assign no_margin = no_margin | default: false
-  assign extra_class = extra_class | default: false
-  assign container = container | default: "p"
-  assign shopify_attributes = shopify_attributes | default: false
-  assign show_stock = settings.show_product_stock
-  assign total_stock = 0
-  assign continue_selling = settings.continue_selling_out_of_stock
-
-  if origin == 'productpage'
-    assign bold = true
-    if show_stock == false
-      assign list_layout = true
-    endif
-  elsif origin == 'productitem'
-    for variant in product.variants
-      if variant.matched and variant.inventory_quantity > 0
-        assign total_stock = total_stock | plus: variant.inventory_quantity
-      endif
-    endfor
-  endif
-  if total_stock == 0
-    assign total_stock = current_variant.inventory_quantity
-  endif
--%}
-
-{%- if settings.product_deliverytime_in_stock or settings.product_deliverytime_not_in_stock -%}
-  {%- liquid
-    assign deliverytime_in_stock_metafields_namespace = settings.product_deliverytime_in_stock | split: '.' | first
-    assign deliverytime_in_stock_metafields_key = settings.product_deliverytime_in_stock | split: '.' | last
-    assign deliverytime_not_in_stock_metafields_namespace = settings.product_deliverytime_not_in_stock | split: '.' | first
-    assign deliverytime_not_in_stock_metafields_key = settings.product_deliverytime_not_in_stock | split: '.' | last
-    assign deliverytime_in_stock = product.metafields[deliverytime_in_stock_metafields_namespace][deliverytime_in_stock_metafields_key]
-    assign deliverytime_not_in_stock = product.metafields[deliverytime_not_in_stock_metafields_namespace][deliverytime_not_in_stock_metafields_key]
-    unless deliverytime_in_stock
-      assign deliverytime_in_stock = settings.default_product_deliverytime_in_stock
-    endunless
-    unless deliverytime_not_in_stock
-      assign deliverytime_not_in_stock = settings.default_product_deliverytime_not_in_stock
-    endunless
-
-    assign deliverytime_info_metafields_namespace = settings.product_deliverytime_info | split: '.' | first
-    assign deliverytime_info_metafields_key = settings.product_deliverytime_info | split: '.' | last
-    assign deliverytime_info = product.metafields[deliverytime_info_metafields_namespace][deliverytime_info_metafields_key]
-    unless deliverytime_info
-      assign deliverytime_info = settings.default_product_deliverytime_info
-    endunless
-
-    if current_variant.inventory_management == 'shopify'
-      assign inventory_tracking = true
-      if show_stock
-        assign show = true
-      elsif total_stock > 0 and deliverytime_in_stock != empty
-        assign show = true
-      elsif total_stock <= 0 and deliverytime_not_in_stock != empty
-        assign show = true
-      endif
-    elsif deliverytime_in_stock != empty and settings.show_deliverytime_always
-      assign show = true
-      assign inventory_tracking = false
-      assign show_stock = false
-    endif
-    if total_stock > settings.show_product_stock_qty and settings.show_product_stock_always == false
-      assign show_stock = false
-    endif
-  -%}
-{%- endif -%}
+{%- assign current_variant = current_variant | default: product.selected_or_first_available_variant -%}
+{%- assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen -%}
+{%- assign total_stock = current_variant.inventory_quantity -%}
+{%- assign continue_selling = settings.continue_selling_out_of_stock -%}
+{%- assign show_stock = settings.show_product_stock -%}
 
 {%- if show and product.metafields.codext.uhren-archiv == false -%}
-  {%- if total_stock > 0 or inventory_tracking == false or continue_selling == true -%}
-    <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
-      {% if show_stock %}
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3.1875 16.125H1.125V5.625H14.625V16.125H6.5625M16.6875 16.125H14.625H16.6875ZM14.625 8.625H19.0875L20.7375 11.625H22.2C22.5 11.625 22.875 11.7 22.875 12.15V16.125H20.0625L14.625 8.625ZM20.7375 11.625H14.625H20.7375Z" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
-          <path d="M4.875 19.875C6.11764 19.875 7.125 18.8676 7.125 17.625C7.125 16.3824 6.11764 15.375 4.875 15.375C3.63236 15.375 2.625 16.3824 2.625 17.625C2.625 18.8676 3.63236 19.875 4.875 19.875Z" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
-          <path d="M18.375 19.875C19.6176 19.875 20.625 18.8676 20.625 17.625C20.625 16.3824 19.6176 15.375 18.375 15.375C17.1324 15.375 16.125 16.3824 16.125 17.625C16.125 18.8676 17.1324 19.875 18.375 19.875Z" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
-          <path d="M8.05743 11.7873V12.666M5.42139 10.4693H10.6935V13.984H5.42139V10.4693ZM6.73941 10.4693V8.27255C6.73941 7.5494 7.33428 6.95453 8.05743 6.95453C8.78059 6.95453 9.37546 7.5494 9.37546 8.27255V10.4693H6.73941Z" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
-        </svg>&nbsp;
-      {% endif %}
-      {% if request.locale.iso_code == 'de' %}
-        {%- if continue_selling and lieferzeit_in_tagen != blank -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
-        {%- else -%}
-          {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
-        {%- endif %}
-      {% else %}
-        {%- if continue_selling and lieferzeit_in_tagen != blank -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} days</span>
-        {%- else -%}
-          {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
-        {%- endif %}
-      {% endif %}
-      {%- if deliverytime_in_stock != empty -%}
-        <span {% if bold %}class="strong"{% endif %}>
-          {% unless list_layout %}<i aria-hidden="true" class="icon-check"></i>{% endunless %}
-          {{ deliverytime_in_stock }}
-          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span></span>{%- endif -%}
-        </span>
+  <p class="stock {{ extra_class }}">
+    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.1875 16.125H1.125V5.625H14.625V16.125H6.5625M16.6875 16.125H14.625H16.6875ZM14.625 8.625H19.0875L20.7375 11.625H22.2C22.5 11.625 22.875 11.7 22.875 12.15V16.125H20.0625L14.625 8.625ZM20.7375 11.625H14.625H20.7375Z" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
+      <path d="M4.875 19.875C6.11764 19.875 7.125 18.8676 7.125 17.625C7.125 16.3824 6.11764 15.375 4.875 15.375C3.63236 15.375 2.625 16.3824 2.625 17.625C2.625 18.8676 3.63236 19.875 4.875 19.875Z" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
+      <path d="M18.375 19.875C19.6176 19.875 20.625 18.8676 20.625 17.625C20.625 16.3824 19.6176 15.375 18.375 15.375C17.1324 15.375 16.125 16.3824 16.125 17.625C16.125 18.8676 17.1324 19.875 18.375 19.875Z" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
+      <path d="M8.05743 11.7873V12.666M5.42139 10.4693H10.6935V13.984H5.42139V10.4693ZM6.73941 10.4693V8.27255C6.73941 7.5494 7.33428 6.95453 8.05743 6.95453C8.78059 6.95453 9.37546 7.5494 9.37546 8.27255V10.4693H6.73941Z" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke="{% if lieferzeit_in_tagen != blank %}#EFC82C{% else %}#59A72A{% endif %}" fill="none"></path>
+    </svg>&nbsp;
+
+    {% if request.locale.iso_code == 'de' %}
+      {%- if total_stock > 0 -%}
+        {{ 'product.form.in_stock' | t: amount: total_stock }}
+      {%- elsif continue_selling or total_stock <= 0 -%}
+        <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
       {%- endif -%}
-    </{{ container }}>
-  {%- elsif inventory_tracking -%}
-    <{{ container }} class="stock overlay-error {{ extra_class }} {% if no_margin %}m0{% endif %}{% if deliverytime_not_in_stock == empty and bold %} strong{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
-      {% if show_stock %}{{ 'product.form.not_in_stock' | t }}{%- if deliverytime_not_in_stock != empty -%},{% endif %} {% endif %}
-      {%- if deliverytime_not_in_stock != empty -%}
-        <span {% if bold %}class="strong"{% endif %}>
-          {{ deliverytime_not_in_stock }}
-          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '<h4>' | remove: '<h5>' | remove: '<h5>' | remove: '<h6>' | remove: '<h6>' }}</span></span>{%- endif -%}
-        </span>
+    {% else %}
+      {%- if total_stock > 0 -%}
+        {{ 'product.form.in_stock' | t: amount: total_stock }}
+      {%- elsif continue_selling or total_stock <= 0 -%}
+        <span style="color: #EFC82C;">Delivery Time {{ lieferzeit_in_tagen }} days</span>
       {%- endif -%}
-    </{{ container }}>
-  {%- endif -%}
+    {% endif %}
+  </p>
 {%- endif -%}
