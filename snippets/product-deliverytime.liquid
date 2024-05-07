@@ -67,8 +67,8 @@
 
 {%- assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen -%}
 
-{%- if show and product.metafields.codext.uhren-archiv != true -%}
-  {%- if inventory_tracking == false or settings.continue_selling_out_of_stock == true -%}
+{%- if show and product.metafields.codext.uhren-archiv == false -%}
+  {%- if total_stock > 0 or inventory_tracking == false or settings.continue_selling_out_of_stock == true -%}
     <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,7 +99,7 @@
         </span>
       {%- endif -%}
     </{{ container }}>
-  {%- else -%}
+  {%- elsif inventory_tracking -%}
     <{{ container }} class="stock overlay-error {{ extra_class }} {% if no_margin %}m0{% endif %}{% if deliverytime_not_in_stock == empty and bold %} strong{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}{{ 'product.form.not_in_stock' | t }}{%- if deliverytime_not_in_stock != empty -%},{% endif %} {% endif %}
       {%- if deliverytime_not_in_stock != empty -%}
