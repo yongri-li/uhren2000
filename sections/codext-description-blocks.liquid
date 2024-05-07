@@ -291,6 +291,16 @@
               </td>
             </tr>
             {% endif %}
+            {% if product.metafields.custom.gehause_hoehe_mm != blank %}
+            <tr>
+              <td>{{ 'product.case_dial_dia_housing' | t }}</td>
+              <td>
+              {% comment %} {% for meta in product.metafields.custom.gehause_durchmesser_mm.value %} {% endcomment %}
+                <div>{{ product.metafields.custom.gehause_hoehe_mm }} mm</div>
+              {% comment %} {% endfor %} {% endcomment %}
+              </td>
+            </tr>
+            {% endif %}
             {% if product.metafields.codext.glas != blank %}
             <tr>
               <td>{{ 'product.case_dial_glass' | t }}</td>
