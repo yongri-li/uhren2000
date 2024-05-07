@@ -84,9 +84,9 @@
         {%- endif %}
       {% else %}
         {%- if lieferzeit_in_tagen != blank and total_stock < 1 -%}
-          <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} days</span>
+          <span style="color: #EFC82C;">Delivery in {{ lieferzeit_in_tagen }} days</span>
         {%- else -%}
-          {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
+          {% if show_stock and total_stock > 0 %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
         {%- endif %}
       {% endif %}
       {%- if deliverytime_in_stock != empty -%}
