@@ -53,13 +53,17 @@
                 {%- endif -%}
                 <a href="{{ product.url }}">{{ product.title }} </a>
               </h2>
-              {%- if settings.search_drawer_show_price -%}
+               {%- if settings.search_drawer_show_price -%}
                 <p class="price">
-                  {% if product.metafields.custom.abverkauf and product.available == false  %}
-                    {{ 'product.offer_on_request' | t }}
+                  {% if product.metafields.custom.preis_auf_anfrage == true %}
+                    {% if request.locale.iso_code == 'de' %}
+                      <span class="request-note-search">Preis auf Anfrage</span>
+                    {% else %}
+                      <span class="request-note-search">Price on request</span>
+                    {% endif %}
                   {% else %}
-                  {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
-                  {{ product.price | money }}
+                    {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
+                    {{ product.price | money }}
                   {% endif %}
                 </p>
               {%- endif -%}
