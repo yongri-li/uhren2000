@@ -316,7 +316,6 @@
   </p>
   {%- if section.settings.show_payment_methods -%}
    <ul class="footer-payments-icons l4pm box">
-      {% assign enabled_payment_types = 'visa,master,maestro' | remove: ' ' | split: ',' %}
   {%- for payment_method in shop.enabled_payment_types -%}
     {%- if payment_method == 'master' or payment_method == 'maestro' or payment_method == 'visa' -%}
       <li>{{ payment_method | payment_type_svg_tag }}</li>
