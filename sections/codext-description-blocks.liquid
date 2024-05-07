@@ -283,7 +283,7 @@
           <table class="no-border-table">
             {% if product.metafields.custom.gehause_durchmesser_mm != blank %}
             <tr>
-              <td>{{ 'product.case_dial_dia_housing' | t }}</td>
+              <td>{{ 'product.case_dial_dia_housing' | t }} mm</td>
               <td>
               {% comment %} {% for meta in product.metafields.custom.gehause_durchmesser_mm.value %} {% endcomment %}
                 <div>{{ product.metafields.custom.gehause_durchmesser_mm }}</div>
