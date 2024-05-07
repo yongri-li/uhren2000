@@ -831,8 +831,7 @@
       <p class="sku">Ref. Nr.: {{ current_variant.sku }}</p>
     {%- endif -%}
   {%- endif -%}
-{%- endif -%}
-{% endif %}
+
 
     {%- if color_picker and static_color_picker -%}
       {{ color_picker }}
@@ -856,4 +855,6 @@
       </footer>
     {%- endif -%}
   {% if layout == 'list-compact' %}</section>{% elsif settings.layout_productcard != 'variant_picker' %}</div>{% endif %}
+      {%- endif -%}
+{% endif %}
 </{{ container }}>
