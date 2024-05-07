@@ -793,6 +793,15 @@
     <p class="archived-note">Archive item - sold</p>
   {% endif %}
 
+  {% else %}
+{%- if product.metafields.custom.preis_auf_anfrage == true -%}
+   {% if request.locale.iso_code == 'de' %}
+     <p class="request-note">Preis auf Anfrage</p>
+     {% else %}
+     <p class="request-note">Price on request</p>
+     {% endif %}
+  {% endif %}
+  
 {%- else -%}
   {%- if show_price -%}
     <p class="price">
