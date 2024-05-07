@@ -925,7 +925,7 @@
                     </div>
 {%- when 'price' -%}
 
-  {% if product.metafields.custom.preis_auf_anfrage == true  %}
+  {% if product.metafields.custom.preis_auf_anfrage == true or product.selected_or_first_available_variant.available == false  %}
     {% if product.metafields.codext.uhren-archiv != true %}
       <div class="offer-on-request">
         <div class="product_offer-on-request-heading">
