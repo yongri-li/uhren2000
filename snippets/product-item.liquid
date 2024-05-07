@@ -786,7 +786,9 @@
   -%}
 {%- endif -%}
     
-{%- if product.metafields.codext.uhren-archiv == true -%}
+
+  {%- if show_price -%}
+    {%- if product.metafields.codext.uhren-archiv == true -%}
   {% if request.locale.iso_code == 'de' %}
     <p class="archived-note">Archivartikel - verkauft</p>
   {% else %}
@@ -799,9 +801,7 @@
      {% else %}
      <p class="request-note">Price on request</p>
      {% endif %}
-  
-{%- else -%}
-  {%- if show_price -%}
+  {% else %}
     <p class="price">
       {%- if product.price_varies and settings.show_price_varies and layout != 'list-compact' -%}
         {%- liquid
