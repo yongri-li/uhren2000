@@ -67,7 +67,7 @@
 
 {%- assign lieferzeit_in_tagen = product.metafields.custom.lieferzeit_in_tagen -%}
 
-{%- if show and product.metafields.codext.uhren-archiv == false -%}
+{%- if show and product.metafields.codext.uhren-archiv != true -%}
   {%- if total_stock > 0 or inventory_tracking == false or settings.continue_selling_out_of_stock == true -%}
     <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}
