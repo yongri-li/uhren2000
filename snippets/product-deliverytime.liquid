@@ -68,7 +68,7 @@
 {%- endif -%}
 
 {%- if show and product.metafields.codext.uhren-archiv == false -%}
-  {%- if total_stock > 0 or inventory_tracking == false or continue_selling == false -%}
+  {%- if total_stock > 0 or inventory_tracking == false or continue_selling == true -%}
     <{{ container }} class="stock {% if list_layout %}l4ch{% endif %} overlay-valid {{ extra_class }} {% if no_margin %}m0{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,13 +79,13 @@
         </svg>&nbsp;
       {% endif %}
       {% if request.locale.iso_code == 'de' %}
-        {%- if continue_selling or lieferzeit_in_tagen != blank and total_stock < 1 -%}
+        {%- if continue_selling and lieferzeit_in_tagen != blank -%}
           <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
         {%- else -%}
           {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
         {%- endif %}
       {% else %}
-        {%- if continue_selling or lieferzeit_in_tagen != blank and total_stock < 1 -%}
+        {%- if continue_selling and lieferzeit_in_tagen != blank -%}
           <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} days</span>
         {%- else -%}
           {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
@@ -105,7 +105,7 @@
       {%- if deliverytime_not_in_stock != empty -%}
         <span {% if bold %}class="strong"{% endif %}>
           {{ deliverytime_not_in_stock }}
-          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</span></span>{%- endif -%}
+          {%- if deliverytime_info != empty -%}&nbsp;<span class="s1tt{% if origin == 'productitem' %} mobile-hide{% endif %}"><span>{{ deliverytime_info | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '<h4>' | remove: '<h5>' | remove: '<h5>' | remove: '<h6>' | remove: '<h6>' }}</span></span>{%- endif -%}
         </span>
       {%- endif -%}
     </{{ container }}>
