@@ -315,6 +315,7 @@
   * Alle Preise inkl. Mehrwertsteuer zzgl. <a href="/pages/zahlung-und-versand" class="shipping-link">Versandkosten.</a>
   </p>
   {%- if section.settings.show_payment_methods -%}
+    {% assign enabled_payment_types = 'visa,master,maestro' | remove: ' ' | split: ',' %}
    <ul class="footer-payments-icons l4pm box">
     {%- if payment_method == 'master' or payment_method == 'maestro' or payment_method == 'visa' -%}
       <li>{{ payment_method | payment_type_svg_tag }}</li>
