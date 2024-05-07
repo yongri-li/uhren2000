@@ -44,9 +44,11 @@
   {%- if settings.show_out_of_stock_label and total_stock <= 0 and current_variant.available == false -%}
     <span>{{ 'product.not_in_stock_tag' | t }}</span>
   {%- endif -%}
+{% comment %}
   {%- if total_stock <= 0 and current_variant.inventory_management != nil and current_variant.inventory_policy == 'continue' and current_variant.available and current_variant.inventory_quantity <= 0 and settings.preorder -%}
     <span class="overlay-preorder">{{ 'product.preorder_tag' | t }}</span>
   {%- endif -%}
+{% endcomment %}
   {%- if days_since_creation <= 14 -%}
     <span class="overlay-new">{{ 'product.new_tag' | t }}</span>
   {%- endif %}
