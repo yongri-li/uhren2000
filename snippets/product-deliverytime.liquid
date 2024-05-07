@@ -99,7 +99,7 @@
         </span>
       {%- endif -%}
     </{{ container }}>
-  {%- elsif inventory_tracking -%}
+  {%- else -%}
     <{{ container }} class="stock overlay-error {{ extra_class }} {% if no_margin %}m0{% endif %}{% if deliverytime_not_in_stock == empty and bold %} strong{% endif %}" {% if shopify_attributes %}{{ shopify_attributes }}{% endif %}>
       {% if show_stock %}{{ 'product.form.not_in_stock' | t }}{%- if deliverytime_not_in_stock != empty -%},{% endif %} {% endif %}
       {%- if deliverytime_not_in_stock != empty -%}
