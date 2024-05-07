@@ -792,7 +792,6 @@
   {% else %}
     <p class="archived-note">Archive item - sold</p>
   {% endif %}
-
   {% else %}
 {%- if product.metafields.custom.preis_auf_anfrage == true -%}
    {% if request.locale.iso_code == 'de' %}
@@ -800,7 +799,6 @@
      {% else %}
      <p class="request-note">Price on request</p>
      {% endif %}
-  {% endif %}
   
 {%- else -%}
   {%- if show_price -%}
@@ -834,6 +832,8 @@
     {%- endif -%}
   {%- endif -%}
 {%- endif -%}
+{% endif %}
+
     {%- if color_picker and static_color_picker -%}
       {{ color_picker }}
     {%- endif -%}
