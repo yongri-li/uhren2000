@@ -316,7 +316,8 @@
   </p>
   {%- if section.settings.show_payment_methods -%}
     {% assign enabled_payment_types = 'visa,master,maestro' | remove: ' ' | split: ',' %}
-   <ul class="footer-payments-icons l4pm box">
+       <div class="flex items-center justify-center w-full" style="margin-bottom: 20px;">
+    <div class="footer__payment-icons h-stack wrap gap-3 justify-around">
     {%- if payment_method == 'master' or payment_method == 'maestro' or payment_method == 'visa' -%}
      {% for type in enabled_payment_types %}
             <img src="{{ type | payment_type_img_url }}" />
