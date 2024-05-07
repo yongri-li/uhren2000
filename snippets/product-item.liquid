@@ -794,6 +794,9 @@
   {% else %}
     <p class="archived-note">Archive item - sold</p>
   {% endif %}
+       {%- if current_variant.sku -%}
+      <p class="sku">Ref. Nr.: {{ current_variant.sku }}</p>
+    {%- endif -%}
   {% else %}
 {%- if product.metafields.custom.preis_auf_anfrage == true -%}
    {% if request.locale.iso_code == 'de' %}
@@ -801,6 +804,9 @@
      {% else %}
      <p class="request-note">Price on request</p>
      {% endif %}
+   {%- if current_variant.sku -%}
+      <p class="sku">Ref. Nr.: {{ current_variant.sku }}</p>
+    {%- endif -%}
   {% else %}
     <p class="price">
       {%- if product.price_varies and settings.show_price_varies and layout != 'list-compact' -%}
