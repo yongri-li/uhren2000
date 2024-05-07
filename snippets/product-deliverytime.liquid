@@ -77,13 +77,13 @@
         </svg>&nbsp;
       {% endif %}
       {% if request.locale.iso_code == 'de' %}
-        {%- if lieferzeit_in_tagen != blank and total_stock < 1 -%}
+        {%- if lieferzeit_in_tagen != blank-%}
           <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} Tage</span>
         {%- else -%}
           {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
         {%- endif %}
       {% else %}
-        {%- if lieferzeit_in_tagen != blank and total_stock < 1 -%}
+        {%- if lieferzeit_in_tagen != blank-%}
           <span style="color: #EFC82C;">Lieferzeit {{ lieferzeit_in_tagen }} days</span>
         {%- else -%}
           {% if show_stock %}{{ 'product.form.in_stock' | t: amount: total_stock }}{% endif %}
