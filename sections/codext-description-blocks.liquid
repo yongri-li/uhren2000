@@ -1,14 +1,14 @@
 {% schema %}
-{
-  "name": "Codext-Description-Blocks",
-  "settings": [],
-  "blocks": [],
-  "presets": [
-    {
-      "name": "Codext-Description-Blocks"
-    }
-  ]
-}
+  {
+    "name": "Codext-Description-Blocks",
+    "settings": [],
+    "blocks": [],
+    "presets": [
+      {
+        "name": "Codext-Description-Blocks"
+      }
+    ]
+  }
 {% endschema %}
 
 <style>
@@ -51,67 +51,67 @@
     border-collapse: collapse;
     width: 100%;
   }
-.no-border-table {
-  border-collapse: collapse;
-  width: 100%;
-  table-layout: fixed;
-}
-.no-border-table td,
-.no-border-table th {
-  border: none;
-  padding: 3px 5px;
-  text-align: left;
-  width: 50%;
-}
-.no-border-table tr:nth-child(2n) > td {
-  background-color: #fff;
-}
+  .no-border-table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .no-border-table td,
+  .no-border-table th {
+    border: none;
+    padding: 3px 5px;
+    text-align: left;
+    width: 50%;
+  }
+  .no-border-table tr:nth-child(2n) > td {
+    background-color: #fff;
+  }
 
 
   .product-detail-block-container table tr {
-       display: flex;
-       align-items: flex-start;
-       margin-bottom: 10px;
-  } 
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
 </style>
 
 
 <div class="container">
-<div class="column">
-  <h3>{{ 'product.product_description' | t }}</h3>
-  {{ product.description }}
+  <div class="column">
+    <h3>{{ 'product.product_description' | t }}</h3>
+    {{ product.description }}
 
-{% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
-<div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
+    {% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
+    <div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
 
-  
-{% assign lieferumfang = product.metafields.custom.box_papiere %}
-{% if lieferumfang == true %}
-  {% if request.locale.iso_code == "de" %}
-    <strong>Lieferumfang</strong>
-    <p>Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</p>
-  {% else %}
-    <strong>Delivery Contents</strong>
-    <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
-  {% endif %}
-{% endif %}
 
-   {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
-{% if uhrenspezialbezeichnung %}
-  <p>{{ uhrenspezialbezeichnung }}</p>
-{% endif %}
+    {% assign lieferumfang = product.metafields.custom.box_papiere %}
+    {% if lieferumfang == true %}
+      {% if request.locale.iso_code == "de" %}
+        <strong>Lieferumfang</strong>
+        <p>Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</p>
+      {% else %}
+        <strong>Delivery Contents</strong>
+        <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
+      {% endif %}
+    {% endif %}
 
- {% if request.locale.iso_code == 'de' %}
-  {% unless product.charge_taxes %}
-    <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
-  {% endunless %}
-{% else %}
-  {% unless product.charge_taxes %}
-    <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
-  {% endunless %}
-{% endif %}
-</div>
-  
+    {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
+    {% if uhrenspezialbezeichnung %}
+      <p>{{ uhrenspezialbezeichnung }}</p>
+    {% endif %}
+
+    {% if request.locale.iso_code == 'de' %}
+      {% unless product.metafields.custom.differenzbesteuert == true %}
+        <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
+      {% endunless %}
+    {% else %}
+      {% unless product.metafields.custom.differenzbesteuert == true %}
+        <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
+      {% endunless %}
+    {% endif %}
+  </div>
+
   <div class="column">
     <div class="product-detail-block-container">
       <!-- Block "Grunddaten" -->
@@ -120,79 +120,79 @@
           <h3>{{ 'product.basic_data' | t }}</h3>
           <table class="no-border-table">
             {% if product.metafields.codext.zustand != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.zustand.value %}
-                <div>{{ meta.zustand }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_condition' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.zustand.value %}
+                    <div>{{ meta.zustand }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.jahr != blank %}
-            <tr>
-              <td class="wider-column">Jahr</td>
-              <td>{{product.metafields.codext.jahr.value.jahr }}</td>
-            </tr>
+              <tr>
+                <td class="wider-column">Jahr</td>
+                <td>{{ product.metafields.codext.jahr.value.jahr }}</td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.aufzug != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_elevator' | t }}</td>
-              <!-- <td>{{ product.metafields.codext.aufzug }}</td> -->
-              <td>
-              {% for meta in product.metafields.codext.aufzug.value %}
-                <div>{{ meta.aufzug }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_elevator' | t }}</td>
+                <!-- <td>{{ product.metafields.codext.aufzug }}</td> -->
+                <td>
+                  {% for meta in product.metafields.codext.aufzug.value %}
+                    <div>{{ meta.aufzug }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.custom.kaliber_werk != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_caliber_and_movement' | t }}</td>
-              <td>{{ product.metafields.custom.kaliber_werk }}</td>
-            </tr>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_caliber_and_movement' | t }}</td>
+                <td>{{ product.metafields.custom.kaliber_werk }}</td>
+              </tr>
             {% endif %}
             {% if product.metafields.custom.gangreserve_h != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_power' | t }}</td>
-              <td>{{ product.metafields.custom.gangreserve_h }} (h)</td>
-            </tr>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_power' | t }}</td>
+                <td>{{ product.metafields.custom.gangreserve_h }} (h)</td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.schliesse != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_close' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.schliesse.value %}
-                <div>{{ meta.schliesse }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_close' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.schliesse.value %}
+                    <div>{{ meta.schliesse }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.geschlecht != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_gender' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.geschlecht.value %}
-                <div>{{ meta.geschlecht }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_gender' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.geschlecht.value %}
+                    <div>{{ meta.geschlecht }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.wasserdicht != blank %}
-            <tr>
-              <td class="wider-column">{{ 'product.basic_data_waterproof' | t }}</td>
+              <tr>
+                <td class="wider-column">{{ 'product.basic_data_waterproof' | t }}</td>
 
-              {% comment %} {% for meta in product.metafields.codext.wasserdicht.value %}
-                {% for meta_obj in meta.wasserdich.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %} {% endcomment %}
-              <td>
-              {% for meta in product.metafields.codext.wasserdicht.value %}
-                <div>{{ meta.wasserdich }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+                {% comment %} {% for meta in product.metafields.codext.wasserdicht.value %}
+                                  {% for meta_obj in meta.wasserdich.value %}
+                                    <div>{{ meta_obj }}</div>
+                                  {% endfor %}
+                              {% endfor %} {% endcomment %}
+                <td>
+                  {% for meta in product.metafields.codext.wasserdicht.value %}
+                    <div>{{ meta.wasserdich }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
           </table>
         </div>
@@ -204,72 +204,72 @@
           <h3>{{ 'product.materials_and_colors' | t }}</h3>
           <table class="no-border-table">
             {% if product.metafields.codext.material_gehause != blank %}
-            <tr>
-              <td>{{ 'product.mat_color_houseing_material' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.material_gehause.value %}
-                {% for meta_obj in meta.material_gehause.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.mat_color_houseing_material' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.material_gehause.value %}
+                    {% for meta_obj in meta.material_gehause.value %}
+                      <div>{{ meta_obj }}</div>
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.material_armband != blank %}
-            <tr>
-              <td>{{ 'product.mat_color_bracelet_material' | t }}</td>
-              <td>
-               {% for meta in product.metafields.codext.material_armband.value %}
-                {% for meta_obj in meta.material_armband.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.mat_color_bracelet_material' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.material_armband.value %}
+                    {% for meta_obj in meta.material_armband.value %}
+                      <div>{{ meta_obj }}</div>
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.farbe_armband != blank %}
-            <tr>
-              <td>{{ 'product.mat_color_color_bracelet' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.farbe_armband.value %}
-                {% for meta_obj in meta.farbe_armband.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.mat_color_color_bracelet' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.farbe_armband.value %}
+                    {% for meta_obj in meta.farbe_armband.value %}
+                      <div>{{ meta_obj }}</div>
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.material_schliesse != blank %}
-            <tr>
-              <td>{{ 'product.mat_color_material_clasp' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.material_schliesse.value %}
-                <div>{{ meta.material_schliesse }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.mat_color_material_clasp' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.material_schliesse.value %}
+                    <div>{{ meta.material_schliesse }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.material_luenette != blank %}
-            <tr>
-              <td>{{ 'product.mat_color_bezel_material' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.material_luenette.value %}
-                <div>{{ meta.material_lunette }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.mat_color_bezel_material' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.material_luenette.value %}
+                    <div>{{ meta.material_lunette }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.farbe_zifferblatt != blank %}
-            <tr>
-              <td>{{ 'product.mat_color_color_dial' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.farbe_zifferblatt.value %}
-                {% for meta_obj in meta.farbe_zifferblatt.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.mat_color_color_dial' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.farbe_zifferblatt.value %}
+                    {% for meta_obj in meta.farbe_zifferblatt.value %}
+                      <div>{{ meta_obj }}</div>
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
           </table>
         </div>
@@ -281,44 +281,44 @@
           <h3>{{ 'product.case_and_dial' | t }}</h3>
           <table class="no-border-table">
             {% if product.metafields.custom.gehause_durchmesser_mm != blank %}
-            <tr>
-              <td>{{ 'product.case_dial_dia_housing' | t }}</td>
-              <td>
-              {% comment %} {% for meta in product.metafields.custom.gehause_durchmesser_mm.value %} {% endcomment %}
-                <div>{{ product.metafields.custom.gehause_durchmesser_mm }} mm</div>
-              {% comment %} {% endfor %} {% endcomment %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.case_dial_dia_housing' | t }}</td>
+                <td>
+                  {% comment %} {% for meta in product.metafields.custom.gehause_durchmesser_mm.value %} {% endcomment %}
+                  <div>{{ product.metafields.custom.gehause_durchmesser_mm }} mm</div>
+                {% comment %} {% endfor %} {% endcomment %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.custom.gehause_hoehe_mm != blank %}
-            <tr>
-              <td>{{ 'product.case_height' | t }}</td>
-              <td>
-              {% comment %} {% for meta in product.metafields.custom.gehause_durchmesser_mm.value %} {% endcomment %}
-                <div>{{ product.metafields.custom.gehause_hoehe_mm }} mm</div>
-              {% comment %} {% endfor %} {% endcomment %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.case_height' | t }}</td>
+                <td>
+                  {% comment %} {% for meta in product.metafields.custom.gehause_durchmesser_mm.value %} {% endcomment %}
+                  <div>{{ product.metafields.custom.gehause_hoehe_mm }} mm</div>
+                {% comment %} {% endfor %} {% endcomment %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.glas != blank %}
-            <tr>
-              <td>{{ 'product.case_dial_glass' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.glas.value %}
-                <div>{{ meta.glas }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.case_dial_glass' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.glas.value %}
+                    <div>{{ meta.glas }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
             {% if product.metafields.codext.zahlen_zifferblatt != blank %}
-            <tr>
-              <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
-              <td>
-              {% for meta in product.metafields.codext.zahlen_zifferblatt.value %}
-                <div>{{ meta.zahlen_zifferblatt }}</div>
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.case_dial_numbers_dial' | t }}</td>
+                <td>
+                  {% for meta in product.metafields.codext.zahlen_zifferblatt.value %}
+                    <div>{{ meta.zahlen_zifferblatt }}</div>
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
           </table>
         </div>
@@ -330,50 +330,84 @@
           <h3>{{ 'product.function_and_feature' | t }}</h3>
           <table class="no-border-table">
             {% assign funktionen_values = "" %}
-            {% if product.metafields.custom.funktionen != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.funktionen | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_2nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_2nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_3nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_3nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_4nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_4nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_5nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_5nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_6nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_6nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_7nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_7nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Funktionen_8nd != blank %} {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_8nd %} {% endif %}
+            {% if product.metafields.custom.funktionen != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.funktionen | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_2nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_2nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_3nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_3nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_4nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_4nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_5nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_5nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_6nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_6nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_7nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_7nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Funktionen_8nd != blank %}
+              {% assign funktionen_values = funktionen_values | append: product.metafields.custom.Funktionen_8nd %}
+            {% endif %}
             {% if product.metafields.codext.funktionen != blank %}
-            <tr>
-              <td>{{ 'product.func_feature_features' | t }}</td>
-              <!-- <td>{{ funktionen_values | remove_last: ", " }}</td> -->
-              <td>
-              {% for meta in product.metafields.codext.funktionen.value %}
-                {% for meta_obj in meta.funktionen.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.func_feature_features' | t }}</td>
+                <!-- <td>{{ funktionen_values | remove_last: ", " }}</td> -->
+                <td>
+                  {% for meta in product.metafields.codext.funktionen.value %}
+                    {% for meta_obj in meta.funktionen.value %}
+                      <div>{{ meta_obj }}</div>
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
 
             {% assign sonstiges_values = "" %}
-            {% if product.metafields.custom.sonstiges != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.sonstiges | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_2nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_2nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_3nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_3nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_4nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_4nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_5nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_5nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_6nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_6nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_7nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_7nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_8nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_8nd | append: ", " %} {% endif %}
-            {% if product.metafields.custom.Sonstiges_9nd != blank %} {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_9nd %} {% endif %}
+            {% if product.metafields.custom.sonstiges != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.sonstiges | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_2nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_2nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_3nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_3nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_4nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_4nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_5nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_5nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_6nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_6nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_7nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_7nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_8nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_8nd | append: ", " %}
+            {% endif %}
+            {% if product.metafields.custom.Sonstiges_9nd != blank %}
+              {% assign sonstiges_values = sonstiges_values | append: product.metafields.custom.Sonstiges_9nd %}
+            {% endif %}
             {% if product.metafields.codext.sonstiges != blank %}
-            <tr>
-              <td>{{ 'product.func_feature_miscellaneous' | t }}</td>
-              <!-- <td>{{ sonstiges_values | remove_last: ", " }}</td> -->
-              <td>
-              {% for meta in product.metafields.codext.sonstiges.value %}
-                {% for meta_obj in meta.sonstiges.value %}
-                  <div>{{ meta_obj }}</div>
-                {% endfor %}
-              {% endfor %}
-              </td>
-            </tr>
+              <tr>
+                <td>{{ 'product.func_feature_miscellaneous' | t }}</td>
+                <!-- <td>{{ sonstiges_values | remove_last: ", " }}</td> -->
+                <td>
+                  {% for meta in product.metafields.codext.sonstiges.value %}
+                    {% for meta_obj in meta.sonstiges.value %}
+                      <div>{{ meta_obj }}</div>
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              </tr>
             {% endif %}
           </table>
         </div>
