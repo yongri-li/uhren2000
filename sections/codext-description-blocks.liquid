@@ -77,40 +77,37 @@
 
 
 <div class="container">
-<div class="column">
-  <h3>{{ 'product.product_description' | t }}</h3>
-  {{ product.description }}
+  <div class="column">
+    <h3>{{ 'product.product_description' | t }}</h3>
+    {{ product.description }}
 
-{% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
-<div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
+    {% assign placeholder_text = "Hier steht dein Platzhaltertext" %}
+    <div style="line-height: 2em; visibility: hidden;">{{ placeholder_text }}</div>
 
-  
-{% assign lieferumfang = product.metafields.custom.box_papiere %}
-{% if lieferumfang == true %}
-  {% if request.locale.iso_code == "de" %}
-    <strong>Lieferumfang</strong>
-    <p>Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</p>
-  {% else %}
-    <strong>Delivery Contents</strong>
-    <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
-  {% endif %}
-{% endif %}
+    {% assign lieferumfang = product.metafields.custom.box_papiere %}
+    {% if lieferumfang == true %}
+      {% if request.locale.iso_code == "de" %}
+        <strong>Lieferumfang</strong>
+        <p>Uhr mit Box und Papieren, Internationale Garantiekarte sowie Herstellerverpackung</p>
+      {% else %}
+        <strong>Delivery Contents</strong>
+        <p>Watch with box and papers, international warranty card, and manufacturer's packaging</p>
+      {% endif %}
+    {% endif %}
 
-   {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
-{% if uhrenspezialbezeichnung %}
-  <p>{{ uhrenspezialbezeichnung }}</p>
-{% endif %}
+    {% assign uhrenspezialbezeichnung = product.metafields.custom.uhrenspezialbezeichnung %}
+    {% if uhrenspezialbezeichnung %}
+      <p>{{ uhrenspezialbezeichnung }}</p>
+    {% endif %}
 
-
- {% if request.locale.iso_code == 'de' %}
-  {% unless product.charge_taxes %}
-    <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
-  {% endunless %}
-{% else %}
-  {% unless product.charge_taxes %}
-    <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
-  {% endunless %}
-{% endif %}
+    {% if product.metafields.custom.differenzbesteuert %}
+      {% if request.locale.iso_code == 'de' %}
+        <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
+      {% else %}
+        <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
+      {% endif %}
+    {% endif %}
+  </div>
 </div>
   
   <div class="column">
