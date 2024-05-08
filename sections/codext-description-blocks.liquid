@@ -101,14 +101,17 @@
   <p>{{ uhrenspezialbezeichnung }}</p>
 {% endif %}
 
-{% assign differenzbesteuert = product.metafields.custom.differenzbesteuert %}
-{% if differenzbesteuert == true %}
-  {% if request.locale.iso_code == "de" %}
+
+ {% if request.locale.iso_code == 'de' %}
+  {% unless product.charge_taxes %}
     <p>Diese Ware unterliegt der Differenzbesteuerung. Daher wird die im Kaufpreis enthaltene Umsatzsteuer in der Rechnung nicht gesondert ausgewiesen.</p>
-  {% else %}
+  {% endunless %}
+{% else %}
+  {% unless product.charge_taxes %}
     <p>This item is subject to differential taxation. Therefore, the value-added tax included in the purchase price will not be separately shown on the invoice.</p>
-  {% endif %}
-{% endif %}  
+  {% endunless %}
+{% endif %}
+</div>
   
   <div class="column">
     <div class="product-detail-block-container">
